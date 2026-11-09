@@ -65,3 +65,5 @@ Output iniziale: artefatto. In futuro: valutare una PWA.
 - Pagina: app/template.html + scripts/build_page.py -> artefatto "Segugio Spesa Torino" (https://claude.ai/artifact/A2g9uSHCPpQX7ddmKYpqBn).
 - Coop: parser scripts/parse_coop.py su pdftotext -bbox-layout (griglia nome/prezzi per colonna). 157 offerte alimentari, 80 circa "Soci". Imperfezioni note: qualche prezzo finale scambiato, pagine "sconto su tutta la linea" senza prezzi ignorate, bazar escluso con filtri a parole chiave.
 - Il workflow ora normalizza (data/offerte.json) e genera app/index.html dopo ogni raccolta.
+- 09/11/2026 notte – Mercatò: scelta di Pippo = OCR gratuito su GitHub. Tesseract (ita, psm 11) su tutte le pagine a 200 dpi, TSV con coordinate. Il prezzo grande (bianco su rosso) viene letto male, quindi il prezzo si ricava da "€/lt" o "€/kg" × formato (affidabile a ±1 cent), confrontato con le cifre lette nel riquadro. "SOLO CON" = prezzo con carta Club Mercatò. 202 offerte alimentari. Parser: scripts/parse_mercato.py.
+- Lista ora: Eurospin 130, Coop 156, Mercatò 202 = 488 offerte.

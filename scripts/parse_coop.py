@@ -7,7 +7,7 @@ KEY = {"CONVIENE", "SCONTO", "SOCI", "SOLO PER I", "SCONTO SOCI", "OGNI SPESA IL
 NONFOOD = re.compile(r"detersiv|shampoo|balsamo|carta igienic|pannolin|ammorbident|dentifric|bagnoschiuma|"
                      r"crocchett|\bcane\b|\bcani\b|gatt[oi]|lettiera|deodorant|assorbent|sapone|"
                      r"rotoli|fazzolett|candeggin|sgrassat|pentol|padell|lavastovigli|lavatrice|"
-                     r"concim|\bauto\b|lavavetri|additiv|radiator|pellet|oli motore|adblue|lubrific|svitol|elettric|scarpon|\btv\b|detergent|pavimenti|\bwc\b|bucato|piatti|carta casa|scottex|tovaglioli|panno|spugn|insetticid|profumator|deterg|spazzolin|rasoi|igienizz|pet\b|cosmetic|crema viso|struccant", re.I)
+                     r"capelli|intimo|patch|occhi|viso|corpo|lavaggi|lavatrice|ammorb|igien|pantene|concim|\bauto\b|lavavetri|additiv|radiator|pellet|oli motore|adblue|lubrific|svitol|elettric|scarpon|\btv\b|detergent|pavimenti|\bwc\b|bucato|piatti|carta casa|scottex|tovaglioli|panno|spugn|insetticid|profumator|deterg|spazzolin|rasoi|igienizz|pet\b|cosmetic|crema viso|struccant", re.I)
 PRICE = re.compile(r"(\d+) ?,(\d\d) €")
 
 def num(m): return float(f"{m.group(1)}.{m.group(2)}")

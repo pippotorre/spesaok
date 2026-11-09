@@ -38,6 +38,7 @@ li{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;
 .meta{color:var(--muted);font-size:13px;display:flex;flex-wrap:wrap;gap:4px 10px;margin-top:2px}
 .store{font-weight:700;color:var(--accent)}
 .badge{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--card);border:1px solid var(--card);border-radius:4px;padding:0 5px}
+.badge.warn{color:var(--muted);border-color:var(--muted)}
 .tag{background:var(--tag);color:var(--tag-ink);border-radius:6px 6px 6px 0;padding:4px 10px 5px;text-align:right;min-width:84px;font-family:var(--f-price);line-height:1.05}
 .tag .p{font-size:26px;font-weight:800;font-variant-numeric:tabular-nums}
 .tag .u{font-size:14px;font-weight:600;font-variant-numeric:tabular-nums}
@@ -102,12 +103,13 @@ function render(){
     <span class="rank">${i+1}</span>
     <div class="info"><div class="name">${o.nome}${o.marca?` · <span style="font-weight:600">${o.marca}</span>`:""}</div>
       <div class="meta"><span class="store">${o.catena}</span><span>${o.formato||""}</span>${o.categoria?`<span>${o.categoria}</span>`:""}
-      <span>fino al ${fmtD(o.valido_al)}</span>${o.con_carta?`<span class="badge">prezzo con carta</span>`:""}</div></div>
+      <span>fino al ${fmtD(o.valido_al)}</span>${o.con_carta?`<span class="badge">prezzo con carta</span>`:""}${o.da_verificare?`<span class="badge warn">da verificare</span>`:""}</div></div>
     <div class="tag">${o.prezzo_pieno&&o.prezzo_pieno>o.prezzo?`<div class="old">€ ${eur(o.prezzo_pieno)}</div>`:""}
       <div class="p">€ ${eur(o.prezzo)}</div>${o.prezzo_unita?`<div class="u">€ ${eur(o.prezzo_unita)}/${o.unita||"pz"}</div>`:""}</div>
   </li>`).join("");
 }
 document.getElementById("foot").innerHTML = `<div>Fonti: ${(DATA.fonti||[]).join(" · ")}</div>
+  <div>Mercatò è letto con riconoscimento automatico del testo (OCR) dalle immagini del volantino: il prezzo è ricavato dal prezzo al kg/litro e dal formato, quindi può differire di qualche centesimo.</div>
   <div>Prezzi come pubblicati nei volantini online; verifica in negozio. Le offerte segnate "prezzo con carta" valgono solo per i titolari della carta fedeltà della catena.</div>`;
 render();
 </script>

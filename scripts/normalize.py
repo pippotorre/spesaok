@@ -57,10 +57,21 @@ def coop(raw):
         out += parse(f, vf, vt)
     return out
 
+def mercato(raw):
+    from parse_mercato import parse
+    d = f"{raw}/mercato_ocr"
+    if not os.path.isdir(d): return []
+    vf = vt = None
+    info = f"{raw}/mercato_info.json"
+    if os.path.exists(info):
+        m = re.search(r"(\d\d)-(\d\d)-(\d{4}) - (\d\d)-(\d\d)-(\d{4})", json.load(open(info))["text"])
+        if m: vf = f"{m.group(3)}-{m.group(2)}-{m.group(1)}"; vt = f"{m.group(6)}-{m.group(5)}-{m.group(4)}"
+    return parse(d, vf, vt)
+
 def main():
     raw = sys.argv[1] if len(sys.argv) > 1 else sorted(glob.glob("data/raw/*"))[-1]
     sys.path.insert(0, 'scripts')
-    items = eurospin(raw) + coop(raw)
+    items = eurospin(raw) + coop(raw) + mercato(raw)
     for r in items:
         for k in ("nome", "formato", "marca"):
             if r.get(k): r[k] = re.sub(r"\s+", " ", r[k]).strip()
