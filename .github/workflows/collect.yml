@@ -19,7 +19,7 @@ jobs:
       - run: sudo apt-get install -y poppler-utils tesseract-ocr tesseract-ocr-ita >/dev/null
       - run: pip install playwright==1.48.0 && python -m playwright install --with-deps chromium
       - run: python scripts/collect.py ${{ github.event.inputs.catene || env.CATENE }}
-        env: { CATENE: "${{ github.event_name == 'push' && 'coop' || '' }}" }
+        env: { CATENE: "${{ github.event_name == 'push' && 'mercato' || '' }}" }
       - run: python scripts/normalize.py && python scripts/build_page.py app/index.html
       - name: Salva i dati nel repo
         run: |

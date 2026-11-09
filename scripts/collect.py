@@ -118,13 +118,16 @@ async def mercato(ctx):
     save("mercato_info.json", {"pdfs": pdfs, "text": blocks[:6000]})
     if pdfs:
         req = urllib.request.Request(pdfs[0], headers={"User-Agent": UA})
-        open("/tmp/m.pdf", "wb").write(urllib.request.urlopen(req, timeout=120).read())
-        subprocess.run(["pdftoppm", "-r", "150", "-f", "4", "-l", "5", "-png", "/tmp/m.pdf", "/tmp/mp"], check=True)
-        txt = ""
-        for f in sorted(os.listdir("/tmp")):
-            if f.startswith("mp") and f.endswith(".png"):
-                txt += f"\n--- {f}\n" + subprocess.run(["tesseract", f"/tmp/{f}", "-", "-l", "ita", "--psm", "11"], capture_output=True, text=True).stdout
-        save("mercato_ocr_sample.txt", txt)
+        open("/tmp/m.pdf", "wb").write(urllib.request.urlopen(req, timeout=180).read())
+        os.makedirs("/tmp/mp", exist_ok=True)
+        subprocess.run(["pdftoppm", "-r", "200", "-png", "/tmp/m.pdf", "/tmp/mp/p"], check=True)
+        os.makedirs(f"{RAW}/mercato_ocr", exist_ok=True)
+        for f in sorted(os.listdir("/tmp/mp")):
+            base = f[:-4]
+            subprocess.run(["tesseract", f"/tmp/mp/{f}", f"{RAW}/mercato_ocr/{base}", "-l", "ita", "--psm", "11", "tsv"],
+                           capture_output=True)
+        subprocess.run(["pdftoppm", "-r", "50", "-jpeg", "-f", "6", "-l", "7", "/tmp/m.pdf", f"{RAW}/mercato_prev"])
+        print("mercato pagine", len(os.listdir("/tmp/mp")))
 
 CHAINS = {"eurospin": eurospin, "aldi": aldi, "coop": coop, "mercato": mercato}
 
