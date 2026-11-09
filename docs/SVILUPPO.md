@@ -52,3 +52,18 @@ Output iniziale: artefatto. In futuro: valutare una PWA.
 - Prossimo passo: mappare per ogni catena il formato del volantino (PDF con testo / PDF solo immagine / solo immagini / pagina web) prima di scegliere le catene.
 - 09/11/2026 – Repo pippotorre/spesaok collegato (vuoto). Mappatura formati in MAPPA_CATENE.md.
 - 09/11/2026 18:15 – Catene iniziali: Coop (Nova Coop/Ipercoop) e Mercatò (richieste da Pippo) + Aldi, Carrefour, Eurospin, MD, Conad (scelta Claude).
+
+## Stato al 09/11/2026 sera
+- GitHub Actions funziona: workflow `raccolta-offerte` (scripts/collect.py) salva i dati grezzi in data/raw/<data>/ e li committa.
+- Eurospin: API JSON del sito volantino (flyer.eurospin.com), serve l'header che il sito invia (catturato col browser). 253 prodotti, 130 alimentari, con prezzo al kg/l e categoria. FATTO.
+- Coop (Nova Coop Torino-Collegno): PDF su resources.volantinopiu.it con testo estraibile; prezzi con "SOCI" = solo titolari Carta SocioCoop. Da scrivere il parser (impaginazione a colonne).
+- Mercatò: PDF solo immagine (cdn.dimar.it/volantini/<id>/<id>_volantino.pdf), OCR Tesseract poco affidabile. Da decidere: OCR migliore o lettura con modello (costa token).
+- Aldi: pagine offerte caricate via JavaScript, non ancora lette; PDF publitas con poco testo.
+- Carrefour: bloccato da Cloudflare (verifica anti-bot).
+- MD, Conad: richiedono scelta punto vendita, da fare.
+- Coop ha un'API punti vendita con coordinate (novacoop.it/api/stores?lat=&lon=), utile per mappa/raggio.
+- Pagina: app/template.html + scripts/build_page.py -> artefatto "Segugio Spesa Torino" (https://claude.ai/artifact/A2g9uSHCPpQX7ddmKYpqBn).
+- Coop: parser scripts/parse_coop.py su pdftotext -bbox-layout (griglia nome/prezzi per colonna). 157 offerte alimentari, 80 circa "Soci". Imperfezioni note: qualche prezzo finale scambiato, pagine "sconto su tutta la linea" senza prezzi ignorate, bazar escluso con filtri a parole chiave.
+- Il workflow ora normalizza (data/offerte.json) e genera app/index.html dopo ogni raccolta.
+- 09/11/2026 notte – Mercatò: scelta di Pippo = OCR gratuito su GitHub. Tesseract (ita, psm 11) su tutte le pagine a 200 dpi, TSV con coordinate. Il prezzo grande (bianco su rosso) viene letto male, quindi il prezzo si ricava da "€/lt" o "€/kg" × formato (affidabile a ±1 cent), confrontato con le cifre lette nel riquadro. "SOLO CON" = prezzo con carta Club Mercatò. 202 offerte alimentari. Parser: scripts/parse_mercato.py.
+- Lista ora: Eurospin 130, Coop 156, Mercatò 202 = 488 offerte.

@@ -1,0 +1,115 @@
+<title>Segugio Spesa Torino</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+/* Layout: scaffale di cartellini prezzo; barra di ricerca fissa in alto, lista unica ordinata sotto */
+:root{
+  --bg:#f3f5f2; --surface:#ffffff; --ink:#18231d; --muted:#5d6b63; --line:#d9dfda;
+  --tag:#ffd84a; --tag-ink:#1b1a12; --accent:#0f6b4f; --card:#b4232c; --chip:#e7ece8;
+  --f-price:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --f-body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#111814; --surface:#18221c; --ink:#e8efe9; --muted:#9aaba1; --line:#2a3830;
+  --tag:#f2c932; --tag-ink:#16150e; --accent:#5fcf9f; --card:#ff6b72; --chip:#223029; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#111814; --surface:#18221c; --ink:#e8efe9; --muted:#9aaba1; --line:#2a3830;
+  --tag:#f2c932; --tag-ink:#16150e; --accent:#5fcf9f; --card:#ff6b72; --chip:#223029; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.4}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:860px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
+header h1{font-family:var(--f-price);font-weight:800;font-size:34px;letter-spacing:.01em;margin:0;text-wrap:balance}
+header p{margin:4px 0 0;color:var(--muted)}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:12px;display:grid;gap:10px;border-bottom:1px solid var(--line)}
+#q{width:100%;box-sizing:border-box;font:inherit;font-size:17px;padding:12px 14px;border:2px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink)}
+#q:focus{outline:none;border-color:var(--accent)}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.chip{font:inherit;font-size:13px;font-weight:600;padding:6px 11px;border-radius:999px;border:1px solid var(--line);background:var(--chip);color:var(--ink);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.chip:focus-visible,#sort:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+select{font:inherit;font-size:13px;padding:6px 8px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.count{margin-left:auto;color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
+ol{list-style:none;margin:14px 0 0;padding:0;display:grid;gap:8px}
+li{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.rank{font-family:var(--f-price);font-weight:700;color:var(--muted);font-size:15px;min-width:2.2em;text-align:right;font-variant-numeric:tabular-nums}
+.info{min-width:0}
+.name{font-weight:700;overflow-wrap:anywhere}
+.meta{color:var(--muted);font-size:13px;display:flex;flex-wrap:wrap;gap:4px 10px;margin-top:2px}
+.store{font-weight:700;color:var(--accent)}
+.badge{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--card);border:1px solid var(--card);border-radius:4px;padding:0 5px}
+.badge.warn{color:var(--muted);border-color:var(--muted)}
+.tag{background:var(--tag);color:var(--tag-ink);border-radius:6px 6px 6px 0;padding:4px 10px 5px;text-align:right;min-width:84px;font-family:var(--f-price);line-height:1.05}
+.tag .p{font-size:26px;font-weight:800;font-variant-numeric:tabular-nums}
+.tag .u{font-size:14px;font-weight:600;font-variant-numeric:tabular-nums}
+.tag .old{font-size:13px;text-decoration:line-through;opacity:.7}
+.empty{padding:40px 0;text-align:center;color:var(--muted)}
+footer{margin-top:28px;color:var(--muted);font-size:13px;display:grid;gap:6px}
+@media (max-width:480px){li{grid-template-columns:1fr auto}.rank{display:none}.tag .p{font-size:23px}}
+</style>
+<div class="wrap">
+  <header>
+    <h1>Segugio Spesa Torino</h1>
+    <p id="sub"></p>
+  </header>
+  <div class="bar">
+    <input id="q" type="search" placeholder="Cerca un prodotto: latte, pasta, grana…" autocomplete="off" aria-label="Cerca un prodotto">
+    <div class="row" id="chains" aria-label="Catene"></div>
+    <div class="row">
+      <label for="sort" style="font-size:13px;color:var(--muted)">Ordina per</label>
+      <select id="sort">
+        <option value="unit">Prezzo al kg / litro</option>
+        <option value="price">Prezzo della confezione</option>
+        <option value="disc">Sconto più alto</option>
+      </select>
+      <button class="chip" id="nocard" aria-pressed="false">Senza carta fedeltà</button>
+      <span class="count" id="count"></span>
+    </div>
+  </div>
+  <ol id="list"></ol>
+  <footer id="foot"></footer>
+</div>
+<script>
+const DATA = /*DATA*/;
+const eur = n => n == null ? "" : n.toLocaleString("it-IT",{minimumFractionDigits:2,maximumFractionDigits:2});
+const fmtD = s => s ? s.slice(8,10)+"/"+s.slice(5,7) : "";
+const norm = s => (s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
+const chains = [...new Set(DATA.offerte.map(o=>o.catena))].sort();
+const state = {q:"", on:new Set(chains), sort:"unit", nocard:false};
+try{ const s = JSON.parse(localStorage.getItem("segugio")||"{}"); if(s.sort) state.sort=s.sort; }catch(e){}
+document.getElementById("sort").value = state.sort;
+document.getElementById("sub").textContent =
+  `${DATA.offerte.length} offerte alimentari dai volantini · aggiornato al ${DATA.aggiornato.split("-").reverse().join("/")}`;
+const ch = document.getElementById("chains");
+chains.forEach(c=>{const b=document.createElement("button");b.className="chip";b.textContent=c;b.setAttribute("aria-pressed","true");
+  b.onclick=()=>{state.on.has(c)?state.on.delete(c):state.on.add(c);b.setAttribute("aria-pressed",state.on.has(c));render()};ch.appendChild(b)});
+document.getElementById("q").oninput=e=>{state.q=norm(e.target.value);render()};
+document.getElementById("sort").onchange=e=>{state.sort=e.target.value;try{localStorage.setItem("segugio",JSON.stringify({sort:state.sort}))}catch(_){};render()};
+const nc=document.getElementById("nocard");nc.onclick=()=>{state.nocard=!state.nocard;nc.setAttribute("aria-pressed",state.nocard);render()};
+function key(o){
+  if(state.sort==="price") return o.prezzo;
+  if(state.sort==="disc") return -(o.sconto_pct||0);
+  return o.prezzo_unita ?? 1e9;
+}
+function render(){
+  const words = state.q.split(/\s+/).filter(Boolean);
+  const rows = DATA.offerte.filter(o=>state.on.has(o.catena) && !(state.nocard && o.con_carta) &&
+    words.every(w=>norm(`${o.nome} ${o.marca} ${o.categoria} ${o.catena}`).includes(w)))
+    .sort((a,b)=>key(a)-key(b) || a.prezzo-b.prezzo);
+  document.getElementById("count").textContent = `${rows.length} risultati`;
+  const ol=document.getElementById("list");
+  if(!rows.length){ol.innerHTML=`<div class="empty">Nessuna offerta trovata. Prova con un'altra parola o riattiva le catene.</div>`;return}
+  ol.innerHTML = rows.map((o,i)=>`<li>
+    <span class="rank">${i+1}</span>
+    <div class="info"><div class="name">${o.nome}${o.marca?` · <span style="font-weight:600">${o.marca}</span>`:""}</div>
+      <div class="meta"><span class="store">${o.catena}</span><span>${o.formato||""}</span>${o.categoria?`<span>${o.categoria}</span>`:""}
+      <span>fino al ${fmtD(o.valido_al)}</span>${o.con_carta?`<span class="badge">prezzo con carta</span>`:""}${o.da_verificare?`<span class="badge warn">da verificare</span>`:""}</div></div>
+    <div class="tag">${o.prezzo_pieno&&o.prezzo_pieno>o.prezzo?`<div class="old">€ ${eur(o.prezzo_pieno)}</div>`:""}
+      <div class="p">€ ${eur(o.prezzo)}</div>${o.prezzo_unita?`<div class="u">€ ${eur(o.prezzo_unita)}/${o.unita||"pz"}</div>`:""}</div>
+  </li>`).join("");
+}
+document.getElementById("foot").innerHTML = `<div>Fonti: ${(DATA.fonti||[]).join(" · ")}</div>
+  <div>Mercatò è letto con riconoscimento automatico del testo (OCR) dalle immagini del volantino: il prezzo è ricavato dal prezzo al kg/litro e dal formato, quindi può differire di qualche centesimo.</div>
+  <div>Prezzi come pubblicati nei volantini online; verifica in negozio. Le offerte segnate "prezzo con carta" valgono solo per i titolari della carta fedeltà della catena.</div>`;
+render();
+</script>

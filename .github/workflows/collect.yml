@@ -1,0 +1,28 @@
+name: raccolta-offerte
+on:
+  workflow_dispatch:
+    inputs:
+      catene: { description: "catene separate da spazio (vuoto = tutte)", required: false, default: "" }
+  schedule:
+    - cron: "0 6 * * 4"   # ogni giovedì alle 7:00 ora italiana
+permissions:
+  contents: write
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: sudo apt-get install -y poppler-utils tesseract-ocr tesseract-ocr-ita >/dev/null
+      - run: pip install playwright==1.48.0 && python -m playwright install --with-deps chromium
+      - run: python scripts/collect.py ${{ github.event.inputs.catene }}
+      - run: python scripts/normalize.py && python scripts/build_page.py app/index.html
+      - name: Salva i dati nel repo
+        run: |
+          git config user.name "segugio-bot"
+          git config user.email "segugio-bot@users.noreply.github.com"
+          git add data app/index.html
+          git commit -m "Dati raccolti $(date -u +%F)" || echo "niente da salvare"
+          git push
