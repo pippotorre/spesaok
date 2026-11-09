@@ -63,3 +63,5 @@ Output iniziale: artefatto. In futuro: valutare una PWA.
 - MD, Conad: richiedono scelta punto vendita, da fare.
 - Coop ha un'API punti vendita con coordinate (novacoop.it/api/stores?lat=&lon=), utile per mappa/raggio.
 - Pagina: app/template.html + scripts/build_page.py -> artefatto "Segugio Spesa Torino" (https://claude.ai/artifact/A2g9uSHCPpQX7ddmKYpqBn).
+- Coop: parser scripts/parse_coop.py su pdftotext -bbox-layout (griglia nome/prezzi per colonna). 157 offerte alimentari, 80 circa "Soci". Imperfezioni note: qualche prezzo finale scambiato, pagine "sconto su tutta la linea" senza prezzi ignorate, bazar escluso con filtri a parole chiave.
+- Il workflow ora normalizza (data/offerte.json) e genera app/index.html dopo ogni raccolta.

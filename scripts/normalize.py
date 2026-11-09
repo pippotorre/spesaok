@@ -42,9 +42,28 @@ def eurospin(raw):
         })
     return out
 
+def coop(raw):
+    import glob as g
+    from parse_coop import parse
+    out = []
+    for f in sorted(g.glob(f"{raw}/coop_pdf*_bbox.html")):
+        info = json.load(open(f"{raw}/coop_info.json")) if os.path.exists(f"{raw}/coop_info.json") else {}
+        m = re.search(r"[Dd]al (\d+) (?:\w+ )?al (\d+) (\w+) (\d{4})", open(f.replace("_bbox.html", ".txt")).read()[:5000])
+        mesi = "gennaio febbraio marzo aprile maggio giugno luglio agosto settembre ottobre novembre dicembre".split()
+        vf = vt = None
+        if m:
+            mm = mesi.index(m.group(3).lower()) + 1
+            vf = f"{m.group(4)}-{mm:02d}-{int(m.group(1)):02d}"; vt = f"{m.group(4)}-{mm:02d}-{int(m.group(2)):02d}"
+        out += parse(f, vf, vt)
+    return out
+
 def main():
     raw = sys.argv[1] if len(sys.argv) > 1 else sorted(glob.glob("data/raw/*"))[-1]
-    items = eurospin(raw)
+    sys.path.insert(0, 'scripts')
+    items = eurospin(raw) + coop(raw)
+    for r in items:
+        for k in ("nome", "formato", "marca"):
+            if r.get(k): r[k] = re.sub(r"\s+", " ", r[k]).strip()
     items.sort(key=lambda r: (r["prezzo_unita"] is None, r["prezzo_unita"] or r["prezzo"]))
     os.makedirs("data", exist_ok=True)
     fonti = sorted({r["catena"] for r in items})

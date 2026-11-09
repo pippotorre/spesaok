@@ -101,7 +101,7 @@ function render(){
   ol.innerHTML = rows.map((o,i)=>`<li>
     <span class="rank">${i+1}</span>
     <div class="info"><div class="name">${o.nome}${o.marca?` · <span style="font-weight:600">${o.marca}</span>`:""}</div>
-      <div class="meta"><span class="store">${o.catena}</span><span>${o.formato||""}</span><span>${o.categoria}</span>
+      <div class="meta"><span class="store">${o.catena}</span><span>${o.formato||""}</span>${o.categoria?`<span>${o.categoria}</span>`:""}
       <span>fino al ${fmtD(o.valido_al)}</span>${o.con_carta?`<span class="badge">prezzo con carta</span>`:""}</div></div>
     <div class="tag">${o.prezzo_pieno&&o.prezzo_pieno>o.prezzo?`<div class="old">€ ${eur(o.prezzo_pieno)}</div>`:""}
       <div class="p">€ ${eur(o.prezzo)}</div>${o.prezzo_unita?`<div class="u">€ ${eur(o.prezzo_unita)}/${o.unita||"pz"}</div>`:""}</div>
