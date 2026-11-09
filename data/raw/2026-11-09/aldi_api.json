@@ -1,1246 +1,8 @@
 [
  {
-  "url": "https://asl.api.aldi.it/commerce/v2/product-category-tree?serviceType=walk-in&servicePoint=H254",
+  "url": "https://www.aldi.it/_i18n/e2e1039c/it/messages.json",
   "data": {
-   "data": [
-    {
-     "key": "158816141856710001",
-     "order": null,
-     "thumbnail": null,
-     "name": "Prodotti refrigerati",
-     "urlSlugText": "prodotti-refrigerati",
-     "urlSlugTextAlternatives": {
-      "it-IT": "prodotti-refrigerati"
-     },
-     "children": [
-      {
-       "key": "158816141856710001001",
-       "order": null,
-       "thumbnail": null,
-       "name": "Latte e panna",
-       "urlSlugText": "prodotti-refrigerati/latte-e-panna",
-       "urlSlugTextAlternatives": {
-        "it-IT": "prodotti-refrigerati/latte-e-panna"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710001002",
-       "order": null,
-       "thumbnail": null,
-       "name": "Burro e margarina",
-       "urlSlugText": "prodotti-refrigerati/burro-e-margarina",
-       "urlSlugTextAlternatives": {
-        "it-IT": "prodotti-refrigerati/burro-e-margarina"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710001003",
-       "order": null,
-       "thumbnail": null,
-       "name": "Formaggi freschi",
-       "urlSlugText": "prodotti-refrigerati/formaggi-freschi",
-       "urlSlugTextAlternatives": {
-        "it-IT": "prodotti-refrigerati/formaggi-freschi"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710001004",
-       "order": null,
-       "thumbnail": null,
-       "name": "Formaggi stagionati",
-       "urlSlugText": "prodotti-refrigerati/formaggi-stagionati",
-       "urlSlugTextAlternatives": {
-        "it-IT": "prodotti-refrigerati/formaggi-stagionati"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710001005",
-       "order": null,
-       "thumbnail": null,
-       "name": "Yogurt",
-       "urlSlugText": "prodotti-refrigerati/yogurt",
-       "urlSlugTextAlternatives": {
-        "it-IT": "prodotti-refrigerati/yogurt"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710001006",
-       "order": null,
-       "thumbnail": null,
-       "name": "Piatti pronti",
-       "urlSlugText": "prodotti-refrigerati/piatti-pronti",
-       "urlSlugTextAlternatives": {
-        "it-IT": "prodotti-refrigerati/piatti-pronti"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710001007",
-       "order": null,
-       "thumbnail": null,
-       "name": "Zuppe e insalate",
-       "urlSlugText": "prodotti-refrigerati/zuppe-e-insalate",
-       "urlSlugTextAlternatives": {
-        "it-IT": "prodotti-refrigerati/zuppe-e-insalate"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710001008",
-       "order": null,
-       "thumbnail": null,
-       "name": "Food to go",
-       "urlSlugText": "prodotti-refrigerati/food-to-go",
-       "urlSlugTextAlternatives": {
-        "it-IT": "prodotti-refrigerati/food-to-go"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710001009",
-       "order": null,
-       "thumbnail": null,
-       "name": "Pizza, piadina e basi",
-       "urlSlugText": "prodotti-refrigerati/pizza-piadina-e-basi",
-       "urlSlugTextAlternatives": {
-        "it-IT": "prodotti-refrigerati/pizza-piadina-e-basi"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710001010",
-       "order": null,
-       "thumbnail": null,
-       "name": "Pasta fresca e ripiena",
-       "urlSlugText": "prodotti-refrigerati/pasta-fresca-e-ripiena",
-       "urlSlugTextAlternatives": {
-        "it-IT": "prodotti-refrigerati/pasta-fresca-e-ripiena"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710001011",
-       "order": null,
-       "thumbnail": null,
-       "name": "Salse, spalmabili e contorni",
-       "urlSlugText": "prodotti-refrigerati/salse-spalmabili-e-contorni",
-       "urlSlugTextAlternatives": {
-        "it-IT": "prodotti-refrigerati/salse-spalmabili-e-contorni"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710001012",
-       "order": null,
-       "thumbnail": null,
-       "name": "Snack e dessert",
-       "urlSlugText": "prodotti-refrigerati/snack-e-dessert",
-       "urlSlugTextAlternatives": {
-        "it-IT": "prodotti-refrigerati/snack-e-dessert"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710001013",
-       "order": null,
-       "thumbnail": null,
-       "name": "Bevande refrigerate",
-       "urlSlugText": "prodotti-refrigerati/bevande-refrigerate",
-       "urlSlugTextAlternatives": {
-        "it-IT": "prodotti-refrigerati/bevande-refrigerate"
-       },
-       "children": []
-      }
-     ]
-    },
-    {
-     "key": "158816141856710002",
-     "order": null,
-     "thumbnail": null,
-     "name": "Carne fresca, pesce e salumi",
-     "urlSlugText": "carne-fresca-pesce-e-salumi",
-     "urlSlugTextAlternatives": {
-      "it-IT": "carne-fresca-pesce-e-salumi"
-     },
-     "children": [
-      {
-       "key": "158816141856710002014",
-       "order": null,
-       "thumbnail": null,
-       "name": "Pollo e tacchino",
-       "urlSlugText": "carne-fresca-pesce-e-salumi/pollo-e-tacchino",
-       "urlSlugTextAlternatives": {
-        "it-IT": "carne-fresca-pesce-e-salumi/pollo-e-tacchino"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710002015",
-       "order": null,
-       "thumbnail": null,
-       "name": "Suino",
-       "urlSlugText": "carne-fresca-pesce-e-salumi/suino",
-       "urlSlugTextAlternatives": {
-        "it-IT": "carne-fresca-pesce-e-salumi/suino"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710002016",
-       "order": null,
-       "thumbnail": null,
-       "name": "Manzo",
-       "urlSlugText": "carne-fresca-pesce-e-salumi/manzo",
-       "urlSlugTextAlternatives": {
-        "it-IT": "carne-fresca-pesce-e-salumi/manzo"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710002017",
-       "order": null,
-       "thumbnail": null,
-       "name": "Cavallo",
-       "urlSlugText": "carne-fresca-pesce-e-salumi/cavallo",
-       "urlSlugTextAlternatives": {
-        "it-IT": "carne-fresca-pesce-e-salumi/cavallo"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710002018",
-       "order": null,
-       "thumbnail": null,
-       "name": "Coniglio",
-       "urlSlugText": "carne-fresca-pesce-e-salumi/coniglio",
-       "urlSlugTextAlternatives": {
-        "it-IT": "carne-fresca-pesce-e-salumi/coniglio"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710002019",
-       "order": null,
-       "thumbnail": null,
-       "name": "Carni miste",
-       "urlSlugText": "carne-fresca-pesce-e-salumi/carni-miste",
-       "urlSlugTextAlternatives": {
-        "it-IT": "carne-fresca-pesce-e-salumi/carni-miste"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710002020",
-       "order": null,
-       "thumbnail": null,
-       "name": "Affettati di carne",
-       "urlSlugText": "carne-fresca-pesce-e-salumi/affettati-di-carne",
-       "urlSlugTextAlternatives": {
-        "it-IT": "carne-fresca-pesce-e-salumi/affettati-di-carne"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710002021",
-       "order": null,
-       "thumbnail": null,
-       "name": "Salumi e insaccati",
-       "urlSlugText": "carne-fresca-pesce-e-salumi/salumi-e-insaccati",
-       "urlSlugTextAlternatives": {
-        "it-IT": "carne-fresca-pesce-e-salumi/salumi-e-insaccati"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710002022",
-       "order": null,
-       "thumbnail": null,
-       "name": "Pesce fresco",
-       "urlSlugText": "carne-fresca-pesce-e-salumi/pesce-fresco",
-       "urlSlugTextAlternatives": {
-        "it-IT": "carne-fresca-pesce-e-salumi/pesce-fresco"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710002023",
-       "order": null,
-       "thumbnail": null,
-       "name": "Salmone affumicato",
-       "urlSlugText": "carne-fresca-pesce-e-salumi/salmone-affumicato",
-       "urlSlugTextAlternatives": {
-        "it-IT": "carne-fresca-pesce-e-salumi/salmone-affumicato"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710002024",
-       "order": null,
-       "thumbnail": null,
-       "name": "Gamberetti e preparazioni",
-       "urlSlugText": "carne-fresca-pesce-e-salumi/gamberetti-e-preparazioni",
-       "urlSlugTextAlternatives": {
-        "it-IT": "carne-fresca-pesce-e-salumi/gamberetti-e-preparazioni"
-       },
-       "children": []
-      }
-     ]
-    },
-    {
-     "key": "158816141856710003",
-     "order": null,
-     "thumbnail": null,
-     "name": "Freezer",
-     "urlSlugText": "freezer",
-     "urlSlugTextAlternatives": {
-      "it-IT": "freezer"
-     },
-     "children": [
-      {
-       "key": "158816141856710003025",
-       "order": null,
-       "thumbnail": null,
-       "name": "Carne e pesce",
-       "urlSlugText": "freezer/carne-e-pesce",
-       "urlSlugTextAlternatives": {
-        "it-IT": "freezer/carne-e-pesce"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710003026",
-       "order": null,
-       "thumbnail": null,
-       "name": "Frutta e verdura",
-       "urlSlugText": "freezer/frutta-e-verdura",
-       "urlSlugTextAlternatives": {
-        "it-IT": "freezer/frutta-e-verdura"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710003027",
-       "order": null,
-       "thumbnail": null,
-       "name": "Gelati e dessert",
-       "urlSlugText": "freezer/gelati-e-dessert",
-       "urlSlugTextAlternatives": {
-        "it-IT": "freezer/gelati-e-dessert"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710003028",
-       "order": null,
-       "thumbnail": null,
-       "name": "Snack salati",
-       "urlSlugText": "freezer/snack-salati",
-       "urlSlugTextAlternatives": {
-        "it-IT": "freezer/snack-salati"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710003029",
-       "order": null,
-       "thumbnail": null,
-       "name": "Patatine",
-       "urlSlugText": "freezer/patatine",
-       "urlSlugTextAlternatives": {
-        "it-IT": "freezer/patatine"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710003030",
-       "order": null,
-       "thumbnail": null,
-       "name": "Piatti pronti e pizza",
-       "urlSlugText": "freezer/piatti-pronti-e-pizza",
-       "urlSlugTextAlternatives": {
-        "it-IT": "freezer/piatti-pronti-e-pizza"
-       },
-       "children": []
-      }
-     ]
-    },
-    {
-     "key": "158816141856710004",
-     "order": null,
-     "thumbnail": null,
-     "name": "Bevande alcoliche",
-     "urlSlugText": "bevande-alcoliche",
-     "urlSlugTextAlternatives": {
-      "it-IT": "bevande-alcoliche"
-     },
-     "children": [
-      {
-       "key": "158816141856710004031",
-       "order": null,
-       "thumbnail": null,
-       "name": "Birra",
-       "urlSlugText": "bevande-alcoliche/birra",
-       "urlSlugTextAlternatives": {
-        "it-IT": "bevande-alcoliche/birra"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710004032",
-       "order": null,
-       "thumbnail": null,
-       "name": "Vino",
-       "urlSlugText": "bevande-alcoliche/vino",
-       "urlSlugTextAlternatives": {
-        "it-IT": "bevande-alcoliche/vino"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710004033",
-       "order": null,
-       "thumbnail": null,
-       "name": "Aperitivi",
-       "urlSlugText": "bevande-alcoliche/aperitivi",
-       "urlSlugTextAlternatives": {
-        "it-IT": "bevande-alcoliche/aperitivi"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710004034",
-       "order": null,
-       "thumbnail": null,
-       "name": "Superalcolici",
-       "urlSlugText": "bevande-alcoliche/superalcolici",
-       "urlSlugTextAlternatives": {
-        "it-IT": "bevande-alcoliche/superalcolici"
-       },
-       "children": []
-      }
-     ]
-    },
-    {
-     "key": "158816141856710005",
-     "order": null,
-     "thumbnail": null,
-     "name": "Bevande analcoliche",
-     "urlSlugText": "bevande-analcoliche",
-     "urlSlugTextAlternatives": {
-      "it-IT": "bevande-analcoliche"
-     },
-     "children": [
-      {
-       "key": "158816141856710005035",
-       "order": null,
-       "thumbnail": null,
-       "name": "Thè e bevande energetiche",
-       "urlSlugText": "bevande-analcoliche/the-e-bevande-energetiche",
-       "urlSlugTextAlternatives": {
-        "it-IT": "bevande-analcoliche/the-e-bevande-energetiche"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710005036",
-       "order": null,
-       "thumbnail": null,
-       "name": "Bibite gassate",
-       "urlSlugText": "bevande-analcoliche/bibite-gassate",
-       "urlSlugTextAlternatives": {
-        "it-IT": "bevande-analcoliche/bibite-gassate"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710005037",
-       "order": null,
-       "thumbnail": null,
-       "name": "Acqua",
-       "urlSlugText": "bevande-analcoliche/acqua",
-       "urlSlugTextAlternatives": {
-        "it-IT": "bevande-analcoliche/acqua"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710005038",
-       "order": null,
-       "thumbnail": null,
-       "name": "Succhi e nettari",
-       "urlSlugText": "bevande-analcoliche/succhi-e-nettari",
-       "urlSlugTextAlternatives": {
-        "it-IT": "bevande-analcoliche/succhi-e-nettari"
-       },
-       "children": []
-      }
-     ]
-    },
-    {
-     "key": "158816141856710006",
-     "order": null,
-     "thumbnail": null,
-     "name": "Dispensa",
-     "urlSlugText": "dispensa",
-     "urlSlugTextAlternatives": {
-      "it-IT": "dispensa"
-     },
-     "children": [
-      {
-       "key": "158816141856710006039",
-       "order": null,
-       "thumbnail": null,
-       "name": "Conserve alimentari",
-       "urlSlugText": "dispensa/conserve-alimentari",
-       "urlSlugTextAlternatives": {
-        "it-IT": "dispensa/conserve-alimentari"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710006040",
-       "order": null,
-       "thumbnail": null,
-       "name": "Aceto, olio e salse",
-       "urlSlugText": "dispensa/aceto-olio-e-salse",
-       "urlSlugTextAlternatives": {
-        "it-IT": "dispensa/aceto-olio-e-salse"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710006041",
-       "order": null,
-       "thumbnail": null,
-       "name": "Sughi e conserve",
-       "urlSlugText": "dispensa/sughi-e-conserve",
-       "urlSlugTextAlternatives": {
-        "it-IT": "dispensa/sughi-e-conserve"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710006042",
-       "order": null,
-       "thumbnail": null,
-       "name": "Frutta secca",
-       "urlSlugText": "dispensa/frutta-secca",
-       "urlSlugTextAlternatives": {
-        "it-IT": "dispensa/frutta-secca"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710006043",
-       "order": null,
-       "thumbnail": null,
-       "name": "Preparati per dolci",
-       "urlSlugText": "dispensa/preparati-per-dolci",
-       "urlSlugTextAlternatives": {
-        "it-IT": "dispensa/preparati-per-dolci"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710006044",
-       "order": null,
-       "thumbnail": null,
-       "name": "Riso e cereali",
-       "urlSlugText": "dispensa/riso-e-cereali",
-       "urlSlugTextAlternatives": {
-        "it-IT": "dispensa/riso-e-cereali"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710006045",
-       "order": null,
-       "thumbnail": null,
-       "name": "Snack dolci",
-       "urlSlugText": "dispensa/snack-dolci",
-       "urlSlugTextAlternatives": {
-        "it-IT": "dispensa/snack-dolci"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710006046",
-       "order": null,
-       "thumbnail": null,
-       "name": "Snack salati",
-       "urlSlugText": "dispensa/snack-salati",
-       "urlSlugTextAlternatives": {
-        "it-IT": "dispensa/snack-salati"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710006047",
-       "order": null,
-       "thumbnail": null,
-       "name": "Spezie",
-       "urlSlugText": "dispensa/spezie",
-       "urlSlugTextAlternatives": {
-        "it-IT": "dispensa/spezie"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710006048",
-       "order": null,
-       "thumbnail": null,
-       "name": "Zucchero e dolcificanti",
-       "urlSlugText": "dispensa/zucchero-e-dolcificanti",
-       "urlSlugTextAlternatives": {
-        "it-IT": "dispensa/zucchero-e-dolcificanti"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710006049",
-       "order": null,
-       "thumbnail": null,
-       "name": "Creme spalmabili",
-       "urlSlugText": "dispensa/creme-spalmabili",
-       "urlSlugTextAlternatives": {
-        "it-IT": "dispensa/creme-spalmabili"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710006050",
-       "order": null,
-       "thumbnail": null,
-       "name": "Miele",
-       "urlSlugText": "dispensa/miele",
-       "urlSlugTextAlternatives": {
-        "it-IT": "dispensa/miele"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710006051",
-       "order": null,
-       "thumbnail": null,
-       "name": "Muesli e cereali",
-       "urlSlugText": "dispensa/muesli-e-cereali",
-       "urlSlugTextAlternatives": {
-        "it-IT": "dispensa/muesli-e-cereali"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710006052",
-       "order": null,
-       "thumbnail": null,
-       "name": "Uova",
-       "urlSlugText": "dispensa/uova",
-       "urlSlugTextAlternatives": {
-        "it-IT": "dispensa/uova"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710006053",
-       "order": null,
-       "thumbnail": null,
-       "name": "Sottaceti",
-       "urlSlugText": "dispensa/sottaceti",
-       "urlSlugTextAlternatives": {
-        "it-IT": "dispensa/sottaceti"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710006054",
-       "order": null,
-       "thumbnail": null,
-       "name": "Salamoia",
-       "urlSlugText": "dispensa/salamoia",
-       "urlSlugTextAlternatives": {
-        "it-IT": "dispensa/salamoia"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710006055",
-       "order": null,
-       "thumbnail": null,
-       "name": "Alimenti sottolio",
-       "urlSlugText": "dispensa/alimenti-sottolio",
-       "urlSlugTextAlternatives": {
-        "it-IT": "dispensa/alimenti-sottolio"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710006056",
-       "order": null,
-       "thumbnail": null,
-       "name": "Pasta",
-       "urlSlugText": "dispensa/pasta",
-       "urlSlugTextAlternatives": {
-        "it-IT": "dispensa/pasta"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710006057",
-       "order": null,
-       "thumbnail": null,
-       "name": "Caffè",
-       "urlSlugText": "dispensa/caffe",
-       "urlSlugTextAlternatives": {
-        "it-IT": "dispensa/caffe"
-       },
-       "children": []
-      }
-     ]
-    },
-    {
-     "key": "158816141856710007",
-     "order": null,
-     "thumbnail": null,
-     "name": "Farina e prodotti da forno",
-     "urlSlugText": "farina-e-prodotti-da-forno",
-     "urlSlugTextAlternatives": {
-      "it-IT": "farina-e-prodotti-da-forno"
-     },
-     "children": [
-      {
-       "key": "158816141856710007058",
-       "order": null,
-       "thumbnail": null,
-       "name": "Panificati non confezionati",
-       "urlSlugText": "farina-e-prodotti-da-forno/panificati-non-confezionati",
-       "urlSlugTextAlternatives": {
-        "it-IT": "farina-e-prodotti-da-forno/panificati-non-confezionati"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710007059",
-       "order": null,
-       "thumbnail": null,
-       "name": "Farina",
-       "urlSlugText": "farina-e-prodotti-da-forno/farina",
-       "urlSlugTextAlternatives": {
-        "it-IT": "farina-e-prodotti-da-forno/farina"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710007060",
-       "order": null,
-       "thumbnail": null,
-       "name": "Biscotti e fette biscottate",
-       "urlSlugText": "farina-e-prodotti-da-forno/biscotti-e-fette-biscottate",
-       "urlSlugTextAlternatives": {
-        "it-IT": "farina-e-prodotti-da-forno/biscotti-e-fette-biscottate"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710007061",
-       "order": null,
-       "thumbnail": null,
-       "name": "Merendine, torte e croissant",
-       "urlSlugText": "farina-e-prodotti-da-forno/merendine-torte-e-croissant",
-       "urlSlugTextAlternatives": {
-        "it-IT": "farina-e-prodotti-da-forno/merendine-torte-e-croissant"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710007062",
-       "order": null,
-       "thumbnail": null,
-       "name": "Panificati confezionati",
-       "urlSlugText": "farina-e-prodotti-da-forno/panificati-confezionati",
-       "urlSlugTextAlternatives": {
-        "it-IT": "farina-e-prodotti-da-forno/panificati-confezionati"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710007063",
-       "order": null,
-       "thumbnail": null,
-       "name": "Piadine, pinsa",
-       "urlSlugText": "farina-e-prodotti-da-forno/piadine-pinsa",
-       "urlSlugTextAlternatives": {
-        "it-IT": "farina-e-prodotti-da-forno/piadine-pinsa"
-       },
-       "children": []
-      }
-     ]
-    },
-    {
-     "key": "158816141856710008",
-     "order": null,
-     "thumbnail": null,
-     "name": "Vegetariani e vegani",
-     "urlSlugText": "vegetariani-e-vegani",
-     "urlSlugTextAlternatives": {
-      "it-IT": "vegetariani-e-vegani"
-     },
-     "children": [
-      {
-       "key": "158816141856710008064",
-       "order": null,
-       "thumbnail": null,
-       "name": "Sostituti carne",
-       "urlSlugText": "vegetariani-e-vegani/sostituti-carne",
-       "urlSlugTextAlternatives": {
-        "it-IT": "vegetariani-e-vegani/sostituti-carne"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710008066",
-       "order": null,
-       "thumbnail": null,
-       "name": "Bevande vegetali",
-       "urlSlugText": "vegetariani-e-vegani/bevande-vegetali",
-       "urlSlugTextAlternatives": {
-        "it-IT": "vegetariani-e-vegani/bevande-vegetali"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710008068",
-       "order": null,
-       "thumbnail": null,
-       "name": "Sostituti affettati",
-       "urlSlugText": "vegetariani-e-vegani/sostituti-affettati",
-       "urlSlugTextAlternatives": {
-        "it-IT": "vegetariani-e-vegani/sostituti-affettati"
-       },
-       "children": []
-      }
-     ]
-    },
-    {
-     "key": "158816141856710009",
-     "order": null,
-     "thumbnail": null,
-     "name": "Proteico",
-     "urlSlugText": "proteico",
-     "urlSlugTextAlternatives": {
-      "it-IT": "proteico"
-     },
-     "children": [
-      {
-       "key": "158816141856710009071",
-       "order": null,
-       "thumbnail": null,
-       "name": "Barrette",
-       "urlSlugText": "proteico/barrette",
-       "urlSlugTextAlternatives": {
-        "it-IT": "proteico/barrette"
-       },
-       "children": []
-      }
-     ]
-    },
-    {
-     "key": "158816141856710010",
-     "order": null,
-     "thumbnail": null,
-     "name": "Mondo Baby",
-     "urlSlugText": "mondo-baby",
-     "urlSlugTextAlternatives": {
-      "it-IT": "mondo-baby"
-     },
-     "children": [
-      {
-       "key": "158816141856710010072",
-       "order": null,
-       "thumbnail": null,
-       "name": "Alimentazione",
-       "urlSlugText": "mondo-baby/alimentazione",
-       "urlSlugTextAlternatives": {
-        "it-IT": "mondo-baby/alimentazione"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710010073",
-       "order": null,
-       "thumbnail": null,
-       "name": "Cura del bambino",
-       "urlSlugText": "mondo-baby/cura-del-bambino",
-       "urlSlugTextAlternatives": {
-        "it-IT": "mondo-baby/cura-del-bambino"
-       },
-       "children": []
-      }
-     ]
-    },
-    {
-     "key": "158816141856710011",
-     "order": null,
-     "thumbnail": null,
-     "name": "Abbigliamento e accessori",
-     "urlSlugText": "abbigliamento-e-accessori",
-     "urlSlugTextAlternatives": {
-      "it-IT": "abbigliamento-e-accessori"
-     },
-     "children": [
-      {
-       "key": "158816141856710011075",
-       "order": null,
-       "thumbnail": null,
-       "name": "Abbigliamento Uomo",
-       "urlSlugText": "abbigliamento-e-accessori/abbigliamento-uomo",
-       "urlSlugTextAlternatives": {
-        "it-IT": "abbigliamento-e-accessori/abbigliamento-uomo"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710011076",
-       "order": null,
-       "thumbnail": null,
-       "name": "Abbigliamento Bambino e Neonato",
-       "urlSlugText": "abbigliamento-e-accessori/abbigliamento-bambino-e-neonato",
-       "urlSlugTextAlternatives": {
-        "it-IT": "abbigliamento-e-accessori/abbigliamento-bambino-e-neonato"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710011077",
-       "order": null,
-       "thumbnail": null,
-       "name": "Scarpe",
-       "urlSlugText": "abbigliamento-e-accessori/scarpe",
-       "urlSlugTextAlternatives": {
-        "it-IT": "abbigliamento-e-accessori/scarpe"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710011078",
-       "order": null,
-       "thumbnail": null,
-       "name": "Accessori",
-       "urlSlugText": "abbigliamento-e-accessori/accessori",
-       "urlSlugTextAlternatives": {
-        "it-IT": "abbigliamento-e-accessori/accessori"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710011080",
-       "order": null,
-       "thumbnail": null,
-       "name": "Abbigliamento sportivo",
-       "urlSlugText": "abbigliamento-e-accessori/abbigliamento-sportivo",
-       "urlSlugTextAlternatives": {
-        "it-IT": "abbigliamento-e-accessori/abbigliamento-sportivo"
-       },
-       "children": []
-      }
-     ]
-    },
-    {
-     "key": "158816141856710012",
-     "order": null,
-     "thumbnail": null,
-     "name": "Casa",
-     "urlSlugText": "casa",
-     "urlSlugTextAlternatives": {
-      "it-IT": "casa"
-     },
-     "children": [
-      {
-       "key": "158816141856710012083",
-       "order": null,
-       "thumbnail": null,
-       "name": "Articoli da cucina",
-       "urlSlugText": "casa/articoli-da-cucina",
-       "urlSlugTextAlternatives": {
-        "it-IT": "casa/articoli-da-cucina"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710012084",
-       "order": null,
-       "thumbnail": null,
-       "name": "Articoli per il bagno",
-       "urlSlugText": "casa/articoli-per-il-bagno",
-       "urlSlugTextAlternatives": {
-        "it-IT": "casa/articoli-per-il-bagno"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710012085",
-       "order": null,
-       "thumbnail": null,
-       "name": "Cartoleria",
-       "urlSlugText": "casa/cartoleria",
-       "urlSlugTextAlternatives": {
-        "it-IT": "casa/cartoleria"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710012087",
-       "order": null,
-       "thumbnail": null,
-       "name": "Decorazioni",
-       "urlSlugText": "casa/decorazioni",
-       "urlSlugTextAlternatives": {
-        "it-IT": "casa/decorazioni"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710012088",
-       "order": null,
-       "thumbnail": null,
-       "name": "Illuminazione",
-       "urlSlugText": "casa/illuminazione",
-       "urlSlugTextAlternatives": {
-        "it-IT": "casa/illuminazione"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710012090",
-       "order": null,
-       "thumbnail": null,
-       "name": "Tessili per la casa",
-       "urlSlugText": "casa/tessili-per-la-casa",
-       "urlSlugTextAlternatives": {
-        "it-IT": "casa/tessili-per-la-casa"
-       },
-       "children": []
-      }
-     ]
-    },
-    {
-     "key": "158816141856710014",
-     "order": null,
-     "thumbnail": null,
-     "name": "Igiene e pulizia della casa",
-     "urlSlugText": "igiene-e-pulizia-della-casa",
-     "urlSlugTextAlternatives": {
-      "it-IT": "igiene-e-pulizia-della-casa"
-     },
-     "children": [
-      {
-       "key": "158816141856710014094",
-       "order": null,
-       "thumbnail": null,
-       "name": "Igiene e cura personale",
-       "urlSlugText": "igiene-e-pulizia-della-casa/igiene-e-cura-personale",
-       "urlSlugTextAlternatives": {
-        "it-IT": "igiene-e-pulizia-della-casa/igiene-e-cura-personale"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710014095",
-       "order": null,
-       "thumbnail": null,
-       "name": "Pulizia della casa",
-       "urlSlugText": "igiene-e-pulizia-della-casa/pulizia-della-casa",
-       "urlSlugTextAlternatives": {
-        "it-IT": "igiene-e-pulizia-della-casa/pulizia-della-casa"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710014096",
-       "order": null,
-       "thumbnail": null,
-       "name": "Salute e prodotti parafarmaceutici",
-       "urlSlugText": "igiene-e-pulizia-della-casa/salute-e-prodotti-parafarmaceutici",
-       "urlSlugTextAlternatives": {
-        "it-IT": "igiene-e-pulizia-della-casa/salute-e-prodotti-parafarmaceutici"
-       },
-       "children": []
-      }
-     ]
-    },
-    {
-     "key": "158816141856710015",
-     "order": null,
-     "thumbnail": null,
-     "name": "Animali e pet care",
-     "urlSlugText": "animali-e-pet-care",
-     "urlSlugTextAlternatives": {
-      "it-IT": "animali-e-pet-care"
-     },
-     "children": [
-      {
-       "key": "158816141856710015097",
-       "order": null,
-       "thumbnail": null,
-       "name": "Articoli per animali domestici",
-       "urlSlugText": "animali-e-pet-care/articoli-per-animali-domestici",
-       "urlSlugTextAlternatives": {
-        "it-IT": "animali-e-pet-care/articoli-per-animali-domestici"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710015098",
-       "order": null,
-       "thumbnail": null,
-       "name": "Cibo per cani",
-       "urlSlugText": "animali-e-pet-care/cibo-per-cani",
-       "urlSlugTextAlternatives": {
-        "it-IT": "animali-e-pet-care/cibo-per-cani"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710015099",
-       "order": null,
-       "thumbnail": null,
-       "name": "Cibo per gatti",
-       "urlSlugText": "animali-e-pet-care/cibo-per-gatti",
-       "urlSlugTextAlternatives": {
-        "it-IT": "animali-e-pet-care/cibo-per-gatti"
-       },
-       "children": []
-      }
-     ]
-    },
-    {
-     "key": "158816141856710016",
-     "order": null,
-     "thumbnail": null,
-     "name": "Elettronica",
-     "urlSlugText": "elettronica",
-     "urlSlugTextAlternatives": {
-      "it-IT": "elettronica"
-     },
-     "children": [
-      {
-       "key": "158816141856710016100",
-       "order": null,
-       "thumbnail": null,
-       "name": "Accessori",
-       "urlSlugText": "elettronica/accessori",
-       "urlSlugTextAlternatives": {
-        "it-IT": "elettronica/accessori"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710016102",
-       "order": null,
-       "thumbnail": null,
-       "name": "Piccoli elettrodomestici",
-       "urlSlugText": "elettronica/piccoli-elettrodomestici",
-       "urlSlugTextAlternatives": {
-        "it-IT": "elettronica/piccoli-elettrodomestici"
-       },
-       "children": []
-      }
-     ]
-    },
-    {
-     "key": "158816141856710017",
-     "order": null,
-     "thumbnail": null,
-     "name": "Tempo libero e attività outdoor",
-     "urlSlugText": "tempo-libero-e-attivita-outdoor",
-     "urlSlugTextAlternatives": {
-      "it-IT": "tempo-libero-e-attivita-outdoor"
-     },
-     "children": [
-      {
-       "key": "158816141856710017106",
-       "order": null,
-       "thumbnail": null,
-       "name": "Accessori auto e bici",
-       "urlSlugText": "tempo-libero-e-attivita-outdoor/accessori-auto-e-bici",
-       "urlSlugTextAlternatives": {
-        "it-IT": "tempo-libero-e-attivita-outdoor/accessori-auto-e-bici"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710017107",
-       "order": null,
-       "thumbnail": null,
-       "name": "Fai da te",
-       "urlSlugText": "tempo-libero-e-attivita-outdoor/fai-da-te",
-       "urlSlugTextAlternatives": {
-        "it-IT": "tempo-libero-e-attivita-outdoor/fai-da-te"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710017109",
-       "order": null,
-       "thumbnail": null,
-       "name": "Giocattoli",
-       "urlSlugText": "tempo-libero-e-attivita-outdoor/giocattoli",
-       "urlSlugTextAlternatives": {
-        "it-IT": "tempo-libero-e-attivita-outdoor/giocattoli"
-       },
-       "children": []
-      },
-      {
-       "key": "158816141856710017113",
-       "order": null,
-       "thumbnail": null,
-       "name": "Hobby",
-       "urlSlugText": "tempo-libero-e-attivita-outdoor/hobby",
-       "urlSlugTextAlternatives": {
-        "it-IT": "tempo-libero-e-attivita-outdoor/hobby"
-       },
-       "children": []
-      }
-     ]
-    },
-    {
-     "key": "158816141856710018",
-     "order": null,
-     "thumbnail": null,
-     "name": "Natale",
-     "urlSlugText": "natale",
-     "urlSlugTextAlternatives": {
-      "it-IT": "natale"
-     },
-     "children": []
-    },
-    {
-     "key": "158816141856710026",
-     "order": null,
-     "thumbnail": null,
-     "name": "Halloween",
-     "urlSlugText": "halloween",
-     "urlSlugTextAlternatives": {
-      "it-IT": "halloween"
-     },
-     "children": []
-    },
-    {
-     "key": "1588161438714025",
-     "order": null,
-     "thumbnail": null,
-     "name": "Super Risparmio",
-     "urlSlugText": "super-risparmio",
-     "urlSlugTextAlternatives": {
-      "it-IT": "super-risparmio"
-     },
-     "children": []
-    }
-   ]
+   "it": {}
   }
  },
  {
@@ -2485,6 +1247,1272 @@
      "children": []
     }
    ]
+  }
+ },
+ {
+  "url": "https://www.aldi.it/_nuxt/builds/meta/693ab360-a543-4570-ac81-1afe4408d349.json",
+  "data": {
+   "id": "693ab360-a543-4570-ac81-1afe4408d349",
+   "timestamp": 1793627641717,
+   "prerendered": []
+  }
+ },
+ {
+  "url": "https://www.aldi.it/_i18n/e2e1039c/it/messages.json",
+  "data": {
+   "it": {}
+  }
+ },
+ {
+  "url": "https://asl.api.aldi.it/commerce/v2/product-category-tree?serviceType=walk-in&servicePoint=H254",
+  "data": {
+   "data": [
+    {
+     "key": "158816141856710001",
+     "order": null,
+     "thumbnail": null,
+     "name": "Prodotti refrigerati",
+     "urlSlugText": "prodotti-refrigerati",
+     "urlSlugTextAlternatives": {
+      "it-IT": "prodotti-refrigerati"
+     },
+     "children": [
+      {
+       "key": "158816141856710001001",
+       "order": null,
+       "thumbnail": null,
+       "name": "Latte e panna",
+       "urlSlugText": "prodotti-refrigerati/latte-e-panna",
+       "urlSlugTextAlternatives": {
+        "it-IT": "prodotti-refrigerati/latte-e-panna"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710001002",
+       "order": null,
+       "thumbnail": null,
+       "name": "Burro e margarina",
+       "urlSlugText": "prodotti-refrigerati/burro-e-margarina",
+       "urlSlugTextAlternatives": {
+        "it-IT": "prodotti-refrigerati/burro-e-margarina"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710001003",
+       "order": null,
+       "thumbnail": null,
+       "name": "Formaggi freschi",
+       "urlSlugText": "prodotti-refrigerati/formaggi-freschi",
+       "urlSlugTextAlternatives": {
+        "it-IT": "prodotti-refrigerati/formaggi-freschi"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710001004",
+       "order": null,
+       "thumbnail": null,
+       "name": "Formaggi stagionati",
+       "urlSlugText": "prodotti-refrigerati/formaggi-stagionati",
+       "urlSlugTextAlternatives": {
+        "it-IT": "prodotti-refrigerati/formaggi-stagionati"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710001005",
+       "order": null,
+       "thumbnail": null,
+       "name": "Yogurt",
+       "urlSlugText": "prodotti-refrigerati/yogurt",
+       "urlSlugTextAlternatives": {
+        "it-IT": "prodotti-refrigerati/yogurt"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710001006",
+       "order": null,
+       "thumbnail": null,
+       "name": "Piatti pronti",
+       "urlSlugText": "prodotti-refrigerati/piatti-pronti",
+       "urlSlugTextAlternatives": {
+        "it-IT": "prodotti-refrigerati/piatti-pronti"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710001007",
+       "order": null,
+       "thumbnail": null,
+       "name": "Zuppe e insalate",
+       "urlSlugText": "prodotti-refrigerati/zuppe-e-insalate",
+       "urlSlugTextAlternatives": {
+        "it-IT": "prodotti-refrigerati/zuppe-e-insalate"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710001008",
+       "order": null,
+       "thumbnail": null,
+       "name": "Food to go",
+       "urlSlugText": "prodotti-refrigerati/food-to-go",
+       "urlSlugTextAlternatives": {
+        "it-IT": "prodotti-refrigerati/food-to-go"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710001009",
+       "order": null,
+       "thumbnail": null,
+       "name": "Pizza, piadina e basi",
+       "urlSlugText": "prodotti-refrigerati/pizza-piadina-e-basi",
+       "urlSlugTextAlternatives": {
+        "it-IT": "prodotti-refrigerati/pizza-piadina-e-basi"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710001010",
+       "order": null,
+       "thumbnail": null,
+       "name": "Pasta fresca e ripiena",
+       "urlSlugText": "prodotti-refrigerati/pasta-fresca-e-ripiena",
+       "urlSlugTextAlternatives": {
+        "it-IT": "prodotti-refrigerati/pasta-fresca-e-ripiena"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710001011",
+       "order": null,
+       "thumbnail": null,
+       "name": "Salse, spalmabili e contorni",
+       "urlSlugText": "prodotti-refrigerati/salse-spalmabili-e-contorni",
+       "urlSlugTextAlternatives": {
+        "it-IT": "prodotti-refrigerati/salse-spalmabili-e-contorni"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710001012",
+       "order": null,
+       "thumbnail": null,
+       "name": "Snack e dessert",
+       "urlSlugText": "prodotti-refrigerati/snack-e-dessert",
+       "urlSlugTextAlternatives": {
+        "it-IT": "prodotti-refrigerati/snack-e-dessert"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710001013",
+       "order": null,
+       "thumbnail": null,
+       "name": "Bevande refrigerate",
+       "urlSlugText": "prodotti-refrigerati/bevande-refrigerate",
+       "urlSlugTextAlternatives": {
+        "it-IT": "prodotti-refrigerati/bevande-refrigerate"
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "key": "158816141856710002",
+     "order": null,
+     "thumbnail": null,
+     "name": "Carne fresca, pesce e salumi",
+     "urlSlugText": "carne-fresca-pesce-e-salumi",
+     "urlSlugTextAlternatives": {
+      "it-IT": "carne-fresca-pesce-e-salumi"
+     },
+     "children": [
+      {
+       "key": "158816141856710002014",
+       "order": null,
+       "thumbnail": null,
+       "name": "Pollo e tacchino",
+       "urlSlugText": "carne-fresca-pesce-e-salumi/pollo-e-tacchino",
+       "urlSlugTextAlternatives": {
+        "it-IT": "carne-fresca-pesce-e-salumi/pollo-e-tacchino"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710002015",
+       "order": null,
+       "thumbnail": null,
+       "name": "Suino",
+       "urlSlugText": "carne-fresca-pesce-e-salumi/suino",
+       "urlSlugTextAlternatives": {
+        "it-IT": "carne-fresca-pesce-e-salumi/suino"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710002016",
+       "order": null,
+       "thumbnail": null,
+       "name": "Manzo",
+       "urlSlugText": "carne-fresca-pesce-e-salumi/manzo",
+       "urlSlugTextAlternatives": {
+        "it-IT": "carne-fresca-pesce-e-salumi/manzo"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710002017",
+       "order": null,
+       "thumbnail": null,
+       "name": "Cavallo",
+       "urlSlugText": "carne-fresca-pesce-e-salumi/cavallo",
+       "urlSlugTextAlternatives": {
+        "it-IT": "carne-fresca-pesce-e-salumi/cavallo"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710002018",
+       "order": null,
+       "thumbnail": null,
+       "name": "Coniglio",
+       "urlSlugText": "carne-fresca-pesce-e-salumi/coniglio",
+       "urlSlugTextAlternatives": {
+        "it-IT": "carne-fresca-pesce-e-salumi/coniglio"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710002019",
+       "order": null,
+       "thumbnail": null,
+       "name": "Carni miste",
+       "urlSlugText": "carne-fresca-pesce-e-salumi/carni-miste",
+       "urlSlugTextAlternatives": {
+        "it-IT": "carne-fresca-pesce-e-salumi/carni-miste"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710002020",
+       "order": null,
+       "thumbnail": null,
+       "name": "Affettati di carne",
+       "urlSlugText": "carne-fresca-pesce-e-salumi/affettati-di-carne",
+       "urlSlugTextAlternatives": {
+        "it-IT": "carne-fresca-pesce-e-salumi/affettati-di-carne"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710002021",
+       "order": null,
+       "thumbnail": null,
+       "name": "Salumi e insaccati",
+       "urlSlugText": "carne-fresca-pesce-e-salumi/salumi-e-insaccati",
+       "urlSlugTextAlternatives": {
+        "it-IT": "carne-fresca-pesce-e-salumi/salumi-e-insaccati"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710002022",
+       "order": null,
+       "thumbnail": null,
+       "name": "Pesce fresco",
+       "urlSlugText": "carne-fresca-pesce-e-salumi/pesce-fresco",
+       "urlSlugTextAlternatives": {
+        "it-IT": "carne-fresca-pesce-e-salumi/pesce-fresco"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710002023",
+       "order": null,
+       "thumbnail": null,
+       "name": "Salmone affumicato",
+       "urlSlugText": "carne-fresca-pesce-e-salumi/salmone-affumicato",
+       "urlSlugTextAlternatives": {
+        "it-IT": "carne-fresca-pesce-e-salumi/salmone-affumicato"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710002024",
+       "order": null,
+       "thumbnail": null,
+       "name": "Gamberetti e preparazioni",
+       "urlSlugText": "carne-fresca-pesce-e-salumi/gamberetti-e-preparazioni",
+       "urlSlugTextAlternatives": {
+        "it-IT": "carne-fresca-pesce-e-salumi/gamberetti-e-preparazioni"
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "key": "158816141856710003",
+     "order": null,
+     "thumbnail": null,
+     "name": "Freezer",
+     "urlSlugText": "freezer",
+     "urlSlugTextAlternatives": {
+      "it-IT": "freezer"
+     },
+     "children": [
+      {
+       "key": "158816141856710003025",
+       "order": null,
+       "thumbnail": null,
+       "name": "Carne e pesce",
+       "urlSlugText": "freezer/carne-e-pesce",
+       "urlSlugTextAlternatives": {
+        "it-IT": "freezer/carne-e-pesce"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710003026",
+       "order": null,
+       "thumbnail": null,
+       "name": "Frutta e verdura",
+       "urlSlugText": "freezer/frutta-e-verdura",
+       "urlSlugTextAlternatives": {
+        "it-IT": "freezer/frutta-e-verdura"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710003027",
+       "order": null,
+       "thumbnail": null,
+       "name": "Gelati e dessert",
+       "urlSlugText": "freezer/gelati-e-dessert",
+       "urlSlugTextAlternatives": {
+        "it-IT": "freezer/gelati-e-dessert"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710003028",
+       "order": null,
+       "thumbnail": null,
+       "name": "Snack salati",
+       "urlSlugText": "freezer/snack-salati",
+       "urlSlugTextAlternatives": {
+        "it-IT": "freezer/snack-salati"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710003029",
+       "order": null,
+       "thumbnail": null,
+       "name": "Patatine",
+       "urlSlugText": "freezer/patatine",
+       "urlSlugTextAlternatives": {
+        "it-IT": "freezer/patatine"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710003030",
+       "order": null,
+       "thumbnail": null,
+       "name": "Piatti pronti e pizza",
+       "urlSlugText": "freezer/piatti-pronti-e-pizza",
+       "urlSlugTextAlternatives": {
+        "it-IT": "freezer/piatti-pronti-e-pizza"
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "key": "158816141856710004",
+     "order": null,
+     "thumbnail": null,
+     "name": "Bevande alcoliche",
+     "urlSlugText": "bevande-alcoliche",
+     "urlSlugTextAlternatives": {
+      "it-IT": "bevande-alcoliche"
+     },
+     "children": [
+      {
+       "key": "158816141856710004031",
+       "order": null,
+       "thumbnail": null,
+       "name": "Birra",
+       "urlSlugText": "bevande-alcoliche/birra",
+       "urlSlugTextAlternatives": {
+        "it-IT": "bevande-alcoliche/birra"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710004032",
+       "order": null,
+       "thumbnail": null,
+       "name": "Vino",
+       "urlSlugText": "bevande-alcoliche/vino",
+       "urlSlugTextAlternatives": {
+        "it-IT": "bevande-alcoliche/vino"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710004033",
+       "order": null,
+       "thumbnail": null,
+       "name": "Aperitivi",
+       "urlSlugText": "bevande-alcoliche/aperitivi",
+       "urlSlugTextAlternatives": {
+        "it-IT": "bevande-alcoliche/aperitivi"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710004034",
+       "order": null,
+       "thumbnail": null,
+       "name": "Superalcolici",
+       "urlSlugText": "bevande-alcoliche/superalcolici",
+       "urlSlugTextAlternatives": {
+        "it-IT": "bevande-alcoliche/superalcolici"
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "key": "158816141856710005",
+     "order": null,
+     "thumbnail": null,
+     "name": "Bevande analcoliche",
+     "urlSlugText": "bevande-analcoliche",
+     "urlSlugTextAlternatives": {
+      "it-IT": "bevande-analcoliche"
+     },
+     "children": [
+      {
+       "key": "158816141856710005035",
+       "order": null,
+       "thumbnail": null,
+       "name": "Thè e bevande energetiche",
+       "urlSlugText": "bevande-analcoliche/the-e-bevande-energetiche",
+       "urlSlugTextAlternatives": {
+        "it-IT": "bevande-analcoliche/the-e-bevande-energetiche"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710005036",
+       "order": null,
+       "thumbnail": null,
+       "name": "Bibite gassate",
+       "urlSlugText": "bevande-analcoliche/bibite-gassate",
+       "urlSlugTextAlternatives": {
+        "it-IT": "bevande-analcoliche/bibite-gassate"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710005037",
+       "order": null,
+       "thumbnail": null,
+       "name": "Acqua",
+       "urlSlugText": "bevande-analcoliche/acqua",
+       "urlSlugTextAlternatives": {
+        "it-IT": "bevande-analcoliche/acqua"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710005038",
+       "order": null,
+       "thumbnail": null,
+       "name": "Succhi e nettari",
+       "urlSlugText": "bevande-analcoliche/succhi-e-nettari",
+       "urlSlugTextAlternatives": {
+        "it-IT": "bevande-analcoliche/succhi-e-nettari"
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "key": "158816141856710006",
+     "order": null,
+     "thumbnail": null,
+     "name": "Dispensa",
+     "urlSlugText": "dispensa",
+     "urlSlugTextAlternatives": {
+      "it-IT": "dispensa"
+     },
+     "children": [
+      {
+       "key": "158816141856710006039",
+       "order": null,
+       "thumbnail": null,
+       "name": "Conserve alimentari",
+       "urlSlugText": "dispensa/conserve-alimentari",
+       "urlSlugTextAlternatives": {
+        "it-IT": "dispensa/conserve-alimentari"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710006040",
+       "order": null,
+       "thumbnail": null,
+       "name": "Aceto, olio e salse",
+       "urlSlugText": "dispensa/aceto-olio-e-salse",
+       "urlSlugTextAlternatives": {
+        "it-IT": "dispensa/aceto-olio-e-salse"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710006041",
+       "order": null,
+       "thumbnail": null,
+       "name": "Sughi e conserve",
+       "urlSlugText": "dispensa/sughi-e-conserve",
+       "urlSlugTextAlternatives": {
+        "it-IT": "dispensa/sughi-e-conserve"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710006042",
+       "order": null,
+       "thumbnail": null,
+       "name": "Frutta secca",
+       "urlSlugText": "dispensa/frutta-secca",
+       "urlSlugTextAlternatives": {
+        "it-IT": "dispensa/frutta-secca"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710006043",
+       "order": null,
+       "thumbnail": null,
+       "name": "Preparati per dolci",
+       "urlSlugText": "dispensa/preparati-per-dolci",
+       "urlSlugTextAlternatives": {
+        "it-IT": "dispensa/preparati-per-dolci"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710006044",
+       "order": null,
+       "thumbnail": null,
+       "name": "Riso e cereali",
+       "urlSlugText": "dispensa/riso-e-cereali",
+       "urlSlugTextAlternatives": {
+        "it-IT": "dispensa/riso-e-cereali"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710006045",
+       "order": null,
+       "thumbnail": null,
+       "name": "Snack dolci",
+       "urlSlugText": "dispensa/snack-dolci",
+       "urlSlugTextAlternatives": {
+        "it-IT": "dispensa/snack-dolci"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710006046",
+       "order": null,
+       "thumbnail": null,
+       "name": "Snack salati",
+       "urlSlugText": "dispensa/snack-salati",
+       "urlSlugTextAlternatives": {
+        "it-IT": "dispensa/snack-salati"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710006047",
+       "order": null,
+       "thumbnail": null,
+       "name": "Spezie",
+       "urlSlugText": "dispensa/spezie",
+       "urlSlugTextAlternatives": {
+        "it-IT": "dispensa/spezie"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710006048",
+       "order": null,
+       "thumbnail": null,
+       "name": "Zucchero e dolcificanti",
+       "urlSlugText": "dispensa/zucchero-e-dolcificanti",
+       "urlSlugTextAlternatives": {
+        "it-IT": "dispensa/zucchero-e-dolcificanti"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710006049",
+       "order": null,
+       "thumbnail": null,
+       "name": "Creme spalmabili",
+       "urlSlugText": "dispensa/creme-spalmabili",
+       "urlSlugTextAlternatives": {
+        "it-IT": "dispensa/creme-spalmabili"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710006050",
+       "order": null,
+       "thumbnail": null,
+       "name": "Miele",
+       "urlSlugText": "dispensa/miele",
+       "urlSlugTextAlternatives": {
+        "it-IT": "dispensa/miele"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710006051",
+       "order": null,
+       "thumbnail": null,
+       "name": "Muesli e cereali",
+       "urlSlugText": "dispensa/muesli-e-cereali",
+       "urlSlugTextAlternatives": {
+        "it-IT": "dispensa/muesli-e-cereali"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710006052",
+       "order": null,
+       "thumbnail": null,
+       "name": "Uova",
+       "urlSlugText": "dispensa/uova",
+       "urlSlugTextAlternatives": {
+        "it-IT": "dispensa/uova"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710006053",
+       "order": null,
+       "thumbnail": null,
+       "name": "Sottaceti",
+       "urlSlugText": "dispensa/sottaceti",
+       "urlSlugTextAlternatives": {
+        "it-IT": "dispensa/sottaceti"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710006054",
+       "order": null,
+       "thumbnail": null,
+       "name": "Salamoia",
+       "urlSlugText": "dispensa/salamoia",
+       "urlSlugTextAlternatives": {
+        "it-IT": "dispensa/salamoia"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710006055",
+       "order": null,
+       "thumbnail": null,
+       "name": "Alimenti sottolio",
+       "urlSlugText": "dispensa/alimenti-sottolio",
+       "urlSlugTextAlternatives": {
+        "it-IT": "dispensa/alimenti-sottolio"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710006056",
+       "order": null,
+       "thumbnail": null,
+       "name": "Pasta",
+       "urlSlugText": "dispensa/pasta",
+       "urlSlugTextAlternatives": {
+        "it-IT": "dispensa/pasta"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710006057",
+       "order": null,
+       "thumbnail": null,
+       "name": "Caffè",
+       "urlSlugText": "dispensa/caffe",
+       "urlSlugTextAlternatives": {
+        "it-IT": "dispensa/caffe"
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "key": "158816141856710007",
+     "order": null,
+     "thumbnail": null,
+     "name": "Farina e prodotti da forno",
+     "urlSlugText": "farina-e-prodotti-da-forno",
+     "urlSlugTextAlternatives": {
+      "it-IT": "farina-e-prodotti-da-forno"
+     },
+     "children": [
+      {
+       "key": "158816141856710007058",
+       "order": null,
+       "thumbnail": null,
+       "name": "Panificati non confezionati",
+       "urlSlugText": "farina-e-prodotti-da-forno/panificati-non-confezionati",
+       "urlSlugTextAlternatives": {
+        "it-IT": "farina-e-prodotti-da-forno/panificati-non-confezionati"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710007059",
+       "order": null,
+       "thumbnail": null,
+       "name": "Farina",
+       "urlSlugText": "farina-e-prodotti-da-forno/farina",
+       "urlSlugTextAlternatives": {
+        "it-IT": "farina-e-prodotti-da-forno/farina"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710007060",
+       "order": null,
+       "thumbnail": null,
+       "name": "Biscotti e fette biscottate",
+       "urlSlugText": "farina-e-prodotti-da-forno/biscotti-e-fette-biscottate",
+       "urlSlugTextAlternatives": {
+        "it-IT": "farina-e-prodotti-da-forno/biscotti-e-fette-biscottate"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710007061",
+       "order": null,
+       "thumbnail": null,
+       "name": "Merendine, torte e croissant",
+       "urlSlugText": "farina-e-prodotti-da-forno/merendine-torte-e-croissant",
+       "urlSlugTextAlternatives": {
+        "it-IT": "farina-e-prodotti-da-forno/merendine-torte-e-croissant"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710007062",
+       "order": null,
+       "thumbnail": null,
+       "name": "Panificati confezionati",
+       "urlSlugText": "farina-e-prodotti-da-forno/panificati-confezionati",
+       "urlSlugTextAlternatives": {
+        "it-IT": "farina-e-prodotti-da-forno/panificati-confezionati"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710007063",
+       "order": null,
+       "thumbnail": null,
+       "name": "Piadine, pinsa",
+       "urlSlugText": "farina-e-prodotti-da-forno/piadine-pinsa",
+       "urlSlugTextAlternatives": {
+        "it-IT": "farina-e-prodotti-da-forno/piadine-pinsa"
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "key": "158816141856710008",
+     "order": null,
+     "thumbnail": null,
+     "name": "Vegetariani e vegani",
+     "urlSlugText": "vegetariani-e-vegani",
+     "urlSlugTextAlternatives": {
+      "it-IT": "vegetariani-e-vegani"
+     },
+     "children": [
+      {
+       "key": "158816141856710008064",
+       "order": null,
+       "thumbnail": null,
+       "name": "Sostituti carne",
+       "urlSlugText": "vegetariani-e-vegani/sostituti-carne",
+       "urlSlugTextAlternatives": {
+        "it-IT": "vegetariani-e-vegani/sostituti-carne"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710008066",
+       "order": null,
+       "thumbnail": null,
+       "name": "Bevande vegetali",
+       "urlSlugText": "vegetariani-e-vegani/bevande-vegetali",
+       "urlSlugTextAlternatives": {
+        "it-IT": "vegetariani-e-vegani/bevande-vegetali"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710008068",
+       "order": null,
+       "thumbnail": null,
+       "name": "Sostituti affettati",
+       "urlSlugText": "vegetariani-e-vegani/sostituti-affettati",
+       "urlSlugTextAlternatives": {
+        "it-IT": "vegetariani-e-vegani/sostituti-affettati"
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "key": "158816141856710009",
+     "order": null,
+     "thumbnail": null,
+     "name": "Proteico",
+     "urlSlugText": "proteico",
+     "urlSlugTextAlternatives": {
+      "it-IT": "proteico"
+     },
+     "children": [
+      {
+       "key": "158816141856710009071",
+       "order": null,
+       "thumbnail": null,
+       "name": "Barrette",
+       "urlSlugText": "proteico/barrette",
+       "urlSlugTextAlternatives": {
+        "it-IT": "proteico/barrette"
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "key": "158816141856710010",
+     "order": null,
+     "thumbnail": null,
+     "name": "Mondo Baby",
+     "urlSlugText": "mondo-baby",
+     "urlSlugTextAlternatives": {
+      "it-IT": "mondo-baby"
+     },
+     "children": [
+      {
+       "key": "158816141856710010072",
+       "order": null,
+       "thumbnail": null,
+       "name": "Alimentazione",
+       "urlSlugText": "mondo-baby/alimentazione",
+       "urlSlugTextAlternatives": {
+        "it-IT": "mondo-baby/alimentazione"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710010073",
+       "order": null,
+       "thumbnail": null,
+       "name": "Cura del bambino",
+       "urlSlugText": "mondo-baby/cura-del-bambino",
+       "urlSlugTextAlternatives": {
+        "it-IT": "mondo-baby/cura-del-bambino"
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "key": "158816141856710011",
+     "order": null,
+     "thumbnail": null,
+     "name": "Abbigliamento e accessori",
+     "urlSlugText": "abbigliamento-e-accessori",
+     "urlSlugTextAlternatives": {
+      "it-IT": "abbigliamento-e-accessori"
+     },
+     "children": [
+      {
+       "key": "158816141856710011075",
+       "order": null,
+       "thumbnail": null,
+       "name": "Abbigliamento Uomo",
+       "urlSlugText": "abbigliamento-e-accessori/abbigliamento-uomo",
+       "urlSlugTextAlternatives": {
+        "it-IT": "abbigliamento-e-accessori/abbigliamento-uomo"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710011076",
+       "order": null,
+       "thumbnail": null,
+       "name": "Abbigliamento Bambino e Neonato",
+       "urlSlugText": "abbigliamento-e-accessori/abbigliamento-bambino-e-neonato",
+       "urlSlugTextAlternatives": {
+        "it-IT": "abbigliamento-e-accessori/abbigliamento-bambino-e-neonato"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710011077",
+       "order": null,
+       "thumbnail": null,
+       "name": "Scarpe",
+       "urlSlugText": "abbigliamento-e-accessori/scarpe",
+       "urlSlugTextAlternatives": {
+        "it-IT": "abbigliamento-e-accessori/scarpe"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710011078",
+       "order": null,
+       "thumbnail": null,
+       "name": "Accessori",
+       "urlSlugText": "abbigliamento-e-accessori/accessori",
+       "urlSlugTextAlternatives": {
+        "it-IT": "abbigliamento-e-accessori/accessori"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710011080",
+       "order": null,
+       "thumbnail": null,
+       "name": "Abbigliamento sportivo",
+       "urlSlugText": "abbigliamento-e-accessori/abbigliamento-sportivo",
+       "urlSlugTextAlternatives": {
+        "it-IT": "abbigliamento-e-accessori/abbigliamento-sportivo"
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "key": "158816141856710012",
+     "order": null,
+     "thumbnail": null,
+     "name": "Casa",
+     "urlSlugText": "casa",
+     "urlSlugTextAlternatives": {
+      "it-IT": "casa"
+     },
+     "children": [
+      {
+       "key": "158816141856710012083",
+       "order": null,
+       "thumbnail": null,
+       "name": "Articoli da cucina",
+       "urlSlugText": "casa/articoli-da-cucina",
+       "urlSlugTextAlternatives": {
+        "it-IT": "casa/articoli-da-cucina"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710012084",
+       "order": null,
+       "thumbnail": null,
+       "name": "Articoli per il bagno",
+       "urlSlugText": "casa/articoli-per-il-bagno",
+       "urlSlugTextAlternatives": {
+        "it-IT": "casa/articoli-per-il-bagno"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710012085",
+       "order": null,
+       "thumbnail": null,
+       "name": "Cartoleria",
+       "urlSlugText": "casa/cartoleria",
+       "urlSlugTextAlternatives": {
+        "it-IT": "casa/cartoleria"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710012087",
+       "order": null,
+       "thumbnail": null,
+       "name": "Decorazioni",
+       "urlSlugText": "casa/decorazioni",
+       "urlSlugTextAlternatives": {
+        "it-IT": "casa/decorazioni"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710012088",
+       "order": null,
+       "thumbnail": null,
+       "name": "Illuminazione",
+       "urlSlugText": "casa/illuminazione",
+       "urlSlugTextAlternatives": {
+        "it-IT": "casa/illuminazione"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710012090",
+       "order": null,
+       "thumbnail": null,
+       "name": "Tessili per la casa",
+       "urlSlugText": "casa/tessili-per-la-casa",
+       "urlSlugTextAlternatives": {
+        "it-IT": "casa/tessili-per-la-casa"
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "key": "158816141856710014",
+     "order": null,
+     "thumbnail": null,
+     "name": "Igiene e pulizia della casa",
+     "urlSlugText": "igiene-e-pulizia-della-casa",
+     "urlSlugTextAlternatives": {
+      "it-IT": "igiene-e-pulizia-della-casa"
+     },
+     "children": [
+      {
+       "key": "158816141856710014094",
+       "order": null,
+       "thumbnail": null,
+       "name": "Igiene e cura personale",
+       "urlSlugText": "igiene-e-pulizia-della-casa/igiene-e-cura-personale",
+       "urlSlugTextAlternatives": {
+        "it-IT": "igiene-e-pulizia-della-casa/igiene-e-cura-personale"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710014095",
+       "order": null,
+       "thumbnail": null,
+       "name": "Pulizia della casa",
+       "urlSlugText": "igiene-e-pulizia-della-casa/pulizia-della-casa",
+       "urlSlugTextAlternatives": {
+        "it-IT": "igiene-e-pulizia-della-casa/pulizia-della-casa"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710014096",
+       "order": null,
+       "thumbnail": null,
+       "name": "Salute e prodotti parafarmaceutici",
+       "urlSlugText": "igiene-e-pulizia-della-casa/salute-e-prodotti-parafarmaceutici",
+       "urlSlugTextAlternatives": {
+        "it-IT": "igiene-e-pulizia-della-casa/salute-e-prodotti-parafarmaceutici"
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "key": "158816141856710015",
+     "order": null,
+     "thumbnail": null,
+     "name": "Animali e pet care",
+     "urlSlugText": "animali-e-pet-care",
+     "urlSlugTextAlternatives": {
+      "it-IT": "animali-e-pet-care"
+     },
+     "children": [
+      {
+       "key": "158816141856710015097",
+       "order": null,
+       "thumbnail": null,
+       "name": "Articoli per animali domestici",
+       "urlSlugText": "animali-e-pet-care/articoli-per-animali-domestici",
+       "urlSlugTextAlternatives": {
+        "it-IT": "animali-e-pet-care/articoli-per-animali-domestici"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710015098",
+       "order": null,
+       "thumbnail": null,
+       "name": "Cibo per cani",
+       "urlSlugText": "animali-e-pet-care/cibo-per-cani",
+       "urlSlugTextAlternatives": {
+        "it-IT": "animali-e-pet-care/cibo-per-cani"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710015099",
+       "order": null,
+       "thumbnail": null,
+       "name": "Cibo per gatti",
+       "urlSlugText": "animali-e-pet-care/cibo-per-gatti",
+       "urlSlugTextAlternatives": {
+        "it-IT": "animali-e-pet-care/cibo-per-gatti"
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "key": "158816141856710016",
+     "order": null,
+     "thumbnail": null,
+     "name": "Elettronica",
+     "urlSlugText": "elettronica",
+     "urlSlugTextAlternatives": {
+      "it-IT": "elettronica"
+     },
+     "children": [
+      {
+       "key": "158816141856710016100",
+       "order": null,
+       "thumbnail": null,
+       "name": "Accessori",
+       "urlSlugText": "elettronica/accessori",
+       "urlSlugTextAlternatives": {
+        "it-IT": "elettronica/accessori"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710016102",
+       "order": null,
+       "thumbnail": null,
+       "name": "Piccoli elettrodomestici",
+       "urlSlugText": "elettronica/piccoli-elettrodomestici",
+       "urlSlugTextAlternatives": {
+        "it-IT": "elettronica/piccoli-elettrodomestici"
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "key": "158816141856710017",
+     "order": null,
+     "thumbnail": null,
+     "name": "Tempo libero e attività outdoor",
+     "urlSlugText": "tempo-libero-e-attivita-outdoor",
+     "urlSlugTextAlternatives": {
+      "it-IT": "tempo-libero-e-attivita-outdoor"
+     },
+     "children": [
+      {
+       "key": "158816141856710017106",
+       "order": null,
+       "thumbnail": null,
+       "name": "Accessori auto e bici",
+       "urlSlugText": "tempo-libero-e-attivita-outdoor/accessori-auto-e-bici",
+       "urlSlugTextAlternatives": {
+        "it-IT": "tempo-libero-e-attivita-outdoor/accessori-auto-e-bici"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710017107",
+       "order": null,
+       "thumbnail": null,
+       "name": "Fai da te",
+       "urlSlugText": "tempo-libero-e-attivita-outdoor/fai-da-te",
+       "urlSlugTextAlternatives": {
+        "it-IT": "tempo-libero-e-attivita-outdoor/fai-da-te"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710017109",
+       "order": null,
+       "thumbnail": null,
+       "name": "Giocattoli",
+       "urlSlugText": "tempo-libero-e-attivita-outdoor/giocattoli",
+       "urlSlugTextAlternatives": {
+        "it-IT": "tempo-libero-e-attivita-outdoor/giocattoli"
+       },
+       "children": []
+      },
+      {
+       "key": "158816141856710017113",
+       "order": null,
+       "thumbnail": null,
+       "name": "Hobby",
+       "urlSlugText": "tempo-libero-e-attivita-outdoor/hobby",
+       "urlSlugTextAlternatives": {
+        "it-IT": "tempo-libero-e-attivita-outdoor/hobby"
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "key": "158816141856710018",
+     "order": null,
+     "thumbnail": null,
+     "name": "Natale",
+     "urlSlugText": "natale",
+     "urlSlugTextAlternatives": {
+      "it-IT": "natale"
+     },
+     "children": []
+    },
+    {
+     "key": "158816141856710026",
+     "order": null,
+     "thumbnail": null,
+     "name": "Halloween",
+     "urlSlugText": "halloween",
+     "urlSlugTextAlternatives": {
+      "it-IT": "halloween"
+     },
+     "children": []
+    },
+    {
+     "key": "1588161438714025",
+     "order": null,
+     "thumbnail": null,
+     "name": "Super Risparmio",
+     "urlSlugText": "super-risparmio",
+     "urlSlugTextAlternatives": {
+      "it-IT": "super-risparmio"
+     },
+     "children": []
+    }
+   ]
+  }
+ },
+ {
+  "url": "https://www.aldi.it/_nuxt/builds/meta/693ab360-a543-4570-ac81-1afe4408d349.json",
+  "data": {
+   "id": "693ab360-a543-4570-ac81-1afe4408d349",
+   "timestamp": 1793627641717,
+   "prerendered": []
   }
  }
 ]
