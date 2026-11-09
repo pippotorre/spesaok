@@ -3,9 +3,8 @@ on:
   workflow_dispatch:
     inputs:
       catene: { description: "catene separate da spazio (vuoto = tutte)", required: false, default: "" }
-  push:
-    branches: ["explore/**"]
-    paths: ["scripts/collect.py", ".github/workflows/collect.yml"]
+  schedule:
+    - cron: "0 6 * * 4"   # ogni giovedì alle 7:00 ora italiana
 permissions:
   contents: write
 jobs:
@@ -18,8 +17,7 @@ jobs:
         with: { python-version: "3.12" }
       - run: sudo apt-get install -y poppler-utils tesseract-ocr tesseract-ocr-ita >/dev/null
       - run: pip install playwright==1.48.0 && python -m playwright install --with-deps chromium
-      - run: python scripts/collect.py ${{ github.event.inputs.catene || env.CATENE }}
-        env: { CATENE: "${{ github.event_name == 'push' && 'mercato' || '' }}" }
+      - run: python scripts/collect.py ${{ github.event.inputs.catene }}
       - run: python scripts/normalize.py && python scripts/build_page.py app/index.html
       - name: Salva i dati nel repo
         run: |
