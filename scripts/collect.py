@@ -80,7 +80,10 @@ async def aldi(ctx):
             await v.keyboard.press("ArrowRight"); await v.wait_for_timeout(700)
     save("aldi_hotspots.json", hs)
 
-COOP_STORES = ["https://negozi.volantinopiu.com/ccno-8001120004796.html"]  # Ipercoop Torino / Collegno
+COOP_STORES = [
+    "https://negozi.volantinopiu.com/ccno-8001120004550.html",  # Coop Collegno (negozio di Pippo)
+    "https://negozi.volantinopiu.com/ccno-8001120004796.html",  # Ipercoop Torino Dora
+]
 
 async def coop(ctx):
     pg = await ctx.new_page()
@@ -92,17 +95,17 @@ async def coop(ctx):
         except Exception as e: print("coop store", repr(e)[:150])
         links = await pg.eval_on_selector_all("a", "els => els.map(e => [e.innerText.trim(), e.href])")
         for t, h in links:
-            if "redirect" in h and h not in [f[1] for f in flyers]: flyers.append((t, h))
+            if "redirect" in h and h not in [f[1] for f in flyers]: flyers.append((store, h))
     print("coop volantini", flyers)
     infos = []
-    for i, (title, url) in enumerate(flyers):
+    for i, (store, url) in enumerate(flyers):
         try:
             await pg.goto(url, wait_until="domcontentloaded", timeout=60000)
         except Exception as e: print("coop goto", repr(e)[:150])
         await pg.wait_for_timeout(12000)
         html = await pg.content()
         pdfs = sorted(set(re.findall(r'https?://[^"\'\s>]+\.pdf', html)))
-        infos.append({"titolo": title, "url": url, "final": pg.url, "pdfs": pdfs})
+        infos.append({"i": i, "negozio": store, "url": url, "final": pg.url, "pdfs": pdfs})
         for u in pdfs[:1]:
             req = urllib.request.Request(u, headers={"User-Agent": UA})
             open(f"/tmp/coop{i}.pdf", "wb").write(urllib.request.urlopen(req, timeout=180).read())
