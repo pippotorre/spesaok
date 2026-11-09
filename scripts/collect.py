@@ -117,6 +117,17 @@ async def coop(ctx):
             save(f"coop_pdf{i}.txt", txt)
             if len(txt.strip()) > 500:
                 subprocess.run(["pdftotext", "-bbox-layout", f"/tmp/coop{i}.pdf", f"{RAW}/coop_pdf{i}_bbox.html"])
+                # pagine "sconto su tutta la linea": le marche sono solo loghi, servono all'OCR
+                pages_txt = txt.split("\f")
+                linea = [n + 1 for n, p in enumerate(pages_txt) if re.search(r"tutta\s+la\s+linea", p, re.I)]
+                if linea:
+                    d = f"/tmp/cooplinea{i}"; os.makedirs(d, exist_ok=True)
+                    os.makedirs(f"{RAW}/coop_linea{i}", exist_ok=True)
+                    for n in linea:
+                        subprocess.run(["pdftoppm", "-r", "200", "-png", "-f", str(n), "-l", str(n), f"/tmp/coop{i}.pdf", f"{d}/p"], check=True)
+                    for f in sorted(os.listdir(d)):
+                        subprocess.run(["tesseract", f"{d}/{f}", f"{RAW}/coop_linea{i}/{f[:-4]}", "-l", "ita", "--psm", "11", "tsv"], capture_output=True)
+                    subprocess.run(["pdftoppm", "-r", "45", "-jpeg", "-f", str(linea[0]), "-l", str(linea[0]), f"/tmp/coop{i}.pdf", f"{RAW}/coop_linea{i}_prev"])
             else:  # volantino solo immagine: OCR
                 d = f"/tmp/coopimg{i}"; os.makedirs(d, exist_ok=True)
                 subprocess.run(["pdftoppm", "-r", "200", "-png", f"/tmp/coop{i}.pdf", f"{d}/p"], check=True)
