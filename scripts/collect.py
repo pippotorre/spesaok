@@ -86,6 +86,10 @@ COOP_STORES = [
 ]
 
 async def coop(ctx):
+    import shutil
+    for f in os.listdir(RAW):  # pulizia dei file Coop di un giro precedente nello stesso giorno
+        if f.startswith("coop_"):
+            p = f"{RAW}/{f}"; shutil.rmtree(p) if os.path.isdir(p) else os.remove(p)
     pg = await ctx.new_page()
     flyers = []
     for store in COOP_STORES:
