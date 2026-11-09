@@ -67,3 +67,4 @@ Output iniziale: artefatto. In futuro: valutare una PWA.
 - Il workflow ora normalizza (data/offerte.json) e genera app/index.html dopo ogni raccolta.
 - 09/11/2026 notte – Mercatò: scelta di Pippo = OCR gratuito su GitHub. Tesseract (ita, psm 11) su tutte le pagine a 200 dpi, TSV con coordinate. Il prezzo grande (bianco su rosso) viene letto male, quindi il prezzo si ricava da "€/lt" o "€/kg" × formato (affidabile a ±1 cent), confrontato con le cifre lette nel riquadro. "SOLO CON" = prezzo con carta Club Mercatò. 202 offerte alimentari. Parser: scripts/parse_mercato.py.
 - Lista ora: Eurospin 130, Coop 156, Mercatò 202 = 488 offerte.
+- 09/11/2026 23:05 – PR #1 unita su main: raccolta settimanale attiva ogni giovedì 06:00 UTC (Eurospin, Coop, Mercatò). Prossimi: Aldi, MD, Conad.

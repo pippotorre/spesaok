@@ -47,7 +47,6 @@ def coop(raw):
     from parse_coop import parse
     out = []
     for f in sorted(g.glob(f"{raw}/coop_pdf*_bbox.html")):
-        info = json.load(open(f"{raw}/coop_info.json")) if os.path.exists(f"{raw}/coop_info.json") else {}
         m = re.search(r"[Dd]al (\d+) (?:\w+ )?al (\d+) (\w+) (\d{4})", open(f.replace("_bbox.html", ".txt")).read()[:5000])
         mesi = "gennaio febbraio marzo aprile maggio giugno luglio agosto settembre ottobre novembre dicembre".split()
         vf = vt = None
@@ -68,17 +67,29 @@ def mercato(raw):
         if m: vf = f"{m.group(3)}-{m.group(2)}-{m.group(1)}"; vt = f"{m.group(6)}-{m.group(5)}-{m.group(4)}"
     return parse(d, vf, vt)
 
+def latest(pattern):
+    """Ultima cartella data/raw/<data> che contiene i file della catena."""
+    ds = [d for d in sorted(glob.glob("data/raw/*")) if glob.glob(f"{d}/{pattern}")]
+    return ds[-1] if ds else None
+
 def main():
-    raw = sys.argv[1] if len(sys.argv) > 1 else sorted(glob.glob("data/raw/*"))[-1]
-    sys.path.insert(0, 'scripts')
-    items = eurospin(raw) + coop(raw) + mercato(raw)
+    sys.path.insert(0, "scripts")
+    items, dates = [], []
+    for fn, pat in ((eurospin, "eurospin_products.json"), (coop, "coop_pdf*_bbox.html"), (mercato, "mercato_ocr")):
+        d = latest(pat)
+        if d:
+            items += fn(d); dates.append(os.path.basename(d))
+    seen, uniq = set(), []
     for r in items:
         for k in ("nome", "formato", "marca"):
             if r.get(k): r[k] = re.sub(r"\s+", " ", r[k]).strip()
+        key = (r["catena"], r["nome"].lower(), r["prezzo"])
+        if key in seen: continue
+        seen.add(key); uniq.append(r)
+    items = uniq
     items.sort(key=lambda r: (r["prezzo_unita"] is None, r["prezzo_unita"] or r["prezzo"]))
-    os.makedirs("data", exist_ok=True)
     fonti = sorted({r["catena"] for r in items})
-    json.dump({"aggiornato": os.path.basename(raw), "fonti": fonti, "offerte": items},
+    json.dump({"aggiornato": max(dates) if dates else "", "fonti": fonti, "offerte": items},
               open("data/offerte.json", "w"), ensure_ascii=False, indent=1)
     print("offerte", len(items))
 
