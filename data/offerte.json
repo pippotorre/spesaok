@@ -254,6 +254,22 @@
    "valido_al": "2026-11-15"
   },
   {
+   "catena": "Coop",
+   "nome": "Coca Cola",
+   "marca": "",
+   "formato": "original o zero, 2 x 1.5 lt",
+   "prezzo": 2.89,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 0.96,
+   "unita": "l",
+   "categoria": "",
+   "con_carta": true,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 8
+  },
+  {
    "catena": "Eurospin",
    "nome": "Farina Di Grano Duro",
    "marca": "Tre Mulini",
@@ -346,6 +362,22 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-15"
+  },
+  {
+   "catena": "Coop",
+   "nome": "Latte Uht Granarolo",
+   "marca": "",
+   "formato": "parzialmente scremato, 1 lt",
+   "prezzo": 1.19,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 1.19,
+   "unita": "l",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 5
   },
   {
    "catena": "Mercatò",
@@ -443,6 +475,38 @@
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
    "pagina": 19
+  },
+  {
+   "catena": "Coop",
+   "nome": "Passata Verace Cirio",
+   "marca": "",
+   "formato": "700 g",
+   "prezzo": 0.99,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 1.41,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": true,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 8
+  },
+  {
+   "catena": "Coop",
+   "nome": "Birra Moretti",
+   "marca": "",
+   "formato": "660 ml",
+   "prezzo": 0.95,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 1.44,
+   "unita": "l",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 8
   },
   {
    "catena": "Coop",
@@ -1234,6 +1298,22 @@
    "pagina": 19
   },
   {
+   "catena": "Coop",
+   "nome": "Yogurt Cremoso Müller",
+   "marca": "",
+   "formato": "tipi e gusti vari, 2 x 125 g",
+   "prezzo": 0.69,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 2.76,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 5
+  },
+  {
    "catena": "Mercatò",
    "nome": "Scotti",
    "marca": "",
@@ -1266,6 +1346,22 @@
    "valido_al": "2026-11-15",
    "da_verificare": false,
    "pagina": 27
+  },
+  {
+   "catena": "Coop",
+   "nome": "Minestrone Tradizione Findus",
+   "marca": "",
+   "formato": "surgelato, 1 kg",
+   "prezzo": 2.89,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 2.89,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 5
   },
   {
    "catena": "Coop",
@@ -1443,6 +1539,22 @@
    "valido_al": "2026-11-15",
    "da_verificare": false,
    "pagina": 12
+  },
+  {
+   "catena": "Coop",
+   "nome": "Pomodori Pelati Coop",
+   "marca": "",
+   "formato": "400 g",
+   "prezzo": 1.99,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 3.06,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": true,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 8
   },
   {
    "catena": "Eurospin",
@@ -1800,6 +1912,22 @@
    "valido_al": "2026-11-15"
   },
   {
+   "catena": "Coop",
+   "nome": "Bianco",
+   "marca": "",
+   "formato": "",
+   "prezzo": 2.79,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 3.72,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 7
+  },
+  {
    "catena": "Mercatò",
    "nome": "Il Tarallino Puglia Sapori Multipack X10",
    "marca": "",
@@ -1865,6 +1993,22 @@
    "valido_al": "2026-11-15",
    "da_verificare": false,
    "pagina": 10
+  },
+  {
+   "catena": "Coop",
+   "nome": "Biscotti Mulino Bianco",
+   "marca": "",
+   "formato": "Ritornelli o Abbracci, 700 g",
+   "prezzo": 2.69,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 3.84,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 8
   },
   {
    "catena": "Eurospin",
@@ -2192,6 +2336,22 @@
    "valido_al": "2026-11-15"
   },
   {
+   "catena": "Coop",
+   "nome": "Bianco",
+   "marca": "",
+   "formato": "",
+   "prezzo": 2.99,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 3.99,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 7
+  },
+  {
    "catena": "Mercatò",
    "nome": "Est! Est!! Montefiascone Secco Doc Bigi",
    "marca": "",
@@ -2224,6 +2384,22 @@
    "valido_al": "2026-11-15",
    "da_verificare": false,
    "pagina": 16
+  },
+  {
+   "catena": "Coop",
+   "nome": "Barbera D’Asti D.O.C.G. Terredavino",
+   "marca": "",
+   "formato": "750 ml",
+   "prezzo": 5.99,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 4.0,
+   "unita": "l",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 1
   },
   {
    "catena": "Coop",
@@ -2275,6 +2451,22 @@
    "pagina": 10
   },
   {
+   "catena": "Coop",
+   "nome": "Pizza Margherita Regina Cameo",
+   "marca": "",
+   "formato": "surgelata, 2 pezzi, 620 g",
+   "prezzo": 2.59,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 4.18,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 5
+  },
+  {
    "catena": "Eurospin",
    "nome": "Funghi Misti Con Porcini",
    "marca": "Delizie Dal Sole",
@@ -2288,6 +2480,22 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-15"
+  },
+  {
+   "catena": "Coop",
+   "nome": "Bagnodoccia Neutro Roberts",
+   "marca": "",
+   "formato": "varie profumazioni, 450 ml",
+   "prezzo": 1.89,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 4.2,
+   "unita": "l",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 8
   },
   {
    "catena": "Coop",
@@ -2517,6 +2725,38 @@
    "pagina": 11
   },
   {
+   "catena": "Coop",
+   "nome": "Nero D’Avola D.O.C. Sicilia Cantina Settesoli",
+   "marca": "",
+   "formato": "750 ml",
+   "prezzo": 3.49,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 4.65,
+   "unita": "l",
+   "categoria": "",
+   "con_carta": true,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 7
+  },
+  {
+   "catena": "Coop",
+   "nome": "Rosso",
+   "marca": "",
+   "formato": "",
+   "prezzo": 3.49,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 4.65,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 7
+  },
+  {
    "catena": "Eurospin",
    "nome": "Mozzarella",
    "marca": "Land",
@@ -2708,6 +2948,22 @@
    "pagina": 17
   },
   {
+   "catena": "Coop",
+   "nome": "Negroamaro Salento I.G.P. Notte Rossa",
+   "marca": "",
+   "formato": "750 ml",
+   "prezzo": 3.75,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 5.0,
+   "unita": "l",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 7
+  },
+  {
    "catena": "Mercatò",
    "nome": "Bianco, Rosso Terre Siciliane Igt Corvo",
    "marca": "",
@@ -2723,6 +2979,38 @@
    "valido_al": "2026-11-15",
    "da_verificare": false,
    "pagina": 6
+  },
+  {
+   "catena": "Coop",
+   "nome": "Rotaliano D.O.C. Teroldego Mezzacorona",
+   "marca": "",
+   "formato": "750 ml",
+   "prezzo": 3.79,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 5.05,
+   "unita": "l",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 7
+  },
+  {
+   "catena": "Coop",
+   "nome": "Ribolla Gialla Frizzante I.G.T. Tenimenti Civa",
+   "marca": "",
+   "formato": "750 ml",
+   "prezzo": 3.79,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 5.05,
+   "unita": "l",
+   "categoria": "",
+   "con_carta": true,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 7
   },
   {
    "catena": "Coop",
@@ -3018,6 +3306,22 @@
    "pagina": 25
   },
   {
+   "catena": "Coop",
+   "nome": "Vermentino Di Sardegna D.O.C. Calarenas",
+   "marca": "",
+   "formato": "750 ml",
+   "prezzo": 4.19,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 5.59,
+   "unita": "l",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 7
+  },
+  {
    "catena": "Mercatò",
    "nome": "Pasta Sfoglia Buitoni",
    "marca": "",
@@ -3200,6 +3504,22 @@
   },
   {
    "catena": "Coop",
+   "nome": "Kiwi Fior Fiore",
+   "marca": "",
+   "formato": "polpa gialla, 500 g",
+   "prezzo": 2.98,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 5.96,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 3
+  },
+  {
+   "catena": "Coop",
    "nome": "Zuppe E Vellutate Dimmidisì",
    "marca": "",
    "formato": "tipi vari, 620 g",
@@ -3260,6 +3580,22 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-15"
+  },
+  {
+   "catena": "Coop",
+   "nome": "Olio Extra Vergine Di Oliva Farchioni",
+   "marca": "",
+   "formato": "classico, 1 lt",
+   "prezzo": 5.99,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 5.99,
+   "unita": "l",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 8
   },
   {
    "catena": "Eurospin",
@@ -3710,6 +4046,22 @@
    "valido_al": "2026-11-15"
   },
   {
+   "catena": "Coop",
+   "nome": "Pasta Sfoglia Rettangolare Buitoni",
+   "marca": "",
+   "formato": "classica o con farina integrale, 230 g",
+   "prezzo": 1.59,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 6.91,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 5
+  },
+  {
    "catena": "Eurospin",
    "nome": "Snack Mini Mix",
    "marca": "Dolciando",
@@ -3791,6 +4143,22 @@
   },
   {
    "catena": "Coop",
+   "nome": "Lenticchia Dell’Umbria Colfiorito",
+   "marca": "",
+   "formato": "400 g",
+   "prezzo": 2.99,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 7.48,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 3
+  },
+  {
+   "catena": "Coop",
    "nome": "Salamella Di Suino Mantovana Fiorani",
    "marca": "",
    "formato": "400 g",
@@ -3820,6 +4188,22 @@
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
    "pagina": 21
+  },
+  {
+   "catena": "Coop",
+   "nome": "Philadelphia",
+   "marca": "",
+   "formato": "350 g",
+   "prezzo": 2.65,
+   "prezzo_pieno": 3.79,
+   "sconto_pct": 30,
+   "prezzo_unita": 7.57,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 5
   },
   {
    "catena": "Mercatò",
@@ -3903,6 +4287,22 @@
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
    "pagina": 20
+  },
+  {
+   "catena": "Coop",
+   "nome": "Bocconcini Sassano",
+   "marca": "",
+   "formato": "500 g",
+   "prezzo": 3.9,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 7.8,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 6
   },
   {
    "catena": "Mercatò",
@@ -4187,6 +4587,22 @@
    "valido_al": "2026-11-15",
    "da_verificare": false,
    "pagina": 15
+  },
+  {
+   "catena": "Coop",
+   "nome": "Passerina Marche I.G.T. Velenosi",
+   "marca": "",
+   "formato": "750 ml",
+   "prezzo": 6.23,
+   "prezzo_pieno": 8.9,
+   "sconto_pct": 30,
+   "prezzo_unita": 8.31,
+   "unita": "l",
+   "categoria": "",
+   "con_carta": true,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 7
   },
   {
    "catena": "Mercatò",
@@ -4756,6 +5172,22 @@
   },
   {
    "catena": "Coop",
+   "nome": "Stracchino Alta Qualità Granarolo",
+   "marca": "",
+   "formato": "170 g",
+   "prezzo": 1.69,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 9.94,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 6
+  },
+  {
+   "catena": "Coop",
    "nome": "Formaggio Linea Osella",
    "marca": "",
    "formato": "190 g",
@@ -4801,6 +5233,22 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-15"
+  },
+  {
+   "catena": "Coop",
+   "nome": "Mozzarella Latte Fieno Brimi",
+   "marca": "",
+   "formato": "3 x 100 g",
+   "prezzo": 2.99,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 9.97,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": true,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 6
   },
   {
    "catena": "Mercatò",
@@ -4885,6 +5333,22 @@
   },
   {
    "catena": "Coop",
+   "nome": "Rosso",
+   "marca": "",
+   "formato": "",
+   "prezzo": 7.65,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 10.2,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 7
+  },
+  {
+   "catena": "Coop",
    "nome": "Müller Thurgau D.O.C. Alto Adige Cantina Produttori Bolzano",
    "marca": "",
    "formato": "750 ml",
@@ -4949,6 +5413,22 @@
    "valido_al": "2026-11-15",
    "da_verificare": false,
    "pagina": 17
+  },
+  {
+   "catena": "Coop",
+   "nome": "Bocconcini Di Petto Di Pollo Sq",
+   "marca": "",
+   "formato": "400 g",
+   "prezzo": 4.19,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 10.48,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 4
   },
   {
    "catena": "Eurospin",
@@ -5307,6 +5787,22 @@
    "pagina": 16
   },
   {
+   "catena": "Coop",
+   "nome": "Zampone Palmieri",
+   "marca": "",
+   "formato": "2 fette, 150 g",
+   "prezzo": 1.68,
+   "prezzo_pieno": 2.25,
+   "sconto_pct": 25,
+   "prezzo_unita": 11.2,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": true,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 5
+  },
+  {
    "catena": "Eurospin",
    "nome": "Prosciutto Cotto Alta Qualità Solo 2% Di Grassi",
    "marca": "Fresche Fette",
@@ -5486,6 +5982,22 @@
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
    "pagina": 24
+  },
+  {
+   "catena": "Coop",
+   "nome": "Arrosto Classico Di Pollo Fileni",
+   "marca": "",
+   "formato": "680 g",
+   "prezzo": 7.99,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 11.75,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 4
   },
   {
    "catena": "Mercatò",
@@ -5729,6 +6241,22 @@
   },
   {
    "catena": "Coop",
+   "nome": "Fettine Sottili Di Suino",
+   "marca": "",
+   "formato": "300 g",
+   "prezzo": 3.66,
+   "prezzo_pieno": 4.88,
+   "sconto_pct": 25,
+   "prezzo_unita": 12.2,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": true,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 4
+  },
+  {
+   "catena": "Coop",
    "nome": "Crema Spalmabile Di Cacao E Nocciole Bio Rigoni",
    "marca": "",
    "formato": "325 g",
@@ -5742,6 +6270,22 @@
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
    "pagina": 52
+  },
+  {
+   "catena": "Coop",
+   "nome": "Porchetta Arrosto",
+   "marca": "",
+   "formato": "all’etto",
+   "prezzo": 1.23,
+   "prezzo_pieno": 1.65,
+   "sconto_pct": 25,
+   "prezzo_unita": 12.3,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": true,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 4
   },
   {
    "catena": "Mercatò",
@@ -6136,6 +6680,22 @@
   },
   {
    "catena": "Coop",
+   "nome": "Cubetti Di Pancetta Beretta",
+   "marca": "",
+   "formato": "dolce o affumicata, 2 x 150 g",
+   "prezzo": 3.99,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 13.3,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 6
+  },
+  {
+   "catena": "Coop",
    "nome": "Gelato Magnum Algida",
    "marca": "",
    "formato": "tipi e formati vari, 3 o 4 pezzi. Esempio: classico, 4 pezzi, 300 g",
@@ -6233,6 +6793,22 @@
    "valido_al": "2026-11-15",
    "da_verificare": false,
    "pagina": 10
+  },
+  {
+   "catena": "Coop",
+   "nome": "Grana Padano D.O.P. Agriform Granterre",
+   "marca": "",
+   "formato": "16 mesi, 700 g",
+   "prezzo": 9.69,
+   "prezzo_pieno": 13.85,
+   "sconto_pct": 30,
+   "prezzo_unita": 13.84,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 5
   },
   {
    "catena": "Coop",
@@ -6398,6 +6974,22 @@
    "valido_al": "2026-11-15",
    "da_verificare": false,
    "pagina": 7
+  },
+  {
+   "catena": "Coop",
+   "nome": "Tonno In Olio Di Oliva Rio Mare",
+   "marca": "",
+   "formato": "7 x 80 g",
+   "prezzo": 7.99,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 14.27,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 8
   },
   {
    "catena": "Eurospin",
@@ -6627,6 +7219,22 @@
   },
   {
    "catena": "Coop",
+   "nome": "Provolone Valpadana D.O.P. Cheestà",
+   "marca": "",
+   "formato": "piccante, circa 250 g, all’etto",
+   "prezzo": 1.5,
+   "prezzo_pieno": 1.89,
+   "sconto_pct": 21,
+   "prezzo_unita": 15.0,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 4
+  },
+  {
+   "catena": "Coop",
    "nome": "Valtellina Casera D.O.P.",
    "marca": "",
    "formato": "circa 250 g, all’etto",
@@ -6673,6 +7281,22 @@
    "valido_al": "2026-11-15",
    "da_verificare": false,
    "pagina": 13
+  },
+  {
+   "catena": "Coop",
+   "nome": "Cosciotto Solo Così",
+   "marca": "",
+   "formato": "all’etto",
+   "prezzo": 1.59,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 15.9,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 6
   },
   {
    "catena": "Coop",
@@ -7053,6 +7677,22 @@
    "pagina": 17
   },
   {
+   "catena": "Coop",
+   "nome": "Salame Strolghino",
+   "marca": "",
+   "formato": "all’etto",
+   "prezzo": 1.99,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 19.9,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 4
+  },
+  {
    "catena": "Mercatò",
    "nome": "Speck Alto Adige Igp Recla",
    "marca": "",
@@ -7184,6 +7824,22 @@
    "pagina": 8
   },
   {
+   "catena": "Coop",
+   "nome": "Formaggio Fiocco Di Neve Botalla",
+   "marca": "",
+   "formato": "circa 250 g, all’etto",
+   "prezzo": 2.13,
+   "prezzo_pieno": 3.05,
+   "sconto_pct": 30,
+   "prezzo_unita": 21.3,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": true,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 4
+  },
+  {
    "catena": "Mercatò",
    "nome": "Fonduta Valdostana La Fattoria Delle Cose Buone I Deliziosi",
    "marca": "",
@@ -7199,6 +7855,54 @@
    "valido_al": "2026-11-15",
    "da_verificare": false,
    "pagina": 13
+  },
+  {
+   "catena": "Coop",
+   "nome": "Parmigiano Reggiano D.O.P. Baita",
+   "marca": "",
+   "formato": "grattugiato, 125 g",
+   "prezzo": 2.79,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 22.32,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 5
+  },
+  {
+   "catena": "Coop",
+   "nome": "Prosciutto Crudo Beretta",
+   "marca": "",
+   "formato": "2 x 100 g",
+   "prezzo": 4.49,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 22.45,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 5
+  },
+  {
+   "catena": "Coop",
+   "nome": "Bretzel Al Burro",
+   "marca": "",
+   "formato": "",
+   "prezzo": 3.39,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 22.6,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": true,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 3
   },
   {
    "catena": "Mercatò",
@@ -7233,6 +7937,22 @@
    "valido_al": "2026-11-15",
    "da_verificare": false,
    "pagina": 14
+  },
+  {
+   "catena": "Coop",
+   "nome": "Parmigiano Reggiano D.O.P.",
+   "marca": "",
+   "formato": "22 mesi, all’etto",
+   "prezzo": 2.29,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 22.9,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 1
   },
   {
    "catena": "Mercatò",
@@ -7346,6 +8066,22 @@
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
    "pagina": 21
+  },
+  {
+   "catena": "Coop",
+   "nome": "Prosciutto San Daniele D.O.P.",
+   "marca": "",
+   "formato": "stagionatura 16 mesi, all’etto",
+   "prezzo": 2.49,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 24.9,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 1
   },
   {
    "catena": "Mercatò",
@@ -7463,6 +8199,22 @@
    "valido_al": "2026-11-15",
    "da_verificare": false,
    "pagina": 28
+  },
+  {
+   "catena": "Coop",
+   "nome": "Trota Salmonata The Icelander",
+   "marca": "",
+   "formato": "affumicata, 100 g",
+   "prezzo": 2.94,
+   "prezzo_pieno": 4.9,
+   "sconto_pct": 40,
+   "prezzo_unita": 29.4,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": true,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 5
   },
   {
    "catena": "Coop",
@@ -7690,6 +8442,22 @@
    "valido_al": "2026-11-15",
    "da_verificare": false,
    "pagina": 14
+  },
+  {
+   "catena": "Coop",
+   "nome": "Bresaola Della Valtellina I.G.P. Rigamonti",
+   "marca": "",
+   "formato": "90 g",
+   "prezzo": 3.59,
+   "prezzo_pieno": null,
+   "sconto_pct": null,
+   "prezzo_unita": 39.89,
+   "unita": "kg",
+   "categoria": "",
+   "con_carta": false,
+   "valido_dal": null,
+   "valido_al": null,
+   "pagina": 6
   },
   {
    "catena": "Coop",
