@@ -18,7 +18,8 @@ jobs:
         with: { python-version: "3.12" }
       - run: sudo apt-get install -y poppler-utils tesseract-ocr tesseract-ocr-ita >/dev/null
       - run: pip install playwright==1.48.0 && python -m playwright install --with-deps chromium
-      - run: python scripts/collect.py ${{ github.event.inputs.catene }}
+      - run: python scripts/collect.py ${{ github.event.inputs.catene || env.CATENE }}
+        env: { CATENE: "${{ github.event_name == 'push' && 'coop' || '' }}" }
       - name: Salva i dati nel repo
         run: |
           git config user.name "segugio-bot"

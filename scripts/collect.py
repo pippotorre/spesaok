@@ -104,6 +104,8 @@ async def coop(ctx):
         open(f"/tmp/coop{i}.pdf", "wb").write(urllib.request.urlopen(req, timeout=180).read())
         txt = subprocess.run(["pdftotext", "-layout", f"/tmp/coop{i}.pdf", "-"], capture_output=True, text=True).stdout
         save(f"coop_pdf{i}.txt", txt)
+        subprocess.run(["pdftotext", "-bbox-layout", f"/tmp/coop{i}.pdf", f"{RAW}/coop_pdf{i}_bbox.html"])
+        subprocess.run(["pdftoppm", "-r", "60", "-jpeg", "-f", "3", "-l", "4", f"/tmp/coop{i}.pdf", f"{RAW}/coop_pdf{i}_p"])
     save("coop_net.json", [n for n in net if n["len"] > 500 or ".pdf" in n["url"]])
 
 async def mercato(ctx):
