@@ -45,14 +45,16 @@ async def aldi(ctx):
     texts = {}
     api = []
     async def on_api(r):
-        if "api.aldi.it" in r.url and "json" in r.headers.get("content-type", ""):
+        if "aldi" in r.url and "cookielaw" not in r.url and "json" in r.headers.get("content-type", ""):
             try: api.append({"url": r.url, "data": await r.json()})
             except Exception: pass
     pg.on("response", on_api)
     for path in ["/offerte-settimanali/offerte-di-questa-settimana", "/offerte-settimanali/offerte-della-prossima-settimana"]:
         try:
             await pg.goto("https://www.aldi.it" + path, wait_until="networkidle", timeout=60000)
-            await pg.wait_for_timeout(2000)
+            for _ in range(12):
+                await pg.mouse.wheel(0, 2500); await pg.wait_for_timeout(800)
+            await pg.wait_for_timeout(4000)
             texts[path] = {"url": pg.url, "text": await pg.inner_text("body")}
             links = await pg.eval_on_selector_all("a", "els=>els.map(e=>e.href)")
             texts[path]["links"] = sorted({l for l in links if "offert" in l or "speciali" in l})[:80]
@@ -97,6 +99,11 @@ async def coop(ctx):
             "text": (await pg.inner_text("body"))[:5000]}
     print("coop final", pg.url, "pdfs", info["pdfs"][:5])
     save("coop_info.json", info)
+    for i, u in enumerate(info["pdfs"][:3]):
+        req = urllib.request.Request(u, headers={"User-Agent": UA})
+        open(f"/tmp/coop{i}.pdf", "wb").write(urllib.request.urlopen(req, timeout=180).read())
+        txt = subprocess.run(["pdftotext", "-layout", f"/tmp/coop{i}.pdf", "-"], capture_output=True, text=True).stdout
+        save(f"coop_pdf{i}.txt", txt)
     save("coop_net.json", [n for n in net if n["len"] > 500 or ".pdf" in n["url"]])
 
 async def mercato(ctx):
