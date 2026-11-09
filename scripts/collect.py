@@ -108,7 +108,15 @@ async def coop(ctx):
             open(f"/tmp/coop{i}.pdf", "wb").write(urllib.request.urlopen(req, timeout=180).read())
             txt = subprocess.run(["pdftotext", "-layout", f"/tmp/coop{i}.pdf", "-"], capture_output=True, text=True).stdout
             save(f"coop_pdf{i}.txt", txt)
-            subprocess.run(["pdftotext", "-bbox-layout", f"/tmp/coop{i}.pdf", f"{RAW}/coop_pdf{i}_bbox.html"])
+            if len(txt.strip()) > 500:
+                subprocess.run(["pdftotext", "-bbox-layout", f"/tmp/coop{i}.pdf", f"{RAW}/coop_pdf{i}_bbox.html"])
+            else:  # volantino solo immagine: OCR
+                d = f"/tmp/coopimg{i}"; os.makedirs(d, exist_ok=True)
+                subprocess.run(["pdftoppm", "-r", "200", "-png", f"/tmp/coop{i}.pdf", f"{d}/p"], check=True)
+                os.makedirs(f"{RAW}/coop_ocr{i}", exist_ok=True)
+                for f in sorted(os.listdir(d)):
+                    subprocess.run(["tesseract", f"{d}/{f}", f"{RAW}/coop_ocr{i}/{f[:-4]}", "-l", "ita", "--psm", "11", "tsv"], capture_output=True)
+                subprocess.run(["pdftoppm", "-r", "50", "-jpeg", "-f", "2", "-l", "3", f"/tmp/coop{i}.pdf", f"{RAW}/coop_ocr{i}_prev"])
     save("coop_info.json", {"volantini": infos})
 
 async def mercato(ctx):
