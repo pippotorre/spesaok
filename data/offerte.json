@@ -1,9 +1,36 @@
 {
  "aggiornato": "2026-11-09",
  "fonti": [
-  "Coop",
+  "Coop Collegno",
   "Eurospin",
+  "Ipercoop Torino",
   "Mercatò"
+ ],
+ "linee_coop": [
+  {
+   "pct": 50,
+   "pagina": 2,
+   "pdf": "https://resources.volantinopiu.it/flyer/2/9/4/8/1/35a82b52895e847302a9cdf3cfc14e0b.pdf",
+   "volantino": "https://coop.volantinopiu.com/volantino2948100pv152.html?utm_volantino=negozi"
+  },
+  {
+   "pct": 40,
+   "pagina": 3,
+   "pdf": "https://resources.volantinopiu.it/flyer/2/9/4/8/1/35a82b52895e847302a9cdf3cfc14e0b.pdf",
+   "volantino": "https://coop.volantinopiu.com/volantino2948100pv152.html?utm_volantino=negozi"
+  },
+  {
+   "pct": 40,
+   "pagina": 4,
+   "pdf": "https://resources.volantinopiu.it/flyer/2/9/4/8/1/35a82b52895e847302a9cdf3cfc14e0b.pdf",
+   "volantino": "https://coop.volantinopiu.com/volantino2948100pv152.html?utm_volantino=negozi"
+  },
+  {
+   "pct": 30,
+   "pagina": 5,
+   "pdf": "https://resources.volantinopiu.it/flyer/2/9/4/8/1/35a82b52895e847302a9cdf3cfc14e0b.pdf",
+   "volantino": "https://coop.volantinopiu.com/volantino2948100pv152.html?utm_volantino=negozi"
+  }
  ],
  "offerte": [
   {
@@ -24,7 +51,7 @@
    "pagina": 4
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Acqua Valmora",
    "marca": "",
    "formato": "naturale o frizzante, 1.5 lt",
@@ -87,7 +114,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Acqua Sangemini",
    "marca": "",
    "formato": "naturale, 1.5 lt",
@@ -118,7 +145,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Pepsi",
    "marca": "",
    "formato": "regular o zero, 2 x 1.5 lt",
@@ -254,7 +281,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Coca Cola",
    "marca": "",
    "formato": "original o zero, 2 x 1.5 lt",
@@ -364,7 +391,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Latte Uht Granarolo",
    "marca": "",
    "formato": "parzialmente scremato, 1 lt",
@@ -397,7 +424,7 @@
    "pagina": 9
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Latte Granarolo",
    "marca": "",
    "formato": "UHT, parzialmente scremato, 1 lt",
@@ -445,7 +472,7 @@
    "pagina": 5
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Passata Rustica Cirio",
    "marca": "",
    "formato": "680 g",
@@ -461,7 +488,7 @@
    "pagina": 17
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Bevanda A Base Di Frutta Coop",
    "marca": "",
    "formato": "gusti vari, 6 x 200 ml",
@@ -477,7 +504,7 @@
    "pagina": 19
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Passata Verace Cirio",
    "marca": "",
    "formato": "700 g",
@@ -493,7 +520,7 @@
    "pagina": 8
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Birra Moretti",
    "marca": "",
    "formato": "660 ml",
@@ -509,7 +536,7 @@
    "pagina": 8
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Birra Moretti",
    "marca": "",
    "formato": "6 x 660 ml",
@@ -555,7 +582,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Birra Poretti",
    "marca": "",
    "formato": "",
@@ -635,7 +662,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Latte Barista Zymil O Parmalat",
    "marca": "",
    "formato": "UHT. Esempio: Zymil, 1 lt",
@@ -651,7 +678,7 @@
    "pagina": 20
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Birra Stella Artois",
    "marca": "",
    "formato": "660 ml",
@@ -667,7 +694,7 @@
    "pagina": 57
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Powerade",
    "marca": "",
    "formato": "gusti vari, 500 ml",
@@ -717,7 +744,7 @@
    "pagina": 35
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Pasta Integrale De Cecco",
    "marca": "",
    "formato": "formati vari, 500 g",
@@ -827,7 +854,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Riso Per Risotti Gourmet Riso Principe",
    "marca": "",
    "formato": "1 kg",
@@ -860,7 +887,7 @@
    "pagina": 6
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Birra Tuborg",
    "marca": "",
    "formato": "3 x 330 ml",
@@ -981,7 +1008,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Pan Bauletto Al Grano Duro Mulino Bianco",
    "marca": "",
    "formato": "400 g",
@@ -1027,7 +1054,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Birra Stella Artois",
    "marca": "",
    "formato": "3 x 330 ml",
@@ -1060,7 +1087,7 @@
    "pagina": 6
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Fette Biscottate Mulino Bianco",
    "marca": "",
    "formato": "dorate o integrali, 630 g",
@@ -1138,7 +1165,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Bibita Lurisia",
    "marca": "",
    "formato": "chinotto, 4 x 330 ml",
@@ -1282,7 +1309,7 @@
    "pagina": 15
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Minestrone Classico La Valle Degli Orti Frosta",
    "marca": "",
    "formato": "surgelato, 850 g",
@@ -1298,7 +1325,7 @@
    "pagina": 19
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Yogurt Cremoso Müller",
    "marca": "",
    "formato": "tipi e gusti vari, 2 x 125 g",
@@ -1348,7 +1375,7 @@
    "pagina": 27
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Minestrone Tradizione Findus",
    "marca": "",
    "formato": "surgelato, 1 kg",
@@ -1364,7 +1391,7 @@
    "pagina": 5
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Biscotti Classici Oro Saiwa",
    "marca": "",
    "formato": "maxi offerta, 2 kg",
@@ -1380,7 +1407,7 @@
    "pagina": 16
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Yogurt Cremoso Intero Müller",
    "marca": "",
    "formato": "gusti vari, 8 x 125 g",
@@ -1411,7 +1438,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Farina Polenta Taragna Molino Filippini",
    "marca": "",
    "formato": "istantanea, 500 g",
@@ -1491,7 +1518,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Bevande Vegetali Minions Alpro",
    "marca": "",
    "formato": "cioccolato o vaniglia, 250 ml",
@@ -1541,7 +1568,7 @@
    "pagina": 12
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Pomodori Pelati Coop",
    "marca": "",
    "formato": "400 g",
@@ -1638,7 +1665,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Spumante Chardonnay Blanc De Blancs D.O.C. Millesimato Cantina Valtidone",
    "marca": "",
    "formato": "",
@@ -1669,7 +1696,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Idraulico Gel Mr Muscolo",
    "marca": "",
    "formato": "2 x 1 lt",
@@ -1783,7 +1810,7 @@
    "pagina": 23
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Yogurt Intero Yomo",
    "marca": "",
    "formato": "gusti vari, 2 x 125 g",
@@ -1831,7 +1858,7 @@
    "pagina": 12
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Piselli Novelli Findus",
    "marca": "",
    "formato": "surgelati, 1 kg",
@@ -1847,7 +1874,7 @@
    "pagina": 19
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Actimel Danone",
    "marca": "",
    "formato": "fragola e banana, 8 x 100 g",
@@ -1912,7 +1939,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Bianco",
    "marca": "",
    "formato": "",
@@ -1962,7 +1989,7 @@
    "pagina": 26
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Cereali Special K Kellogg’S",
    "marca": "",
    "formato": "classico, 450 g",
@@ -1995,7 +2022,7 @@
    "pagina": 10
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Biscotti Mulino Bianco",
    "marca": "",
    "formato": "Ritornelli o Abbracci, 700 g",
@@ -2041,7 +2068,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Bibite Lurisia",
    "marca": "",
    "formato": "gusti vari, 4 x 275 ml",
@@ -2174,7 +2201,7 @@
    "pagina": 29
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Insalate Coop",
    "marca": "",
    "formato": "gusti vari. Esempio: cuori di iceberg, 250 g",
@@ -2239,7 +2266,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Frollini Integrali Ricchi Di Fibre Misura",
    "marca": "",
    "formato": "600 g",
@@ -2255,7 +2282,7 @@
    "pagina": 16
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Le Zuppe Del Casale Findus",
    "marca": "",
    "formato": "surgelate, gusti vari, 500 g",
@@ -2271,7 +2298,7 @@
    "pagina": 19
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Actimel Danone",
    "marca": "",
    "formato": "fragola, 6 x 100 g",
@@ -2336,7 +2363,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Bianco",
    "marca": "",
    "formato": "",
@@ -2386,7 +2413,7 @@
    "pagina": 16
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Barbera D’Asti D.O.C.G. Terredavino",
    "marca": "",
    "formato": "750 ml",
@@ -2402,7 +2429,7 @@
    "pagina": 1
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Biscotti Oro Saiwa",
    "marca": "",
    "formato": "5 cereali, 420 g",
@@ -2418,7 +2445,7 @@
    "pagina": 16
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Pasta Senza Glutine De Cecco",
    "marca": "",
    "formato": "tipi vari, 400 g",
@@ -2451,7 +2478,7 @@
    "pagina": 10
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Pizza Margherita Regina Cameo",
    "marca": "",
    "formato": "surgelata, 2 pezzi, 620 g",
@@ -2482,7 +2509,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Bagnodoccia Neutro Roberts",
    "marca": "",
    "formato": "varie profumazioni, 450 ml",
@@ -2498,7 +2525,7 @@
    "pagina": 8
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Birra Tennent’S Super",
    "marca": "",
    "formato": "355 ml",
@@ -2514,7 +2541,7 @@
    "pagina": 57
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Maionese Kraft",
    "marca": "",
    "formato": "vaso, 465 g",
@@ -2628,7 +2655,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Biscotto Turco Galbusera",
    "marca": "",
    "formato": "400 g",
@@ -2644,7 +2671,7 @@
    "pagina": 28
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Sanbittèr Il Rosso San Pellegrino",
    "marca": "",
    "formato": "aperitivo analcolico, 10 x 100 ml",
@@ -2660,7 +2687,7 @@
    "pagina": 18
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Pizza Margherita Coop",
    "marca": "",
    "formato": "3 pezzi, 885 g",
@@ -2725,7 +2752,7 @@
    "pagina": 11
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Nero D’Avola D.O.C. Sicilia Cantina Settesoli",
    "marca": "",
    "formato": "750 ml",
@@ -2741,7 +2768,7 @@
    "pagina": 7
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Rosso",
    "marca": "",
    "formato": "",
@@ -2772,7 +2799,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Bonarda D.O.C. Ca’ Bernini",
    "marca": "",
    "formato": "750 ml",
@@ -2805,7 +2832,7 @@
    "pagina": 5
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Yogurt Greco Neogal",
    "marca": "",
    "formato": "bianco 0% o 10% di grassi, 150 g",
@@ -2855,7 +2882,7 @@
    "pagina": 12
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "La Schiacciatina Mantovana Bottoli",
    "marca": "",
    "formato": "fatta a mano, 360 g",
@@ -2901,7 +2928,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Actimel Danone",
    "marca": "",
    "formato": "boy o girl, 4 x 100 g",
@@ -2932,7 +2959,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Olio Di Oliva Sasso",
    "marca": "",
    "formato": "lattina, 1 lt",
@@ -2948,7 +2975,7 @@
    "pagina": 17
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Negroamaro Salento I.G.P. Notte Rossa",
    "marca": "",
    "formato": "750 ml",
@@ -2981,7 +3008,7 @@
    "pagina": 6
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Rotaliano D.O.C. Teroldego Mezzacorona",
    "marca": "",
    "formato": "750 ml",
@@ -2997,7 +3024,7 @@
    "pagina": 7
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Ribolla Gialla Frizzante I.G.T. Tenimenti Civa",
    "marca": "",
    "formato": "750 ml",
@@ -3013,7 +3040,7 @@
    "pagina": 7
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Pan Goccioli Mulino Bianco",
    "marca": "",
    "formato": "336 g",
@@ -3046,7 +3073,7 @@
    "pagina": 5
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Pasta All’Uovo La Pasta Di Camerino",
    "marca": "",
    "formato": "formati vari, 250 g",
@@ -3079,7 +3106,7 @@
    "pagina": 12
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Patatine Chips Pai",
    "marca": "",
    "formato": "trasparenti, 300 g",
@@ -3144,7 +3171,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Aperitivo Hugo La Gioiosa",
    "marca": "",
    "formato": "750 ml",
@@ -3194,7 +3221,7 @@
    "pagina": 5
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Bagnodoccia Crema Palmolive",
    "marca": "",
    "formato": "varie profumazioni, 220 ml",
@@ -3306,7 +3333,7 @@
    "pagina": 25
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Vermentino Di Sardegna D.O.C. Calarenas",
    "marca": "",
    "formato": "750 ml",
@@ -3339,7 +3366,7 @@
    "pagina": 25
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Base Per Pizza",
    "marca": "",
    "formato": "300 g",
@@ -3421,7 +3448,7 @@
    "pagina": 15
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Yogurt Alla Greca Zymil",
    "marca": "",
    "formato": "delattosato, gusti vari, 150 g",
@@ -3503,7 +3530,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Kiwi Fior Fiore",
    "marca": "",
    "formato": "polpa gialla, 500 g",
@@ -3519,7 +3546,7 @@
    "pagina": 3
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Zuppe E Vellutate Dimmidisì",
    "marca": "",
    "formato": "tipi vari, 620 g",
@@ -3582,7 +3609,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Olio Extra Vergine Di Oliva Farchioni",
    "marca": "",
    "formato": "classico, 1 lt",
@@ -3613,7 +3640,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Valcalepio Rosso D.O.C. Cantina Bergamasca",
    "marca": "",
    "formato": "750 ml",
@@ -3708,7 +3735,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Dessert Muu Muu Cameo",
    "marca": "",
    "formato": "gusto vaniglia con confetti al cioccolato, 125 g",
@@ -3775,7 +3802,7 @@
    "pagina": 24
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Tris Grigliato O Tris Mediterraneo Gusto Ricco Orogel",
    "marca": "",
    "formato": "surgelato, 400 g",
@@ -3806,7 +3833,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Linea Sughi Ricchi Barilla",
    "marca": "",
    "formato": "vaso vetro, 300 g",
@@ -3822,7 +3849,7 @@
    "pagina": 17
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Grissini Ristorante Saltelli Valledoro",
    "marca": "",
    "formato": "240 g",
@@ -3917,7 +3944,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Salsicce Pollo E Suino Martini",
    "marca": "",
    "formato": "360 g",
@@ -4046,7 +4073,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Pasta Sfoglia Rettangolare Buitoni",
    "marca": "",
    "formato": "classica o con farina integrale, 230 g",
@@ -4094,7 +4121,7 @@
    "pagina": 16
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Ketchup O Maionese Classica Calvé",
    "marca": "",
    "formato": "tubo, 150 g",
@@ -4142,7 +4169,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Lenticchia Dell’Umbria Colfiorito",
    "marca": "",
    "formato": "400 g",
@@ -4158,7 +4185,7 @@
    "pagina": 3
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Salamella Di Suino Mantovana Fiorani",
    "marca": "",
    "formato": "400 g",
@@ -4174,7 +4201,7 @@
    "pagina": 26
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Parmigiano Reggiano D.O.P. Parmareggio Granterre",
    "marca": "",
    "formato": "",
@@ -4190,7 +4217,7 @@
    "pagina": 21
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Philadelphia",
    "marca": "",
    "formato": "350 g",
@@ -4257,7 +4284,7 @@
    "pagina": 15
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Pinot Nero Vinificato In Bianco Oltrepò Pavese D.O.C. Giorgi",
    "marca": "",
    "formato": "",
@@ -4273,7 +4300,7 @@
    "pagina": 29
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Pinsa Romana Di Marco",
    "marca": "",
    "formato": "230 g",
@@ -4289,7 +4316,7 @@
    "pagina": 20
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Bocconcini Sassano",
    "marca": "",
    "formato": "500 g",
@@ -4337,7 +4364,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Yogurt Alpiyò Latteria Chiuro",
    "marca": "",
    "formato": "gusti vari, 125 g",
@@ -4368,7 +4395,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Burro Parmareggio Granterre",
    "marca": "",
    "formato": "200 g",
@@ -4384,7 +4411,7 @@
    "pagina": 20
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Sottilette Classiche",
    "marca": "",
    "formato": "200 g",
@@ -4445,7 +4472,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Würstel Hot Dog Senfter",
    "marca": "",
    "formato": "3 pezzi, 250 g",
@@ -4461,7 +4488,7 @@
    "pagina": 21
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Mozzarella Gioiella",
    "marca": "",
    "formato": "100% latte italiano, 500 g",
@@ -4556,7 +4583,7 @@
    "pagina": 14
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Pesto Fresco Coop",
    "marca": "",
    "formato": "senza aglio, 120 g",
@@ -4589,7 +4616,7 @@
    "pagina": 15
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Passerina Marche I.G.T. Velenosi",
    "marca": "",
    "formato": "750 ml",
@@ -4639,7 +4666,7 @@
    "pagina": 14
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Pavesini Pavesi",
    "marca": "",
    "formato": "gusti vari, 200 g",
@@ -4753,7 +4780,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Philadelphia",
    "marca": "",
    "formato": "250 g",
@@ -4865,7 +4892,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Spumante Prosecco Asolo D.O.C.G. La Gioiosa",
    "marca": "",
    "formato": "750 ml",
@@ -4915,7 +4942,7 @@
    "pagina": 15
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Omogeneizzati Di Frutta Alce Nero",
    "marca": "",
    "formato": "tipi vari, 2 x 80 g",
@@ -5091,7 +5118,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Patatine Classiche Lay’S",
    "marca": "",
    "formato": "300 g",
@@ -5122,7 +5149,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Mortadella Salumificio Modenese",
    "marca": "",
    "formato": "all’etto",
@@ -5138,7 +5165,7 @@
    "pagina": 22
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Gorgonzola D.O.P. Igor",
    "marca": "",
    "formato": "all’etto",
@@ -5171,7 +5198,7 @@
    "pagina": 24
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Stracchino Alta Qualità Granarolo",
    "marca": "",
    "formato": "170 g",
@@ -5187,7 +5214,7 @@
    "pagina": 6
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Formaggio Linea Osella",
    "marca": "",
    "formato": "190 g",
@@ -5235,7 +5262,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Mozzarella Latte Fieno Brimi",
    "marca": "",
    "formato": "3 x 100 g",
@@ -5300,7 +5327,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Biscotto Plasmon",
    "marca": "",
    "formato": "720 g",
@@ -5316,7 +5343,7 @@
    "pagina": 30
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Taleggio D.O.P. O Quartirolo D.O.P. Arrigoni",
    "marca": "",
    "formato": "esempio: quartirolo, 200 g",
@@ -5332,7 +5359,7 @@
    "pagina": 27
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Rosso",
    "marca": "",
    "formato": "",
@@ -5348,7 +5375,7 @@
    "pagina": 7
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Müller Thurgau D.O.C. Alto Adige Cantina Produttori Bolzano",
    "marca": "",
    "formato": "750 ml",
@@ -5415,7 +5442,7 @@
    "pagina": 17
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Bocconcini Di Petto Di Pollo Sq",
    "marca": "",
    "formato": "400 g",
@@ -5461,7 +5488,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Il Cotechino Di Modena I.G.P. Granterre",
    "marca": "",
    "formato": "500 g",
@@ -5477,7 +5504,7 @@
    "pagina": 21
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Pasta Fresca Ripiena Gerola",
    "marca": "",
    "formato": "gusti vari, 250 g",
@@ -5510,7 +5537,7 @@
    "pagina": 8
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Olio Extra Vergine Di Oliva Punta Del Lago Caldera",
    "marca": "",
    "formato": "100% italiano, 750 ml",
@@ -5558,7 +5585,7 @@
    "pagina": 11
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Patatine Pringles Original",
    "marca": "",
    "formato": "gusti vari, 175 g",
@@ -5574,7 +5601,7 @@
    "pagina": 18
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Risotti Bonduelle",
    "marca": "",
    "formato": "tipi e formati vari. Esempio: risotto ai funghi, 230 g",
@@ -5590,7 +5617,7 @@
    "pagina": 23
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Lugana D.O.C. Scolari",
    "marca": "",
    "formato": "750 ml",
@@ -5623,7 +5650,7 @@
    "pagina": 24
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Taleggio D.O.P. Arrigoni Premium",
    "marca": "",
    "formato": "all’etto",
@@ -5656,7 +5683,7 @@
    "pagina": 26
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Sugo Allo Zafferano Biffi",
    "marca": "",
    "formato": "190 g",
@@ -5704,7 +5731,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Cetrioli Moscatelli Belotti",
    "marca": "",
    "formato": "in aceto, vaso vetro, 170 g",
@@ -5720,7 +5747,7 @@
    "pagina": 29
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Formaggino Mio",
    "marca": "",
    "formato": "",
@@ -5787,7 +5814,7 @@
    "pagina": 16
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Zampone Palmieri",
    "marca": "",
    "formato": "2 fette, 150 g",
@@ -5852,7 +5879,7 @@
    "pagina": 7
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Confetti M&M’S Arachidi",
    "marca": "",
    "formato": "200 g",
@@ -5868,7 +5895,7 @@
    "pagina": 16
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Valtellina Superiore D.O.C.G. Nino Negri",
    "marca": "",
    "formato": "750 ml",
@@ -5935,7 +5962,7 @@
    "pagina": 25
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Cuore Di Brodo Knorr",
    "marca": "",
    "formato": "tipi e formati vari. Esempio: vegetale, 112 g",
@@ -5968,7 +5995,7 @@
    "pagina": 25
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Arrosticini Di Pollo E Suino Fileni",
    "marca": "",
    "formato": "340 g",
@@ -5984,7 +6011,7 @@
    "pagina": 24
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Arrosto Classico Di Pollo Fileni",
    "marca": "",
    "formato": "680 g",
@@ -6017,7 +6044,7 @@
    "pagina": 27
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Kitkat Nestlé",
    "marca": "",
    "formato": "family, 8 pezzi, 165.6 g",
@@ -6033,7 +6060,7 @@
    "pagina": 53
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Cicoria Saltata Gusto Qui",
    "marca": "",
    "formato": "circa 250 g, all’etto",
@@ -6049,7 +6076,7 @@
    "pagina": 22
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Formaggio Il Bormio Riserva",
    "marca": "",
    "formato": "all’etto",
@@ -6097,7 +6124,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Grana Padano D.O.P. Granelli Di Bontà Latteria Soresina",
    "marca": "",
    "formato": "",
@@ -6113,7 +6140,7 @@
    "pagina": 27
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Ravioli Al Tartufo O Ai Funghi Gastronomia Piccinini",
    "marca": "",
    "formato": "",
@@ -6161,7 +6188,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Fior Di Stracchino Nonno Nanni",
    "marca": "",
    "formato": "165 g",
@@ -6209,7 +6236,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Spumante Pinot Nero Brut O Rosé Torrevilla",
    "marca": "",
    "formato": "750 ml",
@@ -6240,7 +6267,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Fettine Sottili Di Suino",
    "marca": "",
    "formato": "300 g",
@@ -6256,7 +6283,7 @@
    "pagina": 4
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Crema Spalmabile Di Cacao E Nocciole Bio Rigoni",
    "marca": "",
    "formato": "325 g",
@@ -6272,7 +6299,7 @@
    "pagina": 52
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Porchetta Arrosto",
    "marca": "",
    "formato": "all’etto",
@@ -6337,7 +6364,7 @@
    "pagina": 24
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Gorgonzola D.O.P. Dolce Arrigoni",
    "marca": "",
    "formato": "200 g",
@@ -6387,7 +6414,7 @@
    "pagina": 10
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Tonno Asdomar",
    "marca": "",
    "formato": "all’olio di oliva o in olio extra vergine di oliva. Esempio: all’olio di oliva, 8 x 70 g",
@@ -6403,7 +6430,7 @@
    "pagina": 17
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Linea Cup Noodles Maggi",
    "marca": "",
    "formato": "gusti vari, 75 g",
@@ -6436,7 +6463,7 @@
    "pagina": 7
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Insalata Di Mare Medusa",
    "marca": "",
    "formato": "450 g",
@@ -6469,7 +6496,7 @@
    "pagina": 19
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Mozzarella Di Bufala Pettinicchio",
    "marca": "",
    "formato": "3 x 100 g",
@@ -6517,7 +6544,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Le Vere Tortine Paradiso Vigoni",
    "marca": "",
    "formato": "6 pezzi, 276 g",
@@ -6614,7 +6641,7 @@
    "pagina": 13
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Pizzoccheri Gusto Qui",
    "marca": "",
    "formato": "circa 400 g, all’etto",
@@ -6647,7 +6674,7 @@
    "pagina": 27
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Gratì Grana Padano Ambrosi",
    "marca": "",
    "formato": "90 g",
@@ -6663,7 +6690,7 @@
    "pagina": 27
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Dolce Varese",
    "marca": "",
    "formato": "520 g",
@@ -6679,7 +6706,7 @@
    "pagina": 28
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Cubetti Di Pancetta Beretta",
    "marca": "",
    "formato": "dolce o affumicata, 2 x 150 g",
@@ -6695,7 +6722,7 @@
    "pagina": 6
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Gelato Magnum Algida",
    "marca": "",
    "formato": "tipi e formati vari, 3 o 4 pezzi. Esempio: classico, 4 pezzi, 300 g",
@@ -6711,7 +6738,7 @@
    "pagina": 19
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Polpette Della Nonna Cuoci E Gusta",
    "marca": "",
    "formato": "anche al banco tradizionale, 300 g",
@@ -6795,7 +6822,7 @@
    "pagina": 10
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Grana Padano D.O.P. Agriform Granterre",
    "marca": "",
    "formato": "16 mesi, 700 g",
@@ -6811,7 +6838,7 @@
    "pagina": 5
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Formaggio Raclette Nature",
    "marca": "",
    "formato": "all’etto",
@@ -6827,7 +6854,7 @@
    "pagina": 22
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Tartare Di Bovino Adulto Fior Fiore",
    "marca": "",
    "formato": "160 g",
@@ -6877,7 +6904,7 @@
    "pagina": 25
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Burrata Caseificio Pugliese",
    "marca": "",
    "formato": "120 g",
@@ -6976,7 +7003,7 @@
    "pagina": 7
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Tonno In Olio Di Oliva Rio Mare",
    "marca": "",
    "formato": "7 x 80 g",
@@ -7073,7 +7100,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Polpette Di Merluzzo O Di Salmone E Spinaci Frosta",
    "marca": "",
    "formato": "surgelate, 240 g",
@@ -7089,7 +7116,7 @@
    "pagina": 19
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Formine Di Pesce Amici Del Mare Kids Frosta",
    "marca": "",
    "formato": "surgelate, 8 pezzi, 240 g",
@@ -7122,7 +7149,7 @@
    "pagina": 14
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Dolce Del Giorno De Mori",
    "marca": "",
    "formato": "con gocce all’albicocca, 400 g",
@@ -7155,7 +7182,7 @@
    "pagina": 25
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Grana Padano D.O.P. Fattoria Cremona",
    "marca": "",
    "formato": "800 g",
@@ -7171,7 +7198,7 @@
    "pagina": 27
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Grana Padano D.O.P. Virgilio",
    "marca": "",
    "formato": "grattugiato, 100 g",
@@ -7202,7 +7229,7 @@
    "valido_al": "2026-11-15"
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Meino Classico Nuova Pasticceria",
    "marca": "",
    "formato": "300 g",
@@ -7218,7 +7245,7 @@
    "pagina": 28
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Provolone Valpadana D.O.P. Cheestà",
    "marca": "",
    "formato": "piccante, circa 250 g, all’etto",
@@ -7234,7 +7261,7 @@
    "pagina": 4
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Valtellina Casera D.O.P.",
    "marca": "",
    "formato": "circa 250 g, all’etto",
@@ -7250,7 +7277,7 @@
    "pagina": 27
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Salame Milano",
    "marca": "",
    "formato": "all’etto",
@@ -7283,7 +7310,7 @@
    "pagina": 13
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Cosciotto Solo Così",
    "marca": "",
    "formato": "all’etto",
@@ -7299,7 +7326,7 @@
    "pagina": 6
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Robiola Di Capra",
    "marca": "",
    "formato": "",
@@ -7315,7 +7342,7 @@
    "pagina": 27
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Formaggio Bella Lodi Cheestà",
    "marca": "",
    "formato": "all’etto",
@@ -7348,7 +7375,7 @@
    "pagina": 23
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Hamburger Di Bovino Adulto Fior Fiore",
    "marca": "",
    "formato": "razza piemontese, 200 g",
@@ -7364,7 +7391,7 @@
    "pagina": 24
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Formaggio Bella Lodi",
    "marca": "",
    "formato": "grattugiato, 80 g",
@@ -7414,7 +7441,7 @@
    "pagina": 8
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Prosciutto Crudo",
    "marca": "",
    "formato": "all’etto",
@@ -7447,7 +7474,7 @@
    "pagina": 27
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Ragù Di Ossobuco Alla Milanese Casale Dei Pozzi",
    "marca": "",
    "formato": "vaso vetro, 180 g",
@@ -7497,7 +7524,7 @@
    "pagina": 35
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Gran Selezione Al Pecorino Sepi",
    "marca": "",
    "formato": "grattugiato, 100 g",
@@ -7513,7 +7540,7 @@
    "pagina": 21
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Cubetti Di Speck Senfter",
    "marca": "",
    "formato": "2 x 50 g",
@@ -7529,7 +7556,7 @@
    "pagina": 21
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Prosciutto Cotto Alta Qualità Nazionale Cuore Oro Lenti",
    "marca": "",
    "formato": "all’etto",
@@ -7562,7 +7589,7 @@
    "pagina": 17
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Torta Sbrisolona",
    "marca": "",
    "formato": "300 g",
@@ -7595,7 +7622,7 @@
    "pagina": 7
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Linea Datteri D’Arabia Nadir",
    "marca": "",
    "formato": "gusti vari. Esempio: datteri Khudri, 200 g",
@@ -7677,7 +7704,7 @@
    "pagina": 17
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Salame Strolghino",
    "marca": "",
    "formato": "all’etto",
@@ -7710,7 +7737,7 @@
    "pagina": 26
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Torroncini Con Pistacchi Salati Ricoperti Di Cioccolato Costa",
    "marca": "",
    "formato": "250 g",
@@ -7726,7 +7753,7 @@
    "pagina": 16
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Caffè Dolce Gusto Borbone",
    "marca": "",
    "formato": "miscela decisa, 90 capsule, 630 g",
@@ -7742,7 +7769,7 @@
    "pagina": 16
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Capritilla",
    "marca": "",
    "formato": "all’etto",
@@ -7758,7 +7785,7 @@
    "pagina": 22
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Seppie Con Piselli Gusto Qui",
    "marca": "",
    "formato": "circa 300 g, all’etto",
@@ -7791,7 +7818,7 @@
    "pagina": 23
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Prosciutto Praga Senfter",
    "marca": "",
    "formato": "fetta mossa, 125 g",
@@ -7824,7 +7851,7 @@
    "pagina": 8
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Formaggio Fiocco Di Neve Botalla",
    "marca": "",
    "formato": "circa 250 g, all’etto",
@@ -7857,7 +7884,7 @@
    "pagina": 13
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Parmigiano Reggiano D.O.P. Baita",
    "marca": "",
    "formato": "grattugiato, 125 g",
@@ -7873,7 +7900,7 @@
    "pagina": 5
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Prosciutto Crudo Beretta",
    "marca": "",
    "formato": "2 x 100 g",
@@ -7889,7 +7916,7 @@
    "pagina": 5
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Bretzel Al Burro",
    "marca": "",
    "formato": "",
@@ -7939,7 +7966,7 @@
    "pagina": 14
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Parmigiano Reggiano D.O.P.",
    "marca": "",
    "formato": "22 mesi, all’etto",
@@ -7972,7 +7999,7 @@
    "pagina": 26
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Ciotola Le Regionali Alla Lombarda Bonduelle",
    "marca": "",
    "formato": "130 g",
@@ -7988,7 +8015,7 @@
    "pagina": 26
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Capocollo Di Calabria",
    "marca": "",
    "formato": "all’etto",
@@ -8004,7 +8031,7 @@
    "pagina": 22
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Tavolette Di Cioccolato Nero Perugina",
    "marca": "",
    "formato": "gusti vari, 85 g",
@@ -8052,7 +8079,7 @@
    "pagina": 25
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Parmigiano Reggiano D.O.P. Parmareggio Granterre",
    "marca": "",
    "formato": "30 mesi, grattugiato, 60 g",
@@ -8068,7 +8095,7 @@
    "pagina": 21
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Prosciutto San Daniele D.O.P.",
    "marca": "",
    "formato": "stagionatura 16 mesi, all’etto",
@@ -8118,7 +8145,7 @@
    "pagina": 25
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Latte In Polvere Bio Combiotic 2 Hipp",
    "marca": "",
    "formato": "600 g",
@@ -8151,7 +8178,7 @@
    "pagina": 13
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Cioccolatini Mon Chéri O Pocket Coffee Ferrero",
    "marca": "",
    "formato": "168 g",
@@ -8201,7 +8228,7 @@
    "pagina": 28
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Trota Salmonata The Icelander",
    "marca": "",
    "formato": "affumicata, 100 g",
@@ -8217,7 +8244,7 @@
    "pagina": 5
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Salame Il Crü Baldo",
    "marca": "",
    "formato": "90 g",
@@ -8265,7 +8292,7 @@
    "pagina": 9
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Cioccolatini Lindor Lindt",
    "marca": "",
    "formato": "al latte ripieni, 200 g",
@@ -8315,7 +8342,7 @@
    "pagina": 31
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Bresaola Chiavennasca",
    "marca": "",
    "formato": "all’etto",
@@ -8378,7 +8405,7 @@
    "pagina": 13
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Barretta Proteica Fulfil",
    "marca": "",
    "formato": "tipi vari, 55 g",
@@ -8411,7 +8438,7 @@
    "pagina": 14
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Carpaccio Di Bresaola Del Zoppo",
    "marca": "",
    "formato": "80 g",
@@ -8444,7 +8471,7 @@
    "pagina": 14
   },
   {
-   "catena": "Coop",
+   "catena": "Coop Collegno",
    "nome": "Bresaola Della Valtellina I.G.P. Rigamonti",
    "marca": "",
    "formato": "90 g",
@@ -8460,7 +8487,7 @@
    "pagina": 6
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Filetti Di Alici Rizzoli",
    "marca": "",
    "formato": "70 g",
@@ -8510,7 +8537,7 @@
    "pagina": 13
   },
   {
-   "catena": "Coop",
+   "catena": "Ipercoop Torino",
    "nome": "Funghi Secchi Porcini Speciali Il Fungotto Giacomini",
    "marca": "",
    "formato": "60 g",
