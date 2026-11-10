@@ -2,7 +2,8 @@
 import asyncio, os, re, json, urllib.parse
 from playwright.async_api import async_playwright
 SITES = {"aldi": "https://www.aldi.it/", "eurospin": "https://www.eurospin.it/", "coop": "https://www.novacoop.it/",
-         "md": "https://www.mdspa.it/", "mercato": "https://www.mymercato.it/", "gigante": "https://ilgigante.net/"}
+         "md": "https://www.mdspa.it/", "mercato": "https://www.mymercato.it/", "gigante": "https://ilgigante.net/",
+         "bennet": "https://it.wikipedia.org/wiki/Bennet"}
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 JS = """() => {
  const out = [];

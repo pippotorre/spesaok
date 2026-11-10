@@ -159,13 +159,13 @@ GIGANTE_NONFOOD = re.compile(
     r"didattic|educativ|accessori|bagno|igien|lines|tempo\b", re.I)
 GIGANTE_QTY = re.compile(r"(\d+(?:[.,]\d+)?)\s*(?:x\s*(\d+(?:[.,]\d+)?)\s*)?(kg|gr?|ml|cl|lt?|litri|litro)\b", re.I)
 
-def gigante(raw):
-    """Il Gigante (corso Marche): prodotti del visualizzatore ShopFully con titolo, marca, prezzo e
-    testo letto dall'immagine (google_vision_text), da cui si ricavano formato, prezzo al kg/l e Blucard."""
-    info = json.load(open(f"{raw}/gigante_info.json"))
+def shopfully(raw, prefix, catena, carta=None):
+    """Prodotti dei visualizzatori ShopFully (Il Gigante, Bennet): titolo, marca, prezzo, pagina, categoria e,
+    se c'è, il testo letto dall'immagine (google_vision_text) da cui si ricavano formato, prezzo al kg/l e carta."""
+    info = json.load(open(f"{raw}/{prefix}_info.json"))
     out = []
     for v in info["volantini"]:
-        f = f"{raw}/gigante_{v['id']}.json"
+        f = f"{raw}/{prefix}_{v['id']}.json"
         if not os.path.exists(f): continue
         for x in json.load(open(f)):
             st = x.get("settings") or {}
@@ -175,8 +175,12 @@ def gigante(raw):
             if not m: continue
             price = float(m.group(1).replace(",", "."))
             brand = (st.get("brand") or "").strip()
-            name = title.split(" - ", 1)[1].strip() if " - " in title else title
-            q = GIGANTE_QTY.search(gv)
+            if " - " in title:
+                left, name = [t.strip() for t in title.split(" - ", 1)]
+                brand = brand or left
+            else:
+                name = title
+            q = GIGANTE_QTY.search(gv) or GIGANTE_QTY.search(title) or GIGANTE_QTY.search(x.get("description") or "")
             formato, qty, unit = None, None, None
             if q:
                 n = float(q.group(1).replace(",", ".")) * (float(q.group(2).replace(",", ".")) if q.group(2) else 1)
@@ -195,16 +199,24 @@ def gigante(raw):
             sconto = int(sc.group(1)) if sc and 5 <= int(sc.group(1)) <= 70 else None
             note = "1+1 gratis: 2 pezzi a metà prezzo" if re.search(r"1\s*\+\s*1", gv) else None
             out.append({
-                "catena": "Il Gigante", "nome": name, "marca": brand if brand.lower() != "il gigante" else "Il Gigante",
+                "catena": catena, "nome": name, "marca": catena if brand.lower() == catena.lower() else (brand or None),
                 "formato": ", ".join(p for p in (formato, note) if p) or None, "prezzo": price,
                 "prezzo_pieno": round(price / (1 - sconto / 100), 2) if sconto else None, "sconto_pct": sconto,
                 "prezzo_unita": prezzo_unita, "unita": unit if prezzo_unita else None,
-                "categoria": cat, "con_carta": "BLUCARD" in gv.upper(),
+                "categoria": cat, "con_carta": bool(carta and re.search(carta, gv, re.I)),
                 "valido_dal": v.get("dal"), "valido_al": v.get("al"),
                 "pagina": int(st["flyer_page"]) if str(st.get("flyer_page", "")).isdigit() else None,
                 "fonte": v["url"],
             })
     return out
+
+def gigante(raw):
+    """Il Gigante (corso Marche)."""
+    return shopfully(raw, "gigante", "Il Gigante", r"BLUCARD")
+
+def bennet(raw):
+    """Bennet (via Giordano Bruno 142), dai volantini su DoveConviene."""
+    return shopfully(raw, "bennet", "Bennet", r"carta\s+(?:bennet|club)|bennet\s*club|con\s+la\s+carta")
 
 def latest(pattern):
     """Ultima cartella data/raw/<data> che contiene i file della catena."""
@@ -214,7 +226,7 @@ def latest(pattern):
 def main():
     sys.path.insert(0, "scripts")
     items, dates = [], []
-    for fn, pat in ((eurospin, "eurospin_products.json"), (coop, "coop_pdf*_bbox.html"), (mercato, "mercato_ocr"), (aldi, "aldi_products.json"), (md, "md_ocr"), (gigante, "gigante_info.json")):
+    for fn, pat in ((eurospin, "eurospin_products.json"), (coop, "coop_pdf*_bbox.html"), (mercato, "mercato_ocr"), (aldi, "aldi_products.json"), (md, "md_ocr"), (gigante, "gigante_info.json"), (bennet, "bennet_info.json")):
         d = latest(pat)
         if d:
             items += fn(d); dates.append(os.path.basename(d))
