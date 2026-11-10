@@ -43,5 +43,12 @@
   "colore": "#004a99",
   "logo": "logos/eurospin.svg",
   "etichetta": "Eurospin"
+ },
+ "Il Gigante": {
+  "tipo": "negozio",
+  "indirizzo": "Corso Marche 42, 10146 Torino TO",
+  "colore": "#0b3f8f",
+  "logo": "logos/gigante.png",
+  "etichetta": "Gigante"
  }
 }
