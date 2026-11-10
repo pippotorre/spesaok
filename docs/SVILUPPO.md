@@ -88,3 +88,10 @@ Output iniziale: artefatto. In futuro: valutare una PWA.
 - Logo: cartellino prezzo giallo con spunta su fondo verde (icons/logo.svg), icone 192/512/maskable/apple-touch.
 - .htaccess: forza HTTPS, tipi MIME, no-cache per sw.js/offerte.json/index.html.
 - Prossimi passi possibili: distanza dai negozi con geolocalizzazione e raggio, storico prezzi (servirà PHP/MySQL o JSON storici), lista della spesa.
+
+## 10/11/2026 – Pubblicazione con GitHub Pages
+- Proposta di Pippo: usare GitHub Pages. Il repo è pubblico, quindi Pages è gratuito.
+- Workflow `.github/workflows/pages.yml` ("pubblica-pwa"): build della PWA e pubblicazione su Pages dopo ogni raccolta riuscita (workflow_run), a ogni push su main che tocca l'app o i dati, o a mano. Indirizzo: https://pippotorre.github.io/spesaok/
+- Da fare una volta (Pippo): Settings → Pages → Source: "GitHub Actions".
+- Opzioni per il dominio: (2) sottodominio spesaok.entratadisicurezza.com con record CNAME → pippotorre.github.io nel DNS di TopHost, poi impostarlo in Settings → Pages → Custom domain; (3) app su TopHost in /spesaok che legge i dati da Pages: `python scripts/build_pwa.py --dati https://pippotorre.github.io/spesaok/offerte.json --zip spesaok-tophost.zip` (caricata una volta, i dati si aggiornano da soli; GitHub Pages permette la lettura da altri siti).
+- La PWA legge l'indirizzo dei dati dal meta `spesaok-dati` in index.html; il service worker salva una copia per l'uso offline anche se i dati arrivano da un altro sito.
