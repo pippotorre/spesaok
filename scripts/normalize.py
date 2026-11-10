@@ -99,6 +99,42 @@ def coop_linee(raw):
                         "volantino": v.get("final", "").split("?")[0]})
     return out
 
+ALDI_FOOD = {"Dispensa", "Farina e prodotti da forno", "Carne fresca, pesce e salumi", "Prodotti refrigerati",
+             "Bevande analcoliche", "Bevande alcoliche", "Freezer", "Proteico", "Frutta e verdura", "Colazione",
+             "Snack dolci e salati", "Dolci e snack"}
+
+def aldi(raw):
+    """Speciali della settimana Aldi (API product-search). Prezzi in centesimi."""
+    import datetime as dt
+    from parse_coop import NONFOOD
+    out = []
+    for x in json.load(open(f"{raw}/aldi_products.json")):
+        cats = [c["name"] for c in x.get("categories") or []]
+        pr = x.get("price") or {}
+        cmp_ = pr.get("comparisonDisplay") or ""
+        m = re.search(r"/\s*1\s*(kg|l)\b", cmp_)
+        if not (cats and cats[0] in ALDI_FOOD) and not m: continue   # Natale, Mondo Baby ecc.: solo se prezzo al kg/l
+        name = x.get("name") or ""
+        if NONFOOD.search(name) or NON_FOOD_WORDS.search(name): continue
+        if re.search(r"Animali|Casa|Igiene|Tempo libero|Abbigliamento|Elettronica", " ".join(cats)): continue
+        if not pr.get("amountRelevant"): continue
+        was = re.search(r"([0-9]+,[0-9]{2})", pr.get("wasPriceDisplay") or "")
+        sc = re.search(r"(\d+)\s*%", pr.get("savingsDisplay") or "")
+        k = x["_promo"]["key"]
+        out.append({
+            "catena": "Aldi", "nome": name, "marca": (x.get("brandName") or "").title(),
+            "formato": x.get("sellingSize"), "prezzo": pr["amountRelevant"] / 100,
+            "prezzo_pieno": float(was.group(1).replace(",", ".")) if was else None,
+            "sconto_pct": int(sc.group(1)) if sc else None,
+            "prezzo_unita": pr["comparison"] / 100 if m and pr.get("comparison") else None,
+            "unita": m.group(1) if m else None,
+            "categoria": cats[0] if cats else "",
+            "con_carta": False,
+            "valido_dal": k, "valido_al": str(dt.date.fromisoformat(k) + dt.timedelta(days=6)),
+            "fonte": x["_promo"]["pagina"],
+        })
+    return out
+
 def latest(pattern):
     """Ultima cartella data/raw/<data> che contiene i file della catena."""
     ds = [d for d in sorted(glob.glob("data/raw/*")) if glob.glob(f"{d}/{pattern}")]
@@ -107,7 +143,7 @@ def latest(pattern):
 def main():
     sys.path.insert(0, "scripts")
     items, dates = [], []
-    for fn, pat in ((eurospin, "eurospin_products.json"), (coop, "coop_pdf*_bbox.html"), (mercato, "mercato_ocr")):
+    for fn, pat in ((eurospin, "eurospin_products.json"), (coop, "coop_pdf*_bbox.html"), (mercato, "mercato_ocr"), (aldi, "aldi_products.json")):
         d = latest(pat)
         if d:
             items += fn(d); dates.append(os.path.basename(d))

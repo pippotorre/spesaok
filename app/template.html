@@ -117,6 +117,7 @@ function render(){
 }
 document.getElementById("foot").innerHTML = `<div>Fonti: ${(DATA.fonti||[]).join(" · ")}</div>
   <div>Mercatò è letto con riconoscimento automatico del testo (OCR) dalle immagini del volantino: il prezzo è ricavato dal prezzo al kg/litro e dal formato, quindi può differire di qualche centesimo.</div>
+  <div>Aldi: "Speciali della settimana" dal sito aldi.it, prezzi nazionali; valgono fino a esaurimento scorte, la data "fino al" è indicativa (una settimana dall'uscita).</div>
   <div>Prezzi come pubblicati nei volantini online; verifica in negozio. Le offerte segnate "prezzo con carta" valgono solo per i titolari della carta fedeltà della catena.</div>`;
 const L = DATA.linee_coop || [];
 if (L.length) {

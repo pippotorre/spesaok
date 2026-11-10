@@ -158,7 +158,7 @@ async def mercato(ctx):
 CHAINS = {"eurospin": eurospin, "aldi": aldi, "coop": coop, "mercato": mercato}
 
 async def main():
-    names = sys.argv[1:] or ["eurospin", "coop", "mercato"]  # aldi ancora in sviluppo
+    names = sys.argv[1:] or ["eurospin", "coop", "mercato", "aldi"]
     async with async_playwright() as p:
         b = await p.chromium.launch()
         ctx = await b.new_context(locale="it-IT", user_agent=UA)
