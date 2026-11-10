@@ -58,6 +58,12 @@
     <button id="more" class="more" hidden>Mostra altre offerte</button>
   </section>
 
+  <section id="v-liste" class="view" hidden>
+    <h2 class="h2">Le tue liste</h2>
+    <p class="lead">Una lista per ogni supermercato, salvata su questo telefono. Spunta i prodotti mentre fai la spesa.</p>
+    <div id="liste" class="stores"></div>
+  </section>
+
   <section id="v-negozi" class="view" hidden>
     <h2 class="h2">Raggiungi il supermercato</h2>
     <p class="lead">Tocca <b>Portami</b> per aprire il navigatore. Per le catene con prezzi uguali in tutta la zona cerchiamo il punto vendita più vicino a te.</p>
@@ -73,6 +79,8 @@
 <nav class="tabs" aria-label="Sezioni">
   <button data-v="offerte" aria-current="page">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12V5a2 2 0 0 1 2-2h7l9 9-9 9-9-9Z"/><circle cx="8" cy="8" r="1.6"/></svg>Offerte</button>
+  <button data-v="liste">
+    <span class="tab-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11"/><path d="m3.5 6 1 1 2-2M3.5 12l1 1 2-2M3.5 18l1 1 2-2"/></svg><span class="tab-badge" id="lcount" hidden></span></span>Liste</button>
   <button data-v="negozi">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg>Negozi</button>
   <button data-v="info">

@@ -108,3 +108,8 @@ Output iniziale: artefatto. In futuro: valutare una PWA.
 - Filtro non alimentari con una lista di parole sulla categoria e sul titolo (giochi, detersivi, abbigliamento, casa, elettronica, animali…).
 - Prima raccolta: 2 volantini ("Uno è gratis" 5–18/11, 428 prodotti; "Prezzo basso sempre" 5/11–2/12, 39 prodotti) → 239 offerte alimentari, 49 con Blucard. Totale lista: 927.
 - PWA: logo (la "g" dal sito ufficiale), etichetta "Gigante", Portami verso corso Marche 42. Filtri in alto ristretti per farci stare 7 loghi.
+
+## 10/11/2026 – Liste della spesa
+- Richiesta di Pippo: pulsante "Aggiungi" (icona carrello) sulla stessa riga di Portami e Volantino, allineato a destra; una lista per ogni supermercato, con il nome del supermercato; sezione "Liste" nella barra in basso tra Offerte e Negozi.
+- Fatto: le liste sono salvate solo sul telefono (localStorage, chiave `spesaok-liste`), non sul server e non condivise tra dispositivi. Ogni voce: spunta "preso", quantità −/+ (a 0 si toglie), totale per supermercato, "Togli i presi", "Condividi" (testo via condivisione del telefono, oppure copiato), Portami. Avviso "offerta scaduta" se la data di fine è passata. Numero di prodotti da prendere sull'icona Liste. Toccando "In lista" nelle offerte il prodotto si toglie.
+- Possibili sviluppi: liste condivise tra più persone/dispositivi (servirebbe un piccolo backend), confronto della stessa lista tra supermercati.
