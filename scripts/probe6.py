@@ -73,4 +73,4 @@ async def main():
             try: await f(ctx)
             except Exception as e: print(f.__name__, "FAILED", e)
         await b.close()
-asyncio.run(main())
+if __name__ == "__main__": asyncio.run(main())
