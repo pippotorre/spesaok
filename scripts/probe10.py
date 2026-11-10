@@ -1,36 +1,49 @@
-"""Sonda 10c: Bennet. Prodotti nel JSON-LD delle pagine volantino DoveConviene (ShopFully)."""
-import json, re, os, urllib.request
+"""Sonda 10d: Bennet. Dettaglio prodotto (formato, prezzo pieno, pagina) dalla viewer_api di DoveConviene."""
+import json, re, os, urllib.request, asyncio
 os.makedirs("../probe_out", exist_ok=True)
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 def get(u):
     try:
-        r = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA, "Accept-Language": "it-IT"}), timeout=30)
+        r = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA, "Accept-Language": "it-IT", "X-Requested-With": "XMLHttpRequest"}), timeout=30)
         return r.status, r.read().decode("utf-8", "replace")
     except Exception as e:
         return getattr(e, "code", 0), str(e)
-def ld(html):
-    out = []
-    for m in re.finditer(r'<script type="application/ld\+json">(.*?)</script>', html, re.S):
-        try: d = json.loads(m.group(1))
-        except Exception as e: out.append({"_err": str(e), "_raw": m.group(1)[:200]}); continue
-        out += d if isinstance(d, list) else [d]
-    return out
-U = "https://www.doveconviene.it/torino/iper-e-super/bennet/volantino/ultime-offerte-bennet?flyerId={}&flyerPage={}"
-for fid in ["1739865", "1731356"]:
-    seen = {}
-    for pg in [1, 2, 5]:
-        st, h = get(U.format(fid, pg))
-        L = ld(h); types = {}
-        for x in L: types[x.get("@type")] = types.get(x.get("@type"), 0) + 1
-        prods = [x for x in L if x.get("@type") == "Product"]
-        print(f"\n===== flyer {fid} pagina {pg}: {st} {len(h)} tipi {types}")
-        for x in L:
-            if x.get("@type") not in ("Product",): print("  ALTRO", json.dumps(x, ensure_ascii=False)[:600])
-        for x in prods[:5]: print("  PROD", json.dumps(x, ensure_ascii=False)[:700])
-        for x in prods: seen[x.get("name"), (x.get("offers") or {}).get("price")] = x
-        open(f"../probe_out/dc_{fid}_{pg}.html", "w").write(h)
-    print("TOTALE prodotti distinti", fid, len(seen))
-    # cerca altre strutture con i prodotti (es. JSON in pagina con flyer_gibs)
-    for k in ["flyerGibs", "flyer_gibs", "\"gibs\"", "productInfo", "\"title\":"]:
-        i = h.find(k)
-        if i >= 0: print("KEY", k, re.sub(r"\s+", " ", h[max(0, i-100):i+600]))
+FID, GIB = "1739865", "6aeb5390-2ba0-4e33-af3b-00ca0ad30146"
+PAGE = f"https://www.doveconviene.it/torino/iper-e-super/bennet/volantino/ultime-offerte-bennet?flyerId={FID}&flyerPage=1"
+st, h = get(PAGE)
+js = list(dict.fromkeys(re.findall(r'src="([^"]+\.js[^"]*)"', h)))
+print("JS", js[:30])
+for u in js:
+    if u.startswith("/"): u = "https://www.doveconviene.it" + u
+    if "doveconviene" not in u: continue
+    st, b = get(u)
+    for m in re.finditer(r"viewer_api|flyer_?gibs?/|/gibs?\b|productInfo", b):
+        print("JSHIT", u.split("/")[-1][:40], re.sub(r"\s+", " ", b[max(0, m.start()-200):m.start()+250]))
+for path in [f"/viewer_api/flyer_gibs/{GIB}", f"/viewer_api/flyergibs/{GIB}", f"/viewer_api/gibs/{GIB}", f"/viewer_api/flyers/{FID}/flyer_gibs",
+             f"/viewer_api/flyers/{FID}/gibs", f"/viewer_api/flyer_gibs?flyer_id={FID}", f"/viewer_api/products/{GIB}"]:
+    st, b = get("https://www.doveconviene.it" + path); print(f"\n===== {st} {len(b)} {path}\n{b[:1200]}")
+from playwright.async_api import async_playwright
+async def main():
+    async with async_playwright() as p:
+        b = await p.chromium.launch(); ctx = await b.new_context(locale="it-IT", user_agent=UA, viewport={"width": 1366, "height": 900})
+        pg = await ctx.new_page(); hits = []
+        async def on(r):
+            if r.request.resource_type in ("xhr", "fetch") and re.search(r"viewer_api|gib|product|tag-landing", r.url):
+                try: t = await r.text()
+                except Exception: t = ""
+                hits.append((r.status, r.url[:250], t[:2000].replace("\n", " ")))
+        pg.on("response", on)
+        await pg.goto(PAGE, wait_until="domcontentloaded", timeout=60000); await pg.wait_for_timeout(9000)
+        for sel in ["button:has-text('Accetta')", "#iubenda-cs-accept-btn", ".iubenda-cs-accept-btn"]:
+            try: await pg.click(sel, timeout=1500); break
+            except Exception: pass
+        cands = await pg.query_selector_all("[class*=gib], [class*=Gib], [class*=hotspot], [class*=pin], img[src*='plus-white']")
+        print("HOTSPOT", len(cands))
+        for c in cands[:3]:
+            try: await c.click(timeout=3000, force=True); await pg.wait_for_timeout(3000)
+            except Exception as e: print("click", e)
+        await pg.screenshot(path="../probe_out/bennet_gib.png")
+        print("TEXT", re.sub(r"\s+", " ", await pg.inner_text("body"))[:1500])
+        for h_ in hits: print("NET", *h_)
+        await b.close()
+asyncio.run(main())
