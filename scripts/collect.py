@@ -182,10 +182,44 @@ async def md(ctx):
             subprocess.run(["tesseract", f"/tmp/mdp/{f}", f"{RAW}/md_ocr/{f[:-4]}", "-l", "ita", "--psm", "11", "tsv"], capture_output=True)
     subprocess.run(["pdftoppm", "-r", "50", "-jpeg", "-f", "2", "-l", "3", "/tmp/md.pdf", f"{RAW}/md_prev"])
 
-CHAINS = {"eurospin": eurospin, "aldi": aldi, "coop": coop, "mercato": mercato, "md": md}
+GIGANTE_API = "https://d3k4i39zecu9l5.cloudfront.net/v1/it_it/63f4ba84-d360-4943-b4fb-2d1fac1f52d4"
+GIGANTE_PV = 47  # Torino, corso Marche 42 (negozio scelto da Pippo)
+
+async def gigante(ctx):
+    """Il Gigante: il visualizzatore del volantino (ShopFully) legge un'API con l'elenco dei volantini
+    del punto vendita e, per ogni volantino, i prodotti ("flyerGibs") con titolo, marca, prezzo e pagina."""
+    pg = await ctx.new_page(); hdrs = {}
+    def on_req(r):
+        if "cloudfront.net/v1/" in r.url and not hdrs:
+            hdrs.update({k: v for k, v in r.headers.items() if k.lower() != "content-length"})
+    pg.on("request", on_req)
+    await pg.goto(f"https://ilgigante.net/cerca-punto-vendita/risultato-ricerca-punti-vendita/scheda-punto-vendita/?punto={GIGANTE_PV}",
+                  wait_until="domcontentloaded", timeout=60000)
+    await pg.wait_for_timeout(3000)
+    ids = sorted({m.group(1) for l in await pg.eval_on_selector_all("a", "els=>els.map(e=>e.href)")
+                  if (m := re.search(r"flyer-id=(\d+)", l))})
+    if ids:
+        await pg.goto(f"https://ilgigante.net/volantini/dettaglio?flyer-id={ids[0]}&punto={GIGANTE_PV}", wait_until="domcontentloaded", timeout=60000)
+        await pg.wait_for_timeout(6000)
+    r = await ctx.request.get(f"{GIGANTE_API}/customResources/flyers?customerCode={GIGANTE_PV}", headers=hdrs)
+    lst = (await r.json())["data"]["list"]
+    ids = sorted(set(ids) | set(lst))
+    info = {"punto": GIGANTE_PV, "volantini": []}
+    for fid in ids:
+        fl = lst.get(fid) or {}
+        r = await ctx.request.get(f"{GIGANTE_API}/flyers/{fid}/flyerGibs", headers=hdrs)
+        if not r.ok: print("gigante gibs", fid, r.status); continue
+        gibs = (await r.json()).get("data") or []
+        save(f"gigante_{fid}.json", gibs)
+        info["volantini"].append({"id": fid, "titolo": fl.get("title"), "dal": fl.get("start_date"), "al": fl.get("end_date"),
+                                  "url": f"https://ilgigante.net/volantini/dettaglio?flyer-id={fid}&punto={GIGANTE_PV}", "prodotti": len(gibs)})
+    print("gigante", info)
+    save("gigante_info.json", info)
+
+CHAINS = {"gigante": gigante, "eurospin": eurospin, "aldi": aldi, "coop": coop, "mercato": mercato, "md": md}
 
 async def main():
-    names = sys.argv[1:] or ["eurospin", "coop", "mercato", "aldi", "md"]
+    names = sys.argv[1:] or ["eurospin", "coop", "mercato", "aldi", "md", "gigante"]
     async with async_playwright() as p:
         b = await p.chromium.launch()
         ctx = await b.new_context(locale="it-IT", user_agent=UA)
