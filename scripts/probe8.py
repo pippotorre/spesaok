@@ -14,6 +14,11 @@ async def main():
         b = await p.chromium.launch()
         ctx = await b.new_context(locale="it-IT", user_agent=P.UA, viewport={"width": 1366, "height": 900})
         pg = await ctx.new_page(); hits = []; hook_all(pg, hits)
+        await pg.goto("https://ilgigante.net/cerca-punto-vendita/", wait_until="domcontentloaded", timeout=60000); await pg.wait_for_timeout(5000)
+        ls = await pg.eval_on_selector_all("a", "els=>els.map(e=>[e.innerText.trim().replace(/\\s+/g,' ').slice(0,80), e.href])")
+        print("PV links", len(ls)); [print("PV", t, h) for t, h in ls if re.search(r"torino|marche|punto-vendita/.", t + h, re.I)][:40]
+        print("PVTEXT", re.sub(r"\s+", " ", await pg.inner_text("body"))[:2000])
+        for h in hits[-25:]: print("PVNET", *h)
         await pg.goto("https://ilgigante.net/volantini/", wait_until="domcontentloaded", timeout=60000); await pg.wait_for_timeout(4000)
         for t in ["Chiudi", "Rifiuta"]:
             try: await pg.get_by_role("button", name=re.compile(t, re.I)).first.click(timeout=2000)
@@ -22,10 +27,10 @@ async def main():
         sels = await pg.eval_on_selector_all("select", "els=>els.map(s=>[s.name,s.id,[...s.options].map(o=>o.value+'|'+o.text).slice(0,400)])")
         for s in sels: print("SELECT", s[0], s[1], [o for o in s[2] if re.search(r'torino|marche', o, re.I)], len(s[2]))
         try:
-            inp = pg.locator("input[type=text], input[type=search]").filter(has_not_text="").first
-            await inp.click(timeout=5000); await inp.type("Torino", delay=100); await pg.wait_for_timeout(2500)
-            print("SUGG", re.sub(r"\s+", " ", await pg.inner_text("body"))[-1500:])
-            await pg.keyboard.press("Enter"); await pg.wait_for_timeout(1500)
+            inp = pg.locator("#localita--input")
+            await inp.click(timeout=5000); await inp.type("Torino corso Marche", delay=100); await pg.wait_for_timeout(3000)
+            print("PAC", await pg.eval_on_selector_all(".pac-item", "els=>els.map(e=>e.innerText)"))
+            await pg.keyboard.press("ArrowDown"); await pg.keyboard.press("Enter"); await pg.wait_for_timeout(1500)
             try: await pg.get_by_text(re.compile("^CERCA$", re.I)).first.click(timeout=3000)
             except Exception as e: print("no CERCA", str(e)[:80])
             await pg.wait_for_timeout(5000)
