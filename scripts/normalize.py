@@ -39,6 +39,7 @@ def eurospin(raw):
             "categoria": (cat or "Altro").capitalize(),
             "con_carta": x["identifier"] in family,
             "valido_dal": d8(first(p, "START-DATE-VALIDITY")), "valido_al": d8(first(p, "END-DATE-VALIDITY")),
+            "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/" + x.get("_promo", {}).get("alias", ""),
         })
     return out
 
@@ -60,7 +61,9 @@ def coop(raw):
         store = vols.get(i, {}).get("negozio", "")
         label = "Coop Collegno" if "8001120004550" in store else "Ipercoop Torino" if "8001120004796" in store else "Coop"
         rows = parse(f, vf, vt)
-        for r in rows: r["catena"] = label
+        for r in rows:
+            r["catena"] = label
+            r["fonte"] = vols.get(i, {}).get("final", "").split("?")[0]
         out += rows
     return out
 
@@ -73,7 +76,9 @@ def mercato(raw):
     if os.path.exists(info):
         m = re.search(r"(\d\d)-(\d\d)-(\d{4}) - (\d\d)-(\d\d)-(\d{4})", json.load(open(info))["text"])
         if m: vf = f"{m.group(3)}-{m.group(2)}-{m.group(1)}"; vt = f"{m.group(6)}-{m.group(5)}-{m.group(4)}"
-    return parse(d, vf, vt)
+    rows = parse(d, vf, vt)
+    for r in rows: r["fonte"] = "https://www.mymercato.it/mondo-mercato/volantini"
+    return rows
 
 def coop_linee(raw):
     """Pagine 'Sconto X% su tutta la linea': le marche sono loghi e l'OCR non le legge bene,
@@ -91,8 +96,57 @@ def coop_linee(raw):
             pct = re.search(r"Sconto\s+(\d{2})\s", re.sub(r"\s+", " ", page))
             if not pct: continue
             out.append({"pct": int(pct.group(1)), "pagina": n, "pdf": (v.get("pdfs") or [""])[0],
-                        "volantino": v.get("final", "")})
+                        "volantino": v.get("final", "").split("?")[0]})
     return out
+
+ALDI_FOOD = {"Dispensa", "Farina e prodotti da forno", "Carne fresca, pesce e salumi", "Prodotti refrigerati",
+             "Bevande analcoliche", "Bevande alcoliche", "Freezer", "Proteico", "Frutta e verdura", "Colazione",
+             "Snack dolci e salati", "Dolci e snack"}
+
+def aldi(raw):
+    """Speciali della settimana Aldi (API product-search). Prezzi in centesimi."""
+    import datetime as dt
+    from parse_coop import NONFOOD
+    out = []
+    for x in json.load(open(f"{raw}/aldi_products.json")):
+        cats = [c["name"] for c in x.get("categories") or []]
+        pr = x.get("price") or {}
+        cmp_ = pr.get("comparisonDisplay") or ""
+        m = re.search(r"/\s*1\s*(kg|l)\b", cmp_)
+        if not (cats and cats[0] in ALDI_FOOD) and not m: continue   # Natale, Mondo Baby ecc.: solo se prezzo al kg/l
+        name = x.get("name") or ""
+        if NONFOOD.search(name) or NON_FOOD_WORDS.search(name): continue
+        if re.search(r"Animali|Casa|Igiene|Tempo libero|Abbigliamento|Elettronica", " ".join(cats)): continue
+        if not pr.get("amountRelevant"): continue
+        was = re.search(r"([0-9]+,[0-9]{2})", pr.get("wasPriceDisplay") or "")
+        sc = re.search(r"(\d+)\s*%", pr.get("savingsDisplay") or "")
+        k = x["_promo"]["key"]
+        out.append({
+            "catena": "Aldi", "nome": name, "marca": (x.get("brandName") or "").title(),
+            "formato": x.get("sellingSize"), "prezzo": pr["amountRelevant"] / 100,
+            "prezzo_pieno": float(was.group(1).replace(",", ".")) if was else None,
+            "sconto_pct": int(sc.group(1)) if sc else None,
+            "prezzo_unita": pr["comparison"] / 100 if m and pr.get("comparison") else None,
+            "unita": m.group(1) if m else None,
+            "categoria": cats[0] if cats else "",
+            "con_carta": False,
+            "valido_dal": k, "valido_al": str(dt.date.fromisoformat(k) + dt.timedelta(days=6)),
+            "fonte": x["_promo"]["pagina"],
+        })
+    return out
+
+def md(raw):
+    from parse_md import parse
+    info = json.load(open(f"{raw}/md_info.json"))
+    vf = vt = None
+    m = re.search(r"DAL (\d+)(?: \w+)? AL (\d+) (\w+) (\d{4})", info.get("validita") or "")
+    if m:
+        mesi = "gennaio febbraio marzo aprile maggio giugno luglio agosto settembre ottobre novembre dicembre".split()
+        mm = mesi.index(m.group(3).lower()) + 1
+        vf = f"{m.group(4)}-{mm:02d}-{int(m.group(1)):02d}"; vt = f"{m.group(4)}-{mm:02d}-{int(m.group(2)):02d}"
+    rows = parse(f"{raw}/md_ocr", vf, vt, (info.get("pdfs") or [info["negozio"]])[0])
+    for r in rows: r["catena"] = "MD Torino"
+    return rows
 
 def latest(pattern):
     """Ultima cartella data/raw/<data> che contiene i file della catena."""
@@ -102,7 +156,7 @@ def latest(pattern):
 def main():
     sys.path.insert(0, "scripts")
     items, dates = [], []
-    for fn, pat in ((eurospin, "eurospin_products.json"), (coop, "coop_pdf*_bbox.html"), (mercato, "mercato_ocr")):
+    for fn, pat in ((eurospin, "eurospin_products.json"), (coop, "coop_pdf*_bbox.html"), (mercato, "mercato_ocr"), (aldi, "aldi_products.json"), (md, "md_ocr")):
         d = latest(pat)
         if d:
             items += fn(d); dates.append(os.path.basename(d))

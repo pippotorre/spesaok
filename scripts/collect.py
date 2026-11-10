@@ -41,44 +41,41 @@ async def eurospin(ctx):
     save("eurospin_products.json", out)
 
 async def aldi(ctx):
+    """Speciali della settimana Aldi: la pagina chiama asl.api.aldi.it/commerce/v3/product-search
+    con promotionKey=<data>. Rileggiamo la stessa API (stessi header della pagina) paginando."""
     pg = await ctx.new_page()
-    texts = {}
-    api = []
-    async def on_api(r):
-        if "aldi" in r.url and "cookielaw" not in r.url and "json" in r.headers.get("content-type", ""):
-            try: api.append({"url": r.url, "data": await r.json()})
-            except Exception: pass
-    pg.on("response", on_api)
-    for path in ["/offerte-settimanali/offerte-di-questa-settimana", "/offerte-settimanali/offerte-della-prossima-settimana"]:
-        try:
-            await pg.goto("https://www.aldi.it" + path, wait_until="networkidle", timeout=60000)
-            for _ in range(12):
-                await pg.mouse.wheel(0, 2500); await pg.wait_for_timeout(800)
-            await pg.wait_for_timeout(4000)
-            texts[path] = {"url": pg.url, "text": await pg.inner_text("body")}
-            links = await pg.eval_on_selector_all("a", "els=>els.map(e=>e.href)")
-            texts[path]["links"] = sorted({l for l in links if "offert" in l or "speciali" in l})[:80]
-        except Exception as e:
-            texts[path] = {"err": str(e)[:200]}
-    save("aldi_pages.json", texts)
-    save("aldi_api.json", api)
-    return
-    # viewer publitas: hotspots con eventuali dati prodotto
-    hs = []
-    async def on(r):
-        if "hotspots_data.json" in r.url:
-            try: hs.append({"url": r.url, "data": await r.json()})
-            except Exception: pass
-    v = await ctx.new_page(); v.on("response", on)
-    await v.goto("https://www.aldi.it/volantino-online", wait_until="networkidle", timeout=60000)
-    vl = await v.eval_on_selector_all("a", "els=>els.map(e=>e.href)")
-    vl = [l for l in vl if "volantino.aldi.it" in l]
-    print("aldi viewer links", vl[:4])
-    if vl:
-        await v.goto(vl[0], wait_until="networkidle", timeout=60000)
-        for i in range(20):
-            await v.keyboard.press("ArrowRight"); await v.wait_for_timeout(700)
-    save("aldi_hotspots.json", hs)
+    await pg.goto("https://www.aldi.it/offerte-settimanali/offerte-di-questa-settimana", wait_until="domcontentloaded", timeout=60000)
+    await pg.wait_for_timeout(4000)
+    links = await pg.eval_on_selector_all("a", "els=>els.map(e=>e.href)")
+    oggi = dt.date.today()
+    keys = sorted({m.group(1) for l in links if (m := re.search(r"speciali-della-settimana/(\d{4}-\d\d-\d\d)", l))})
+    keys = [k for k in keys if -7 < (dt.date.fromisoformat(k) - oggi).days <= 3]
+    print("aldi promotionKey", keys)
+    out = []
+    for k in keys:
+        cap = {}
+        def on_req(r):
+            if "product-search" in r.url and "promotionKey" in r.url and not cap:
+                cap["url"] = r.url; cap["h"] = {x: y for x, y in r.headers.items() if x.lower() != "content-length"}
+        p2 = await ctx.new_page(); p2.on("request", on_req)
+        await p2.goto(f"https://www.aldi.it/speciali-della-settimana/{k}", wait_until="domcontentloaded", timeout=60000)
+        for _ in range(20):
+            if cap: break
+            await p2.wait_for_timeout(500)
+        await p2.close()
+        if not cap: print("aldi: nessuna chiamata API per", k); continue
+        off = 0
+        while off < 1000:
+            u = re.sub(r"offset=\d+", f"offset={off}", re.sub(r"limit=\d+", "limit=60", cap["url"]))
+            r = await ctx.request.get(u, headers=cap["h"])
+            if not r.ok: print("aldi stop", k, r.status); break
+            d = await r.json()
+            items = d.get("data") or []
+            for e in items: e["_promo"] = {"key": k, "pagina": f"https://www.aldi.it/speciali-della-settimana/{k}"}
+            out += items; off += 60
+            if off >= d.get("meta", {}).get("pagination", {}).get("totalCount", 0) or not items: break
+    print("aldi products", len(out))
+    save("aldi_products.json", out)
 
 COOP_STORES = [
     "https://negozi.volantinopiu.com/ccno-8001120004550.html",  # Coop Collegno (negozio di Pippo)
@@ -158,10 +155,37 @@ async def mercato(ctx):
         subprocess.run(["pdftoppm", "-r", "50", "-jpeg", "-f", "6", "-l", "7", "/tmp/m.pdf", f"{RAW}/mercato_prev"])
         print("mercato pagine", len(os.listdir("/tmp/mp")))
 
-CHAINS = {"eurospin": eurospin, "aldi": aldi, "coop": coop, "mercato": mercato}
+MD_STORE = "https://www.mdspa.it/punti-vendita/Piemonte/TO-Torino/223-TORINO"  # MD Torino via Urbino (zona ovest, vicino a Collegno)
+
+async def md(ctx):
+    """MD: la scheda del punto vendita ha il link 'Scarica volantino' (PDF del volantino di zona)."""
+    pg = await ctx.new_page()
+    await pg.goto(MD_STORE, wait_until="domcontentloaded", timeout=60000)
+    await pg.wait_for_timeout(5000)
+    links = await pg.eval_on_selector_all("a", "els=>els.map(e=>e.href)")
+    pdfs = [l for l in links if "/volantini/" in l and l.endswith(".pdf")]
+    text = await pg.inner_text("body")
+    m = re.search(r"DAL (\d+)(?: \w+)? AL (\d+) (\w+) (\d{4})", text)
+    save("md_info.json", {"negozio": MD_STORE, "pdfs": pdfs, "validita": m.group(0) if m else None})
+    if not pdfs: print("md: nessun PDF"); return
+    req = urllib.request.Request(pdfs[0], headers={"User-Agent": UA})
+    open("/tmp/md.pdf", "wb").write(urllib.request.urlopen(req, timeout=180).read())
+    subprocess.run(["pdftotext", "-layout", "/tmp/md.pdf", f"{RAW}/md_pdf.txt"])
+    txt = open(f"{RAW}/md_pdf.txt", errors="ignore").read()
+    print("md testo", len(txt))
+    if len(txt.strip()) > 500:
+        subprocess.run(["pdftotext", "-bbox-layout", "/tmp/md.pdf", f"{RAW}/md_bbox.html"])
+    else:
+        os.makedirs("/tmp/mdp", exist_ok=True); os.makedirs(f"{RAW}/md_ocr", exist_ok=True)
+        subprocess.run(["pdftoppm", "-r", "300", "-png", "/tmp/md.pdf", "/tmp/mdp/p"], check=True)
+        for f in sorted(os.listdir("/tmp/mdp")):
+            subprocess.run(["tesseract", f"/tmp/mdp/{f}", f"{RAW}/md_ocr/{f[:-4]}", "-l", "ita", "--psm", "11", "tsv"], capture_output=True)
+    subprocess.run(["pdftoppm", "-r", "50", "-jpeg", "-f", "2", "-l", "3", "/tmp/md.pdf", f"{RAW}/md_prev"])
+
+CHAINS = {"eurospin": eurospin, "aldi": aldi, "coop": coop, "mercato": mercato, "md": md}
 
 async def main():
-    names = sys.argv[1:] or ["eurospin", "coop", "mercato"]  # aldi ancora in sviluppo
+    names = sys.argv[1:] or ["eurospin", "coop", "mercato", "aldi", "md"]
     async with async_playwright() as p:
         b = await p.chromium.launch()
         ctx = await b.new_context(locale="it-IT", user_agent=UA)
