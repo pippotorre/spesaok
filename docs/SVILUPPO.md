@@ -120,3 +120,14 @@ Output iniziale: artefatto. In futuro: valutare una PWA.
 - Sotto: "Risparmi € X rispetto al prezzo pieno" (solo dove il volantino indica il prezzo pieno; tra parentesi la parte già nel carrello) e "di cui € X a prezzo con carta fedeltà".
 - Ogni riga con quantità > 1 mostra prezzo × quantità = subtotale. Il testo condiviso riporta i subtotali e il totale previsto.
 - Le voci salvate ora includono `prezzo_pieno`; per le liste create prima lo si recupera dai dati correnti.
+
+## 10/11/2026 – Bennet di via Giordano Bruno
+- Richiesta di Pippo: aggiungere Bennet, via Giordano Bruno (Torino). Punto vendita: via Giordano Bruno 142.
+- bennet.com risponde 403 (Akamai) ai server di GitHub Actions, quindi si usa DoveConviene (ShopFully), come fonte pubblica dei volantini del negozio:
+  - scheda negozio `https://www.doveconviene.it/negozi/bennet/51713/via-giordano-bruno-142` → id dei volantini (`flyerId`);
+  - pagina del volantino → prodotti in JSON-LD; l'immagine contiene l'id del "flyerGib";
+  - `https://www.doveconviene.it/viewer_api/flyer_gibs/<id>` → titolo, marca, prezzo, pagina, categoria, testo letto dall'immagine (stessa struttura del Gigante).
+- `collect.py bennet` salva `bennet_<flyerId>.json` e `bennet_info.json`; `normalize.py` usa una funzione comune `shopfully()` per Il Gigante e Bennet.
+- Esclusi i volantini non alimentari (titolo con giocattoli/addobbi…) e alcune voci non alimentari; prezzi "BENNET club" segnati come prezzo con carta.
+- Il link "Volantino" porta alla pagina giusta (flyerPage). Logo: dal segnalino Bennet di DoveConviene, ritagliato.
+- Prima raccolta: 166 offerte alimentari da 2 volantini (SOTTOCOSTO fino al 18/11, Cioccolato fino all'11/11).

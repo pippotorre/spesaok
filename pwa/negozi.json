@@ -50,5 +50,12 @@
   "colore": "#0b3f8f",
   "logo": "logos/gigante.png",
   "etichetta": "Gigante"
+ },
+ "Bennet": {
+  "tipo": "negozio",
+  "indirizzo": "Via Giordano Bruno 142, Torino TO",
+  "colore": "#d7141a",
+  "logo": "logos/bennet.png",
+  "etichetta": "Bennet"
  }
 }

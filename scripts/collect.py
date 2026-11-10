@@ -216,10 +216,46 @@ async def gigante(ctx):
     print("gigante", info)
     save("gigante_info.json", info)
 
-CHAINS = {"gigante": gigante, "eurospin": eurospin, "aldi": aldi, "coop": coop, "mercato": mercato, "md": md}
+BENNET_STORE = "https://www.doveconviene.it/negozi/bennet/51713/via-giordano-bruno-142"   # Bennet Torino, via Giordano Bruno 142
+DC = "https://www.doveconviene.it"
+
+async def bennet(ctx):
+    """Bennet (via Giordano Bruno): bennet.com rifiuta i server di GitHub, quindi si usa DoveConviene (ShopFully).
+    La scheda del negozio elenca i volantini; la pagina di ogni volantino ha i prodotti in JSON-LD (con l'id del
+    "flyerGib" nell'immagine) e /viewer_api/flyer_gibs/<id> restituisce titolo, marca, prezzo, pagina e categoria."""
+    async def text(u):
+        r = await ctx.request.get(u, headers={"Accept-Language": "it-IT"}); return r.status, await r.text()
+    st, h = await text(BENNET_STORE)
+    ids = list(dict.fromkeys(re.findall(r"flyerId=(\d+)", h)))
+    info = {"negozio": BENNET_STORE, "volantini": []}
+    for fid in ids:
+        url = f"{DC}/torino/iper-e-super/bennet/volantino/ultime-offerte-bennet?flyerId={fid}&flyerPage=1"
+        st, page = await text(url)
+        lds = []
+        for m in re.finditer(r'<script type="application/ld\+json">(.*?)</script>', page, re.S):
+            try: d = json.loads(m.group(1)); lds += d if isinstance(d, list) else [d]
+            except Exception: pass
+        art = next((x for x in lds if x.get("@type") == "Article"), {})
+        crumbs = next((x for x in lds if x.get("@type") == "BreadcrumbList"), {}).get("itemListElement") or [{}]
+        gib_ids = list(dict.fromkeys(m.group(1) for x in lds if x.get("@type") == "Product"
+                                     for m in [re.search(r"gibCover_([0-9a-f-]{36})", json.dumps(x))] if m))
+        gibs = []
+        for g in gib_ids:
+            r = await ctx.request.get(f"{DC}/viewer_api/flyer_gibs/{g}", headers={"X-Requested-With": "XMLHttpRequest"})
+            if r.ok:
+                d = (await r.json()).get("data") or []
+                gibs += [x.get("FlyerGib", x) for x in d]
+            await asyncio.sleep(0.15)
+        save(f"bennet_{fid}.json", gibs)
+        info["volantini"].append({"id": fid, "titolo": crumbs[-1].get("name"), "dal": art.get("datePublished"), "al": art.get("expires"),
+                                  "url": url, "prodotti": len(gibs)})
+    print("bennet", info)
+    save("bennet_info.json", info)
+
+CHAINS = {"gigante": gigante, "bennet": bennet, "eurospin": eurospin, "aldi": aldi, "coop": coop, "mercato": mercato, "md": md}
 
 async def main():
-    names = sys.argv[1:] or ["eurospin", "coop", "mercato", "aldi", "md", "gigante"]
+    names = sys.argv[1:] or ["eurospin", "coop", "mercato", "aldi", "md", "gigante", "bennet"]
     async with async_playwright() as p:
         b = await p.chromium.launch()
         ctx = await b.new_context(locale="it-IT", user_agent=UA)
