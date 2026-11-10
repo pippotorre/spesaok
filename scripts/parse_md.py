@@ -60,7 +60,7 @@ def parse(ocr_dir, vf, vt, fonte):
             out.append({"catena": "MD", "nome": nome, "marca": " ".join(brand).title(), "formato": fmt,
                         "prezzo": prezzo, "prezzo_pieno": None, "sconto_pct": None, "prezzo_unita": unit, "unita": un,
                         "categoria": "", "con_carta": False, "valido_dal": vf, "valido_al": vt, "fonte": fonte,
-                        "pagina": pagina, "da_verificare": q > 2.5 or unit > 120 or prezzo < 0.2 or prezzo > 50})
+                        "pagina": pagina, "da_verificare": q > 2.5 or unit > 120 or prezzo < 0.4 or prezzo > 50 or len(nome) < 4})
     return out
 
 if __name__ == "__main__":

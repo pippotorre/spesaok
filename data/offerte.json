@@ -890,7 +890,7 @@
    "valido_al": "2026-11-15",
    "fonte": "https://www.mdspa.it/cdn/upload/presente/volantini/nord-atm-na-gastro/volantino.pdf",
    "pagina": 9,
-   "da_verificare": false
+   "da_verificare": true
   },
   {
    "catena": "Mercatò",
@@ -7167,7 +7167,7 @@
    "valido_al": "2026-11-15",
    "fonte": "https://www.mdspa.it/cdn/upload/presente/volantini/nord-atm-na-gastro/volantino.pdf",
    "pagina": 4,
-   "da_verificare": false
+   "da_verificare": true
   },
   {
    "catena": "MD Torino",
@@ -9683,7 +9683,7 @@
    "valido_al": "2026-11-15",
    "fonte": "https://www.mdspa.it/cdn/upload/presente/volantini/nord-atm-na-gastro/volantino.pdf",
    "pagina": 35,
-   "da_verificare": false
+   "da_verificare": true
   },
   {
    "catena": "Mercatò",
