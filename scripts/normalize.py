@@ -48,12 +48,15 @@ def coop(raw):
     from parse_coop import parse
     out = []
     for f in sorted(g.glob(f"{raw}/coop_pdf*_bbox.html")):
-        m = re.search(r"[Dd]al (\d+) (?:\w+ )?al (\d+) (\w+) (\d{4})", open(f.replace("_bbox.html", ".txt")).read()[:5000])
+        # "Dal 5 al 18 novembre 2026" oppure "Dal 29 ottobre all'11 novembre 2026"
+        m = re.search(r"[Dd]al (\d+) (?:(\w+) )?all?[’' ]\s*(\d+) (\w+) (\d{4})", open(f.replace("_bbox.html", ".txt")).read()[:5000])
         mesi = "gennaio febbraio marzo aprile maggio giugno luglio agosto settembre ottobre novembre dicembre".split()
         vf = vt = None
-        if m:
-            mm = mesi.index(m.group(3).lower()) + 1
-            vf = f"{m.group(4)}-{mm:02d}-{int(m.group(1)):02d}"; vt = f"{m.group(4)}-{mm:02d}-{int(m.group(2)):02d}"
+        if m and m.group(4).lower() in mesi:
+            mt = mesi.index(m.group(4).lower()) + 1
+            mf = mesi.index(m.group(2).lower()) + 1 if (m.group(2) or "").lower() in mesi else mt
+            yf = int(m.group(5)) - (1 if mf > mt else 0)
+            vf = f"{yf}-{mf:02d}-{int(m.group(1)):02d}"; vt = f"{m.group(5)}-{mt:02d}-{int(m.group(3)):02d}"
         i = int(re.search(r"coop_pdf(\d+)", f).group(1))
         vols = {}
         if os.path.exists(f"{raw}/coop_info.json"):
