@@ -11,25 +11,25 @@
    "pct": 50,
    "pagina": 2,
    "pdf": "https://resources.volantinopiu.it/flyer/2/9/4/8/1/35a82b52895e847302a9cdf3cfc14e0b.pdf",
-   "volantino": "https://coop.volantinopiu.com/volantino2948100pv152.html?utm_volantino=negozi"
+   "volantino": "https://coop.volantinopiu.com/volantino2948100pv152.html"
   },
   {
    "pct": 40,
    "pagina": 3,
    "pdf": "https://resources.volantinopiu.it/flyer/2/9/4/8/1/35a82b52895e847302a9cdf3cfc14e0b.pdf",
-   "volantino": "https://coop.volantinopiu.com/volantino2948100pv152.html?utm_volantino=negozi"
+   "volantino": "https://coop.volantinopiu.com/volantino2948100pv152.html"
   },
   {
    "pct": 40,
    "pagina": 4,
    "pdf": "https://resources.volantinopiu.it/flyer/2/9/4/8/1/35a82b52895e847302a9cdf3cfc14e0b.pdf",
-   "volantino": "https://coop.volantinopiu.com/volantino2948100pv152.html?utm_volantino=negozi"
+   "volantino": "https://coop.volantinopiu.com/volantino2948100pv152.html"
   },
   {
    "pct": 30,
    "pagina": 5,
    "pdf": "https://resources.volantinopiu.it/flyer/2/9/4/8/1/35a82b52895e847302a9cdf3cfc14e0b.pdf",
-   "volantino": "https://coop.volantinopiu.com/volantino2948100pv152.html?utm_volantino=negozi"
+   "volantino": "https://coop.volantinopiu.com/volantino2948100pv152.html"
   }
  ],
  "offerte": [
@@ -48,7 +48,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 4
+   "pagina": 4,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -64,7 +65,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 19
+   "pagina": 19,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -81,7 +83,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 4
+   "pagina": 4,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -96,7 +99,8 @@
    "categoria": "Bevande",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -111,7 +115,8 @@
    "categoria": "Bevande",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -127,7 +132,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 30
+   "pagina": 30,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -142,7 +148,8 @@
    "categoria": "Latticini e uova",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -158,7 +165,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 18
+   "pagina": 18,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -173,7 +181,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -188,7 +197,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -203,7 +213,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -218,7 +229,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -233,7 +245,8 @@
    "categoria": "Bevande",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -248,7 +261,8 @@
    "categoria": "Bevande",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -263,7 +277,8 @@
    "categoria": "Bevande",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -278,7 +293,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Coop Collegno",
@@ -294,7 +310,8 @@
    "con_carta": true,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 8
+   "pagina": 8,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Eurospin",
@@ -309,7 +326,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -326,7 +344,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 19
+   "pagina": 19,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -343,7 +362,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 4
+   "pagina": 4,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -358,7 +378,8 @@
    "categoria": "Bevande",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -373,7 +394,8 @@
    "categoria": "Surgelati e gelati",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -388,7 +410,8 @@
    "categoria": "Bevande",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Coop Collegno",
@@ -404,7 +427,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 5
+   "pagina": 5,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Mercatò",
@@ -421,7 +445,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 9
+   "pagina": 9,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -437,7 +462,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 20
+   "pagina": 20,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -452,7 +478,8 @@
    "categoria": "Frutta e verdura",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -469,7 +496,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 5
+   "pagina": 5,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -485,7 +513,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 17
+   "pagina": 17,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -501,7 +530,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 19
+   "pagina": 19,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Coop Collegno",
@@ -517,7 +547,8 @@
    "con_carta": true,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 8
+   "pagina": 8,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Coop Collegno",
@@ -533,7 +564,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 8
+   "pagina": 8,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -549,7 +581,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 18
+   "pagina": 18,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -564,7 +597,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -579,7 +613,8 @@
    "categoria": "Bevande",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -595,7 +630,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 29
+   "pagina": 29,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -612,7 +648,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 19
+   "pagina": 19,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -629,7 +666,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 11
+   "pagina": 11,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -644,7 +682,8 @@
    "categoria": "Frutta e verdura",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -659,7 +698,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -675,7 +715,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 20
+   "pagina": 20,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -691,7 +732,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 57
+   "pagina": 57,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -707,7 +749,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 58
+   "pagina": 58,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -724,7 +767,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 24
+   "pagina": 24,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -741,7 +785,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 35
+   "pagina": 35,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -757,7 +802,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 17
+   "pagina": 17,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -774,7 +820,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 12
+   "pagina": 12,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -791,7 +838,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 23
+   "pagina": 23,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -806,7 +854,8 @@
    "categoria": "Bevande",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -821,7 +870,8 @@
    "categoria": "Bevande",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -836,7 +886,8 @@
    "categoria": "Latticini e uova",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -851,7 +902,8 @@
    "categoria": "Bevande",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -867,7 +919,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 29
+   "pagina": 29,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -884,7 +937,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 6
+   "pagina": 6,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -900,7 +954,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 18
+   "pagina": 18,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -915,7 +970,8 @@
    "categoria": "Frutta e verdura",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -930,7 +986,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -945,7 +1002,8 @@
    "categoria": "Surgelati e gelati",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -960,7 +1018,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -975,7 +1034,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -990,7 +1050,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -1005,7 +1066,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -1021,7 +1083,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 51
+   "pagina": 51,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -1036,7 +1099,8 @@
    "categoria": "Bevande",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -1051,7 +1115,8 @@
    "categoria": "Gastronomia, salumi e formaggi",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -1067,7 +1132,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 57
+   "pagina": 57,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -1084,7 +1150,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 6
+   "pagina": 6,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -1100,7 +1167,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 16
+   "pagina": 16,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -1117,7 +1185,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 11
+   "pagina": 11,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -1132,7 +1201,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -1147,7 +1217,8 @@
    "categoria": "Frutta e verdura",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -1162,7 +1233,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -1178,7 +1250,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 56
+   "pagina": 56,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -1195,7 +1268,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 15
+   "pagina": 15,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -1210,7 +1284,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -1225,7 +1300,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -1240,7 +1316,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -1255,7 +1332,8 @@
    "categoria": "Gastronomia, salumi e formaggi",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -1272,7 +1350,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 27
+   "pagina": 27,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -1289,7 +1368,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 17
+   "pagina": 17,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -1306,7 +1386,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 15
+   "pagina": 15,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -1322,7 +1403,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 19
+   "pagina": 19,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Coop Collegno",
@@ -1338,7 +1420,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 5
+   "pagina": 5,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Mercatò",
@@ -1355,7 +1438,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 11
+   "pagina": 11,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -1372,7 +1456,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 27
+   "pagina": 27,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Coop Collegno",
@@ -1388,7 +1473,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 5
+   "pagina": 5,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -1404,7 +1490,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 16
+   "pagina": 16,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -1420,7 +1507,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 20
+   "pagina": 20,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -1435,7 +1523,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -1451,7 +1540,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 28
+   "pagina": 28,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -1468,7 +1558,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 26
+   "pagina": 26,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -1485,7 +1576,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 27
+   "pagina": 27,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -1500,7 +1592,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -1515,7 +1608,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -1531,7 +1625,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 30
+   "pagina": 30,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -1548,7 +1643,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 5
+   "pagina": 5,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -1565,7 +1661,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 12
+   "pagina": 12,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Coop Collegno",
@@ -1581,7 +1678,8 @@
    "con_carta": true,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 8
+   "pagina": 8,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Eurospin",
@@ -1596,7 +1694,8 @@
    "categoria": "Surgelati e gelati",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -1613,7 +1712,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 5
+   "pagina": 5,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -1630,7 +1730,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 5
+   "pagina": 5,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -1647,7 +1748,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 26
+   "pagina": 26,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -1662,7 +1764,8 @@
    "categoria": "Surgelati e gelati",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -1678,7 +1781,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 18
+   "pagina": 18,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -1693,7 +1797,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -1709,7 +1814,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 35
+   "pagina": 35,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -1724,7 +1830,8 @@
    "categoria": "Gastronomia, salumi e formaggi",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -1741,7 +1848,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 12
+   "pagina": 12,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -1758,7 +1866,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 4
+   "pagina": 4,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -1775,7 +1884,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 26
+   "pagina": 26,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -1790,7 +1900,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-13",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -1807,7 +1918,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 23
+   "pagina": 23,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -1823,7 +1935,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 20
+   "pagina": 20,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -1838,7 +1951,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -1855,7 +1969,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 12
+   "pagina": 12,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -1871,7 +1986,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 19
+   "pagina": 19,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -1887,7 +2003,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 50
+   "pagina": 50,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -1904,7 +2021,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 5
+   "pagina": 5,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -1921,7 +2039,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 23
+   "pagina": 23,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -1936,7 +2055,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Coop Collegno",
@@ -1952,7 +2072,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 7
+   "pagina": 7,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Mercatò",
@@ -1969,7 +2090,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 12
+   "pagina": 12,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -1986,7 +2108,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 26
+   "pagina": 26,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -2002,7 +2125,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 16
+   "pagina": 16,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -2019,7 +2143,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 10
+   "pagina": 10,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Coop Collegno",
@@ -2035,7 +2160,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 8
+   "pagina": 8,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Eurospin",
@@ -2050,7 +2176,8 @@
    "categoria": "Bevande",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -2065,7 +2192,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -2081,7 +2209,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 56
+   "pagina": 56,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -2098,7 +2227,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 6
+   "pagina": 6,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -2115,7 +2245,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 9
+   "pagina": 9,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -2130,7 +2261,8 @@
    "categoria": "Surgelati e gelati",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -2147,7 +2279,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 10
+   "pagina": 10,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -2164,7 +2297,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 14
+   "pagina": 14,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -2181,7 +2315,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 23
+   "pagina": 23,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -2198,7 +2333,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 29
+   "pagina": 29,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -2214,7 +2350,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 23
+   "pagina": 23,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -2231,7 +2368,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 5
+   "pagina": 5,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -2248,7 +2386,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 6
+   "pagina": 6,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -2263,7 +2402,8 @@
    "categoria": "Surgelati e gelati",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -2279,7 +2419,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 16
+   "pagina": 16,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -2295,7 +2436,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 19
+   "pagina": 19,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -2311,7 +2453,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 50
+   "pagina": 50,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -2328,7 +2471,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 11
+   "pagina": 11,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -2345,7 +2489,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 13
+   "pagina": 13,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -2360,7 +2505,8 @@
    "categoria": "Surgelati e gelati",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Coop Collegno",
@@ -2376,7 +2522,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 7
+   "pagina": 7,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Mercatò",
@@ -2393,7 +2540,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 6
+   "pagina": 6,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -2410,7 +2558,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 16
+   "pagina": 16,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Coop Collegno",
@@ -2426,7 +2575,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 1
+   "pagina": 1,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -2442,7 +2592,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 16
+   "pagina": 16,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -2458,7 +2609,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 17
+   "pagina": 17,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -2475,7 +2627,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 10
+   "pagina": 10,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Coop Collegno",
@@ -2491,7 +2644,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 5
+   "pagina": 5,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Eurospin",
@@ -2506,7 +2660,8 @@
    "categoria": "Surgelati e gelati",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Coop Collegno",
@@ -2522,7 +2677,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 8
+   "pagina": 8,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -2538,7 +2694,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 57
+   "pagina": 57,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -2554,7 +2711,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 17
+   "pagina": 17,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -2569,7 +2727,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -2586,7 +2745,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 10
+   "pagina": 10,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -2603,7 +2763,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 26
+   "pagina": 26,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -2620,7 +2781,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 9
+   "pagina": 9,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -2637,7 +2799,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 9
+   "pagina": 9,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -2652,7 +2815,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -2668,7 +2832,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 28
+   "pagina": 28,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -2684,7 +2849,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 18
+   "pagina": 18,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -2700,7 +2866,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 19
+   "pagina": 19,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -2715,7 +2882,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -2732,7 +2900,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 11
+   "pagina": 11,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -2749,7 +2918,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 11
+   "pagina": 11,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Coop Collegno",
@@ -2765,7 +2935,8 @@
    "con_carta": true,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 7
+   "pagina": 7,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Coop Collegno",
@@ -2781,7 +2952,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 7
+   "pagina": 7,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Eurospin",
@@ -2796,7 +2968,8 @@
    "categoria": "Gastronomia, salumi e formaggi",
    "con_carta": false,
    "valido_dal": "2026-11-13",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -2812,7 +2985,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 29
+   "pagina": 29,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -2829,7 +3003,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 5
+   "pagina": 5,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -2845,7 +3020,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 20
+   "pagina": 20,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -2862,7 +3038,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 12
+   "pagina": 12,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -2879,7 +3056,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 12
+   "pagina": 12,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -2895,7 +3073,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 28
+   "pagina": 28,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -2910,7 +3089,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -2925,7 +3105,8 @@
    "categoria": "Surgelati e gelati",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -2941,7 +3122,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 50
+   "pagina": 50,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -2956,7 +3138,8 @@
    "categoria": "Gastronomia, salumi e formaggi",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -2972,7 +3155,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 17
+   "pagina": 17,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Coop Collegno",
@@ -2988,7 +3172,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 7
+   "pagina": 7,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Mercatò",
@@ -3005,7 +3190,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 6
+   "pagina": 6,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Coop Collegno",
@@ -3021,7 +3207,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 7
+   "pagina": 7,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Coop Collegno",
@@ -3037,7 +3224,8 @@
    "con_carta": true,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 7
+   "pagina": 7,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -3053,7 +3241,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 16
+   "pagina": 16,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -3070,7 +3259,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 5
+   "pagina": 5,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -3086,7 +3276,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 17
+   "pagina": 17,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -3103,7 +3294,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 12
+   "pagina": 12,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -3119,7 +3311,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 55
+   "pagina": 55,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -3136,7 +3329,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 9
+   "pagina": 9,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -3153,7 +3347,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 6
+   "pagina": 6,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -3168,7 +3363,8 @@
    "categoria": "Frutta e verdura",
    "con_carta": false,
    "valido_dal": "2026-11-13",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -3184,7 +3380,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 55
+   "pagina": 55,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -3201,7 +3398,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 4
+   "pagina": 4,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -3218,7 +3416,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 5
+   "pagina": 5,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -3234,7 +3433,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 32
+   "pagina": 32,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -3249,7 +3449,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -3266,7 +3467,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 16
+   "pagina": 16,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -3281,7 +3483,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -3298,7 +3501,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 8
+   "pagina": 8,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -3313,7 +3517,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -3330,7 +3535,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 25
+   "pagina": 25,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Coop Collegno",
@@ -3346,7 +3552,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 7
+   "pagina": 7,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Mercatò",
@@ -3363,7 +3570,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 25
+   "pagina": 25,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -3379,7 +3587,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 25
+   "pagina": 25,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -3394,7 +3603,8 @@
    "categoria": "Surgelati e gelati",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -3411,7 +3621,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 16
+   "pagina": 16,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -3428,7 +3639,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 5
+   "pagina": 5,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -3445,7 +3657,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 15
+   "pagina": 15,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -3461,7 +3674,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 20
+   "pagina": 20,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -3478,7 +3692,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 13
+   "pagina": 13,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -3495,7 +3710,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 30
+   "pagina": 30,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -3512,7 +3728,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 14
+   "pagina": 14,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -3527,7 +3744,8 @@
    "categoria": "Surgelati e gelati",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Coop Collegno",
@@ -3543,7 +3761,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 3
+   "pagina": 3,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -3559,7 +3778,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 23
+   "pagina": 23,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -3574,7 +3794,8 @@
    "categoria": "Surgelati e gelati",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -3591,7 +3812,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 7
+   "pagina": 7,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -3606,7 +3828,8 @@
    "categoria": "Surgelati e gelati",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Coop Collegno",
@@ -3622,7 +3845,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 8
+   "pagina": 8,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Eurospin",
@@ -3637,7 +3861,8 @@
    "categoria": "Surgelati e gelati",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -3653,7 +3878,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 29
+   "pagina": 29,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -3670,7 +3896,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 16
+   "pagina": 16,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -3685,7 +3912,8 @@
    "categoria": "Surgelati e gelati",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -3702,7 +3930,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 15
+   "pagina": 15,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -3717,7 +3946,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -3732,7 +3962,8 @@
    "categoria": "Surgelati e gelati",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -3748,7 +3979,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 30
+   "pagina": 30,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -3765,7 +3997,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 17
+   "pagina": 17,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -3782,7 +4015,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 26
+   "pagina": 26,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -3799,7 +4033,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 24
+   "pagina": 24,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -3815,7 +4050,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 19
+   "pagina": 19,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -3830,7 +4066,8 @@
    "categoria": "Surgelati e gelati",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -3846,7 +4083,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 17
+   "pagina": 17,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -3862,7 +4100,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 28
+   "pagina": 28,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -3877,7 +4116,8 @@
    "categoria": "Gastronomia, salumi e formaggi",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -3894,7 +4134,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 19
+   "pagina": 19,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -3911,7 +4152,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 24
+   "pagina": 24,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -3926,7 +4168,8 @@
    "categoria": "Gastronomia, salumi e formaggi",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -3941,7 +4184,8 @@
    "categoria": "Gastronomia, salumi e formaggi",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -3957,7 +4201,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 24
+   "pagina": 24,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -3974,7 +4219,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 6
+   "pagina": 6,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -3991,7 +4237,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 6
+   "pagina": 6,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -4006,7 +4253,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -4023,7 +4271,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 16
+   "pagina": 16,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -4040,7 +4289,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 10
+   "pagina": 10,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -4055,7 +4305,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -4070,7 +4321,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Coop Collegno",
@@ -4086,7 +4338,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 5
+   "pagina": 5,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Eurospin",
@@ -4101,7 +4354,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -4118,7 +4372,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 16
+   "pagina": 16,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -4134,7 +4389,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 17
+   "pagina": 17,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -4151,7 +4407,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 27
+   "pagina": 27,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -4166,7 +4423,8 @@
    "categoria": "Surgelati e gelati",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Coop Collegno",
@@ -4182,7 +4440,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 3
+   "pagina": 3,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -4198,7 +4457,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 26
+   "pagina": 26,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -4214,7 +4474,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 21
+   "pagina": 21,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Coop Collegno",
@@ -4230,7 +4491,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 5
+   "pagina": 5,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Mercatò",
@@ -4247,7 +4509,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 12
+   "pagina": 12,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -4264,7 +4527,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 15
+   "pagina": 15,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -4281,7 +4545,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 15
+   "pagina": 15,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -4297,7 +4562,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 29
+   "pagina": 29,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -4313,7 +4579,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 20
+   "pagina": 20,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Coop Collegno",
@@ -4329,7 +4596,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 6
+   "pagina": 6,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Mercatò",
@@ -4346,7 +4614,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 15
+   "pagina": 15,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -4361,7 +4630,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -4377,7 +4647,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 28
+   "pagina": 28,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -4392,7 +4663,8 @@
    "categoria": "Gastronomia, salumi e formaggi",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -4408,7 +4680,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 20
+   "pagina": 20,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -4424,7 +4697,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 31
+   "pagina": 31,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -4439,7 +4713,8 @@
    "categoria": "Gastronomia, salumi e formaggi",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -4454,7 +4729,8 @@
    "categoria": "Gastronomia, salumi e formaggi",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -4469,7 +4745,8 @@
    "categoria": "Gastronomia, salumi e formaggi",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -4485,7 +4762,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 21
+   "pagina": 21,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -4501,7 +4779,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 22
+   "pagina": 22,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -4518,7 +4797,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 26
+   "pagina": 26,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -4533,7 +4813,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -4548,7 +4829,8 @@
    "categoria": "Bevande",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -4563,7 +4845,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -4580,7 +4863,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 14
+   "pagina": 14,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -4596,7 +4880,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 20
+   "pagina": 20,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -4613,7 +4898,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 15
+   "pagina": 15,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Coop Collegno",
@@ -4629,7 +4915,8 @@
    "con_carta": true,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 7
+   "pagina": 7,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Mercatò",
@@ -4646,7 +4933,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 23
+   "pagina": 23,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -4663,7 +4951,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 14
+   "pagina": 14,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -4679,7 +4968,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 16
+   "pagina": 16,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -4696,7 +4986,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 15
+   "pagina": 15,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -4713,7 +5004,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 9
+   "pagina": 9,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -4728,7 +5020,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -4745,7 +5038,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 16
+   "pagina": 16,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -4762,7 +5056,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 8
+   "pagina": 8,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -4777,7 +5072,8 @@
    "categoria": "Gastronomia, salumi e formaggi",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -4793,7 +5089,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 21
+   "pagina": 21,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -4810,7 +5107,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 12
+   "pagina": 12,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -4827,7 +5125,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 13
+   "pagina": 13,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -4842,7 +5141,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -4859,7 +5159,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 24
+   "pagina": 24,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -4874,7 +5175,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -4889,7 +5191,8 @@
    "categoria": "Surgelati e gelati",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -4905,7 +5208,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 55
+   "pagina": 55,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -4922,7 +5226,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 9
+   "pagina": 9,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -4939,7 +5244,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 15
+   "pagina": 15,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -4955,7 +5261,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 30
+   "pagina": 30,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -4972,7 +5279,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 14
+   "pagina": 14,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -4989,7 +5297,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 25
+   "pagina": 25,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -5004,7 +5313,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -5021,7 +5331,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 10
+   "pagina": 10,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -5036,7 +5347,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -5051,7 +5363,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -5066,7 +5379,8 @@
    "categoria": "Latticini e uova",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -5083,7 +5397,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 9
+   "pagina": 9,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -5100,7 +5415,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 9
+   "pagina": 9,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -5115,7 +5431,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -5131,7 +5448,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 18
+   "pagina": 18,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -5146,7 +5464,8 @@
    "categoria": "Gastronomia, salumi e formaggi",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -5162,7 +5481,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 22
+   "pagina": 22,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -5178,7 +5498,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 22
+   "pagina": 22,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -5195,7 +5516,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 24
+   "pagina": 24,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Coop Collegno",
@@ -5211,7 +5533,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 6
+   "pagina": 6,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -5227,7 +5550,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 21
+   "pagina": 21,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -5244,7 +5568,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 16
+   "pagina": 16,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -5259,7 +5584,8 @@
    "categoria": "Latticini e uova",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Coop Collegno",
@@ -5275,7 +5601,8 @@
    "con_carta": true,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 6
+   "pagina": 6,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Mercatò",
@@ -5292,7 +5619,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 7
+   "pagina": 7,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -5309,7 +5637,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 10
+   "pagina": 10,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -5324,7 +5653,8 @@
    "categoria": "Bevande",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -5340,7 +5670,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 30
+   "pagina": 30,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -5356,7 +5687,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 27
+   "pagina": 27,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Coop Collegno",
@@ -5372,7 +5704,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 7
+   "pagina": 7,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -5388,7 +5721,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 18
+   "pagina": 18,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -5405,7 +5739,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 23
+   "pagina": 23,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -5422,7 +5757,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 12
+   "pagina": 12,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -5439,7 +5775,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 17
+   "pagina": 17,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Coop Collegno",
@@ -5455,7 +5792,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 4
+   "pagina": 4,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Eurospin",
@@ -5470,7 +5808,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -5485,7 +5824,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -5501,7 +5841,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 21
+   "pagina": 21,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -5517,7 +5858,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 26
+   "pagina": 26,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -5534,7 +5876,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 8
+   "pagina": 8,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -5550,7 +5893,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 29
+   "pagina": 29,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -5565,7 +5909,8 @@
    "categoria": "Gastronomia, salumi e formaggi",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -5582,7 +5927,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 11
+   "pagina": 11,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -5598,7 +5944,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 18
+   "pagina": 18,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -5614,7 +5961,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 23
+   "pagina": 23,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -5630,7 +5978,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 29
+   "pagina": 29,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -5647,7 +5996,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 24
+   "pagina": 24,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -5663,7 +6013,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 27
+   "pagina": 27,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -5680,7 +6031,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 26
+   "pagina": 26,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -5696,7 +6048,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 29
+   "pagina": 29,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -5713,7 +6066,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 5
+   "pagina": 5,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -5728,7 +6082,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-13",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -5744,7 +6099,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 29
+   "pagina": 29,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -5760,7 +6116,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 31
+   "pagina": 31,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -5777,7 +6134,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 24
+   "pagina": 24,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -5794,7 +6152,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 14
+   "pagina": 14,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -5811,7 +6170,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 16
+   "pagina": 16,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Coop Collegno",
@@ -5827,7 +6187,8 @@
    "con_carta": true,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 5
+   "pagina": 5,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Eurospin",
@@ -5842,7 +6203,8 @@
    "categoria": "Gastronomia, salumi e formaggi",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -5859,7 +6221,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 17
+   "pagina": 17,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -5876,7 +6239,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 7
+   "pagina": 7,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -5892,7 +6256,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 16
+   "pagina": 16,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -5908,7 +6273,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 29
+   "pagina": 29,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -5925,7 +6291,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 11
+   "pagina": 11,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -5942,7 +6309,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 23
+   "pagina": 23,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -5959,7 +6327,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 25
+   "pagina": 25,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -5975,7 +6344,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 17
+   "pagina": 17,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -5992,7 +6362,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 25
+   "pagina": 25,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -6008,7 +6379,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 24
+   "pagina": 24,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Coop Collegno",
@@ -6024,7 +6396,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 4
+   "pagina": 4,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Mercatò",
@@ -6041,7 +6414,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 27
+   "pagina": 27,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -6057,7 +6431,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 53
+   "pagina": 53,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -6073,7 +6448,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 22
+   "pagina": 22,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -6089,7 +6465,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 27
+   "pagina": 27,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -6106,7 +6483,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 31
+   "pagina": 31,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -6121,7 +6499,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -6137,7 +6516,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 27
+   "pagina": 27,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -6153,7 +6533,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 22
+   "pagina": 22,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -6170,7 +6551,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 24
+   "pagina": 24,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -6185,7 +6567,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -6201,7 +6584,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 21
+   "pagina": 21,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -6218,7 +6602,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 25
+   "pagina": 25,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -6233,7 +6618,8 @@
    "categoria": "Gastronomia, salumi e formaggi",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -6249,7 +6635,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 29
+   "pagina": 29,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -6264,7 +6651,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Coop Collegno",
@@ -6280,7 +6668,8 @@
    "con_carta": true,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 4
+   "pagina": 4,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -6296,7 +6685,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 52
+   "pagina": 52,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Coop Collegno",
@@ -6312,7 +6702,8 @@
    "con_carta": true,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 4
+   "pagina": 4,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Mercatò",
@@ -6329,7 +6720,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 26
+   "pagina": 26,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -6344,7 +6736,8 @@
    "categoria": "Latticini e uova",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -6361,7 +6754,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 24
+   "pagina": 24,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -6377,7 +6771,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 27
+   "pagina": 27,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -6394,7 +6789,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 9
+   "pagina": 9,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -6411,7 +6807,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 10
+   "pagina": 10,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -6427,7 +6824,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 17
+   "pagina": 17,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -6443,7 +6841,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 17
+   "pagina": 17,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -6460,7 +6859,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 7
+   "pagina": 7,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -6476,7 +6876,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 20
+   "pagina": 20,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -6493,7 +6894,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 19
+   "pagina": 19,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -6509,7 +6911,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 21
+   "pagina": 21,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -6526,7 +6929,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 23
+   "pagina": 23,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -6541,7 +6945,8 @@
    "categoria": "Gastronomia, salumi e formaggi",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -6557,7 +6962,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 28
+   "pagina": 28,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -6572,7 +6978,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -6589,7 +6996,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 27
+   "pagina": 27,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -6604,7 +7012,8 @@
    "categoria": "Specialità",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -6621,7 +7030,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 13
+   "pagina": 13,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -6638,7 +7048,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 13
+   "pagina": 13,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -6654,7 +7065,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 26
+   "pagina": 26,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -6671,7 +7083,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 27
+   "pagina": 27,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -6687,7 +7100,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 27
+   "pagina": 27,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -6703,7 +7117,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 28
+   "pagina": 28,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Coop Collegno",
@@ -6719,7 +7134,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 6
+   "pagina": 6,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -6735,7 +7151,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 19
+   "pagina": 19,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -6751,7 +7168,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 24
+   "pagina": 24,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -6768,7 +7186,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 13
+   "pagina": 13,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -6785,7 +7204,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 26
+   "pagina": 26,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -6802,7 +7222,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 9
+   "pagina": 9,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -6819,7 +7240,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 10
+   "pagina": 10,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Coop Collegno",
@@ -6835,7 +7257,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 5
+   "pagina": 5,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -6851,7 +7274,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 22
+   "pagina": 22,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -6867,7 +7291,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 24
+   "pagina": 24,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -6884,7 +7309,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 9
+   "pagina": 9,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -6901,7 +7327,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 25
+   "pagina": 25,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -6917,7 +7344,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 21
+   "pagina": 21,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -6934,7 +7362,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 14
+   "pagina": 14,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -6951,7 +7380,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 25
+   "pagina": 25,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -6968,7 +7398,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 27
+   "pagina": 27,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -6983,7 +7414,8 @@
    "categoria": "Surgelati e gelati",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -7000,7 +7432,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 7
+   "pagina": 7,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Coop Collegno",
@@ -7016,7 +7449,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 8
+   "pagina": 8,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Eurospin",
@@ -7031,7 +7465,8 @@
    "categoria": "Gastronomia, salumi e formaggi",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -7048,7 +7483,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 13
+   "pagina": 13,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -7065,7 +7501,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 17
+   "pagina": 17,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -7082,7 +7519,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 23
+   "pagina": 23,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -7097,7 +7535,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -7113,7 +7552,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 19
+   "pagina": 19,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -7129,7 +7569,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 31
+   "pagina": 31,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -7146,7 +7587,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 14
+   "pagina": 14,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -7162,7 +7604,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 25
+   "pagina": 25,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -7179,7 +7622,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 25
+   "pagina": 25,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -7195,7 +7639,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 27
+   "pagina": 27,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -7211,7 +7656,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 21
+   "pagina": 21,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -7226,7 +7672,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Ipercoop Torino",
@@ -7242,7 +7689,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 28
+   "pagina": 28,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Coop Collegno",
@@ -7258,7 +7706,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 4
+   "pagina": 4,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -7274,7 +7723,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 27
+   "pagina": 27,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -7290,7 +7740,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 26
+   "pagina": 26,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -7307,7 +7758,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 13
+   "pagina": 13,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Coop Collegno",
@@ -7323,7 +7775,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 6
+   "pagina": 6,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -7339,7 +7792,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 27
+   "pagina": 27,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -7355,7 +7809,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 27
+   "pagina": 27,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -7372,7 +7827,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 23
+   "pagina": 23,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -7388,7 +7844,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 24
+   "pagina": 24,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -7404,7 +7861,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 27
+   "pagina": 27,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -7421,7 +7879,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 7
+   "pagina": 7,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -7438,7 +7897,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 8
+   "pagina": 8,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -7454,7 +7914,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 22
+   "pagina": 22,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -7471,7 +7932,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 27
+   "pagina": 27,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -7487,7 +7949,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 29
+   "pagina": 29,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -7504,7 +7967,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 10
+   "pagina": 10,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -7521,7 +7985,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 35
+   "pagina": 35,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -7537,7 +8002,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 21
+   "pagina": 21,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -7553,7 +8019,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 21
+   "pagina": 21,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -7569,7 +8036,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 22
+   "pagina": 22,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -7586,7 +8054,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 17
+   "pagina": 17,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -7602,7 +8071,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 28
+   "pagina": 28,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -7619,7 +8089,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 7
+   "pagina": 7,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -7635,7 +8106,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 23
+   "pagina": 23,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -7650,7 +8122,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -7667,7 +8140,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 17
+   "pagina": 17,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -7684,7 +8158,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 23
+   "pagina": 23,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -7701,7 +8176,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 17
+   "pagina": 17,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Coop Collegno",
@@ -7717,7 +8193,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 4
+   "pagina": 4,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Mercatò",
@@ -7734,7 +8211,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 26
+   "pagina": 26,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -7750,7 +8228,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 16
+   "pagina": 16,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -7766,7 +8245,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 16
+   "pagina": 16,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -7782,7 +8262,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 22
+   "pagina": 22,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -7798,7 +8279,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 22
+   "pagina": 22,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -7815,7 +8297,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 23
+   "pagina": 23,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -7831,7 +8314,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 21
+   "pagina": 21,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -7848,7 +8332,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 8
+   "pagina": 8,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Coop Collegno",
@@ -7864,7 +8349,8 @@
    "con_carta": true,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 4
+   "pagina": 4,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Mercatò",
@@ -7881,7 +8367,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 13
+   "pagina": 13,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Coop Collegno",
@@ -7897,7 +8384,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 5
+   "pagina": 5,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Coop Collegno",
@@ -7913,7 +8401,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 5
+   "pagina": 5,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Coop Collegno",
@@ -7929,7 +8418,8 @@
    "con_carta": true,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 3
+   "pagina": 3,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Mercatò",
@@ -7946,7 +8436,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 17
+   "pagina": 17,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -7963,7 +8454,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 14
+   "pagina": 14,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Coop Collegno",
@@ -7979,7 +8471,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 1
+   "pagina": 1,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Mercatò",
@@ -7996,7 +8489,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 26
+   "pagina": 26,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -8012,7 +8506,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 26
+   "pagina": 26,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -8028,7 +8523,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 22
+   "pagina": 22,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -8044,7 +8540,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 53
+   "pagina": 53,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -8059,7 +8556,8 @@
    "categoria": "Dispensa",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -8076,7 +8574,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 25
+   "pagina": 25,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -8092,7 +8591,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 21
+   "pagina": 21,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Coop Collegno",
@@ -8108,7 +8608,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 1
+   "pagina": 1,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Mercatò",
@@ -8125,7 +8626,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 29
+   "pagina": 29,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -8142,7 +8644,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 25
+   "pagina": 25,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -8158,7 +8661,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 30
+   "pagina": 30,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -8175,7 +8679,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 13
+   "pagina": 13,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -8191,7 +8696,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 16
+   "pagina": 16,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -8208,7 +8714,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 26
+   "pagina": 26,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -8225,7 +8732,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 28
+   "pagina": 28,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Coop Collegno",
@@ -8241,7 +8749,8 @@
    "con_carta": true,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 5
+   "pagina": 5,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -8257,7 +8766,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 26
+   "pagina": 26,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -8272,7 +8782,8 @@
    "categoria": "Gastronomia, salumi e formaggi",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -8289,7 +8800,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 9
+   "pagina": 9,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -8305,7 +8817,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 54
+   "pagina": 54,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -8322,7 +8835,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 17
+   "pagina": 17,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -8339,7 +8853,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 31
+   "pagina": 31,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -8355,7 +8870,8 @@
    "con_carta": true,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 26
+   "pagina": 26,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Eurospin",
@@ -8370,7 +8886,8 @@
    "categoria": "Gastronomia, salumi e formaggi",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -8385,7 +8902,8 @@
    "categoria": "Gastronomia, salumi e formaggi",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -8402,7 +8920,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 13
+   "pagina": 13,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -8418,7 +8937,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 52
+   "pagina": 52,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -8435,7 +8955,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 14
+   "pagina": 14,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -8451,7 +8972,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 26
+   "pagina": 26,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -8468,7 +8990,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 14
+   "pagina": 14,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Coop Collegno",
@@ -8484,7 +9007,8 @@
    "con_carta": false,
    "valido_dal": null,
    "valido_al": null,
-   "pagina": 6
+   "pagina": 6,
+   "fonte": "https://coop.volantinopiu.com/volantino2934500pv152.html"
   },
   {
    "catena": "Ipercoop Torino",
@@ -8500,7 +9024,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 25
+   "pagina": 25,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -8517,7 +9042,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 25
+   "pagina": 25,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -8534,7 +9060,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 13
+   "pagina": 13,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Ipercoop Torino",
@@ -8550,7 +9077,8 @@
    "con_carta": false,
    "valido_dal": "2026-11-05",
    "valido_al": "2026-11-18",
-   "pagina": 29
+   "pagina": 29,
+   "fonte": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html"
   },
   {
    "catena": "Mercatò",
@@ -8567,7 +9095,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 14
+   "pagina": 14,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -8584,7 +9113,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 14
+   "pagina": 14,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -8599,7 +9129,8 @@
    "categoria": "Specialità",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Mercatò",
@@ -8616,7 +9147,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": false,
-   "pagina": 31
+   "pagina": 31,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Mercatò",
@@ -8633,7 +9165,8 @@
    "valido_dal": "2026-11-02",
    "valido_al": "2026-11-15",
    "da_verificare": true,
-   "pagina": 8
+   "pagina": 8,
+   "fonte": "https://www.mymercato.it/mondo-mercato/volantini"
   },
   {
    "catena": "Eurospin",
@@ -8648,7 +9181,8 @@
    "categoria": "Gastronomia, salumi e formaggi",
    "con_carta": false,
    "valido_dal": "2026-11-05",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   },
   {
    "catena": "Eurospin",
@@ -8663,7 +9197,8 @@
    "categoria": "Carne e pesce",
    "con_carta": false,
    "valido_dal": "2026-11-13",
-   "valido_al": "2026-11-15"
+   "valido_al": "2026-11-15",
+   "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
   }
  ]
 }

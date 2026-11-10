@@ -39,6 +39,7 @@ def eurospin(raw):
             "categoria": (cat or "Altro").capitalize(),
             "con_carta": x["identifier"] in family,
             "valido_dal": d8(first(p, "START-DATE-VALIDITY")), "valido_al": d8(first(p, "END-DATE-VALIDITY")),
+            "fonte": "https://flyer.eurospin.com/it-it/punti-vendita/eurospin-italia/promozioni/" + x.get("_promo", {}).get("alias", ""),
         })
     return out
 
@@ -60,7 +61,9 @@ def coop(raw):
         store = vols.get(i, {}).get("negozio", "")
         label = "Coop Collegno" if "8001120004550" in store else "Ipercoop Torino" if "8001120004796" in store else "Coop"
         rows = parse(f, vf, vt)
-        for r in rows: r["catena"] = label
+        for r in rows:
+            r["catena"] = label
+            r["fonte"] = vols.get(i, {}).get("final", "").split("?")[0]
         out += rows
     return out
 
@@ -73,7 +76,9 @@ def mercato(raw):
     if os.path.exists(info):
         m = re.search(r"(\d\d)-(\d\d)-(\d{4}) - (\d\d)-(\d\d)-(\d{4})", json.load(open(info))["text"])
         if m: vf = f"{m.group(3)}-{m.group(2)}-{m.group(1)}"; vt = f"{m.group(6)}-{m.group(5)}-{m.group(4)}"
-    return parse(d, vf, vt)
+    rows = parse(d, vf, vt)
+    for r in rows: r["fonte"] = "https://www.mymercato.it/mondo-mercato/volantini"
+    return rows
 
 def coop_linee(raw):
     """Pagine 'Sconto X% su tutta la linea': le marche sono loghi e l'OCR non le legge bene,
@@ -91,7 +96,7 @@ def coop_linee(raw):
             pct = re.search(r"Sconto\s+(\d{2})\s", re.sub(r"\s+", " ", page))
             if not pct: continue
             out.append({"pct": int(pct.group(1)), "pagina": n, "pdf": (v.get("pdfs") or [""])[0],
-                        "volantino": v.get("final", "")})
+                        "volantino": v.get("final", "").split("?")[0]})
     return out
 
 def latest(pattern):
