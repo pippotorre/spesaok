@@ -95,3 +95,8 @@ Output iniziale: artefatto. In futuro: valutare una PWA.
 - Da fare una volta (Pippo): Settings → Pages → Source: "GitHub Actions".
 - Opzioni per il dominio: (2) sottodominio spesaok.entratadisicurezza.com con record CNAME → pippotorre.github.io nel DNS di TopHost, poi impostarlo in Settings → Pages → Custom domain; (3) app su TopHost in /spesaok che legge i dati da Pages: `python scripts/build_pwa.py --dati https://pippotorre.github.io/spesaok/offerte.json --zip spesaok-tophost.zip` (caricata una volta, i dati si aggiornano da soli; GitHub Pages permette la lettura da altri siti).
 - La PWA legge l'indirizzo dei dati dal meta `spesaok-dati` in index.html; il service worker salva una copia per l'uso offline anche se i dati arrivano da un altro sito.
+
+## 10/11/2026 – Loghi delle catene
+- Richiesta di Pippo: al posto dei pallini colorati e della fascia colorata, i loghi delle catene: in alto come filtri (a colori = attiva, grigio = esclusa), e nelle offerte accanto al nome.
+- Loghi presi dai siti ufficiali con `scripts/fetch_logos.py` (workflow manuale "scarica-loghi"), scelti a mano e copiati in `pwa/logos/` (Aldi svg, Coop png 180, Eurospin svg, MD svg, Mercatò png 240). In `negozi.json`: campi `logo` ed `etichetta` (nome breve sotto il logo: Collegno / Ipercoop per i due negozi Coop). Se manca il logo si vedono le iniziali su fondo colorato.
+- Corretto: il riquadro "sconti su intere linee Coop" non si nascondeva durante la ricerca (regola CSS `[hidden]`).

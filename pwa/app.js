@@ -22,6 +22,11 @@ function mapsUrl(catena){
   return "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent((n && n.cerca) || catena);
 }
 const color = c => (NEG[c] && NEG[c].colore) || "var(--accent)";
+const short = c => (NEG[c] && NEG[c].etichetta) || c;
+// Logo della catena; se manca, iniziali su fondo colorato
+const logo = (c, cls) => NEG[c] && NEG[c].logo
+  ? `<span class="${cls}"><img src="${esc(NEG[c].logo)}" alt="${esc(c)}" loading="lazy"></span>`
+  : `<span class="${cls} ini" style="background:${color(c)}" aria-label="${esc(c)}">${esc(c.slice(0,2).toUpperCase())}</span>`;
 
 async function load(){
   const [o, n] = await Promise.all([
@@ -36,9 +41,9 @@ async function load(){
 }
 
 function buildChips(){
-  $("chains").innerHTML = chains.map(c => `<button class="chip" aria-pressed="true" data-c="${esc(c)}"><span class="dot" style="background:${color(c)}"></span>${esc(c)}</button>`).join("");
+  $("chains").innerHTML = chains.map(c => `<button class="brand-t" aria-pressed="true" data-c="${esc(c)}" title="${esc(c)}">${logo(c, "lg")}<span class="cap">${esc(short(c))}</span></button>`).join("");
   $("chains").onclick = e => {
-    const b = e.target.closest(".chip"); if (!b) return;
+    const b = e.target.closest(".brand-t"); if (!b) return;
     const c = b.dataset.c; state.on.has(c) ? state.on.delete(c) : state.on.add(c);
     b.setAttribute("aria-pressed", state.on.has(c)); state.shown = PAGE; render();
   };
@@ -66,8 +71,9 @@ function render(){
 
 function card(o){
   const pct = o.sconto_pct || (o.prezzo_pieno && o.prezzo_pieno > o.prezzo ? Math.round(100*(1-o.prezzo/o.prezzo_pieno)) : null);
-  return `<li class="item" style="--c:${color(o.catena)}">
-    <div><div class="name">${esc(o.nome)}${o.marca ? ` <small>· ${esc(o.marca)}</small>` : ""}</div>
+  return `<li class="item">
+    ${logo(o.catena, "lg item-logo")}
+    <div class="body"><div class="name">${esc(o.nome)}${o.marca ? ` <small>· ${esc(o.marca)}</small>` : ""}</div>
       <div class="meta"><span class="store">${esc(o.catena)}</span>${o.formato ? `<span>${esc(o.formato)}</span>` : ""}
         <span>fino al ${fmtD(o.valido_al)}</span>${o.con_carta ? `<span class="badge">prezzo con carta</span>` : ""}${o.da_verificare ? `<span class="badge warn">da verificare</span>` : ""}</div></div>
     <div class="tag">${pct ? `<span class="pct">−${pct}%</span>` : ""}${o.prezzo_pieno && o.prezzo_pieno > o.prezzo ? `<div class="old">€ ${eur(o.prezzo_pieno)}</div>` : ""}
@@ -83,8 +89,8 @@ function buildStores(){
   $("stores").innerHTML = chains.map(c => {
     const n = NEG[c] || {tipo:"catena"};
     const fonte = (DATA.offerte.find(o => o.catena === c && o.fonte) || {}).fonte;
-    return `<div class="store-card" style="--c:${color(c)}">
-      <h3>${esc(c)}</h3>
+    return `<div class="store-card">
+      <div class="store-h">${logo(c, "lg")}<h3>${esc(c)}</h3></div>
       <p>${n.tipo === "negozio" ? `📍 ${esc(n.indirizzo)} · prezzi del volantino di questo negozio` : "Prezzi validi nei punti vendita della zona: cerchiamo il più vicino a te"}</p>
       ${n.nota ? `<p>${esc(n.nota)}</p>` : ""}
       <p>${cnt[c]} offerte in lista</p>
@@ -97,7 +103,7 @@ function buildStores(){
   $("stores").onclick = e => {
     const b = e.target.closest("[data-filter]"); if (!b) return;
     state.on = new Set([b.dataset.filter]);
-    document.querySelectorAll("#chains .chip").forEach(x => x.setAttribute("aria-pressed", state.on.has(x.dataset.c)));
+    document.querySelectorAll("#chains .brand-t").forEach(x => x.setAttribute("aria-pressed", state.on.has(x.dataset.c)));
     state.shown = PAGE; render(); show("offerte");
   };
 }
