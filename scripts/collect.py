@@ -177,7 +177,7 @@ async def md(ctx):
         subprocess.run(["pdftotext", "-bbox-layout", "/tmp/md.pdf", f"{RAW}/md_bbox.html"])
     else:
         os.makedirs("/tmp/mdp", exist_ok=True); os.makedirs(f"{RAW}/md_ocr", exist_ok=True)
-        subprocess.run(["pdftoppm", "-r", "200", "-png", "/tmp/md.pdf", "/tmp/mdp/p"], check=True)
+        subprocess.run(["pdftoppm", "-r", "300", "-png", "/tmp/md.pdf", "/tmp/mdp/p"], check=True)
         for f in sorted(os.listdir("/tmp/mdp")):
             subprocess.run(["tesseract", f"/tmp/mdp/{f}", f"{RAW}/md_ocr/{f[:-4]}", "-l", "ita", "--psm", "11", "tsv"], capture_output=True)
     subprocess.run(["pdftoppm", "-r", "50", "-jpeg", "-f", "2", "-l", "3", "/tmp/md.pdf", f"{RAW}/md_prev"])

@@ -135,6 +135,19 @@ def aldi(raw):
         })
     return out
 
+def md(raw):
+    from parse_md import parse
+    info = json.load(open(f"{raw}/md_info.json"))
+    vf = vt = None
+    m = re.search(r"DAL (\d+)(?: \w+)? AL (\d+) (\w+) (\d{4})", info.get("validita") or "")
+    if m:
+        mesi = "gennaio febbraio marzo aprile maggio giugno luglio agosto settembre ottobre novembre dicembre".split()
+        mm = mesi.index(m.group(3).lower()) + 1
+        vf = f"{m.group(4)}-{mm:02d}-{int(m.group(1)):02d}"; vt = f"{m.group(4)}-{mm:02d}-{int(m.group(2)):02d}"
+    rows = parse(f"{raw}/md_ocr", vf, vt, (info.get("pdfs") or [info["negozio"]])[0])
+    for r in rows: r["catena"] = "MD Torino"
+    return rows
+
 def latest(pattern):
     """Ultima cartella data/raw/<data> che contiene i file della catena."""
     ds = [d for d in sorted(glob.glob("data/raw/*")) if glob.glob(f"{d}/{pattern}")]
@@ -143,7 +156,7 @@ def latest(pattern):
 def main():
     sys.path.insert(0, "scripts")
     items, dates = [], []
-    for fn, pat in ((eurospin, "eurospin_products.json"), (coop, "coop_pdf*_bbox.html"), (mercato, "mercato_ocr"), (aldi, "aldi_products.json")):
+    for fn, pat in ((eurospin, "eurospin_products.json"), (coop, "coop_pdf*_bbox.html"), (mercato, "mercato_ocr"), (aldi, "aldi_products.json"), (md, "md_ocr")):
         d = latest(pat)
         if d:
             items += fn(d); dates.append(os.path.basename(d))
