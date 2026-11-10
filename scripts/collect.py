@@ -80,6 +80,7 @@ async def aldi(ctx):
 COOP_STORES = [
     "https://negozi.volantinopiu.com/ccno-8001120004550.html",  # Coop Collegno (negozio di Pippo)
     "https://negozi.volantinopiu.com/ccno-8001120004796.html",  # Ipercoop Torino Dora
+    "https://negozi.volantinopiu.com/ccno-8001120004406.html",  # Coop Torino Molise (corso Molise 7)
 ]
 
 async def coop(ctx):

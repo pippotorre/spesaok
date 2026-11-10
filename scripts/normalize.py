@@ -59,7 +59,8 @@ def coop(raw):
         if os.path.exists(f"{raw}/coop_info.json"):
             vols = {v.get("i"): v for v in json.load(open(f"{raw}/coop_info.json")).get("volantini", [])}
         store = vols.get(i, {}).get("negozio", "")
-        label = "Coop Collegno" if "8001120004550" in store else "Ipercoop Torino" if "8001120004796" in store else "Coop"
+        label = ("Coop Collegno" if "8001120004550" in store else "Ipercoop Torino" if "8001120004796" in store
+                 else "Coop corso Molise" if "8001120004406" in store else "Coop")
         rows = parse(f, vf, vt)
         for r in rows:
             r["catena"] = label
