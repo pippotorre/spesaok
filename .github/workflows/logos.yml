@@ -1,9 +1,6 @@
 name: scarica-loghi
 on:
-  workflow_dispatch:
-  push:
-    branches: ["claude/**"]
-    paths: ["scripts/fetch_logos.py", ".github/workflows/logos.yml"]
+  workflow_dispatch:   # da lanciare a mano: i loghi finiscono in logos_raw/, si scelgono e si copiano in pwa/logos/
 permissions:
   contents: write
 jobs:
