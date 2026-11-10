@@ -114,6 +114,7 @@ function buildInfo(){
     <p>Fonti: ${(DATA.fonti||[]).map(esc).join(" · ")}. Aggiornamento del ${DATA.aggiornato.split("-").reverse().join("/")}.</p>
     <p>Le offerte "prezzo con carta" valgono solo per i titolari della carta fedeltà della catena.</p>
     <p>Mercatò e MD sono letti con riconoscimento automatico del testo (OCR) dalle immagini del volantino: il prezzo può differire di qualche centesimo. Aldi: prezzi nazionali, fino a esaurimento scorte; la data "fino al" è indicativa.</p>
+    <p>Il Gigante (corso Marche): prezzi dal volantino del negozio; il formato e il prezzo al kg/litro sono ricavati dal testo dell'immagine e vanno verificati. Nel volantino "Uno è gratis" il prezzo indicato è per un pezzo: prendendone due si paga metà.</p>
     <p>I prezzi sono quelli pubblicati nei volantini: verifica sempre in negozio. Ogni offerta ha il link al volantino originale.</p>
     <p>Funziona anche senza connessione, con le ultime offerte scaricate.</p>`;
 }

@@ -2,7 +2,7 @@
 import asyncio, os, re, json, urllib.parse
 from playwright.async_api import async_playwright
 SITES = {"aldi": "https://www.aldi.it/", "eurospin": "https://www.eurospin.it/", "coop": "https://www.novacoop.it/",
-         "md": "https://www.mdspa.it/", "mercato": "https://www.mymercato.it/"}
+         "md": "https://www.mdspa.it/", "mercato": "https://www.mymercato.it/", "gigante": "https://ilgigante.net/"}
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 JS = """() => {
  const out = [];
@@ -20,7 +20,9 @@ async def main():
     async with async_playwright() as p:
         b = await p.chromium.launch()
         ctx = await b.new_context(locale="it-IT", user_agent=UA, viewport={"width": 1366, "height": 900})
+        import sys
         for name, url in SITES.items():
+            if len(sys.argv) > 1 and name not in sys.argv[1:]: continue
             d = f"logos_raw/{name}"; os.makedirs(d, exist_ok=True); log = []
             try:
                 pg = await ctx.new_page()

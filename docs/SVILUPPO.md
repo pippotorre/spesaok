@@ -100,3 +100,11 @@ Output iniziale: artefatto. In futuro: valutare una PWA.
 - Richiesta di Pippo: al posto dei pallini colorati e della fascia colorata, i loghi delle catene: in alto come filtri (a colori = attiva, grigio = esclusa), e nelle offerte accanto al nome.
 - Loghi presi dai siti ufficiali con `scripts/fetch_logos.py` (workflow manuale "scarica-loghi"), scelti a mano e copiati in `pwa/logos/` (Aldi svg, Coop png 180, Eurospin svg, MD svg, Mercatò png 240). In `negozi.json`: campi `logo` ed `etichetta` (nome breve sotto il logo: Collegno / Ipercoop per i due negozi Coop). Se manca il logo si vedono le iniziali su fondo colorato.
 - Corretto: il riquadro "sconti su intere linee Coop" non si nascondeva durante la ricerca (regola CSS `[hidden]`).
+
+## 10/11/2026 – Il Gigante (corso Marche)
+- Richiesta di Pippo: aggiungere Il Gigante di Torino, corso Marche 42 (sul sito è il punto vendita 47).
+- Formato: il volantino del negozio si apre in un visualizzatore ShopFully che legge un'API pubblica (cloudfront, proprietà "Il Gigante"): `customResources/flyers?customerCode=47` elenca i volantini, e `flyers/<id>/flyerGibs` restituisce i prodotti con titolo ("Marca - Prodotto"), marca, prezzo, pagina, categoria e il testo letto dall'immagine (google_vision_text). Niente OCR nostro.
+- Raccolta: `gigante()` in scripts/collect.py (apre la pagina del negozio e del volantino, poi legge l'API). Normalizzazione: `gigante()` in scripts/normalize.py. Dal testo si ricavano formato, prezzo al kg/l ("al kg € …", altrimenti calcolato dal formato), sconto ("-25%"), Blucard ("CON BLUCARD") e l'offerta "1+1 gratis".
+- Filtro non alimentari con una lista di parole sulla categoria e sul titolo (giochi, detersivi, abbigliamento, casa, elettronica, animali…).
+- Prima raccolta: 2 volantini ("Uno è gratis" 5–18/11, 428 prodotti; "Prezzo basso sempre" 5/11–2/12, 39 prodotti) → 239 offerte alimentari, 49 con Blucard. Totale lista: 927.
+- PWA: logo (la "g" dal sito ufficiale), etichetta "Gigante", Portami verso corso Marche 42. Filtri in alto ristretti per farci stare 7 loghi.

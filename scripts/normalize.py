@@ -148,6 +148,64 @@ def md(raw):
     for r in rows: r["catena"] = "MD Torino"
     return rows
 
+GIGANTE_NONFOOD = re.compile(
+    r"gioc|lego|bambol|peluche|barbie|macchin|maglie|maglion|plaid|abbigliam|leggings|detersiv|ammorbident|"
+    r"cibo per|crocchette|lettiera|animali|assorbent|pannolin|arredo|sgrassat|carta igienica|pulizi|profumator|"
+    r"contenitori|basket|\btv\b|ps5|smart|dentifric|spazzolin|detergente|doccia|sapone|shampoo|collutorio|"
+    r"schiuma|guanti|anticalcare|lavastoviglie|scopa|swiffer|candeggina|rotoli|tovaglioli|fazzoletti|bicchieri|"
+    r"stagnola|sacchett|piatti di plastica|poltron|pouf|grucce|casalinghi|armadi|pattumiera|mobile|padella|"
+    r"stendi|stampi|candele|pentol|bici|action|letti|trapunt|drone|magia|divan|aspirapolvere|tappet|make up|"
+    r"piante|acquario|asciugatrice|frigorifer|microonde|vaporella|smartphone|cotone|dinosaur|telecomandat|"
+    r"didattic|educativ|accessori|bagno|igien|lines|tempo\b", re.I)
+GIGANTE_QTY = re.compile(r"(\d+(?:[.,]\d+)?)\s*(?:x\s*(\d+(?:[.,]\d+)?)\s*)?(kg|gr?|ml|cl|lt?|litri|litro)\b", re.I)
+
+def gigante(raw):
+    """Il Gigante (corso Marche): prodotti del visualizzatore ShopFully con titolo, marca, prezzo e
+    testo letto dall'immagine (google_vision_text), da cui si ricavano formato, prezzo al kg/l e Blucard."""
+    info = json.load(open(f"{raw}/gigante_info.json"))
+    out = []
+    for v in info["volantini"]:
+        f = f"{raw}/gigante_{v['id']}.json"
+        if not os.path.exists(f): continue
+        for x in json.load(open(f)):
+            st = x.get("settings") or {}
+            cat, title, gv = st.get("shared_category") or "", (x.get("title") or "").strip(), st.get("google_vision_text") or ""
+            if GIGANTE_NONFOOD.search(cat) or GIGANTE_NONFOOD.search(title) or NON_FOOD_WORDS.search(title): continue
+            m = re.search(r"(\d+[.,]\d{2})", st.get("price") or "")
+            if not m: continue
+            price = float(m.group(1).replace(",", "."))
+            brand = (st.get("brand") or "").strip()
+            name = title.split(" - ", 1)[1].strip() if " - " in title else title
+            q = GIGANTE_QTY.search(gv)
+            formato, qty, unit = None, None, None
+            if q:
+                n = float(q.group(1).replace(",", ".")) * (float(q.group(2).replace(",", ".")) if q.group(2) else 1)
+                u = q.group(3).lower()
+                qty, unit = ({"kg": (n, "kg"), "g": (n / 1000, "kg"), "gr": (n / 1000, "kg"), "ml": (n / 1000, "l"),
+                              "cl": (n / 100, "l")}.get(u) or (n, "l"))
+                formato = q.group(0)
+            pu = re.search(r"al\s*(kg|lt?|litro)\.?\s*€?\s*(\d+[.,]\d{2})", gv, re.I)
+            prezzo_unita = None
+            if pu:
+                prezzo_unita = float(pu.group(2).replace(",", ".")); unit = "kg" if pu.group(1).lower() == "kg" else "l"
+                if qty and abs(price / qty - prezzo_unita) / prezzo_unita > 0.25: prezzo_unita = round(price / qty, 2)
+            elif qty and qty > 0:
+                prezzo_unita = round(price / qty, 2)
+            sc = re.search(r"-\s?(\d{1,2})\s?%", gv)
+            sconto = int(sc.group(1)) if sc and 5 <= int(sc.group(1)) <= 70 else None
+            note = "1+1 gratis: 2 pezzi a metà prezzo" if re.search(r"1\s*\+\s*1", gv) else None
+            out.append({
+                "catena": "Il Gigante", "nome": name, "marca": brand if brand.lower() != "il gigante" else "Il Gigante",
+                "formato": ", ".join(p for p in (formato, note) if p) or None, "prezzo": price,
+                "prezzo_pieno": round(price / (1 - sconto / 100), 2) if sconto else None, "sconto_pct": sconto,
+                "prezzo_unita": prezzo_unita, "unita": unit if prezzo_unita else None,
+                "categoria": cat, "con_carta": "BLUCARD" in gv.upper(),
+                "valido_dal": v.get("dal"), "valido_al": v.get("al"),
+                "pagina": int(st["flyer_page"]) if str(st.get("flyer_page", "")).isdigit() else None,
+                "fonte": v["url"],
+            })
+    return out
+
 def latest(pattern):
     """Ultima cartella data/raw/<data> che contiene i file della catena."""
     ds = [d for d in sorted(glob.glob("data/raw/*")) if glob.glob(f"{d}/{pattern}")]
@@ -156,7 +214,7 @@ def latest(pattern):
 def main():
     sys.path.insert(0, "scripts")
     items, dates = [], []
-    for fn, pat in ((eurospin, "eurospin_products.json"), (coop, "coop_pdf*_bbox.html"), (mercato, "mercato_ocr"), (aldi, "aldi_products.json"), (md, "md_ocr")):
+    for fn, pat in ((eurospin, "eurospin_products.json"), (coop, "coop_pdf*_bbox.html"), (mercato, "mercato_ocr"), (aldi, "aldi_products.json"), (md, "md_ocr"), (gigante, "gigante_info.json")):
         d = latest(pat)
         if d:
             items += fn(d); dates.append(os.path.basename(d))
