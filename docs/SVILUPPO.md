@@ -79,3 +79,12 @@ Output iniziale: artefatto. In futuro: valutare una PWA.
 - Carrefour: Cloudflare anti-bot, esclusa per lo stesso motivo.
 - Filtro non alimentari corretto: "occhi" scartava "finocchiona/finocchio", "piatti" scartava i piatti pronti.
 - Raccolta settimanale ora: Eurospin, Coop (2 negozi), Mercatò, Aldi, MD.
+
+## 10/11/2026 – PWA "spesaok" su TopHost
+- Decisioni di Pippo: indirizzo https://entratadisicurezza.com/spesaok/ ; PWA statica e pubblica; aggiornamento dati manuale (Claude avvisa, Pippo carica `offerte.json`); subito la funzione per raggiungere il supermercato; storico e lista della spesa rimandati; nome "spesaok" con grafica propria.
+- Sorgenti in `pwa/` (index.html, style.css, app.js, sw.js, manifest, .htaccess, negozi.json, icons/). Build: `python scripts/build_pwa.py` -> `dist/spesaok/` + `dist/spesaok.zip` (dist/ non versionata).
+- Funzioni: lista con ricerca, filtro per catena, ordinamento (kg/l, confezione, sconto), "senza carta", link al volantino con pagina, sezione Negozi, installazione (Android pulsante "Installa", iPhone suggerimento), uso offline (service worker; dati prima dalla rete, poi copia salvata).
+- "Portami": Coop Collegno (Via Roma 74, Collegno) e Ipercoop Torino (Via Livorno 49) -> percorso Google Maps all'indirizzo; Aldi, Eurospin, Mercatò, MD (volantino di zona) -> ricerca su Google Maps del punto vendita più vicino.
+- Logo: cartellino prezzo giallo con spunta su fondo verde (icons/logo.svg), icone 192/512/maskable/apple-touch.
+- .htaccess: forza HTTPS, tipi MIME, no-cache per sw.js/offerte.json/index.html.
+- Prossimi passi possibili: distanza dai negozi con geolocalizzazione e raggio, storico prezzi (servirà PHP/MySQL o JSON storici), lista della spesa.

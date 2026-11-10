@@ -1,0 +1,9 @@
+{
+  "_nota": "Come raggiungere ogni catena. tipo=negozio: prezzi letti dal volantino di quel punto vendita, si naviga all'indirizzo. tipo=catena: prezzi validi in tutti i punti vendita della zona, si cerca il più vicino.",
+  "Coop Collegno":   { "tipo": "negozio", "indirizzo": "Via Roma 74, 10093 Collegno TO", "colore": "#e2001a" },
+  "Ipercoop Torino": { "tipo": "negozio", "indirizzo": "Via Livorno 49, 10144 Torino TO", "colore": "#e2001a" },
+  "Mercatò":         { "tipo": "catena", "cerca": "Mercatò supermercato", "colore": "#d6261c" },
+  "MD Torino":       { "tipo": "catena", "cerca": "MD supermercato", "colore": "#f0a000", "nota": "Volantino della zona Nord: vale nei punti vendita MD della zona; letto da quello di via Urbino." },
+  "Aldi":            { "tipo": "catena", "cerca": "Aldi supermercato", "colore": "#00559f", "nota": "Prezzi nazionali, fino a esaurimento scorte." },
+  "Eurospin":        { "tipo": "catena", "cerca": "Eurospin", "colore": "#004a99" }
+}

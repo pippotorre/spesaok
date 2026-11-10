@@ -1,0 +1,22 @@
+{
+  "name": "spesaok – offerte dei volantini",
+  "short_name": "spesaok",
+  "description": "Le offerte alimentari dei volantini dei supermercati di Torino, ordinate dalla più conveniente.",
+  "lang": "it",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0c5a42",
+  "theme_color": "#0c5a42",
+  "categories": ["shopping", "food"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Negozi", "url": "./#negozi", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

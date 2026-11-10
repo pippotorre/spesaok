@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>spesaok – offerte dei volantini a Torino</title>
+<meta name="description" content="Le offerte alimentari dei volantini dei supermercati di Torino, ordinate dalla più conveniente.">
+<meta name="theme-color" content="#0c5a42">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="icons/favicon-64.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="spesaok">
+<meta property="og:title" content="spesaok">
+<meta property="og:description" content="Le offerte dei volantini di Torino, dalla più conveniente.">
+<meta property="og:image" content="icons/icon-512.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Source+Sans+3:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="style.css?v=__VER__">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <img src="icons/favicon.svg" alt="" width="40" height="40">
+    <div>
+      <div class="word">spesa<span>ok</span></div>
+      <div class="sub" id="sub">Offerte dei volantini · Torino</div>
+    </div>
+  </div>
+  <button class="install" id="install" hidden>Installa</button>
+</header>
+
+<main>
+  <section id="v-offerte" class="view">
+    <div class="bar">
+      <div class="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+        <input id="q" type="search" placeholder="Cerca: latte, pasta, grana…" autocomplete="off" aria-label="Cerca un prodotto" enterkeyhint="search">
+      </div>
+      <div class="chips" id="chains" aria-label="Catene"></div>
+      <div class="row">
+        <select id="sort" aria-label="Ordina per">
+          <option value="unit">Prezzo al kg / litro</option>
+          <option value="price">Prezzo della confezione</option>
+          <option value="disc">Sconto più alto</option>
+        </select>
+        <button class="chip small" id="nocard" aria-pressed="false">Senza carta</button>
+        <span class="count" id="count"></span>
+      </div>
+    </div>
+    <section id="linee" hidden></section>
+    <ol id="list" class="list"></ol>
+    <button id="more" class="more" hidden>Mostra altre offerte</button>
+  </section>
+
+  <section id="v-negozi" class="view" hidden>
+    <h2 class="h2">Raggiungi il supermercato</h2>
+    <p class="lead">Tocca <b>Portami</b> per aprire il navigatore. Per le catene con prezzi uguali in tutta la zona cerchiamo il punto vendita più vicino a te.</p>
+    <div id="stores" class="stores"></div>
+  </section>
+
+  <section id="v-info" class="view" hidden>
+    <h2 class="h2">Come funziona</h2>
+    <div class="info-card" id="info"></div>
+  </section>
+</main>
+
+<nav class="tabs" aria-label="Sezioni">
+  <button data-v="offerte" aria-current="page">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12V5a2 2 0 0 1 2-2h7l9 9-9 9-9-9Z"/><circle cx="8" cy="8" r="1.6"/></svg>Offerte</button>
+  <button data-v="negozi">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg>Negozi</button>
+  <button data-v="info">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.01"/></svg>Info</button>
+</nav>
+
+<div class="toast" id="toast" hidden></div>
+<script src="app.js?v=__VER__"></script>
+</body>
+</html>
