@@ -1,34 +1,28 @@
-"""Sonda 10: Bennet via ShopFully. Volantini del negozio 51713 (via Giordano Bruno 142) e prodotti."""
+"""Sonda 10b: Bennet via ShopFully. Cosa c'è dietro i link tag-landing dei prodotti?"""
 import json, re, os, urllib.request
 os.makedirs("../probe_out", exist_ok=True)
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
-GIG = "https://d3k4i39zecu9l5.cloudfront.net/v1/it_it/63f4ba84-d360-4943-b4fb-2d1fac1f52d4"
 def get(u):
     try:
         r = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA, "Accept-Language": "it-IT"}), timeout=30)
-        return r.status, r.read().decode("utf-8", "replace")
+        return r.status, r.geturl(), r.read().decode("utf-8", "replace")
     except Exception as e:
-        return getattr(e, "code", 0), str(e)
-def show(tag, u, n=1500):
-    st, b = get(u); print(f"\n===== {tag} {st} {len(b)} {u}\n{b[:n]}"); return st, b
-
-st, h = show("negozio", "https://www.doveconviene.it/negozi/bennet/51713/via-giordano-bruno-142", 300)
-ids = list(dict.fromkeys(re.findall(r"flyerId=(\d+)", h)))
-print("FLYER IDS NEGOZIO", ids)
-for m in re.finditer(r"flyerId=(\d+)[^>]*>(.{0,300})", h): print("CTX", m.group(1), re.sub(r"<[^>]+>|\s+", " ", m.group(2))[:160])
-open("../probe_out/negozio.html", "w").write(h)
-for fid in (ids or ["1739865", "1731356"])[:4]:
-    show(f"gig_api {fid}", f"{GIG}/flyers/{fid}/flyerGibs", 2500)
-    show(f"gig_flyer {fid}", f"{GIG}/flyers/{fid}", 800)
-    st, page = get(f"https://www.doveconviene.it/torino/iper-e-super/bennet/volantino/ultime-offerte-bennet?flyerId={fid}&flyerPage=1")
-    pubs = list(dict.fromkeys(re.findall(r"it_it_(\d{5,})|publication[^\d]{0,40}(\d{6,})", page)))
-    print("PUB", fid, st, pubs[:5], "| title:", re.findall(r"<title>(.*?)</title>", page)[:1])
-    for m in re.finditer(r"(publication\w*|zmags\w*)[\"']?\s*[:=]\s*[\"']?([\w-]+)", page): print("  PUBCTX", m.group(0)[:120])
-    for p in pubs[:1]:
-        pid = p[0] or p[1]
-        st, enr = show(f"enr {pid}", f"https://shopfully-publication-api.global.ssl.fastly.net/publication_pages/it_it/{pid}/enr/1", 300)
-        try:
-            d = json.loads(enr); items = [x for v in d.values() for x in v]
-            print("ENR items", len(items), "keys", sorted({k for x in items for k in x})[:40])
-            for x in items[:6]: print("  ITEM", json.dumps(x, ensure_ascii=False)[:900])
-        except Exception as e: print("ENR parse", e)
+        return getattr(e, "code", 0), u, str(e)
+PUB = "972552"   # volantino 1739865 (scade 18/11)
+st, _, enr = get(f"https://shopfully-publication-api.global.ssl.fastly.net/publication_pages/it_it/{PUB}/enr/1")
+items = [x for v in json.loads(enr).values() for x in v]
+print("ITEMS", len(items), "pagine", sorted({x["firstPageNumber"] for x in items}, key=int))
+for x in items[2:5]:
+    u = x["url"].split("?")[0]
+    for v in [u, u + "?store_id=51713", u.replace("tag-landing.shopfully.cloud/it_it/", "tag-landing.shopfully.cloud/api/it_it/")]:
+        st, fu, b = get(v)
+        print(f"\n===== {st} {len(b)} {v} -> {fu}")
+        print(re.sub(r"\s+", " ", b)[:2500])
+        for m in re.finditer(r"(https?://[^\"' ]+(?:api|json|gib|product)[^\"' ]*)", b): print("  URL", m.group(1)[:200])
+        for m in re.finditer(r"<script[^>]*>(.{0,40}(?:__NEXT_DATA__|window\.__|price|prezzo).{0,1500})", b, re.S): print("  SCRIPT", re.sub(r"\s+", " ", m.group(1))[:1500])
+# altre fonti di testo: pagine del volantino ("format=all") e pagina DoveConviene con flyerPage=2
+st, _, pages = get(f"https://shopfully-publication-api.global.ssl.fastly.net/publication_pages/it_it/{PUB}/1?format=all")
+print("\n===== PAGES", st, len(pages), re.sub(r"\s+", " ", pages)[:1500])
+st, _, dc = get("https://www.doveconviene.it/torino/iper-e-super/bennet/volantino/ultime-offerte-bennet?flyerId=1739865&flyerPage=2")
+for k in ["gib", "price", "prezzo", "product", "offer"]:
+    for m in list(re.finditer(k, dc, re.I))[:3]: print("DC", k, re.sub(r"\s+", " ", dc[max(0, m.start()-150):m.start()+250]))
