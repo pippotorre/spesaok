@@ -43,6 +43,11 @@ li{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;
 .tag .p{font-size:26px;font-weight:800;font-variant-numeric:tabular-nums}
 .tag .u{font-size:14px;font-weight:600;font-variant-numeric:tabular-nums}
 .tag .old{font-size:13px;text-decoration:line-through;opacity:.7}
+#linee{margin-top:14px;background:var(--surface);border:1px dashed var(--accent);border-radius:10px;padding:10px 14px;display:grid;gap:6px}
+#linee h2{margin:0;font-family:var(--f-price);font-size:19px;font-weight:700}
+#linee p{margin:0;color:var(--muted);font-size:13px}
+#linee ul{margin:0;padding-left:18px;display:grid;gap:3px}
+#linee a{color:var(--accent);font-weight:600}
 .empty{padding:40px 0;text-align:center;color:var(--muted)}
 footer{margin-top:28px;color:var(--muted);font-size:13px;display:grid;gap:6px}
 @media (max-width:480px){li{grid-template-columns:1fr auto}.rank{display:none}.tag .p{font-size:23px}}
@@ -66,6 +71,7 @@ footer{margin-top:28px;color:var(--muted);font-size:13px;display:grid;gap:6px}
       <span class="count" id="count"></span>
     </div>
   </div>
+  <section id="linee" hidden></section>
   <ol id="list"></ol>
   <footer id="foot"></footer>
 </div>
@@ -111,5 +117,13 @@ function render(){
 document.getElementById("foot").innerHTML = `<div>Fonti: ${(DATA.fonti||[]).join(" · ")}</div>
   <div>Mercatò è letto con riconoscimento automatico del testo (OCR) dalle immagini del volantino: il prezzo è ricavato dal prezzo al kg/litro e dal formato, quindi può differire di qualche centesimo.</div>
   <div>Prezzi come pubblicati nei volantini online; verifica in negozio. Le offerte segnate "prezzo con carta" valgono solo per i titolari della carta fedeltà della catena.</div>`;
+const L = DATA.linee_coop || [];
+if (L.length) {
+  const box = document.getElementById("linee");
+  box.innerHTML = `<h2>Coop Collegno: sconti su intere linee di marca</h2>
+    <p>In queste pagine del volantino lo sconto vale su tutti i prodotti delle marche raffigurate (es. pasta, salumi). Il volantino mostra solo i loghi, senza prezzi, quindi non compaiono nella lista.</p>
+    <ul>${L.map(l=>`<li><b>−${l.pct}%</b> su tutta la linea · <a href="${l.pdf}#page=${l.pagina}" target="_blank" rel="noopener">pagina ${l.pagina} del volantino</a></li>`).join("")}</ul>`;
+  box.hidden = false;
+}
 render();
 </script>

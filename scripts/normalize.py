@@ -47,14 +47,21 @@ def coop(raw):
     from parse_coop import parse
     out = []
     for f in sorted(g.glob(f"{raw}/coop_pdf*_bbox.html")):
-        info = json.load(open(f"{raw}/coop_info.json")) if os.path.exists(f"{raw}/coop_info.json") else {}
         m = re.search(r"[Dd]al (\d+) (?:\w+ )?al (\d+) (\w+) (\d{4})", open(f.replace("_bbox.html", ".txt")).read()[:5000])
         mesi = "gennaio febbraio marzo aprile maggio giugno luglio agosto settembre ottobre novembre dicembre".split()
         vf = vt = None
         if m:
             mm = mesi.index(m.group(3).lower()) + 1
             vf = f"{m.group(4)}-{mm:02d}-{int(m.group(1)):02d}"; vt = f"{m.group(4)}-{mm:02d}-{int(m.group(2)):02d}"
-        out += parse(f, vf, vt)
+        i = int(re.search(r"coop_pdf(\d+)", f).group(1))
+        vols = {}
+        if os.path.exists(f"{raw}/coop_info.json"):
+            vols = {v.get("i"): v for v in json.load(open(f"{raw}/coop_info.json")).get("volantini", [])}
+        store = vols.get(i, {}).get("negozio", "")
+        label = "Coop Collegno" if "8001120004550" in store else "Ipercoop Torino" if "8001120004796" in store else "Coop"
+        rows = parse(f, vf, vt)
+        for r in rows: r["catena"] = label
+        out += rows
     return out
 
 def mercato(raw):
@@ -68,17 +75,50 @@ def mercato(raw):
         if m: vf = f"{m.group(3)}-{m.group(2)}-{m.group(1)}"; vt = f"{m.group(6)}-{m.group(5)}-{m.group(4)}"
     return parse(d, vf, vt)
 
+def coop_linee(raw):
+    """Pagine 'Sconto X% su tutta la linea': le marche sono loghi e l'OCR non le legge bene,
+    quindi si segnala la pagina con lo sconto e il link al volantino."""
+    info = f"{raw}/coop_info.json"
+    if not os.path.exists(info): return []
+    vols = {v["i"]: v for v in json.load(open(info)).get("volantini", []) if "i" in v}
+    out = []
+    for f in sorted(glob.glob(f"{raw}/coop_pdf*.txt")):
+        i = int(re.search(r"coop_pdf(\d+)", f).group(1))
+        v = vols.get(i, {})
+        if "8001120004550" not in v.get("negozio", ""): continue  # solo il negozio di Collegno
+        for n, page in enumerate(open(f).read().split("\f"), 1):
+            if not re.search(r"tutta\s+la\s+linea", page, re.I): continue
+            pct = re.search(r"Sconto\s+(\d{2})\s", re.sub(r"\s+", " ", page))
+            if not pct: continue
+            out.append({"pct": int(pct.group(1)), "pagina": n, "pdf": (v.get("pdfs") or [""])[0],
+                        "volantino": v.get("final", "")})
+    return out
+
+def latest(pattern):
+    """Ultima cartella data/raw/<data> che contiene i file della catena."""
+    ds = [d for d in sorted(glob.glob("data/raw/*")) if glob.glob(f"{d}/{pattern}")]
+    return ds[-1] if ds else None
+
 def main():
-    raw = sys.argv[1] if len(sys.argv) > 1 else sorted(glob.glob("data/raw/*"))[-1]
-    sys.path.insert(0, 'scripts')
-    items = eurospin(raw) + coop(raw) + mercato(raw)
+    sys.path.insert(0, "scripts")
+    items, dates = [], []
+    for fn, pat in ((eurospin, "eurospin_products.json"), (coop, "coop_pdf*_bbox.html"), (mercato, "mercato_ocr")):
+        d = latest(pat)
+        if d:
+            items += fn(d); dates.append(os.path.basename(d))
+    seen, uniq = set(), []
     for r in items:
         for k in ("nome", "formato", "marca"):
             if r.get(k): r[k] = re.sub(r"\s+", " ", r[k]).strip()
+        key = (r["catena"], r["nome"].lower(), r["prezzo"])
+        if key in seen: continue
+        seen.add(key); uniq.append(r)
+    items = uniq
     items.sort(key=lambda r: (r["prezzo_unita"] is None, r["prezzo_unita"] or r["prezzo"]))
-    os.makedirs("data", exist_ok=True)
     fonti = sorted({r["catena"] for r in items})
-    json.dump({"aggiornato": os.path.basename(raw), "fonti": fonti, "offerte": items},
+    d = latest("coop_info.json")
+    linee = coop_linee(d) if d else []
+    json.dump({"aggiornato": max(dates) if dates else "", "fonti": fonti, "linee_coop": linee, "offerte": items},
               open("data/offerte.json", "w"), ensure_ascii=False, indent=1)
     print("offerte", len(items))
 
