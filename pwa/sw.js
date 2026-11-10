@@ -4,7 +4,7 @@ const DATA_URL = "__DATI__";
 const SHELL = `spesaok-shell-${VERSION}`, DATA = "spesaok-data", FONTS = "spesaok-fonts";
 const ASSETS = ["./", "index.html", "style.css?v=__VER__", "app.js?v=__VER__", "negozi.json", "manifest.webmanifest",
   "icons/favicon.svg", "icons/favicon-64.png", "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png",
-  "logos/aldi.svg", "logos/coop.png", "logos/eurospin.svg", "logos/md.svg", "logos/mercato.png", "logos/gigante.png"];
+  "logos/aldi.svg", "logos/coop.png", "logos/eurospin.svg", "logos/md.svg", "logos/mercato.png", "logos/gigante.png", "logos/bennet.png"];
 
 self.addEventListener("install", e => {
   e.waitUntil(Promise.all([

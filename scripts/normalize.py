@@ -156,8 +156,9 @@ GIGANTE_NONFOOD = re.compile(
     r"stagnola|sacchett|piatti di plastica|poltron|pouf|grucce|casalinghi|armadi|pattumiera|mobile|padella|"
     r"stendi|stampi|candele|pentol|bici|action|letti|trapunt|drone|magia|divan|aspirapolvere|tappet|make up|"
     r"piante|acquario|asciugatrice|frigorifer|microonde|vaporella|smartphone|cotone|dinosaur|telecomandat|"
-    r"didattic|educativ|accessori|bagno|igien|lines|tempo\b", re.I)
-GIGANTE_QTY = re.compile(r"(\d+(?:[.,]\d+)?)\s*(?:x\s*(\d+(?:[.,]\d+)?)\s*)?(kg|gr?|ml|cl|lt?|litri|litro)\b", re.I)
+    r"didattic|educativ|accessori|bagno|igien|lines|tempo\b|puzzle|plush|squishi|diario|proiettore|aerografo|"
+    r"nail art|smalto|pedalare|carta forno|cartaforno|cooking|vassoi|tortiera|buono sconto|crema viso|cura del corpo|pampers|vaschett|alluminio", re.I)
+GIGANTE_QTY = re.compile(r"(\d+(?:[.,]\d+)?)\s*(?:x\s*(\d+(?:[.,]\d+)?)\s*)?(kg|gr?|ml|cl|lt?|litri|litro)\b(?!['’])", re.I)
 
 def shopfully(raw, prefix, catena, carta=None):
     """Prodotti dei visualizzatori ShopFully (Il Gigante, Bennet): titolo, marca, prezzo, pagina, categoria e,
@@ -165,6 +166,7 @@ def shopfully(raw, prefix, catena, carta=None):
     info = json.load(open(f"{raw}/{prefix}_info.json"))
     out = []
     for v in info["volantini"]:
+        if re.search(r"giocattol|addobb|bazar|tessil|arredo", v.get("titolo") or "", re.I): continue   # volantini non alimentari
         f = f"{raw}/{prefix}_{v['id']}.json"
         if not os.path.exists(f): continue
         for x in json.load(open(f)):
@@ -206,7 +208,7 @@ def shopfully(raw, prefix, catena, carta=None):
                 "categoria": cat, "con_carta": bool(carta and re.search(carta, gv, re.I)),
                 "valido_dal": v.get("dal"), "valido_al": v.get("al"),
                 "pagina": int(st["flyer_page"]) if str(st.get("flyer_page", "")).isdigit() else None,
-                "fonte": v["url"],
+                "fonte": re.sub(r"flyerPage=\d+", f"flyerPage={st['flyer_page']}", v["url"]) if str(st.get("flyer_page", "")).isdigit() else v["url"],
             })
     return out
 
