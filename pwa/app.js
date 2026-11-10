@@ -86,7 +86,6 @@ function card(o, i){
     <div class="tag">${pct ? `<span class="pct">−${pct}%</span>` : ""}${o.prezzo_pieno && o.prezzo_pieno > o.prezzo ? `<div class="old">€ ${eur(o.prezzo_pieno)}</div>` : ""}
       <div class="p">€ ${eur(o.prezzo)}</div>${o.prezzo_unita ? `<div class="u">€ ${eur(o.prezzo_unita)}/${esc(o.unita||"pz")}</div>` : ""}</div>
     <div class="actions">
-      <a class="go primary" href="${mapsUrl(o.catena)}" target="_blank" rel="noopener">${ICON_GO}Portami</a>
       ${o.fonte ? `<a class="go" href="${esc(o.fonte)}" target="_blank" rel="noopener">${ICON_DOC}Volantino${o.pagina ? " p. "+o.pagina : ""}</a>` : ""}
       ${addBtn(o, i)}
     </div></li>`;
@@ -196,7 +195,7 @@ function buildStores(){
     const b = e.target.closest("[data-filter]"); if (!b) return;
     state.on = new Set([b.dataset.filter]);
     document.querySelectorAll("#chains .brand-t").forEach(x => x.setAttribute("aria-pressed", state.on.has(x.dataset.c)));
-    state.shown = PAGE; render(); show("offerte");
+    state.shown = PAGE; render(); show("offerte", true);
   };
 }
 
@@ -222,12 +221,18 @@ function buildLinee(){
 }
 
 /* Navigazione tra le sezioni */
-function show(v){
+/* Ogni sezione ricorda dove eri arrivato: tornando alle offerte si riparte dallo stesso punto */
+let cur = null; const pos = {};
+function show(v, top){
+  if (cur) pos[cur] = window.scrollY;
   ["offerte","liste","negozi","info"].forEach(x => $("v-"+x).hidden = x !== v);
   if (v === "liste") buildListe();
+  if (v === "offerte") document.querySelectorAll("#list [data-add]").forEach(b => { const i = +b.dataset.add; if (rows[i]) b.outerHTML = addBtn(rows[i], i); });
   document.querySelectorAll(".tabs button").forEach(b => b.dataset.v === v ? b.setAttribute("aria-current","page") : b.removeAttribute("aria-current"));
   if (location.hash.slice(1) !== v) history.replaceState(null, "", v === "offerte" ? location.pathname : "#"+v);
-  window.scrollTo(0,0);
+  const y = top || v !== "offerte" ? 0 : (pos.offerte || 0);
+  cur = v;
+  requestAnimationFrame(() => window.scrollTo(0, y));
 }
 document.querySelector(".tabs").onclick = e => { const b = e.target.closest("button"); if (b) show(b.dataset.v); };
 

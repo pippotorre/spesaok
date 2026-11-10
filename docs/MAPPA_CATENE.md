@@ -9,7 +9,7 @@ Verifica fatta leggendo l'HTML delle pagine ufficiali (senza eseguire JavaScript
 | Eurospin | Pagina web con offerte in testo + sfogliabile separato | Non visto | Sì | "Offerte Family" (app) | Basso |
 | MD | Sfogliabile con "scarica il PDF" | Da verificare | Sì | Sì (Buona Spesa Card) | Basso/medio (se PDF con testo) |
 | Conad | Volantino per negozio; PDF su conad.it/assets/common/volantini/... | Non visto | Sì | "Riservato ai titolari di Carte Conad" | Basso/medio |
-| Nova Coop / Ipercoop | Sfogliabile per negozio su volantinopiu.com; esistono PDF su resources.volantinopiu.it | Da verificare | Sì | Da verificare | Medio |
+| Nova Coop / Ipercoop | Sfogliabile per negozio su volantinopiu.com (PDF su resources.volantinopiu.it) | Sì (PDF) | Sì | Sì | Nella raccolta: Coop Collegno, Ipercoop Dora, Coop corso Molise (dal 10/11/2026) |
 | Il Gigante | Visualizzatore ShopFully per negozio: API con i prodotti (titolo, marca, prezzo, pagina, testo letto dall'immagine) | Sì (API) | Sì | Blucard ("CON BLUCARD" nel testo) | Basso – **nella raccolta dal 10/11/2026** (corso Marche, punto=47) |
 | Bennet | bennet.com rifiuta i server di GitHub (403 Akamai). Volantini del negozio su DoveConviene (ShopFully): JSON-LD con i prodotti + `/viewer_api/flyer_gibs/<id>` (titolo, marca, prezzo, pagina, testo letto dall'immagine) | Sì (API) | Sì | Bennet Club ("BENNET club" nel testo) | Basso – **nella raccolta dal 10/11/2026** (via Giordano Bruno 142, negozio DoveConviene 51713) |
 | Unes | Pagine in SVG per negozio (l'SVG può contenere testo) | Da verificare | Sì | Unes Family | Medio |

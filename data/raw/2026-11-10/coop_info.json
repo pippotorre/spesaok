@@ -1,0 +1,67 @@
+{
+ "volantini": [
+  {
+   "i": 0,
+   "negozio": "https://negozi.volantinopiu.com/ccno-8001120004550.html",
+   "url": "https://negozi.volantinopiu.com/redirect29481.html?id_pv=152",
+   "final": "https://coop.volantinopiu.com/volantino2948100pv152.html?utm_volantino=negozi",
+   "pdfs": [
+    "https://resources.volantinopiu.it/flyer/2/9/4/8/1/35a82b52895e847302a9cdf3cfc14e0b.pdf"
+   ]
+  },
+  {
+   "i": 1,
+   "negozio": "https://negozi.volantinopiu.com/ccno-8001120004550.html",
+   "url": "https://negozi.volantinopiu.com/redirect29345.html?id_pv=152",
+   "final": "https://coop.volantinopiu.com/volantino2934500pv152.html?utm_volantino=negozi",
+   "pdfs": [
+    "https://resources.volantinopiu.it/flyer/2/9/3/4/5/cbd917c359d3ca58537612abdac303e4.pdf"
+   ]
+  },
+  {
+   "i": 2,
+   "negozio": "https://negozi.volantinopiu.com/ccno-8001120004796.html",
+   "url": "https://negozi.volantinopiu.com/redirect29387.html?id_pv=24",
+   "final": "https://ipercoop.volantinopiu.com/volantino2938700pv24.html?utm_volantino=negozi",
+   "pdfs": [
+    "https://resources.volantinopiu.it/flyer/2/9/3/8/7/5fe6375ab6c6140a536c50f2c4b3bdd0.pdf"
+   ]
+  },
+  {
+   "i": 3,
+   "negozio": "https://negozi.volantinopiu.com/ccno-8001120004796.html",
+   "url": "https://negozi.volantinopiu.com/redirect29401.html?id_pv=24",
+   "final": "https://ipercoop.volantinopiu.com/volantino2940100pv24.html?utm_volantino=negozi",
+   "pdfs": [
+    "https://resources.volantinopiu.it/flyer/2/9/4/0/1/7343033758dbd10d6fe941a2768fdddc.pdf"
+   ]
+  },
+  {
+   "i": 4,
+   "negozio": "https://negozi.volantinopiu.com/ccno-8001120004796.html",
+   "url": "https://negozi.volantinopiu.com/redirect29499.html?id_pv=24",
+   "final": "https://ipercoop.volantinopiu.com/volantino2949900pv24.html?utm_volantino=negozi",
+   "pdfs": [
+    "https://resources.volantinopiu.it/flyer/2/9/4/9/9/43b9b7341e43e01439018e670b5255ca.pdf"
+   ]
+  },
+  {
+   "i": 5,
+   "negozio": "https://negozi.volantinopiu.com/ccno-8001120004406.html",
+   "url": "https://negozi.volantinopiu.com/redirect29478.html?id_pv=174",
+   "final": "https://coop.volantinopiu.com/volantino2947800pv174.html?utm_volantino=negozi",
+   "pdfs": [
+    "https://resources.volantinopiu.it/flyer/2/9/4/7/8/73d6218a08fc07e602d62db0b06cb748.pdf"
+   ]
+  },
+  {
+   "i": 6,
+   "negozio": "https://negozi.volantinopiu.com/ccno-8001120004406.html",
+   "url": "https://negozi.volantinopiu.com/redirect29335.html?id_pv=174",
+   "final": "https://coop.volantinopiu.com/volantino2933500pv174.html?utm_volantino=negozi",
+   "pdfs": [
+    "https://resources.volantinopiu.it/flyer/2/9/3/3/5/1e4085e3f1cce85dbc19db41fc47f641.pdf"
+   ]
+  }
+ ]
+}

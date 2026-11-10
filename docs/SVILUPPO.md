@@ -131,3 +131,11 @@ Output iniziale: artefatto. In futuro: valutare una PWA.
 - Esclusi i volantini non alimentari (titolo con giocattoli/addobbi…) e alcune voci non alimentari; prezzi "BENNET club" segnati come prezzo con carta.
 - Il link "Volantino" porta alla pagina giusta (flyerPage). Logo: dal segnalino Bennet di DoveConviene, ritagliato.
 - Prima raccolta: 166 offerte alimentari da 2 volantini (SOTTOCOSTO fino al 18/11, Cioccolato fino all'11/11).
+
+## 10/11/2026 – Ritocchi alla PWA
+- Richiesta di Pippo: "Portami" non serve su ogni offerta, basta nelle liste. Tolto dalle schede delle offerte; resta nelle liste e nella sezione Negozi.
+- Tornando alle Offerte da un'altra sezione (Liste, Negozi, Info) la pagina riparte dal punto in cui eri, invece che dal primo prodotto. Le altre sezioni si aprono dall'inizio. Il pulsante "Solo le sue offerte" (Negozi) porta invece in cima alle offerte filtrate.
+- Al ritorno, i pulsanti "Aggiungi / In lista" si aggiornano se nel frattempo hai tolto prodotti dalle liste.
+- Coop di corso Molise 7 (Coop Torino Molise): esiste, ma non era nella raccolta (solo Coop Collegno e Ipercoop Dora).
+- Decisione di Pippo: aggiungere la Coop di corso Molise come terzo negozio Coop. Pagina volantinopiu `ccno-8001120004406` (id_pv=174), etichetta "Coop corso Molise", "Portami" a Corso Molise 7. Prima raccolta: 140 offerte (36 uguali a Collegno per nome e prezzo).
+- Corretta la lettura delle date dei volantini Coop scritti come "Dal 29 ottobre all'11 novembre 2026": prima la validità restava vuota (anche per Collegno).
