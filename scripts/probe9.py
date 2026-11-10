@@ -38,13 +38,15 @@ async def main():
         b = await p.chromium.launch()
         ctx = await b.new_context(locale="it-IT", user_agent=P.UA, viewport={"width": 1366, "height": 900})
         pg = await ctx.new_page(); hits = []; hook_all(pg, hits)
-        await visit(pg, hits, "https://www.bennet.com/", "home")
-        await visit(pg, hits, "https://www.bennet.com/volantini", "volantini")
-        await visit(pg, hits, "https://www.bennet.com/punti-vendita", "puntivendita")
-        await visit(pg, hits, "https://www.bennet.com/punti-vendita/torino", "torino")
-        # link trovati che citano Torino / Giordano Bruno
+        # bennet.com risponde 403 (Akamai) ai runner di GitHub: proviamo DoveConviene / PromoQui
+        await visit(pg, hits, "https://www.doveconviene.it/torino/volantino/bennet", "dc_torino", 10000)
         links = await pg.eval_on_selector_all("a", "els=>els.map(e=>e.href)")
-        cand = [l for l in dict.fromkeys(links) if re.search(r"giordano|torino", l, re.I)][:4]
-        for i, l in enumerate(cand): await visit(pg, hits, l, f"cand{i}")
+        fl = [l for l in dict.fromkeys(links) if re.search(r"/volantino/\d|flyer|bennet.*\d{5,}", l, re.I)][:3]
+        print("FLYERLINKS", fl)
+        for i, l in enumerate(fl[:2]): await visit(pg, hits, l, f"dc_fl{i}", 12000)
+        await visit(pg, hits, "https://www.promoqui.it/torino/negozi/bennet", "pq_torino")
+        links = await pg.eval_on_selector_all("a", "els=>els.map(e=>e.href)")
+        cand = [l for l in dict.fromkeys(links) if re.search(r"giordano", l, re.I)][:2]
+        for i, l in enumerate(cand): await visit(pg, hits, l, f"pq_gb{i}")
         await b.close()
 asyncio.run(main())
