@@ -1,0 +1,27 @@
+[
+ [
+  "logos_raw/bennet/00_meta.png",
+  "meta",
+  "https://it.wikipedia.org/static/apple-touch/wikipedia.png"
+ ],
+ [
+  "logos_raw/bennet/01_meta.ico",
+  "meta",
+  "https://it.wikipedia.org/static/favicon/wikipedia.ico"
+ ],
+ [
+  "logos_raw/bennet/02_img.png",
+  "img",
+  "https://it.wikipedia.org/static/images/icons/wikipedia.png"
+ ],
+ [
+  "logos_raw/bennet/03_img.svg",
+  "img",
+  "https://it.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg"
+ ],
+ [
+  "logos_raw/bennet/04_img.svg",
+  "img",
+  "https://it.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-it.svg"
+ ]
+]
