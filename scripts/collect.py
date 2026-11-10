@@ -155,7 +155,34 @@ async def mercato(ctx):
         subprocess.run(["pdftoppm", "-r", "50", "-jpeg", "-f", "6", "-l", "7", "/tmp/m.pdf", f"{RAW}/mercato_prev"])
         print("mercato pagine", len(os.listdir("/tmp/mp")))
 
-CHAINS = {"eurospin": eurospin, "aldi": aldi, "coop": coop, "mercato": mercato}
+MD_STORE = "https://www.mdspa.it/punti-vendita/Piemonte/TO-Torino/223-TORINO"  # MD Torino via Urbino (zona ovest, vicino a Collegno)
+
+async def md(ctx):
+    """MD: la scheda del punto vendita ha il link 'Scarica volantino' (PDF del volantino di zona)."""
+    pg = await ctx.new_page()
+    await pg.goto(MD_STORE, wait_until="domcontentloaded", timeout=60000)
+    await pg.wait_for_timeout(5000)
+    links = await pg.eval_on_selector_all("a", "els=>els.map(e=>e.href)")
+    pdfs = [l for l in links if "/volantini/" in l and l.endswith(".pdf")]
+    text = await pg.inner_text("body")
+    m = re.search(r"DAL (\d+)(?: \w+)? AL (\d+) (\w+) (\d{4})", text)
+    save("md_info.json", {"negozio": MD_STORE, "pdfs": pdfs, "validita": m.group(0) if m else None})
+    if not pdfs: print("md: nessun PDF"); return
+    req = urllib.request.Request(pdfs[0], headers={"User-Agent": UA})
+    open("/tmp/md.pdf", "wb").write(urllib.request.urlopen(req, timeout=180).read())
+    subprocess.run(["pdftotext", "-layout", "/tmp/md.pdf", f"{RAW}/md_pdf.txt"])
+    txt = open(f"{RAW}/md_pdf.txt", errors="ignore").read()
+    print("md testo", len(txt))
+    if len(txt.strip()) > 500:
+        subprocess.run(["pdftotext", "-bbox-layout", "/tmp/md.pdf", f"{RAW}/md_bbox.html"])
+    else:
+        os.makedirs("/tmp/mdp", exist_ok=True); os.makedirs(f"{RAW}/md_ocr", exist_ok=True)
+        subprocess.run(["pdftoppm", "-r", "200", "-png", "/tmp/md.pdf", "/tmp/mdp/p"], check=True)
+        for f in sorted(os.listdir("/tmp/mdp")):
+            subprocess.run(["tesseract", f"/tmp/mdp/{f}", f"{RAW}/md_ocr/{f[:-4]}", "-l", "ita", "--psm", "11", "tsv"], capture_output=True)
+    subprocess.run(["pdftoppm", "-r", "50", "-jpeg", "-f", "2", "-l", "3", "/tmp/md.pdf", f"{RAW}/md_prev"])
+
+CHAINS = {"eurospin": eurospin, "aldi": aldi, "coop": coop, "mercato": mercato, "md": md}
 
 async def main():
     names = sys.argv[1:] or ["eurospin", "coop", "mercato", "aldi"]
