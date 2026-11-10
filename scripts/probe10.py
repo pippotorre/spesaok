@@ -1,28 +1,36 @@
-"""Sonda 10b: Bennet via ShopFully. Cosa c'è dietro i link tag-landing dei prodotti?"""
+"""Sonda 10c: Bennet. Prodotti nel JSON-LD delle pagine volantino DoveConviene (ShopFully)."""
 import json, re, os, urllib.request
 os.makedirs("../probe_out", exist_ok=True)
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 def get(u):
     try:
         r = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA, "Accept-Language": "it-IT"}), timeout=30)
-        return r.status, r.geturl(), r.read().decode("utf-8", "replace")
+        return r.status, r.read().decode("utf-8", "replace")
     except Exception as e:
-        return getattr(e, "code", 0), u, str(e)
-PUB = "972552"   # volantino 1739865 (scade 18/11)
-st, _, enr = get(f"https://shopfully-publication-api.global.ssl.fastly.net/publication_pages/it_it/{PUB}/enr/1")
-items = [x for v in json.loads(enr).values() for x in v]
-print("ITEMS", len(items), "pagine", sorted({x["firstPageNumber"] for x in items}, key=int))
-for x in items[2:5]:
-    u = x["url"].split("?")[0]
-    for v in [u, u + "?store_id=51713", u.replace("tag-landing.shopfully.cloud/it_it/", "tag-landing.shopfully.cloud/api/it_it/")]:
-        st, fu, b = get(v)
-        print(f"\n===== {st} {len(b)} {v} -> {fu}")
-        print(re.sub(r"\s+", " ", b)[:2500])
-        for m in re.finditer(r"(https?://[^\"' ]+(?:api|json|gib|product)[^\"' ]*)", b): print("  URL", m.group(1)[:200])
-        for m in re.finditer(r"<script[^>]*>(.{0,40}(?:__NEXT_DATA__|window\.__|price|prezzo).{0,1500})", b, re.S): print("  SCRIPT", re.sub(r"\s+", " ", m.group(1))[:1500])
-# altre fonti di testo: pagine del volantino ("format=all") e pagina DoveConviene con flyerPage=2
-st, _, pages = get(f"https://shopfully-publication-api.global.ssl.fastly.net/publication_pages/it_it/{PUB}/1?format=all")
-print("\n===== PAGES", st, len(pages), re.sub(r"\s+", " ", pages)[:1500])
-st, _, dc = get("https://www.doveconviene.it/torino/iper-e-super/bennet/volantino/ultime-offerte-bennet?flyerId=1739865&flyerPage=2")
-for k in ["gib", "price", "prezzo", "product", "offer"]:
-    for m in list(re.finditer(k, dc, re.I))[:3]: print("DC", k, re.sub(r"\s+", " ", dc[max(0, m.start()-150):m.start()+250]))
+        return getattr(e, "code", 0), str(e)
+def ld(html):
+    out = []
+    for m in re.finditer(r'<script type="application/ld\+json">(.*?)</script>', html, re.S):
+        try: d = json.loads(m.group(1))
+        except Exception as e: out.append({"_err": str(e), "_raw": m.group(1)[:200]}); continue
+        out += d if isinstance(d, list) else [d]
+    return out
+U = "https://www.doveconviene.it/torino/iper-e-super/bennet/volantino/ultime-offerte-bennet?flyerId={}&flyerPage={}"
+for fid in ["1739865", "1731356"]:
+    seen = {}
+    for pg in [1, 2, 5]:
+        st, h = get(U.format(fid, pg))
+        L = ld(h); types = {}
+        for x in L: types[x.get("@type")] = types.get(x.get("@type"), 0) + 1
+        prods = [x for x in L if x.get("@type") == "Product"]
+        print(f"\n===== flyer {fid} pagina {pg}: {st} {len(h)} tipi {types}")
+        for x in L:
+            if x.get("@type") not in ("Product",): print("  ALTRO", json.dumps(x, ensure_ascii=False)[:600])
+        for x in prods[:5]: print("  PROD", json.dumps(x, ensure_ascii=False)[:700])
+        for x in prods: seen[x.get("name"), (x.get("offers") or {}).get("price")] = x
+        open(f"../probe_out/dc_{fid}_{pg}.html", "w").write(h)
+    print("TOTALE prodotti distinti", fid, len(seen))
+    # cerca altre strutture con i prodotti (es. JSON in pagina con flyer_gibs)
+    for k in ["flyerGibs", "flyer_gibs", "\"gibs\"", "productInfo", "\"title\":"]:
+        i = h.find(k)
+        if i >= 0: print("KEY", k, re.sub(r"\s+", " ", h[max(0, i-100):i+600]))
