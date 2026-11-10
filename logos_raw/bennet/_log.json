@@ -1,27 +1,57 @@
 [
  [
-  "logos_raw/bennet/00_meta.png",
+  "logos_raw/bennet/00_meta.ico",
   "meta",
-  "https://it.wikipedia.org/static/apple-touch/wikipedia.png"
+  "https://www.doveconviene.it/assets/img/favicon.ico?v=1793289963998"
  ],
  [
-  "logos_raw/bennet/01_meta.ico",
-  "meta",
-  "https://it.wikipedia.org/static/favicon/wikipedia.ico"
+  "logos_raw/bennet/01_img.png",
+  "img",
+  "https://www.doveconviene.it/assets/img/logos/logo-main_it.png?v=1793289963998"
  ],
  [
   "logos_raw/bennet/02_img.png",
   "img",
-  "https://it.wikipedia.org/static/images/icons/wikipedia.png"
+  "https://www.doveconviene.it/assets/img/logos/logo-main_it.png?v=1793289963998"
  ],
  [
-  "logos_raw/bennet/03_img.svg",
+  "logos_raw/bennet/03_img.webp",
   "img",
-  "https://it.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg"
+  "https://it-it-media.shopfully.cloud/images/catene/segnalino_bennet@2x_webp.webp"
  ],
  [
-  "logos_raw/bennet/04_img.svg",
+  "logos_raw/bennet/04_img.webp",
   "img",
-  "https://it.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-it.svg"
+  "https://it-it-media.shopfully.cloud/images/catene/segnalino_bennet@2x_webp.webp"
+ ],
+ [
+  "logos_raw/bennet/05_img.webp",
+  "img",
+  "https://it-it-media.shopfully.cloud/images/catene/segnalino_bennet@2x_webp.webp"
+ ],
+ [
+  "logos_raw/bennet/06_img.webp",
+  "img",
+  "https://it-it-media.shopfully.cloud/images/catene/segnalino_bennet@2x_webp.webp"
+ ],
+ [
+  "logos_raw/bennet/07_img.webp",
+  "img",
+  "https://it-it-media.shopfully.cloud/images/catene/segnalino_bennet@2x_webp.webp"
+ ],
+ [
+  "logos_raw/bennet/08_img.webp",
+  "img",
+  "https://it-it-media.shopfully.cloud/images/catene/segnalino_bennet@2x_webp.webp"
+ ],
+ [
+  "logos_raw/bennet/09_img.png",
+  "img",
+  "https://cdn.cookielaw.org/logos/static/ot_company_logo.png"
+ ],
+ [
+  "logos_raw/bennet/10_img.svg",
+  "img",
+  "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
  ]
 ]
