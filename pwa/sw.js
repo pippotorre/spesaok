@@ -1,5 +1,6 @@
 /* spesaok – service worker. VERSION cambia a ogni build. */
 const VERSION = "__VER__";
+const DATA_URL = "__DATI__";
 const SHELL = `spesaok-shell-${VERSION}`, DATA = "spesaok-data", FONTS = "spesaok-fonts";
 const ASSETS = ["./", "index.html", "style.css?v=__VER__", "app.js?v=__VER__", "negozi.json", "manifest.webmanifest",
   "icons/favicon.svg", "icons/favicon-64.png", "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
@@ -7,7 +8,7 @@ const ASSETS = ["./", "index.html", "style.css?v=__VER__", "app.js?v=__VER__", "
 self.addEventListener("install", e => {
   e.waitUntil(Promise.all([
     caches.open(SHELL).then(c => c.addAll(ASSETS)),
-    caches.open(DATA).then(c => c.add("offerte.json")).catch(() => {})
+    caches.open(DATA).then(c => fetch(DATA_URL, {cache:"no-cache"}).then(r => r.ok && c.put("offerte.json", r))).catch(() => {})
   ]).then(() => self.skipWaiting()));
 });
 self.addEventListener("activate", e => {
@@ -17,7 +18,7 @@ self.addEventListener("activate", e => {
 self.addEventListener("fetch", e => {
   const req = e.request; if (req.method !== "GET") return;
   const url = new URL(req.url);
-  if (url.origin === location.origin && url.pathname.endsWith("/offerte.json")) {
+  if (url.pathname.endsWith("/offerte.json")) {
     // Dati: prima la rete (con timeout), poi la copia salvata
     e.respondWith((async () => {
       const cache = await caches.open(DATA);

@@ -5,6 +5,8 @@ const eur = n => n == null ? "" : n.toLocaleString("it-IT",{minimumFractionDigit
 const fmtD = s => s ? s.slice(8,10)+"/"+s.slice(5,7) : "";
 const norm = s => (s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
 const PAGE = 60;
+// Da dove leggere le offerte: il file accanto all'app, oppure un indirizzo esterno (es. GitHub Pages)
+const DATA_URL = (document.querySelector('meta[name="spesaok-dati"]') || {}).content || "offerte.json";
 const ICON_GO = `<svg viewBox="0 0 24 24"><path d="M3 11 21 3l-8 18-2-8-8-2Z"/></svg>`;
 const ICON_DOC = `<svg viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6"/></svg>`;
 
@@ -23,7 +25,7 @@ const color = c => (NEG[c] && NEG[c].colore) || "var(--accent)";
 
 async function load(){
   const [o, n] = await Promise.all([
-    fetch("offerte.json", {cache:"no-cache"}).then(r => r.json()),
+    fetch(DATA_URL, {cache:"no-cache"}).then(r => r.json()),
     fetch("negozi.json").then(r => r.json()).catch(() => ({}))
   ]);
   DATA = o; NEG = n;
