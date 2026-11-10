@@ -110,6 +110,14 @@ select{font:inherit;font-size:13.5px;padding:6px 8px;border-radius:10px;border:1
 .chk svg{width:18px;height:18px;fill:none;stroke:transparent;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
 .chk[aria-pressed="true"]{background:var(--accent);border-color:var(--accent)}
 .chk[aria-pressed="true"] svg{stroke:var(--surface)}
+.conto{margin:2px 0 10px;padding:10px 12px;border-radius:12px;background:var(--chip);display:grid;gap:4px;font-variant-numeric:tabular-nums}
+.conto-r{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.conto-r small{color:var(--muted);font-weight:600;margin-left:4px}
+.conto-r.carrello b{color:var(--accent)}
+.conto-r.tot{border-top:1px solid var(--line);padding-top:6px;margin-top:2px;font-size:1.08em}
+.conto-r.tot b{font-weight:800}
+.conto-n{font-size:.88em;color:var(--muted)}
+.conto-n.risp{color:var(--accent);font-weight:700}
 .qty{display:flex;align-items:center;gap:2px;background:var(--chip);border-radius:999px;padding:2px}
 .qty button{width:28px;height:28px;border:0;border-radius:50%;background:var(--surface);font-size:17px;font-weight:700;cursor:pointer;line-height:1}
 .qty span{min-width:20px;text-align:center;font-weight:700;font-variant-numeric:tabular-nums}

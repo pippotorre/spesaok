@@ -113,3 +113,10 @@ Output iniziale: artefatto. In futuro: valutare una PWA.
 - Richiesta di Pippo: pulsante "Aggiungi" (icona carrello) sulla stessa riga di Portami e Volantino, allineato a destra; una lista per ogni supermercato, con il nome del supermercato; sezione "Liste" nella barra in basso tra Offerte e Negozi.
 - Fatto: le liste sono salvate solo sul telefono (localStorage, chiave `spesaok-liste`), non sul server e non condivise tra dispositivi. Ogni voce: spunta "preso", quantità −/+ (a 0 si toglie), totale per supermercato, "Togli i presi", "Condividi" (testo via condivisione del telefono, oppure copiato), Portami. Avviso "offerta scaduta" se la data di fine è passata. Numero di prodotti da prendere sull'icona Liste. Toccando "In lista" nelle offerte il prodotto si toglie.
 - Possibili sviluppi: liste condivise tra più persone/dispositivi (servirebbe un piccolo backend), confronto della stessa lista tra supermercati.
+
+## 10/11/2026 – Conto della spesa nelle liste
+- Richiesta di Pippo: vedere il conto dei prodotti acquistati, non solo il totale. Scelte: riquadro conto sì, risparmio sì, totale di tutte le liste no, quota con carta sì.
+- In fondo a ogni lista: "Nel carrello" (prodotti spuntati, con quantità), "Ancora da prendere", "Totale previsto".
+- Sotto: "Risparmi € X rispetto al prezzo pieno" (solo dove il volantino indica il prezzo pieno; tra parentesi la parte già nel carrello) e "di cui € X a prezzo con carta fedeltà".
+- Ogni riga con quantità > 1 mostra prezzo × quantità = subtotale. Il testo condiviso riporta i subtotali e il totale previsto.
+- Le voci salvate ora includono `prezzo_pieno`; per le liste create prima lo si recupera dai dati correnti.
