@@ -106,7 +106,7 @@ function toggleItem(o){
   const k = L.findIndex(x => x.id === oid(o));
   if (k >= 0) { L.splice(k, 1); if (!L.length) delete LISTE[o.catena]; toast(`Tolto dalla lista ${esc(o.catena)}`, 2200); }
   else {
-    L.push({id: oid(o), nome: o.nome, marca: o.marca, formato: o.formato, prezzo: o.prezzo, prezzo_unita: o.prezzo_unita, unita: o.unita,
+    L.push({id: oid(o), nome: o.nome, marca: o.marca, formato: o.formato, prezzo: o.prezzo, prezzo_pieno: o.prezzo_pieno, prezzo_unita: o.prezzo_unita, unita: o.unita,
             con_carta: o.con_carta, valido_al: o.valido_al, fonte: o.fonte, pagina: o.pagina, qta: 1, preso: false});
     toast(`Aggiunto alla lista <b>${esc(o.catena)}</b>`, 2200);
   }
@@ -116,20 +116,42 @@ function updateBadge(){
   const n = Object.values(LISTE).reduce((a, L) => a + L.filter(x => !x.preso).length, 0);
   const b = $("lcount"); b.textContent = n; b.hidden = !n;
 }
+/* Conto di una lista: nel carrello (spuntati), da prendere, totale previsto, risparmio e quota con carta */
+function pienoDi(c, x){
+  if (x.prezzo_pieno != null) return x.prezzo_pieno;
+  const o = DATA.offerte.find(o => o.catena === c && oid(o) === x.id);   // liste salvate prima di questa versione
+  return o ? o.prezzo_pieno : null;
+}
+function contoLista(c, L){
+  const sum = f => L.reduce((a, x) => a + (f(x) ? x.prezzo * x.qta : 0), 0);
+  const carrello = sum(x => x.preso), daPrendere = sum(x => !x.preso), tot = carrello + daPrendere, carta = sum(x => x.con_carta);
+  const nC = L.filter(x => x.preso).reduce((a, x) => a + x.qta, 0), nD = L.filter(x => !x.preso).reduce((a, x) => a + x.qta, 0);
+  let risp = 0, risC = 0;
+  L.forEach(x => { const p = pienoDi(c, x); if (p && p > x.prezzo) { const r = (p - x.prezzo) * x.qta; risp += r; if (x.preso) risC += r; } });
+  const pz = n => `${n} pezz${n === 1 ? "o" : "i"}`;
+  return `<div class="conto">
+    <div class="conto-r carrello"><span>Nel carrello <small>${pz(nC)}</small></span><b>€ ${eur(carrello)}</b></div>
+    <div class="conto-r"><span>Ancora da prendere <small>${pz(nD)}</small></span><b>€ ${eur(daPrendere)}</b></div>
+    <div class="conto-r tot"><span>Totale previsto</span><b>€ ${eur(tot)}</b></div>
+    ${risp > 0.004 ? `<div class="conto-n risp">Risparmi € ${eur(risp)} rispetto al prezzo pieno${risC > 0.004 && risC < risp - 0.004 ? ` (€ ${eur(risC)} già nel carrello)` : ""}</div>` : ""}
+    ${carta > 0.004 ? `<div class="conto-n">di cui € ${eur(carta)} a prezzo con carta fedeltà</div>` : ""}
+  </div>`;
+}
 function buildListe(){
   const box = $("liste"), today = new Date().toISOString().slice(0, 10);
   const names = Object.keys(LISTE).filter(c => LISTE[c].length).sort();
   if (!names.length) { box.innerHTML = `<div class="empty">Nessuna lista per ora.<br>Nelle offerte tocca <b>Aggiungi</b>: il prodotto finisce nella lista del suo supermercato.</div>`; return; }
   box.innerHTML = names.map(c => {
-    const L = LISTE[c], tot = L.reduce((a, x) => a + x.prezzo * x.qta, 0), presi = L.filter(x => x.preso).length;
+    const L = LISTE[c], presi = L.filter(x => x.preso).length, k = contoLista(c, L);
     return `<div class="store-card lista" data-c="${esc(c)}">
-      <div class="store-h">${logo(c, "lg")}<div><h3>${esc(c)}</h3><p>${L.length} prodott${L.length === 1 ? "o" : "i"} · totale € ${eur(tot)}${presi ? ` · ${presi} pres${presi === 1 ? "o" : "i"}` : ""}</p></div></div>
+      <div class="store-h">${logo(c, "lg")}<div><h3>${esc(c)}</h3><p>${L.length} prodott${L.length === 1 ? "o" : "i"}${presi ? ` · ${presi} nel carrello` : ""}</p></div></div>
       <ul class="li-items">${L.map((x, i) => `<li class="li${x.preso ? " done" : ""}">
         <button class="chk" data-act="chk" data-i="${i}" aria-pressed="${x.preso}" aria-label="Preso">${ICON_OK}</button>
         <div class="li-b"><div class="li-n">${esc(x.nome)}${x.marca ? ` <small>· ${esc(x.marca)}</small>` : ""}</div>
-          <div class="meta">${x.formato ? `<span>${esc(x.formato)}</span>` : ""}<span>€ ${eur(x.prezzo)} cad.</span>${x.con_carta ? `<span class="badge">con carta</span>` : ""}${x.valido_al && x.valido_al < today ? `<span class="badge warn">offerta scaduta</span>` : ""}</div></div>
+          <div class="meta">${x.formato ? `<span>${esc(x.formato)}</span>` : ""}<span>€ ${eur(x.prezzo)}${x.qta > 1 ? ` × ${x.qta} = € ${eur(x.prezzo * x.qta)}` : ""}</span>${x.con_carta ? `<span class="badge">con carta</span>` : ""}${x.valido_al && x.valido_al < today ? `<span class="badge warn">offerta scaduta</span>` : ""}</div></div>
         <div class="qty"><button data-act="minus" data-i="${i}" aria-label="Uno in meno">−</button><span>${x.qta}</span><button data-act="plus" data-i="${i}" aria-label="Uno in più">+</button></div>
       </li>`).join("")}</ul>
+      ${k}
       <div class="actions">
         <a class="go primary" href="${mapsUrl(c)}" target="_blank" rel="noopener">${ICON_GO}Portami</a>
         <button class="go" data-act="share">${ICON_SHARE}Condividi</button>
@@ -146,7 +168,7 @@ $("liste").onclick = async e => {
   if (a === "minus") { if (L[i].qta > 1) L[i].qta--; else L.splice(i, 1); }
   if (a === "clear") LISTE[c] = L.filter(x => !x.preso);
   if (a === "share") {
-    const txt = `Spesa da ${c}:\n` + L.map(x => `${x.preso ? "✓" : "•"} ${x.qta > 1 ? x.qta + " × " : ""}${x.nome}${x.marca ? " (" + x.marca + ")" : ""} – € ${eur(x.prezzo)}`).join("\n");
+    const txt = `Spesa da ${c}:\n` + L.map(x => `${x.preso ? "✓" : "•"} ${x.qta > 1 ? x.qta + " × " : ""}${x.nome}${x.marca ? " (" + x.marca + ")" : ""} – € ${eur(x.prezzo * x.qta)}`).join("\n") + `\nTotale previsto: € ${eur(L.reduce((a, x) => a + x.prezzo * x.qta, 0))}`;
     try { if (navigator.share) await navigator.share({title: `Lista ${c}`, text: txt}); else { await navigator.clipboard.writeText(txt); toast("Lista copiata", 2000); } } catch(err) {}
     return;
   }
