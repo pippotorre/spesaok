@@ -4,7 +4,8 @@ from playwright.async_api import async_playwright
 SITES = {"aldi": "https://www.aldi.it/", "eurospin": "https://www.eurospin.it/", "coop": "https://www.novacoop.it/",
          "md": "https://www.mdspa.it/", "mercato": "https://www.mymercato.it/", "gigante": "https://ilgigante.net/",
          "bennet": "https://www.doveconviene.it/negozi/bennet/51713/via-giordano-bruno-142",
-         "bennet_wiki": "https://it.wikipedia.org/wiki/Bennet"}
+         "bennet_wiki": "https://it.wikipedia.org/wiki/Bennet",
+         "lidl": "https://www.doveconviene.it/negozi/lidl/1321771/corso-francia-325"}
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 JS = """() => {
  const out = [];
