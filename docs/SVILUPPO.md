@@ -139,3 +139,13 @@ Output iniziale: artefatto. In futuro: valutare una PWA.
 - Coop di corso Molise 7 (Coop Torino Molise): esiste, ma non era nella raccolta (solo Coop Collegno e Ipercoop Dora).
 - Decisione di Pippo: aggiungere la Coop di corso Molise come terzo negozio Coop. Pagina volantinopiu `ccno-8001120004406` (id_pv=174), etichetta "Coop corso Molise", "Portami" a Corso Molise 7. Prima raccolta: 140 offerte (36 uguali a Collegno per nome e prezzo).
 - Corretta la lettura delle date dei volantini Coop scritti come "Dal 29 ottobre all'11 novembre 2026": prima la validità restava vuota (anche per Collegno).
+
+## 11/11/2026 – Lidl Torino/Rivoli e corso Francia
+- Richiesta di Pippo: aggiungere il Lidl di corso Francia (Torino e Rivoli). Su DoveConviene risulta un solo Lidl in corso Francia: corso Francia 325, Collegno (negozio 1321771).
+- Lidl pubblica volantini di zona: uno per Torino/Rivoli (es. "Black Days" 12–18/11, "Sottocosto") e uno per Collegno/Grugliasco, che vale per corso Francia 325. Circa 118 offerte sono uguali nei due.
+- Decisione di Pippo: prendere entrambi e, come per la Coop, scrivere sotto il logo a cosa si riferiscono: "Torino Rivoli" (volantino di zona, "Il più vicino" su Maps) e "C.so Francia" ("Portami" a corso Francia 325, Collegno).
+- `collect.py`: la raccolta DoveConviene è diventata una funzione comune `doveconviene()` (Bennet e Lidl), che legge l'elenco completo dei prodotti della pubblicazione (oltre i 100 del JSON-LD). File `lidl_torino_*.json` e `lidl_francia_*.json`.
+- `normalize.py`: catene "Lidl Torino/Rivoli" e "Lidl corso Francia"; prezzi "Lidl Plus" segnati come prezzo con carta; escluse le voci non alimentari (attrezzi, abbigliamento, marchi Parkside, Silvercrest, Livarno, Esmara, Crivit, Lupilu…).
+- Etichette sotto il logo: ora possono andare su due righe (prima venivano tagliate con "…").
+- Prima raccolta: 151 offerte Torino/Rivoli e 148 corso Francia.
+

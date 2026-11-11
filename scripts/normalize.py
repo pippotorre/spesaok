@@ -161,7 +161,10 @@ GIGANTE_NONFOOD = re.compile(
     r"stendi|stampi|candele|pentol|bici|action|letti|trapunt|drone|magia|divan|aspirapolvere|tappet|make up|"
     r"piante|acquario|asciugatrice|frigorifer|microonde|vaporella|smartphone|cotone|dinosaur|telecomandat|"
     r"didattic|educativ|accessori|bagno|igien|lines|tempo\b|puzzle|plush|squishi|diario|proiettore|aerografo|"
-    r"nail art|smalto|pedalare|carta forno|cartaforno|cooking|vassoi|tortiera|buono sconto|crema viso|cura del corpo|pampers|vaschett|alluminio", re.I)
+    r"nail art|smalto|pedalare|carta forno|cartaforno|cooking|vassoi|tortiera|buono sconto|crema viso|cura del corpo|pampers|vaschett|alluminio|"
+    r"attrezzi|gomme|pneumatic|carrello|idropulitrice|umidificatore|calzini|intimo|tagliacapelli|forno elettrico|"
+    r"termoventilatore|lampad|pigiama|coprisedili|giacca|giacche|adattatore|pulitori|decorazioni|articoli per feste|"
+    r"parkside|silvercrest|livarno|esmara|ultimate speed|crivit|lupilu|powerfix|playtive|melinera|florabest|auriol", re.I)
 GIGANTE_QTY = re.compile(r"(\d+(?:[.,]\d+)?)\s*(?:x\s*(\d+(?:[.,]\d+)?)\s*)?(kg|gr?|ml|cl|lt?|litri|litro)\b(?!['’])", re.I)
 
 def shopfully(raw, prefix, catena, carta=None):
@@ -224,6 +227,14 @@ def bennet(raw):
     """Bennet (via Giordano Bruno 142), dai volantini su DoveConviene."""
     return shopfully(raw, "bennet", "Bennet", r"carta\s+(?:bennet|club)|bennet\s*club|con\s+la\s+carta")
 
+def lidl_torino(raw):
+    """Lidl, volantino della zona Torino e Rivoli (DoveConviene)."""
+    return shopfully(raw, "lidl_torino", "Lidl Torino/Rivoli", r"lidl\s*plus")
+
+def lidl_francia(raw):
+    """Lidl di corso Francia 325, Collegno (volantino della zona Collegno/Grugliasco)."""
+    return shopfully(raw, "lidl_francia", "Lidl corso Francia", r"lidl\s*plus")
+
 def latest(pattern):
     """Ultima cartella data/raw/<data> che contiene i file della catena."""
     ds = [d for d in sorted(glob.glob("data/raw/*")) if glob.glob(f"{d}/{pattern}")]
@@ -232,7 +243,7 @@ def latest(pattern):
 def main():
     sys.path.insert(0, "scripts")
     items, dates = [], []
-    for fn, pat in ((eurospin, "eurospin_products.json"), (coop, "coop_pdf*_bbox.html"), (mercato, "mercato_ocr"), (aldi, "aldi_products.json"), (md, "md_ocr"), (gigante, "gigante_info.json"), (bennet, "bennet_info.json")):
+    for fn, pat in ((eurospin, "eurospin_products.json"), (coop, "coop_pdf*_bbox.html"), (mercato, "mercato_ocr"), (aldi, "aldi_products.json"), (md, "md_ocr"), (gigante, "gigante_info.json"), (bennet, "bennet_info.json"), (lidl_torino, "lidl_torino_info.json"), (lidl_francia, "lidl_francia_info.json")):
         d = latest(pat)
         if d:
             items += fn(d); dates.append(os.path.basename(d))

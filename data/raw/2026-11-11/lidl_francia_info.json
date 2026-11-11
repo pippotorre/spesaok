@@ -1,0 +1,21 @@
+{
+ "negozio": "https://www.doveconviene.it/negozi/lidl/1321771/corso-francia-325",
+ "volantini": [
+  {
+   "id": "1741578",
+   "titolo": "Lidl Black Days",
+   "dal": "2026-11-12",
+   "al": "2026-11-18",
+   "url": "https://www.doveconviene.it/torino/discount/lidl/volantino/ultime-offerte-lidl?flyerId=1741578&flyerPage=1",
+   "prodotti": 100
+  },
+  {
+   "id": "1735277",
+   "titolo": "Sottocosto",
+   "dal": "2026-11-02",
+   "al": "2026-11-11",
+   "url": "https://www.doveconviene.it/torino/discount/lidl/volantino/ultime-offerte-lidl?flyerId=1735277&flyerPage=1",
+   "prodotti": 101
+  }
+ ]
+}

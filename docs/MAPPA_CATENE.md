@@ -13,7 +13,7 @@ Verifica fatta leggendo l'HTML delle pagine ufficiali (senza eseguire JavaScript
 | Il Gigante | Visualizzatore ShopFully per negozio: API con i prodotti (titolo, marca, prezzo, pagina, testo letto dall'immagine) | Sì (API) | Sì | Blucard ("CON BLUCARD" nel testo) | Basso – **nella raccolta dal 10/11/2026** (corso Marche, punto=47) |
 | Bennet | bennet.com rifiuta i server di GitHub (403 Akamai). Volantini del negozio su DoveConviene (ShopFully): JSON-LD con i prodotti + `/viewer_api/flyer_gibs/<id>` (titolo, marca, prezzo, pagina, testo letto dall'immagine) | Sì (API) | Sì | Bennet Club ("BENNET club" nel testo) | Basso – **nella raccolta dal 10/11/2026** (via Giordano Bruno 142, negozio DoveConviene 51713) |
 | Unes | Pagine in SVG per negozio (l'SVG può contenere testo) | Da verificare | Sì | Unes Family | Medio |
-| Lidl | Sfogliabile a immagini | Da verificare | Sì | Lidl Plus | Alto (OCR) |
+| Lidl | Volantini di zona su DoveConviene (ShopFully), stessa lettura di Bennet: JSON-LD + elenco completo della pubblicazione + `/viewer_api/flyer_gibs/<id>` | Sì (API) | Per zona | Lidl Plus | Basso – **nella raccolta dal 11/11/2026** (zona Torino/Rivoli; corso Francia 325 Collegno, negozio DoveConviene 1321771) |
 | Penny | Sfogliabile (caricato da altro sito) | Da verificare | Da verificare | Penny Card | Alto (probabile OCR) |
 | Famila | Sfogliabile per negozio | Da verificare | Sì | Carta Club | Alto (probabile) |
 | Despar/Eurospar | Offerte per negozio (formato non chiaro) | Da verificare | Sì | Da verificare | Da verificare |

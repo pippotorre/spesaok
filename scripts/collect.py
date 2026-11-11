@@ -219,18 +219,23 @@ async def gigante(ctx):
 
 BENNET_STORE = "https://www.doveconviene.it/negozi/bennet/51713/via-giordano-bruno-142"   # Bennet Torino, via Giordano Bruno 142
 DC = "https://www.doveconviene.it"
+LIDL = {  # Lidl ha volantini di zona: quello di Torino e Rivoli e quello di Collegno/Grugliasco (corso Francia 325)
+    "lidl_torino": "https://www.doveconviene.it/torino/volantino/lidl",
+    "lidl_francia": "https://www.doveconviene.it/negozi/lidl/1321771/corso-francia-325",
+}
 
-async def bennet(ctx):
-    """Bennet (via Giordano Bruno): bennet.com rifiuta i server di GitHub, quindi si usa DoveConviene (ShopFully).
-    La scheda del negozio elenca i volantini; la pagina di ogni volantino ha i prodotti in JSON-LD (con l'id del
-    "flyerGib" nell'immagine) e /viewer_api/flyer_gibs/<id> restituisce titolo, marca, prezzo, pagina e categoria."""
+async def doveconviene(ctx, prefix, store, viewer):
+    """Volantini di un negozio su DoveConviene (ShopFully). La scheda del negozio elenca i volantini; la pagina di
+    ogni volantino ha i prodotti in JSON-LD (con l'id del "flyerGib" nell'immagine, al massimo 100) e l'id della
+    pubblicazione, il cui elenco "enr" dà tutti gli id; /viewer_api/flyer_gibs/<id> restituisce titolo, marca,
+    prezzo, pagina, categoria e testo letto dall'immagine."""
     async def text(u):
         r = await ctx.request.get(u, headers={"Accept-Language": "it-IT"}); return r.status, await r.text()
-    st, h = await text(BENNET_STORE)
+    st, h = await text(store)
     ids = list(dict.fromkeys(re.findall(r"flyerId=(\d+)", h)))
-    info = {"negozio": BENNET_STORE, "volantini": []}
+    info = {"negozio": store, "volantini": []}
     for fid in ids:
-        url = f"{DC}/torino/iper-e-super/bennet/volantino/ultime-offerte-bennet?flyerId={fid}&flyerPage=1"
+        url = f"{DC}{viewer}?flyerId={fid}&flyerPage=1"
         st, page = await text(url)
         lds = []
         for m in re.finditer(r'<script type="application/ld\+json">(.*?)</script>', page, re.S):
@@ -238,25 +243,40 @@ async def bennet(ctx):
             except Exception: pass
         art = next((x for x in lds if x.get("@type") == "Article"), {})
         crumbs = next((x for x in lds if x.get("@type") == "BreadcrumbList"), {}).get("itemListElement") or [{}]
-        gib_ids = list(dict.fromkeys(m.group(1) for x in lds if x.get("@type") == "Product"
-                                     for m in [re.search(r"gibCover_([0-9a-f-]{36})", json.dumps(x))] if m))
+        gib_ids = [m.group(1) for x in lds if x.get("@type") == "Product"
+                   for m in [re.search(r"gibCover_([0-9a-f-]{36})", json.dumps(x))] if m]
+        pub = re.search(r'publicationId":"it_it_(\d+)', page)
+        if pub:
+            r = await ctx.request.get(f"https://shopfully-publication-api.global.ssl.fastly.net/publication_pages/it_it/{pub.group(1)}/enr/1")
+            if r.ok:
+                try: gib_ids += [x["id"] for v in (await r.json()).values() for x in v if x.get("id")]
+                except Exception as e: print(prefix, "enr", e)
         gibs = []
-        for g in gib_ids:
+        for g in dict.fromkeys(gib_ids):
             r = await ctx.request.get(f"{DC}/viewer_api/flyer_gibs/{g}", headers={"X-Requested-With": "XMLHttpRequest"})
             if r.ok:
-                d = (await r.json()).get("data") or []
-                gibs += [x.get("FlyerGib", x) for x in d]
+                try: gibs += [x.get("FlyerGib", x) for x in (await r.json()).get("data") or []]
+                except Exception: pass
             await asyncio.sleep(0.15)
-        save(f"bennet_{fid}.json", gibs)
+        save(f"{prefix}_{fid}.json", gibs)
         info["volantini"].append({"id": fid, "titolo": crumbs[-1].get("name"), "dal": art.get("datePublished"), "al": art.get("expires"),
                                   "url": url, "prodotti": len(gibs)})
-    print("bennet", info)
-    save("bennet_info.json", info)
+    print(prefix, info)
+    save(f"{prefix}_info.json", info)
 
-CHAINS = {"gigante": gigante, "bennet": bennet, "eurospin": eurospin, "aldi": aldi, "coop": coop, "mercato": mercato, "md": md}
+async def bennet(ctx):
+    """Bennet (via Giordano Bruno): bennet.com rifiuta i server di GitHub, quindi si usa DoveConviene."""
+    await doveconviene(ctx, "bennet", BENNET_STORE, "/torino/iper-e-super/bennet/volantino/ultime-offerte-bennet")
+
+async def lidl(ctx):
+    """Lidl: due volantini di zona da DoveConviene (Torino/Rivoli e corso Francia 325, Collegno)."""
+    for prefix, store in LIDL.items():
+        await doveconviene(ctx, prefix, store, "/torino/discount/lidl/volantino/ultime-offerte-lidl")
+
+CHAINS = {"gigante": gigante, "bennet": bennet, "lidl": lidl, "eurospin": eurospin, "aldi": aldi, "coop": coop, "mercato": mercato, "md": md}
 
 async def main():
-    names = sys.argv[1:] or ["eurospin", "coop", "mercato", "aldi", "md", "gigante", "bennet"]
+    names = sys.argv[1:] or ["eurospin", "coop", "mercato", "aldi", "md", "gigante", "bennet", "lidl"]
     async with async_playwright() as p:
         b = await p.chromium.launch()
         ctx = await b.new_context(locale="it-IT", user_agent=UA)

@@ -21,6 +21,21 @@
   "logo": "logos/coop.png",
   "etichetta": "Molise"
  },
+ "Lidl Torino/Rivoli": {
+  "tipo": "catena",
+  "cerca": "Lidl",
+  "colore": "#0050aa",
+  "nota": "Volantino Lidl della zona Torino e Rivoli: vale nei Lidl di questa zona; cerchiamo il più vicino a te.",
+  "logo": "logos/lidl.png",
+  "etichetta": "Torino Rivoli"
+ },
+ "Lidl corso Francia": {
+  "tipo": "negozio",
+  "indirizzo": "Corso Francia 325, Collegno TO",
+  "colore": "#0050aa",
+  "logo": "logos/lidl.png",
+  "etichetta": "C.so Francia"
+ },
  "Mercatò": {
   "tipo": "catena",
   "cerca": "Mercatò supermercato",
