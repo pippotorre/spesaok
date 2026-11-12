@@ -1,0 +1,29 @@
+{
+ "negozio": "https://www.doveconviene.it/negozi/bennet/51713/via-giordano-bruno-142",
+ "volantini": [
+  {
+   "id": "1739865",
+   "titolo": "SOTTOCOSTO",
+   "dal": "2026-11-05",
+   "al": "2026-11-18",
+   "url": "https://www.doveconviene.it/torino/iper-e-super/bennet/volantino/ultime-offerte-bennet?flyerId=1739865&flyerPage=1",
+   "prodotti": 117
+  },
+  {
+   "id": "1744842",
+   "titolo": "Black week",
+   "dal": "2026-11-12",
+   "al": "2026-11-25",
+   "url": "https://www.doveconviene.it/torino/iper-e-super/bennet/volantino/ultime-offerte-bennet?flyerId=1744842&flyerPage=1",
+   "prodotti": 100
+  },
+  {
+   "id": "1739862",
+   "titolo": "Giocattoli e addobbi speciali",
+   "dal": "2026-11-05",
+   "al": "2026-12-24",
+   "url": "https://www.doveconviene.it/torino/iper-e-super/bennet/volantino/ultime-offerte-bennet?flyerId=1739862&flyerPage=1",
+   "prodotti": 100
+  }
+ ]
+}
