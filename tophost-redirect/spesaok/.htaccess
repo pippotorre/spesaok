@@ -1,0 +1,26 @@
+# spesaok si è trasferita su https://spesaok.entratadisicurezza.com/
+# Questa cartella contiene solo la pagina di trasferimento (index.html),
+# il service worker che spegne la vecchia app (sw.js) e le icone.
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Forza HTTPS
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # Qualsiasi altro vecchio indirizzo (app.js, offerte.json, ...) mostra la pagina di trasferimento
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+AddDefaultCharset utf-8
+AddCharset utf-8 .js
+
+# Pagina e service worker sempre ricontrollati: il telefono deve trovare subito il nuovo sw.js
+<IfModule mod_headers.c>
+  <FilesMatch "^(index\.html|sw\.js)$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+  </FilesMatch>
+</IfModule>

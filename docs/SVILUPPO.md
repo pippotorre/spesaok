@@ -149,3 +149,9 @@ Output iniziale: artefatto. In futuro: valutare una PWA.
 - Etichette sotto il logo: ora possono andare su due righe (prima venivano tagliate con "…").
 - Prima raccolta: 151 offerte Torino/Rivoli e 148 corso Francia.
 
+## 15/11/2026 – Pagina di trasferimento su Tophost
+- L'app è ora su https://spesaok.entratadisicurezza.com/ (GitHub Pages con dominio proprio). Il vecchio indirizzo https://www.entratadisicurezza.com/spesaok/ mostra una pagina di trasferimento con redirect dopo 4 secondi, come per Turet e Nasone.
+- File in `tophost-redirect/spesaok/` (istruzioni in `tophost-redirect/LEGGIMI.md`): `index.html` (pagina con conto alla rovescia, meta refresh di riserva, conserva parametri e `#sezione`), `sw.js` di «spegnimento» (cancella le cache `spesaok*`, si disinstalla e ricarica le pagine aperte, così chi aveva installato la vecchia PWA non resta bloccato sulla copia salvata), `.htaccess` (HTTPS, ogni altro indirizzo → pagina di trasferimento, niente cache su `index.html` e `sw.js`).
+- Provato in un browser automatico simulando una vecchia app installata: service worker rimosso, cache svuotate, redirect al nuovo indirizzo.
+- Caricamento manuale via FTP (Tophost non accetta deploy automatici).
+

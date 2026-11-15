@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>spesaok si è trasferita</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0c5a42">
+  <link rel="canonical" href="https://spesaok.entratadisicurezza.com/">
+  <link rel="icon" type="image/png" href="icons/favicon-64.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <!-- Senza JavaScript: redirect dopo 4 secondi -->
+  <meta http-equiv="refresh" content="4; url=https://spesaok.entratadisicurezza.com/">
+  <style>
+    :root { --brand:#0c5a42; --brand-2:#14855f; --tag:#ffd84a; --bg:#f2f5f1; --surface:#fff; --ink:#15211b; --muted:#5b6a62; --line:#dbe2dc; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#0e1511; --surface:#17211b; --ink:#e7eee9; --muted:#9aaba1; --line:#28362e; } }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; height: 100%; }
+    body {
+      display: flex; align-items: center; justify-content: center; padding: 24px;
+      background: var(--bg); color: var(--ink);
+      font-family: "Source Sans 3", "Segoe UI", system-ui, -apple-system, sans-serif; line-height: 1.45;
+    }
+    .box { width: 100%; max-width: 420px; background: var(--surface); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; box-shadow: 0 6px 24px rgb(0 0 0 / .08); text-align: center; }
+    .top { background: linear-gradient(135deg, var(--brand-2), var(--brand)); color: #fff; padding: 22px 16px 18px; display: flex; flex-direction: column; align-items: center; gap: 10px; }
+    .top img { border-radius: 14px; box-shadow: 0 0 0 3px rgb(255 255 255 / .25); }
+    .word { font-family: "Barlow Condensed", "Arial Narrow", Arial, sans-serif; font-weight: 800; font-size: 34px; line-height: 1; }
+    .word span { background: var(--tag); color: var(--brand); border-radius: 6px 6px 6px 0; padding: 0 6px; margin-left: 2px; }
+    .corpo { padding: 20px 22px 24px; }
+    h1 { font-size: 1.25rem; margin: 0 0 8px; }
+    p { margin: 0 0 14px; color: var(--muted); }
+    .indirizzo { font-weight: 700; color: var(--ink); word-break: break-all; }
+    .btn { display: inline-block; background: var(--brand); color: #fff; text-decoration: none; font-weight: 700; padding: 12px 22px; border-radius: 999px; }
+    .btn:focus-visible { outline: 3px solid var(--tag); outline-offset: 2px; }
+    .conto { font-size: .9rem; margin: 14px 0 0; }
+    .nota { font-size: .82rem; border-top: 1px solid var(--line); padding-top: 12px; margin: 16px 0 0; }
+  </style>
+</head>
+<body>
+  <main class="box">
+    <div class="top">
+      <img src="icons/icon-192.png" alt="" width="72" height="72">
+      <div class="word">spesa<span>ok</span></div>
+    </div>
+    <div class="corpo">
+      <h1>spesaok ha un nuovo indirizzo</h1>
+      <p>Le offerte dei volantini ora si trovano su<br><span class="indirizzo">spesaok.entratadisicurezza.com</span></p>
+      <a class="btn" id="vai" href="https://spesaok.entratadisicurezza.com/">Vai a spesaok</a>
+      <p class="conto" id="conto" aria-live="polite">Ti porto lì tra 4 secondi…</p>
+      <p class="nota">Se avevi installato l'app sul telefono, aprila dal nuovo indirizzo e installala di nuovo: poi puoi eliminare quella vecchia.</p>
+    </div>
+  </main>
+
+  <script>
+    (function () {
+      var NUOVO = 'https://spesaok.entratadisicurezza.com/';
+      // Conserva eventuali parametri o sezioni (es. #negozi) del vecchio link
+      var destinazione = NUOVO + location.search + location.hash;
+      document.getElementById('vai').href = destinazione;
+
+      // Toglie il vecchio service worker e le copie salvate, così l'app vecchia non riappare
+      var pulizia = [];
+      if ('serviceWorker' in navigator) {
+        pulizia.push(navigator.serviceWorker.getRegistrations().then(function (regs) {
+          return Promise.all(regs.map(function (r) { return r.unregister(); }));
+        }).catch(function () {}));
+      }
+      if (window.caches && caches.keys) {
+        pulizia.push(caches.keys().then(function (chiavi) {
+          return Promise.all(chiavi.filter(function (k) { return k.indexOf('spesaok') === 0; })
+            .map(function (k) { return caches.delete(k); }));
+        }).catch(function () {}));
+      }
+
+      var secondi = 4;
+      var conto = document.getElementById('conto');
+      var timer = setInterval(function () {
+        secondi--;
+        if (secondi > 0) {
+          conto.textContent = 'Ti porto lì tra ' + secondi + (secondi === 1 ? ' secondo…' : ' secondi…');
+        } else {
+          clearInterval(timer);
+          conto.textContent = 'Ti sto portando su spesaok…';
+          Promise.all(pulizia).then(function () { location.replace(destinazione); });
+        }
+      }, 1000);
+    })();
+  </script>
+</body>
+</html>
