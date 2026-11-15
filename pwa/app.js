@@ -209,7 +209,8 @@ function buildInfo(){
     <p>Bennet (via Giordano Bruno 142): prezzi dai volantini del negozio pubblicati su DoveConviene; anche qui formato e prezzo al kg/litro sono ricavati dal testo dell'immagine. "Bennet Club" indica i prezzi con la carta.</p>
     <p>Lidl: i volantini sono di zona. "Torino Rivoli" è il volantino dei Lidl di Torino e Rivoli; "C.so Francia" è quello del Lidl di corso Francia 325 a Collegno (zona Collegno/Grugliasco). Molte offerte coincidono. I prezzi "Lidl Plus" valgono con l'app.</p>
     <p>I prezzi sono quelli pubblicati nei volantini: verifica sempre in negozio. Ogni offerta ha il link al volantino originale.</p>
-    <p>Funziona anche senza connessione, con le ultime offerte scaricate.</p>`;
+    <p>Funziona anche senza connessione, con le ultime offerte scaricate.</p>
+    <p>Privacy: liste e preferenze restano sul telefono. Le visite sono contate in forma anonima con GoatCounter, senza cookie e senza conservare l'indirizzo IP.</p>`;
 }
 
 function buildLinee(){
@@ -249,7 +250,16 @@ function toast(html, ms){ const el = $("toast"); el.innerHTML = html; el.hidden 
 /* Installazione */
 let deferred;
 window.addEventListener("beforeinstallprompt", e => { e.preventDefault(); deferred = e; $("install").hidden = false; });
-$("install").onclick = async () => { if (!deferred) return; deferred.prompt(); await deferred.userChoice; deferred = null; $("install").hidden = true; };
+/* Statistiche (GoatCounter): eventi anonimi sull'installazione. Se lo script non è caricato (offline, blocco pubblicità) non fa nulla. */
+const conta = nome => { try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: "spesaok-" + nome, title: "spesaok: " + nome, event: true }); } catch (e) {} };
+$("install").onclick = async () => {
+  if (!deferred) return;
+  conta("installa-clic"); deferred.prompt();
+  const scelta = await deferred.userChoice.catch(() => null);
+  if (scelta && scelta.outcome === "dismissed") conta("installa-rifiutata");
+  deferred = null; $("install").hidden = true;
+};
+window.addEventListener("appinstalled", () => conta("installata"));
 const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent), standalone = matchMedia("(display-mode: standalone)").matches || navigator.standalone;
 if (isIOS && !standalone) { try { if (!localStorage.getItem("spesaok-ios")) { localStorage.setItem("spesaok-ios","1"); setTimeout(() => toast("Per installarla: tocca Condividi e poi “Aggiungi alla schermata Home”.", 9000), 1500); } } catch(e) {} }
 

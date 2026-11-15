@@ -155,3 +155,8 @@ Output iniziale: artefatto. In futuro: valutare una PWA.
 - Provato in un browser automatico simulando una vecchia app installata: service worker rimosso, cache svuotate, redirect al nuovo indirizzo.
 - Caricamento manuale via FTP (Tophost non accetta deploy automatici).
 
+## 15/11/2026 – Statistiche di visita (GoatCounter)
+- Script in `pwa/index.html`, senza cookie e senza dati personali; dashboard comune https://entratadisicurezza.goatcounter.com. Sul sottodominio il percorso sarebbe `/` come per le altre app, quindi lo script invia `/spesaok/`.
+- Eventi in `pwa/app.js` (funzione `conta`): `spesaok-installa-clic`, `spesaok-installa-rifiutata`, `spesaok-installata`.
+- Riga sulla privacy nella sezione Info. Chi usa un blocco pubblicità non viene contato; offline non si conta nulla.
+- Provato in Chromium sulla build (`scripts/build_pwa.py`) con lo script vero di GoatCounter: visita ed eventi inviati, nessun errore JavaScript.
