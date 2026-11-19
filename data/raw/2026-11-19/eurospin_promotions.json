@@ -1,0 +1,378 @@
+[
+ {
+  "identifier": "EUS-EIT-202627IT",
+  "brand": "EUS-EIT",
+  "storeBrandAlias": "eurospin-italia",
+  "code": "202627IT",
+  "alias": "sapori-in-festa",
+  "description": "SAPORI IN FESTA",
+  "priority": 10,
+  "hidden": false,
+  "startDate": "20261116000000",
+  "endDate": "20261125000000",
+  "startTime": null,
+  "endTime": null,
+  "daysOfWeek": [],
+  "properties": [
+   {
+    "type": "FILE",
+    "code": "PREVIEW",
+    "label": "Anteprima",
+    "values": [
+     {
+      "uniqueId": "71c8b7bb-7ea5-44db-bf92-2686e68c4d78",
+      "name": "01-202627it-eit-00.jpg",
+      "extension": "jpg",
+      "image": true,
+      "mimeType": "image/jpeg",
+      "size": 283941,
+      "displaySize": "277 KB",
+      "width": 1364,
+      "height": 1600,
+      "pages": null,
+      "creationDate": "20261110142934",
+      "creationUser": "RuleExecutor",
+      "lastModifiedDate": null,
+      "lastModifiedUser": null,
+      "basename": "01-202627it-eit-00"
+     }
+    ]
+   },
+   {
+    "type": "FILE",
+    "code": "COVER",
+    "label": "DF - Preview dettaglio promozione desktop",
+    "values": [
+     {
+      "uniqueId": "419afea7-4a13-4ffb-b970-0a17fe22ed70",
+      "name": "promo-generica-header-desktop-2000x480-v01.webp",
+      "extension": "webp",
+      "image": true,
+      "mimeType": "image/webp",
+      "size": 48738,
+      "displaySize": "47 KB",
+      "width": null,
+      "height": null,
+      "pages": null,
+      "creationDate": "20261110143809",
+      "creationUser": "Sofia Agatoli",
+      "lastModifiedDate": null,
+      "lastModifiedUser": null,
+      "basename": "promo-generica-header-desktop-2000x480-v01"
+     }
+    ]
+   },
+   {
+    "type": "FILE",
+    "code": "COVER_MOBILE",
+    "label": "DF - Preview dettaglio promozione mobile",
+    "values": [
+     {
+      "uniqueId": "b67674dd-b33b-47c7-af4b-fa102bb0abfd",
+      "name": "promo-generica-header-mobile-1440x760-v01.webp",
+      "extension": "webp",
+      "image": true,
+      "mimeType": "image/webp",
+      "size": 52744,
+      "displaySize": "51 KB",
+      "width": null,
+      "height": null,
+      "pages": null,
+      "creationDate": "20261110143809",
+      "creationUser": "Sofia Agatoli",
+      "lastModifiedDate": null,
+      "lastModifiedUser": null,
+      "basename": "promo-generica-header-mobile-1440x760-v01"
+     }
+    ]
+   },
+   {
+    "type": "FILE",
+    "code": "PDF",
+    "label": "PDF",
+    "values": []
+   },
+   {
+    "type": "STRING",
+    "code": "URL",
+    "label": "URL",
+    "values": [
+     "https://www.eurospin.it/volantino/promotion?code=202627IT"
+    ]
+   },
+   {
+    "type": "STRING",
+    "code": "PROMOTION_CODE",
+    "label": "Codice Promozione Uploader",
+    "values": [
+     "202627IT"
+    ]
+   },
+   {
+    "type": "BOOLEAN",
+    "code": "FILTER-PRODUCTS-BY-VALIDITY",
+    "label": "Filtra prodotti per validità",
+    "values": [
+     false
+    ]
+   },
+   {
+    "type": "BOOLEAN",
+    "code": "HIDE_VALIDITY_PERIOD_PROMO",
+    "label": "Nascondi periodo di validità per promozioni",
+    "values": [
+     false
+    ]
+   },
+   {
+    "type": "BOOLEAN",
+    "code": "HIDE_VALIDITY_PERIOD_PRODUCT",
+    "label": "Nascondi periodo di validità per prodotti",
+    "values": [
+     false
+    ]
+   },
+   {
+    "type": "LIST",
+    "code": "PROMOTION_VIEW_MODE",
+    "label": "DF - Modalità visualizzazione promozione",
+    "values": [
+     {
+      "key": "PRODUCTS_LIST",
+      "label": "Lista prodotti"
+     }
+    ]
+   },
+   {
+    "type": "STRING",
+    "code": "SEO_META_DESCRIPTION",
+    "label": "DF - SEO Description",
+    "values": [
+     "Sfoglia il volantino Eurospin ${store_name} e scopri le offerte valide dal ${promo_start|short_pattern}  al ${promo_end|short_pattern}."
+    ]
+   },
+   {
+    "type": "STRING",
+    "code": "SEO_H1",
+    "label": "DF - Seo H1",
+    "values": [
+     "Volantino Eurospin ${store_name} - ${promo_description}"
+    ]
+   },
+   {
+    "type": "STRING",
+    "code": "SEO_H2",
+    "label": "DF - Seo H2",
+    "values": [
+     "Offerte valide dal ${promo_start|short_pattern}  al ${promo_end|short_pattern}"
+    ]
+   },
+   {
+    "type": "STRING",
+    "code": "SEO_META_ROBOTS",
+    "label": "DF - SEO Robots",
+    "values": [
+     "index",
+     "follow"
+    ]
+   },
+   {
+    "type": "STRING",
+    "code": "SEO_META_TITLE",
+    "label": "DF - SEO Titolo",
+    "values": [
+     "Volantino Eurospin ${store_name}  ${store_address} - ${promo_description}"
+    ]
+   }
+  ],
+  "anticipation": 3
+ },
+ {
+  "identifier": "EUS-EIT-BLACKFRIDAY2026EUROSPINONLINE",
+  "brand": "EUS-EIT",
+  "storeBrandAlias": "eurospin-italia",
+  "code": "BLACKFRIDAY2026EUROSPINONLINE",
+  "alias": "black-friday-2026-eurospin-online",
+  "description": "Black Friday Eurospin Online",
+  "priority": 0,
+  "hidden": false,
+  "startDate": "20261105000000",
+  "endDate": "20261129000000",
+  "startTime": null,
+  "endTime": null,
+  "daysOfWeek": [],
+  "properties": [
+   {
+    "type": "FILE",
+    "code": "PREVIEW",
+    "label": "Anteprima",
+    "values": [
+     {
+      "uniqueId": "7d2474df-5ec4-45ed-a2eb-3fbf1c972cd8",
+      "name": "copertina-volantino-EOnline.jpg",
+      "extension": "jpg",
+      "image": true,
+      "mimeType": "image/jpeg",
+      "size": 239217,
+      "displaySize": "233 KB",
+      "width": 836,
+      "height": 981,
+      "pages": null,
+      "creationDate": "20261113163034",
+      "creationUser": "Sofia Agatoli",
+      "lastModifiedDate": null,
+      "lastModifiedUser": null,
+      "basename": "copertina-volantino-EOnline"
+     }
+    ]
+   },
+   {
+    "type": "FILE",
+    "code": "COVER",
+    "label": "DF - Preview dettaglio promozione desktop",
+    "values": [
+     {
+      "uniqueId": "88f67015-21a5-4202-b15b-c57b14c93269",
+      "name": "eurospin-online-header-desktop-2000x480-v01 copia.webp",
+      "extension": "webp",
+      "image": true,
+      "mimeType": "image/webp",
+      "size": 39294,
+      "displaySize": "38 KB",
+      "width": null,
+      "height": null,
+      "pages": null,
+      "creationDate": "20261110143348",
+      "creationUser": "Sofia Agatoli",
+      "lastModifiedDate": null,
+      "lastModifiedUser": null,
+      "basename": "eurospin-online-header-desktop-2000x480-v01 copia"
+     }
+    ]
+   },
+   {
+    "type": "FILE",
+    "code": "COVER_MOBILE",
+    "label": "DF - Preview dettaglio promozione mobile",
+    "values": [
+     {
+      "uniqueId": "95653731-e78b-4158-b89b-5654ad803426",
+      "name": "eurospin-online-header-mobile-1440x760-v01 copia.webp",
+      "extension": "webp",
+      "image": true,
+      "mimeType": "image/webp",
+      "size": 44280,
+      "displaySize": "43 KB",
+      "width": null,
+      "height": null,
+      "pages": null,
+      "creationDate": "20261110143348",
+      "creationUser": "Sofia Agatoli",
+      "lastModifiedDate": null,
+      "lastModifiedUser": null,
+      "basename": "eurospin-online-header-mobile-1440x760-v01 copia"
+     }
+    ]
+   },
+   {
+    "type": "FILE",
+    "code": "PDF",
+    "label": "PDF",
+    "values": []
+   },
+   {
+    "type": "STRING",
+    "code": "URL",
+    "label": "URL",
+    "values": [
+     "https://flyer.eurospin.com/it-it/volantino/promotion?code=BLACKFRIDAY2026EUROSPINONLINE"
+    ]
+   },
+   {
+    "type": "STRING",
+    "code": "PROMOTION_CODE",
+    "label": "Codice Promozione Uploader",
+    "values": [
+     "BLACKFRIDAY2026EUROSPINONLINE"
+    ]
+   },
+   {
+    "type": "BOOLEAN",
+    "code": "FILTER-PRODUCTS-BY-VALIDITY",
+    "label": "Filtra prodotti per validità",
+    "values": [
+     false
+    ]
+   },
+   {
+    "type": "BOOLEAN",
+    "code": "HIDE_VALIDITY_PERIOD_PROMO",
+    "label": "Nascondi periodo di validità per promozioni",
+    "values": [
+     true
+    ]
+   },
+   {
+    "type": "BOOLEAN",
+    "code": "HIDE_VALIDITY_PERIOD_PRODUCT",
+    "label": "Nascondi periodo di validità per prodotti",
+    "values": [
+     false
+    ]
+   },
+   {
+    "type": "LIST",
+    "code": "PROMOTION_VIEW_MODE",
+    "label": "DF - Modalità visualizzazione promozione",
+    "values": [
+     {
+      "key": "PRODUCTS_LIST",
+      "label": "Lista prodotti"
+     }
+    ]
+   },
+   {
+    "type": "STRING",
+    "code": "SEO_META_DESCRIPTION",
+    "label": "DF - SEO Description",
+    "values": [
+     "Sfoglia il volantino Eurospin ${store_name} e scopri le offerte valide dal ${promo_start|short_pattern}  al ${promo_end|short_pattern}."
+    ]
+   },
+   {
+    "type": "STRING",
+    "code": "SEO_H1",
+    "label": "DF - Seo H1",
+    "values": [
+     "Volantino Eurospin ${store_name} - ${promo_description}"
+    ]
+   },
+   {
+    "type": "STRING",
+    "code": "SEO_H2",
+    "label": "DF - Seo H2",
+    "values": [
+     "Offerte valide dal ${promo_start|short_pattern}  al ${promo_end|short_pattern}"
+    ]
+   },
+   {
+    "type": "STRING",
+    "code": "SEO_META_ROBOTS",
+    "label": "DF - SEO Robots",
+    "values": [
+     "index",
+     "follow"
+    ]
+   },
+   {
+    "type": "STRING",
+    "code": "SEO_META_TITLE",
+    "label": "DF - SEO Titolo",
+    "values": [
+     "Volantino Eurospin ${store_name}  ${store_address} - ${promo_description}"
+    ]
+   }
+  ],
+  "anticipation": 0
+ }
+]

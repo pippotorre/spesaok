@@ -1,0 +1,5111 @@
+[
+ {
+  "id": "6af1ce92-bfd8-4148-afba-00980ad3008f",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Maionese ",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 0.89",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2328,
+     "height": 0.2275,
+     "x": 0.0496,
+     "y": 0.3325
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "0.89"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "3",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Maionese",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.166,
+     "y": 0.49175
+    }
+   },
+   "google_vision_text": "il gigante Maionese 143 g MAIONESE TUBO al kg € 6,22 €0.89 il gigante ANCHE ALTRE PREZZO SEMPRE 150ml/13",
+   "shared_category_id": "14716",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce92-bfd8-4148-afba-00980ad3008f_20261109172625.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce92-bfd8-4148-afba-00980ad3008f_20261109172625.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce92-bfd8-4148-afba-00980ad3008f_20261109172624_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce92-bfd8-4148-afba-00980ad3008f_20261109172624_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce92-bfd8-4148-afba-00980ad3008f_big_20261109172625.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce92-bfd8-4148-afba-00980ad3008f_big_20261109172624.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce92-bfd8-4148-afba-00980ad3008f_big_20261109172625_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce92-bfd8-4148-afba-00980ad3008f_big_20261109172625_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce92-bfd8-4148-afba-00980ad3008f_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce92-bfd8-4148-afba-00980ad3008f_small_20261109172625.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce92-bfd8-4148-afba-00980ad3008f_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce92-bfd8-4148-afba-00980ad3008f_small_20261109172625_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce92-bfd8-4148-afba-00980ad3008f_mobile_20261109172625.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce92-bfd8-4148-afba-00980ad3008f_mobile_20261109172624.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce92-bfd8-4148-afba-00980ad3008f_mobile_20261109172625_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce92-bfd8-4148-afba-00980ad3008f_mobile_20261109172625_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce92-bfd8-4148-afba-00980ad3008f_20261109172625.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1ce93-7e7c-444f-abd9-00150ad30116",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Speck Alto Adige IGP",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 2.98",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2198,
+     "height": 0.2425,
+     "x": 0.7204999999999999,
+     "y": 0.0833
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "2.98"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "3",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Speck",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.8304,
+     "y": 0.25304999999999994
+    }
+   },
+   "google_vision_text": "SPECK ALTO ADIGE IGP il gigante SPECK ALTO ADIGE IGP il gigante 100 g al kg € 29,80 ANCHE SU ALTRE 1000 €2.98 PREZZO SEMPRE",
+   "shared_category_id": "14639",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce93-7e7c-444f-abd9-00150ad30116_20261110084258.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce93-7e7c-444f-abd9-00150ad30116_20261110084258.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce93-7e7c-444f-abd9-00150ad30116_20261110084302_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce93-7e7c-444f-abd9-00150ad30116_20261110084304_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce93-7e7c-444f-abd9-00150ad30116_big_20261110084257.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce93-7e7c-444f-abd9-00150ad30116_big_20261110084301.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce93-7e7c-444f-abd9-00150ad30116_big_20261110084303_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce93-7e7c-444f-abd9-00150ad30116_big_20261110084301_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce93-7e7c-444f-abd9-00150ad30116_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce93-7e7c-444f-abd9-00150ad30116_small_20261110084258.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce93-7e7c-444f-abd9-00150ad30116_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce93-7e7c-444f-abd9-00150ad30116_small_20261110084258_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce93-7e7c-444f-abd9-00150ad30116_mobile_20261110084258.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce93-7e7c-444f-abd9-00150ad30116_mobile_20261110084258.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce93-7e7c-444f-abd9-00150ad30116_mobile_20261110084302_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce93-7e7c-444f-abd9-00150ad30116_mobile_20261110084302_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce93-7e7c-444f-abd9-00150ad30116_20261110084258.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1ce94-f7c8-4769-980b-009f0ad30116",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Dischetti Struccanti In Cotone",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 0.89",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2076,
+     "height": 0.24,
+     "x": 0.2845,
+     "y": 0.5633
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "0.89"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "3",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Cotone",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.3883,
+     "y": 0.7313000000000001
+    }
+   },
+   "google_vision_text": "gigante Dischetti 70 DISCHETTI STRUCCANTI in cotone €0.89 il gigante PREZZO SEMPRE",
+   "shared_category_id": "16199",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce94-f7c8-4769-980b-009f0ad30116_20261110084257.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce94-f7c8-4769-980b-009f0ad30116_20261110084253.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce94-f7c8-4769-980b-009f0ad30116_20261110084300_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce94-f7c8-4769-980b-009f0ad30116_20261110084258_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce94-f7c8-4769-980b-009f0ad30116_big_20261110084252.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce94-f7c8-4769-980b-009f0ad30116_big_20261110084259.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce94-f7c8-4769-980b-009f0ad30116_big_20261110084258_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce94-f7c8-4769-980b-009f0ad30116_big_20261110084254_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce94-f7c8-4769-980b-009f0ad30116_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce94-f7c8-4769-980b-009f0ad30116_small_20261110084303.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce94-f7c8-4769-980b-009f0ad30116_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce94-f7c8-4769-980b-009f0ad30116_small_20261110084259_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce94-f7c8-4769-980b-009f0ad30116_mobile_20261110084258.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce94-f7c8-4769-980b-009f0ad30116_mobile_20261110084301.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce94-f7c8-4769-980b-009f0ad30116_mobile_20261110084303_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce94-f7c8-4769-980b-009f0ad30116_mobile_20261110084302_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce94-f7c8-4769-980b-009f0ad30116_20261110084253.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1ce96-0ae8-4c7c-b973-00460ad3025d",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Pizza Salamino Piccante/Capricciosa",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 2.69",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.9864,
+     "height": 0.9475,
+     "x": 0.0057,
+     "y": 0.0525
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "2.69"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "4",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Pizza",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.4989,
+     "y": 0.71575
+    }
+   },
+   "google_vision_text": "il gigante ⚫www.ilgigante.net⚫ il gigante PREZZO Pippa BASSO SALAMINO SEMPRE PICCANTE SURGELATA PIZZA Liertata per almeno 24 ore e cotta nel forno a legna salamino piccante/ capricciosa €269 il gigante ANCHE SU ALTRI 1000 PRODOTTI A MARCHIO. PREZZO BASSO OFLADDE PRODOTT 375ge JUP REAL DERIVER LATTE E DERIVATI CARNE PERCS, JENE URUM SEC",
+   "shared_category_id": "14669",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce96-0ae8-4c7c-b973-00460ad3025d_20261109172615.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce96-0ae8-4c7c-b973-00460ad3025d_20261109172616.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce96-0ae8-4c7c-b973-00460ad3025d_20261109172616_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce96-0ae8-4c7c-b973-00460ad3025d_20261109172617_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce96-0ae8-4c7c-b973-00460ad3025d_big_20261109172615.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce96-0ae8-4c7c-b973-00460ad3025d_big_20261109172616.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce96-0ae8-4c7c-b973-00460ad3025d_big_20261109172615_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce96-0ae8-4c7c-b973-00460ad3025d_big_20261109172616_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce96-0ae8-4c7c-b973-00460ad3025d_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce96-0ae8-4c7c-b973-00460ad3025d_small_20261109172616.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce96-0ae8-4c7c-b973-00460ad3025d_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce96-0ae8-4c7c-b973-00460ad3025d_small_20261109172616_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce96-0ae8-4c7c-b973-00460ad3025d_mobile_20261109172615.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce96-0ae8-4c7c-b973-00460ad3025d_mobile_20261109172616.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce96-0ae8-4c7c-b973-00460ad3025d_mobile_20261109172616_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce96-0ae8-4c7c-b973-00460ad3025d_mobile_20261109172616_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce96-0ae8-4c7c-b973-00460ad3025d_20261109172616.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1ce97-92cc-4239-98be-003e0ad301c3",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Fiocchi Di Avena Per Porridge",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 1.49",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.22770000000000007,
+     "height": 0.24,
+     "x": 0.051,
+     "y": 0.5641999999999999
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "1.49"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "3",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Cereali",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.16485,
+     "y": 0.7322000000000002
+    }
+   },
+   "google_vision_text": "FIOCCHI DI AVENA PER PORRIDGE il gigante Porridge il gigante 300 g al kg € 4,97 €149 PREZZO SEMPRE",
+   "shared_category_id": "14773",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce97-92cc-4239-98be-003e0ad301c3_20261110084309.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce97-92cc-4239-98be-003e0ad301c3_20261110084257.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce97-92cc-4239-98be-003e0ad301c3_20261110084257_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce97-92cc-4239-98be-003e0ad301c3_20261110084306_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce97-92cc-4239-98be-003e0ad301c3_big_20261110084257.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce97-92cc-4239-98be-003e0ad301c3_big_20261110084258.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce97-92cc-4239-98be-003e0ad301c3_big_20261110084305_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce97-92cc-4239-98be-003e0ad301c3_big_20261110084259_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce97-92cc-4239-98be-003e0ad301c3_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce97-92cc-4239-98be-003e0ad301c3_small_20261110084307.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce97-92cc-4239-98be-003e0ad301c3_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce97-92cc-4239-98be-003e0ad301c3_small_20261110084303_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce97-92cc-4239-98be-003e0ad301c3_mobile_20261110084302.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce97-92cc-4239-98be-003e0ad301c3_mobile_20261110084256.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce97-92cc-4239-98be-003e0ad301c3_mobile_20261110084309_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce97-92cc-4239-98be-003e0ad301c3_mobile_20261110084305_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce97-92cc-4239-98be-003e0ad301c3_20261110084257.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1ce98-b790-4d6f-9019-00b80ad301a2",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Pannolini Junior/Maxi",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 7.99",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2227,
+     "height": 0.24169999999999997,
+     "x": 0.7177,
+     "y": 0.5633
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "7.99"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "3",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Pannolini",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.8290500000000001,
+     "y": 0.7324900000000001
+    }
+   },
+   "google_vision_text": "il gigante Pannolini per bambini 11-25 k 5 JUNIOR PANNOLINI junior x 34/maxi x 40 €7.99 il gigante PREZZO SEMPRE enza",
+   "shared_category_id": "13217",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce98-b790-4d6f-9019-00b80ad301a2_20261110084306.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce98-b790-4d6f-9019-00b80ad301a2_20261110084308.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce98-b790-4d6f-9019-00b80ad301a2_20261110084255_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce98-b790-4d6f-9019-00b80ad301a2_20261110084303_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce98-b790-4d6f-9019-00b80ad301a2_big_20261110084303.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce98-b790-4d6f-9019-00b80ad301a2_big_20261110084302.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce98-b790-4d6f-9019-00b80ad301a2_big_20261110084302_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce98-b790-4d6f-9019-00b80ad301a2_big_20261110084305_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce98-b790-4d6f-9019-00b80ad301a2_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce98-b790-4d6f-9019-00b80ad301a2_small_20261110084303.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce98-b790-4d6f-9019-00b80ad301a2_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce98-b790-4d6f-9019-00b80ad301a2_small_20261110084300_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce98-b790-4d6f-9019-00b80ad301a2_mobile_20261110084304.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce98-b790-4d6f-9019-00b80ad301a2_mobile_20261110084300.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce98-b790-4d6f-9019-00b80ad301a2_mobile_20261110084303_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce98-b790-4d6f-9019-00b80ad301a2_mobile_20261110084306_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce98-b790-4d6f-9019-00b80ad301a2_20261110084308.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1ce99-a220-4043-ac7a-005e0ad3003e",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Salame Milano",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 1.99",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.20979999999999996,
+     "height": 0.2408,
+     "x": 0.5022,
+     "y": 0.085
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "1.99"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "3",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Salame milano",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.6071,
+     "y": 0.25356
+    }
+   },
+   "google_vision_text": "100 g SALAME MILANO al kg € 19,90 €199 il gigante LE NOSTRE ECCELLENZE il gigante PREZZO SEMPRE",
+   "shared_category_id": "14631",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce99-a220-4043-ac7a-005e0ad3003e_20261110084304.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce99-a220-4043-ac7a-005e0ad3003e_20261110084307.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce99-a220-4043-ac7a-005e0ad3003e_20261110084301_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce99-a220-4043-ac7a-005e0ad3003e_20261110084258_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce99-a220-4043-ac7a-005e0ad3003e_big_20261110084306.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce99-a220-4043-ac7a-005e0ad3003e_big_20261110084309.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce99-a220-4043-ac7a-005e0ad3003e_big_20261110084305_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce99-a220-4043-ac7a-005e0ad3003e_big_20261110084257_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce99-a220-4043-ac7a-005e0ad3003e_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce99-a220-4043-ac7a-005e0ad3003e_small_20261110084307.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce99-a220-4043-ac7a-005e0ad3003e_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce99-a220-4043-ac7a-005e0ad3003e_small_20261110084309_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce99-a220-4043-ac7a-005e0ad3003e_mobile_20261110084309.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce99-a220-4043-ac7a-005e0ad3003e_mobile_20261110084305.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce99-a220-4043-ac7a-005e0ad3003e_mobile_20261110084257_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce99-a220-4043-ac7a-005e0ad3003e_mobile_20261110084307_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce99-a220-4043-ac7a-005e0ad3003e_20261110084307.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1ce9a-4bb4-4149-85e2-002a0ad301e0",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Piada Sfogliata Confezione",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 0.98",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2083,
+     "height": 0.23,
+     "x": 0.2866,
+     "y": 0.3292
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "0.98"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "3",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Piadine",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.39074999999999993,
+     "y": 0.4902
+    }
+   },
+   "google_vision_text": "PIADA SFOGLIATA confezione x3 390 g il gigante PIADA SFOGLIATA il gigante al kg € 2,51 390 €0.98 PREZZO SEMPRE",
+   "shared_category_id": "14746",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9a-4bb4-4149-85e2-002a0ad301e0_20261110084257.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9a-4bb4-4149-85e2-002a0ad301e0_20261110084300.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9a-4bb4-4149-85e2-002a0ad301e0_20261110084302_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9a-4bb4-4149-85e2-002a0ad301e0_20261110084300_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9a-4bb4-4149-85e2-002a0ad301e0_big_20261110084254.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9a-4bb4-4149-85e2-002a0ad301e0_big_20261110084252.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9a-4bb4-4149-85e2-002a0ad301e0_big_20261110084259_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9a-4bb4-4149-85e2-002a0ad301e0_big_20261110084303_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9a-4bb4-4149-85e2-002a0ad301e0_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9a-4bb4-4149-85e2-002a0ad301e0_small_20261110084303.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9a-4bb4-4149-85e2-002a0ad301e0_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9a-4bb4-4149-85e2-002a0ad301e0_small_20261110084301_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9a-4bb4-4149-85e2-002a0ad301e0_mobile_20261110084302.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9a-4bb4-4149-85e2-002a0ad301e0_mobile_20261110084254.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9a-4bb4-4149-85e2-002a0ad301e0_mobile_20261110084259_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9a-4bb4-4149-85e2-002a0ad301e0_mobile_20261110084255_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9a-4bb4-4149-85e2-002a0ad301e0_20261110084300.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1ce9a-6d6c-490a-b807-00110ad301c3",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Kefir Bianco Da Latte Di Montagna",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 1.19",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2198,
+     "height": 0.2367,
+     "x": 0.7213,
+     "y": 0.0883
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "1.19"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "5",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Yogurt da bere",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.8312,
+     "y": 0.25399
+    }
+   },
+   "google_vision_text": "gigante KEFIR BIANCO da latte di Montagna 480 g il gigante al kg €2,48 €119 PREZZO SEMPRE EFIR Mantagna",
+   "shared_category_id": "14517",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9a-6d6c-490a-b807-00110ad301c3_20261109172618.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9a-6d6c-490a-b807-00110ad301c3_20261109172619.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9a-6d6c-490a-b807-00110ad301c3_20261109172618_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9a-6d6c-490a-b807-00110ad301c3_20261109172619_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9a-6d6c-490a-b807-00110ad301c3_big_20261109172618.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9a-6d6c-490a-b807-00110ad301c3_big_20261109172619.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9a-6d6c-490a-b807-00110ad301c3_big_20261109172618_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9a-6d6c-490a-b807-00110ad301c3_big_20261109172619_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9a-6d6c-490a-b807-00110ad301c3_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9a-6d6c-490a-b807-00110ad301c3_small_20261109172619.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9a-6d6c-490a-b807-00110ad301c3_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9a-6d6c-490a-b807-00110ad301c3_small_20261109172619_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9a-6d6c-490a-b807-00110ad301c3_mobile_20261109172618.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9a-6d6c-490a-b807-00110ad301c3_mobile_20261109172619.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9a-6d6c-490a-b807-00110ad301c3_mobile_20261109172618_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9a-6d6c-490a-b807-00110ad301c3_mobile_20261109172619_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9a-6d6c-490a-b807-00110ad301c3_20261109172619.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1ce9b-a2c8-4618-88d2-35b30ad3008f",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Frollini Con Cereali Croccanti/Frutta",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 1.59",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2328,
+     "height": 0.22,
+     "x": 0.0496,
+     "y": 0.3392
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "1.59"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "5",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Frollini",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.166,
+     "y": 0.4932
+    }
+   },
+   "google_vision_text": "il gigante FROLLINI CON CEREALI CROCCANTI FROLLINI CON CEREALI croccanti o frutta il gigante 250 g al kg € 6,36 €159 PREZZO SEMPRE",
+   "shared_category_id": "14795",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9b-a2c8-4618-88d2-35b30ad3008f_20261109172615.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9b-a2c8-4618-88d2-35b30ad3008f_20261109172616.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9b-a2c8-4618-88d2-35b30ad3008f_20261109172616_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9b-a2c8-4618-88d2-35b30ad3008f_20261109172616_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9b-a2c8-4618-88d2-35b30ad3008f_big_20261109172615.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9b-a2c8-4618-88d2-35b30ad3008f_big_20261109172616.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9b-a2c8-4618-88d2-35b30ad3008f_big_20261109172617_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9b-a2c8-4618-88d2-35b30ad3008f_big_20261109172617_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9b-a2c8-4618-88d2-35b30ad3008f_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9b-a2c8-4618-88d2-35b30ad3008f_small_20261109172617.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9b-a2c8-4618-88d2-35b30ad3008f_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9b-a2c8-4618-88d2-35b30ad3008f_small_20261109172617_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9b-a2c8-4618-88d2-35b30ad3008f_mobile_20261109172615.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9b-a2c8-4618-88d2-35b30ad3008f_mobile_20261109172616.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9b-a2c8-4618-88d2-35b30ad3008f_mobile_20261109172616_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9b-a2c8-4618-88d2-35b30ad3008f_mobile_20261109172617_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9b-a2c8-4618-88d2-35b30ad3008f_20261109172616.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1ce9d-1dac-4821-924d-008f0ad3013b",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Salmone Affumicato Norvegese A Fette",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 4.90",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2119,
+     "height": 0.23,
+     "x": 0.5007,
+     "y": 0.3292
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "4.90"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "3",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Salmone affumicato",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.60665,
+     "y": 0.4902
+    }
+   },
+   "google_vision_text": "SALMONE AFFUMICATO NORVEGESE a fette il gigante Salmone affumicato A FETTE il gigante 100 g al kg € 49,00 €4.90 PREZZO SEMPRE",
+   "shared_category_id": "14913",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9d-1dac-4821-924d-008f0ad3013b_20261110084252.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9d-1dac-4821-924d-008f0ad3013b_20261110084305.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9d-1dac-4821-924d-008f0ad3013b_20261110084258_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9d-1dac-4821-924d-008f0ad3013b_20261110084259_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9d-1dac-4821-924d-008f0ad3013b_big_20261110084252.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9d-1dac-4821-924d-008f0ad3013b_big_20261110084259.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9d-1dac-4821-924d-008f0ad3013b_big_20261110084304_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9d-1dac-4821-924d-008f0ad3013b_big_20261110084259_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9d-1dac-4821-924d-008f0ad3013b_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9d-1dac-4821-924d-008f0ad3013b_small_20261110084254.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9d-1dac-4821-924d-008f0ad3013b_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9d-1dac-4821-924d-008f0ad3013b_small_20261110084301_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9d-1dac-4821-924d-008f0ad3013b_mobile_20261110084301.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9d-1dac-4821-924d-008f0ad3013b_mobile_20261110084254.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9d-1dac-4821-924d-008f0ad3013b_mobile_20261110084259_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9d-1dac-4821-924d-008f0ad3013b_mobile_20261110084303_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9d-1dac-4821-924d-008f0ad3013b_20261110084305.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1ce9d-b050-4b94-96b9-005e0ad30076",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante -  Plumcake Preparati Con Yogurt",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 0.99",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2155,
+     "height": 0.24,
+     "x": 0.5007,
+     "y": 0.0858
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "0.99"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "5",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Plum cake",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.60845,
+     "y": 0.2538
+    }
+   },
+   "google_vision_text": "C il gigante Plumcake CON YOUURT 6 PLUMCAKE preparati con yogurt il gigante 198 g al kg € 5,00 €0.99 PREZZO SEMPRE",
+   "shared_category_id": "14822",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9d-b050-4b94-96b9-005e0ad30076_20261109172618.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9d-b050-4b94-96b9-005e0ad30076_20261109172618.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9d-b050-4b94-96b9-005e0ad30076_20261109172618_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9d-b050-4b94-96b9-005e0ad30076_20261109172619_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9d-b050-4b94-96b9-005e0ad30076_big_20261109172618.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9d-b050-4b94-96b9-005e0ad30076_big_20261109172618.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9d-b050-4b94-96b9-005e0ad30076_big_20261109172618_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9d-b050-4b94-96b9-005e0ad30076_big_20261109172618_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9d-b050-4b94-96b9-005e0ad30076_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9d-b050-4b94-96b9-005e0ad30076_small_20261109172618.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9d-b050-4b94-96b9-005e0ad30076_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9d-b050-4b94-96b9-005e0ad30076_small_20261109172619_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9d-b050-4b94-96b9-005e0ad30076_mobile_20261109172618.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9d-b050-4b94-96b9-005e0ad30076_mobile_20261109172618.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9d-b050-4b94-96b9-005e0ad30076_mobile_20261109172618_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9d-b050-4b94-96b9-005e0ad30076_mobile_20261109172619_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9d-b050-4b94-96b9-005e0ad30076_20261109172618.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1ce9e-8104-4648-95ac-006c0ad30122",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Latte UHT Intero Microfiltrato",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 0.99",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.222,
+     "height": 0.2292,
+     "x": 0.7177,
+     "y": 0.3308
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "0.99"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "5",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Latte uht",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.8287,
+     "y": 0.49123999999999995
+    }
+   },
+   "google_vision_text": "LATTE UHT INTERO MICROFILTRATO 1 litro €0.99 il gigante il gigante Latte UNT MICROFILTRATO INTERO ANCHE BU ALTE OD PREZZO SEMPRE де",
+   "shared_category_id": "14524",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9e-8104-4648-95ac-006c0ad30122_20261109172622.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9e-8104-4648-95ac-006c0ad30122_20261109172624.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9e-8104-4648-95ac-006c0ad30122_20261109172623_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9e-8104-4648-95ac-006c0ad30122_20261109172625_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9e-8104-4648-95ac-006c0ad30122_big_20261109172623.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9e-8104-4648-95ac-006c0ad30122_big_20261109172624.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9e-8104-4648-95ac-006c0ad30122_big_20261109172623_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9e-8104-4648-95ac-006c0ad30122_big_20261109172625_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9e-8104-4648-95ac-006c0ad30122_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9e-8104-4648-95ac-006c0ad30122_small_20261109172625.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9e-8104-4648-95ac-006c0ad30122_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9e-8104-4648-95ac-006c0ad30122_small_20261109172625_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9e-8104-4648-95ac-006c0ad30122_mobile_20261109172623.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9e-8104-4648-95ac-006c0ad30122_mobile_20261109172624.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9e-8104-4648-95ac-006c0ad30122_mobile_20261109172624_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9e-8104-4648-95ac-006c0ad30122_mobile_20261109172625_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9e-8104-4648-95ac-006c0ad30122_20261109172624.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1ce9e-ebb4-48f6-a055-005a0ad302ca",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Mozzarella Tris",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 2.29",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2306,
+     "height": 0.2483,
+     "x": 0.0489,
+     "y": 0.0783
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "2.29"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "3",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Mozzarella",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.16419999999999996,
+     "y": 0.25211
+    }
+   },
+   "google_vision_text": "il gigante Mozzarella FRESCO TRIS MOZZARELLA TRIS il gigante 3x100 g al kg € 7,63 €2.29 PREZZO SEMPRE 3",
+   "shared_category_id": "14535",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9e-ebb4-48f6-a055-005a0ad302ca_20261110084303.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9e-ebb4-48f6-a055-005a0ad302ca_20261110084254.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9e-ebb4-48f6-a055-005a0ad302ca_20261110084303_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9e-ebb4-48f6-a055-005a0ad302ca_20261110084304_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9e-ebb4-48f6-a055-005a0ad302ca_big_20261110084303.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9e-ebb4-48f6-a055-005a0ad302ca_big_20261110084304.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9e-ebb4-48f6-a055-005a0ad302ca_big_20261110084306_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9e-ebb4-48f6-a055-005a0ad302ca_big_20261110084304_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9e-ebb4-48f6-a055-005a0ad302ca_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9e-ebb4-48f6-a055-005a0ad302ca_small_20261110084302.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9e-ebb4-48f6-a055-005a0ad302ca_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9e-ebb4-48f6-a055-005a0ad302ca_small_20261110084259_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9e-ebb4-48f6-a055-005a0ad302ca_mobile_20261110084305.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9e-ebb4-48f6-a055-005a0ad302ca_mobile_20261110084305.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9e-ebb4-48f6-a055-005a0ad302ca_mobile_20261110084300_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9e-ebb4-48f6-a055-005a0ad302ca_mobile_20261110084302_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9e-ebb4-48f6-a055-005a0ad302ca_20261110084254.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1ce9f-9234-4de3-9f7f-00a90ad30133",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Burro",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 2.29",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.23199999999999998,
+     "height": 0.2383,
+     "x": 0.047400000000000005,
+     "y": 0.5658
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "2.29"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "5",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Burro",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.16340000000000005,
+     "y": 0.73261
+    }
+   },
+   "google_vision_text": "il gigante Burro 250ge BURRO il gigante 250 g al kg € 9,16 €2.29 PREZZO SEMPRE 100%",
+   "shared_category_id": "14508",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9f-9234-4de3-9f7f-00a90ad30133_20261109172619.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9f-9234-4de3-9f7f-00a90ad30133_20261109172620.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9f-9234-4de3-9f7f-00a90ad30133_20261109172619_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9f-9234-4de3-9f7f-00a90ad30133_20261109172620_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9f-9234-4de3-9f7f-00a90ad30133_big_20261109172619.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9f-9234-4de3-9f7f-00a90ad30133_big_20261109172620.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9f-9234-4de3-9f7f-00a90ad30133_big_20261109172619_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9f-9234-4de3-9f7f-00a90ad30133_big_20261109172620_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9f-9234-4de3-9f7f-00a90ad30133_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9f-9234-4de3-9f7f-00a90ad30133_small_20261109172620.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9f-9234-4de3-9f7f-00a90ad30133_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9f-9234-4de3-9f7f-00a90ad30133_small_20261109172621_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9f-9234-4de3-9f7f-00a90ad30133_mobile_20261109172619.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9f-9234-4de3-9f7f-00a90ad30133_mobile_20261109172620.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9f-9234-4de3-9f7f-00a90ad30133_mobile_20261109172620_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9f-9234-4de3-9f7f-00a90ad30133_mobile_20261109172621_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9f-9234-4de3-9f7f-00a90ad30133_20261109172620.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1ce9f-d8a4-4ce1-be52-007f0ad302f4",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Grana Padano DOP Grattugiato",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 1.59",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2191,
+     "height": 0.2292,
+     "x": 0.7177,
+     "y": 0.33
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "1.59"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "3",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Formaggio Grattugiato",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.8272499999999999,
+     "y": 0.49044000000000004
+    }
+   },
+   "google_vision_text": "GRANA DADANO GRANA PADANO DOP GRATTUGIATO il gigante GRANA PADANO DOP GRATTUGIATO il gigante 100 g al kg € 15,90 €1.59 ANCHE SU ALTTE 1000 PREZZO SEMPRE",
+   "shared_category_id": "16185",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9f-d8a4-4ce1-be52-007f0ad302f4_20261110084309.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9f-d8a4-4ce1-be52-007f0ad302f4_20261110084310.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9f-d8a4-4ce1-be52-007f0ad302f4_20261110084306_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9f-d8a4-4ce1-be52-007f0ad302f4_20261110084308_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9f-d8a4-4ce1-be52-007f0ad302f4_big_20261110084259.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9f-d8a4-4ce1-be52-007f0ad302f4_big_20261110084307.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9f-d8a4-4ce1-be52-007f0ad302f4_big_20261110084303_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9f-d8a4-4ce1-be52-007f0ad302f4_big_20261110084305_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9f-d8a4-4ce1-be52-007f0ad302f4_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9f-d8a4-4ce1-be52-007f0ad302f4_small_20261110084310.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9f-d8a4-4ce1-be52-007f0ad302f4_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9f-d8a4-4ce1-be52-007f0ad302f4_small_20261110084259_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9f-d8a4-4ce1-be52-007f0ad302f4_mobile_20261110084305.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9f-d8a4-4ce1-be52-007f0ad302f4_mobile_20261110084308.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ce9f-d8a4-4ce1-be52-007f0ad302f4_mobile_20261110084304_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9f-d8a4-4ce1-be52-007f0ad302f4_mobile_20261110084308_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ce9f-d8a4-4ce1-be52-007f0ad302f4_20261110084310.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1cea0-ed94-49de-9cd9-00830ad300a9",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Pesto Alla Genovese Con/Senza Aglio",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 1.49",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2076,
+     "height": 0.23919999999999997,
+     "x": 0.2881,
+     "y": 0.0867
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "1.49"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "7",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Pesto",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.3919,
+     "y": 0.25414000000000003
+    }
+   },
+   "google_vision_text": "PESTO ALLA GENOVESE con o senza aglio 190 g al kg € 7,84 €149 il gigante Pesto il gigante PREZZO SEMPRE",
+   "shared_category_id": "14715",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea0-ed94-49de-9cd9-00830ad300a9_20261109172301.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea0-ed94-49de-9cd9-00830ad300a9_20261109172301.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea0-ed94-49de-9cd9-00830ad300a9_20261109172300_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea0-ed94-49de-9cd9-00830ad300a9_20261109172301_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea0-ed94-49de-9cd9-00830ad300a9_big_20261109172259.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea0-ed94-49de-9cd9-00830ad300a9_big_20261109172303.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea0-ed94-49de-9cd9-00830ad300a9_big_20261109172300_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea0-ed94-49de-9cd9-00830ad300a9_big_20261109172300_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea0-ed94-49de-9cd9-00830ad300a9_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea0-ed94-49de-9cd9-00830ad300a9_small_20261109172301.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea0-ed94-49de-9cd9-00830ad300a9_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea0-ed94-49de-9cd9-00830ad300a9_small_20261109172303_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea0-ed94-49de-9cd9-00830ad300a9_mobile_20261109172259.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea0-ed94-49de-9cd9-00830ad300a9_mobile_20261109172302.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea0-ed94-49de-9cd9-00830ad300a9_mobile_20261109172302_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea0-ed94-49de-9cd9-00830ad300a9_mobile_20261109172302_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea0-ed94-49de-9cd9-00830ad300a9_20261109172301.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1cea1-79ec-46b8-b2f5-97990ad30043",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Yogurt Greco Bianco",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 1.65",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2141,
+     "height": 0.24,
+     "x": 0.283,
+     "y": 0.5641999999999999
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "1.65"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "5",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Yogurt greco",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.39004999999999995,
+     "y": 0.7322000000000002
+    }
+   },
+   "google_vision_text": "nnnnnnnny il gigante Lu YOGURT GRECO Magro Bianco 2000 (2x1500 0% YOGURT GRECO BIANCO 0% o 10% grassi 2x150 g al kg € 5,50 €1.65 il gigante ANCHE SU ALTH 1000 PREZZO SEMPRE บนบ",
+   "shared_category_id": "14513",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea1-79ec-46b8-b2f5-97990ad30043_20261109172620.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea1-79ec-46b8-b2f5-97990ad30043_20261109172621.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea1-79ec-46b8-b2f5-97990ad30043_20261109172620_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea1-79ec-46b8-b2f5-97990ad30043_20261109172622_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea1-79ec-46b8-b2f5-97990ad30043_big_20261109172620.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea1-79ec-46b8-b2f5-97990ad30043_big_20261109172621.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea1-79ec-46b8-b2f5-97990ad30043_big_20261109172621_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea1-79ec-46b8-b2f5-97990ad30043_big_20261109172622_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea1-79ec-46b8-b2f5-97990ad30043_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea1-79ec-46b8-b2f5-97990ad30043_small_20261109172621.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea1-79ec-46b8-b2f5-97990ad30043_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea1-79ec-46b8-b2f5-97990ad30043_small_20261109172621_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea1-79ec-46b8-b2f5-97990ad30043_mobile_20261109172620.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea1-79ec-46b8-b2f5-97990ad30043_mobile_20261109172621.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea1-79ec-46b8-b2f5-97990ad30043_mobile_20261109172620_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea1-79ec-46b8-b2f5-97990ad30043_mobile_20261109172621_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea1-79ec-46b8-b2f5-97990ad30043_20261109172621.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1cea1-d68c-40a8-be62-00c80ad300e3",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Bresaola Della Valtellina IGP",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 3.99",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2112,
+     "height": 0.24420000000000003,
+     "x": 0.2838,
+     "y": 0.0817
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "3.99"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "3",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Bresaola",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.3894,
+     "y": 0.25264000000000003
+    }
+   },
+   "google_vision_text": "BRESAOLA DELLA VALTELLINA IGP 100 g al kg € 39,90 €3.99 gigante BRESAOLA DELLA VALTELLINA IGE il gigante PREZZO SEMPRE",
+   "shared_category_id": "14638",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea1-d68c-40a8-be62-00c80ad300e3_20261110084258.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea1-d68c-40a8-be62-00c80ad300e3_20261110084301.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea1-d68c-40a8-be62-00c80ad300e3_20261110084305_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea1-d68c-40a8-be62-00c80ad300e3_20261110084301_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea1-d68c-40a8-be62-00c80ad300e3_big_20261110084254.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea1-d68c-40a8-be62-00c80ad300e3_big_20261110084303.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea1-d68c-40a8-be62-00c80ad300e3_big_20261110084302_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea1-d68c-40a8-be62-00c80ad300e3_big_20261110084255_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea1-d68c-40a8-be62-00c80ad300e3_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea1-d68c-40a8-be62-00c80ad300e3_small_20261110084300.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea1-d68c-40a8-be62-00c80ad300e3_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea1-d68c-40a8-be62-00c80ad300e3_small_20261110084304_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea1-d68c-40a8-be62-00c80ad300e3_mobile_20261110084253.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea1-d68c-40a8-be62-00c80ad300e3_mobile_20261110084306.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea1-d68c-40a8-be62-00c80ad300e3_mobile_20261110084303_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea1-d68c-40a8-be62-00c80ad300e3_mobile_20261110084304_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea1-d68c-40a8-be62-00c80ad300e3_20261110084301.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1cea2-09b4-4f89-a0bb-00780ad30116",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Polpa Fine Di Pomodoro",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 1.19",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2328,
+     "height": 0.23919999999999997,
+     "x": 0.0496,
+     "y": 0.0875
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "1.19"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "7",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Pomodori pelati",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.166,
+     "y": 0.25493999999999994
+    }
+   },
+   "google_vision_text": "il gigante POLPA FINE DI POMODORO 420g (2x210g) POLPA FINE DI POMODORO 2x210 g al kg € 2,83 €1.19 il gigante PREZZO SEMPRE POMIDORD ALAND",
+   "shared_category_id": "14718",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea2-09b4-4f89-a0bb-00780ad30116_20261109172304.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea2-09b4-4f89-a0bb-00780ad30116_20261109172305.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea2-09b4-4f89-a0bb-00780ad30116_20261109172305_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea2-09b4-4f89-a0bb-00780ad30116_20261109172308_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea2-09b4-4f89-a0bb-00780ad30116_big_20261109172306.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea2-09b4-4f89-a0bb-00780ad30116_big_20261109172305.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea2-09b4-4f89-a0bb-00780ad30116_big_20261109172305_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea2-09b4-4f89-a0bb-00780ad30116_big_20261109172306_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea2-09b4-4f89-a0bb-00780ad30116_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea2-09b4-4f89-a0bb-00780ad30116_small_20261109172306.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea2-09b4-4f89-a0bb-00780ad30116_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea2-09b4-4f89-a0bb-00780ad30116_small_20261109172307_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea2-09b4-4f89-a0bb-00780ad30116_mobile_20261109172305.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea2-09b4-4f89-a0bb-00780ad30116_mobile_20261109172308.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea2-09b4-4f89-a0bb-00780ad30116_mobile_20261109172304_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea2-09b4-4f89-a0bb-00780ad30116_mobile_20261109172303_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea2-09b4-4f89-a0bb-00780ad30116_20261109172305.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1cea2-6ae4-4295-9b27-23720ad3000b",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Pavimenti Lavanda/Limone",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 0.99",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2119,
+     "height": 0.2408,
+     "x": 0.5013999999999998,
+     "y": 0.5617
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "0.99"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "3",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Pulizia pavimenti",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.60735,
+     "y": 0.7302599999999999
+    }
+   },
+   "google_vision_text": "DETERSIVO PAVIMENTI LAVANDA/LIMONE 1000ml giganto LAVANDA il gigante €0.99 PREZZO SEMPRE",
+   "shared_category_id": "15216",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea2-6ae4-4295-9b27-23720ad3000b_20261110084305.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea2-6ae4-4295-9b27-23720ad3000b_20261110084302.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea2-6ae4-4295-9b27-23720ad3000b_20261110084306_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea2-6ae4-4295-9b27-23720ad3000b_20261110084304_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea2-6ae4-4295-9b27-23720ad3000b_big_20261110084300.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea2-6ae4-4295-9b27-23720ad3000b_big_20261110084257.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea2-6ae4-4295-9b27-23720ad3000b_big_20261110084305_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea2-6ae4-4295-9b27-23720ad3000b_big_20261110084307_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea2-6ae4-4295-9b27-23720ad3000b_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea2-6ae4-4295-9b27-23720ad3000b_small_20261110084257.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea2-6ae4-4295-9b27-23720ad3000b_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea2-6ae4-4295-9b27-23720ad3000b_small_20261110084307_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea2-6ae4-4295-9b27-23720ad3000b_mobile_20261110084303.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea2-6ae4-4295-9b27-23720ad3000b_mobile_20261110084306.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea2-6ae4-4295-9b27-23720ad3000b_mobile_20261110084256_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea2-6ae4-4295-9b27-23720ad3000b_mobile_20261110084306_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea2-6ae4-4295-9b27-23720ad3000b_20261110084302.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1cea3-b650-46bf-b515-00860ad300a9",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Mozzarella Per Pizza",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 2.99",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.22699999999999998,
+     "height": 0.2433,
+     "x": 0.7177,
+     "y": 0.5641999999999999
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "2.99"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "5",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Mozzarella",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.8312,
+     "y": 0.7345099999999999
+    }
+   },
+   "google_vision_text": "gigante Mozzarella MOZZARELLA PER PIZZA 400 g al kg € 7,48 €2.99 40pe il gigante ANCHE SU ALTHE 1000 PREZZO SEMPRE",
+   "shared_category_id": "14535",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea3-b650-46bf-b515-00860ad300a9_20261109172617.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea3-b650-46bf-b515-00860ad300a9_20261109172618.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea3-b650-46bf-b515-00860ad300a9_20261109172618_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea3-b650-46bf-b515-00860ad300a9_20261109172618_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea3-b650-46bf-b515-00860ad300a9_big_20261109172617.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea3-b650-46bf-b515-00860ad300a9_big_20261109172618.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea3-b650-46bf-b515-00860ad300a9_big_20261109172618_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea3-b650-46bf-b515-00860ad300a9_big_20261109172618_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea3-b650-46bf-b515-00860ad300a9_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea3-b650-46bf-b515-00860ad300a9_small_20261109172618.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea3-b650-46bf-b515-00860ad300a9_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea3-b650-46bf-b515-00860ad300a9_small_20261109172618_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea3-b650-46bf-b515-00860ad300a9_mobile_20261109172618.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea3-b650-46bf-b515-00860ad300a9_mobile_20261109172618.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea3-b650-46bf-b515-00860ad300a9_mobile_20261109172618_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea3-b650-46bf-b515-00860ad300a9_mobile_20261109172618_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea3-b650-46bf-b515-00860ad300a9_20261109172618.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1cea3-be34-46d2-bc82-006a0ad300e3",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Pasta All'Uovo Tagliatelle/Fettuccine",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 2.19",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2198,
+     "height": 0.2433,
+     "x": 0.7204999999999999,
+     "y": 0.0825
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "2.19"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "7",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Pasta all'uovo",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.8304,
+     "y": 0.25281
+    }
+   },
+   "google_vision_text": "il gigante PASTA ALL'UOVO Tagliatelle PASTA ALL'UOVO tagliatelle/fettuccine 500 g al kg € 4,38 €219 il gigante PRICOTTA MARCH PREZZO SEMPRE 500ge",
+   "shared_category_id": "14875",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea3-be34-46d2-bc82-006a0ad300e3_20261109172305.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea3-be34-46d2-bc82-006a0ad300e3_20261109172306.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea3-be34-46d2-bc82-006a0ad300e3_20261109172309_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea3-be34-46d2-bc82-006a0ad300e3_20261109172310_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea3-be34-46d2-bc82-006a0ad300e3_big_20261109172304.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea3-be34-46d2-bc82-006a0ad300e3_big_20261109172310.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea3-be34-46d2-bc82-006a0ad300e3_big_20261109172306_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea3-be34-46d2-bc82-006a0ad300e3_big_20261109172306_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea3-be34-46d2-bc82-006a0ad300e3_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea3-be34-46d2-bc82-006a0ad300e3_small_20261109172308.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea3-be34-46d2-bc82-006a0ad300e3_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea3-be34-46d2-bc82-006a0ad300e3_small_20261109172311_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea3-be34-46d2-bc82-006a0ad300e3_mobile_20261109172304.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea3-be34-46d2-bc82-006a0ad300e3_mobile_20261109172309.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea3-be34-46d2-bc82-006a0ad300e3_mobile_20261109172310_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea3-be34-46d2-bc82-006a0ad300e3_mobile_20261109172307_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea3-be34-46d2-bc82-006a0ad300e3_20261109172306.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1cea4-2a88-4980-8309-00270ad30223",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Frollini Rustici Con Riso/Latte",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 1.59",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.21050000000000002,
+     "height": 0.22830000000000003,
+     "x": 0.2866,
+     "y": 0.3308
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "1.59"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "5",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Frollini",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.39185,
+     "y": 0.49061
+    }
+   },
+   "google_vision_text": "FROLLINI RUSTICI con riso e latte il gigante FROLLINI RUSTICI CON RISO E LATTE il gigante 350 g al kg € 4,54 €159 PREZZO SEMPRE",
+   "shared_category_id": "14795",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-2a88-4980-8309-00270ad30223_20261109172256.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-2a88-4980-8309-00270ad30223_20261109172257.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-2a88-4980-8309-00270ad30223_20261109172257_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-2a88-4980-8309-00270ad30223_20261109172259_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-2a88-4980-8309-00270ad30223_big_20261109172256.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-2a88-4980-8309-00270ad30223_big_20261109172258.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-2a88-4980-8309-00270ad30223_big_20261109172257_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-2a88-4980-8309-00270ad30223_big_20261109172255_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-2a88-4980-8309-00270ad30223_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-2a88-4980-8309-00270ad30223_small_20261109172258.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-2a88-4980-8309-00270ad30223_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-2a88-4980-8309-00270ad30223_small_20261109172258_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-2a88-4980-8309-00270ad30223_mobile_20261109172256.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-2a88-4980-8309-00270ad30223_mobile_20261109172255.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-2a88-4980-8309-00270ad30223_mobile_20261109172258_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-2a88-4980-8309-00270ad30223_mobile_20261109172259_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-2a88-4980-8309-00270ad30223_20261109172257.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1cea4-b428-4965-98fc-00bc0ad300d2",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Tonno Al Naturale",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 2.69",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2342,
+     "height": 0.22579999999999997,
+     "x": 0.0481,
+     "y": 0.33419999999999994
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "2.69"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "7",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Tonno",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.16519999999999999,
+     "y": 0.49226
+    }
+   },
+   "google_vision_text": "il gigante Tonno gigante Tonno 3400G TONNO AL NATURALE 3x56 g al kg € 16,01 €2.69 il gigante PREZZO SEMPRE",
+   "shared_category_id": "14691",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-b428-4965-98fc-00bc0ad300d2_20261109172619.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-b428-4965-98fc-00bc0ad300d2_20261109172620.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-b428-4965-98fc-00bc0ad300d2_20261109172619_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-b428-4965-98fc-00bc0ad300d2_20261109172621_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-b428-4965-98fc-00bc0ad300d2_big_20261109172619.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-b428-4965-98fc-00bc0ad300d2_big_20261109172621.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-b428-4965-98fc-00bc0ad300d2_big_20261109172619_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-b428-4965-98fc-00bc0ad300d2_big_20261109172622_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-b428-4965-98fc-00bc0ad300d2_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-b428-4965-98fc-00bc0ad300d2_small_20261109172620.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-b428-4965-98fc-00bc0ad300d2_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-b428-4965-98fc-00bc0ad300d2_small_20261109172620_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-b428-4965-98fc-00bc0ad300d2_mobile_20261109172619.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-b428-4965-98fc-00bc0ad300d2_mobile_20261109172621.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-b428-4965-98fc-00bc0ad300d2_mobile_20261109172620_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-b428-4965-98fc-00bc0ad300d2_mobile_20261109172621_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-b428-4965-98fc-00bc0ad300d2_20261109172620.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1cea4-ebf8-45b1-aff7-003b0ad300fd",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Liquido Per Lavatrice",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 2.99",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.9727000000000001,
+     "height": 0.9992,
+     "x": 0.0057,
+     "y": 0.0008
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "2.99"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "8",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Detersivo lavatrice",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.49205000000000004,
+     "y": 0.7002400000000002
+    }
+   },
+   "google_vision_text": "FINO AL 2 DICEMBRE il gigante • www.ilgigante.net⚫ PREZZO BASSO SEMPRE FORMULA CONCENTRATA il gigante LIQUIDO LAVATRICE CLASSICO DERMATOLOGICAMENTE TESTATO FLACONE CON IL 50% DETERSIVO LIQUIDO per lavatrice assortito 30 lavaggi €2.99 il gigante ANCHE SU ALTRI 1000 PRODOTTI A MARCHIO. PREZZO BASSO SEMPRE ATTIVO GIA A BASSE 20°C TEMPERATURE 30 Efficace contro le macchie ostinate EXTRA BRILLANTEZZA",
+   "shared_category_id": "15155",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-ebf8-45b1-aff7-003b0ad300fd_20261109172302.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-ebf8-45b1-aff7-003b0ad300fd_20261109172304.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-ebf8-45b1-aff7-003b0ad300fd_20261109172303_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-ebf8-45b1-aff7-003b0ad300fd_20261109172302_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-ebf8-45b1-aff7-003b0ad300fd_big_20261109172303.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-ebf8-45b1-aff7-003b0ad300fd_big_20261109172306.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-ebf8-45b1-aff7-003b0ad300fd_big_20261109172304_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-ebf8-45b1-aff7-003b0ad300fd_big_20261109172307_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-ebf8-45b1-aff7-003b0ad300fd_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-ebf8-45b1-aff7-003b0ad300fd_small_20261109172307.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-ebf8-45b1-aff7-003b0ad300fd_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-ebf8-45b1-aff7-003b0ad300fd_small_20261109172306_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-ebf8-45b1-aff7-003b0ad300fd_mobile_20261109172304.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-ebf8-45b1-aff7-003b0ad300fd_mobile_20261109172305.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-ebf8-45b1-aff7-003b0ad300fd_mobile_20261109172303_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-ebf8-45b1-aff7-003b0ad300fd_mobile_20261109172308_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-ebf8-45b1-aff7-003b0ad300fd_20261109172304.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1cea4-ec18-4907-9a30-006b0ad30250",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Ravioli  Alla Zucca/Funghi Porcini",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 1.59",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.9690999999999999,
+     "height": 1,
+     "x": 0.020099999999999996,
+     "y": 0
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "1.59"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "6",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Ravioli",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.50465,
+     "y": 0.7
+    }
+   },
+   "google_vision_text": "il gigante ⚫www.ilgigante.net⚫ il gigante RAVIOLI alla zucca con amaretti PREZZO BASSO SEMPRE 2 PORZIONI MINUTI DI COTTURA RAVIOLI alla zucca o ai funghi porcini 250 g al kg € 6,36 €1.59 GRANO ITALIANO 250ge PASTA FRESCA ALL'UOVO CON RIPIENO A BASE DI ZUCCA E AMARETTI. INGREDIENTI: pasta 55% farina di GRANO tenero 65% -35% sul prodotto finito, BOVA 17% -9% su totale, acqua, semola di GRANO duto. Ripieno 45%: purea di zucca concentrata 30%-15% sul prodotto finito, ricotta (siero di LATTE LATTE, PANNA), pane grattugiato farina di GRANO tenero, sale), olio di sem di girasole, siero di LATTE in polvere, amaretti 5%-3% sul prodotio finito (aucchero, mandorle d'albicocca, albume d'UOVO LATTOSIO, proteine del LATTE, aroma naturale), accua, zucchero, sale, tibie vegetal (piselo, AVENA psyllum, agrum), protene del LATTE, arome naturale, noce moscala Può contenere FRUTTA A GUSCIO, SOIA SENAPE DA CONSUMARE ENTRO: ved data indicata sul fronte della confezione. Da consumare previe cottura. Prodotto confezionato in atmosfera protettiva non forare la confezione. MODALITÀ DI CONSERVAZIONE: conservare in frigorifero a 46C Lha volta aperta la confezione, conservare in frigorifero e consumare entro 3 giorni. MODALITA DI PREPARAZIONE cuocere in abbondante acqua bollente salata per dira 3 minuti, scolare e condire a piacere. DICHIARAZIONE NUTRIZIONALE 342-Bresso VALOR ionato nello MEDI Confine, 1583 Energia PER 100 PER PORZIONE PROCOTRE (25g) SARAN J 1155 kl 1444 kcal 274 kcal 343 17% g67 84 12% 9 15 19 9% 455 21% 12 85% 3.1 Grassi ZIATA 6aadga Carboidra il gigante 9 di cui zuccheri 99.2 Fibre 25 COMURE Proteine Sale SEAL g 8,2 910 21% g 1,0 13 21% LA CONFEZIONE CONTIENE 2 PORZION kl 8400 \"ARAM ASSN 03 RERIMENTO O UN ADULTO MED (8409/2000) FAIGHT FOD ESSERE al 2000 DINERS A SECONDA DEL 9 70 sesso, pre E 23 DELL'ATTIA FISICA SPELTA 260 ENERGA E MERENT 90 FORNT BALLA PORZONE REPETTO AGLIA 950 6 ANCHE SU ALTRI 1000 PRODOTTI A MARCHIO. PREZZO BASSO SEMPRE immagine ha il solo scopo di presentare il prodotio",
+   "shared_category_id": "14874",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-ec18-4907-9a30-006b0ad30250_20261109172300.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-ec18-4907-9a30-006b0ad30250_20261109172302.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-ec18-4907-9a30-006b0ad30250_20261109172300_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-ec18-4907-9a30-006b0ad30250_20261109172302_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-ec18-4907-9a30-006b0ad30250_big_20261109172300.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-ec18-4907-9a30-006b0ad30250_big_20261109172303.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-ec18-4907-9a30-006b0ad30250_big_20261109172300_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-ec18-4907-9a30-006b0ad30250_big_20261109172302_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-ec18-4907-9a30-006b0ad30250_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-ec18-4907-9a30-006b0ad30250_small_20261109172303.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-ec18-4907-9a30-006b0ad30250_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-ec18-4907-9a30-006b0ad30250_small_20261109172303_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-ec18-4907-9a30-006b0ad30250_mobile_20261109172301.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-ec18-4907-9a30-006b0ad30250_mobile_20261109172303.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea4-ec18-4907-9a30-006b0ad30250_mobile_20261109172302_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-ec18-4907-9a30-006b0ad30250_mobile_20261109172303_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea4-ec18-4907-9a30-006b0ad30250_20261109172302.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1cea5-153c-4874-8fd9-00d50ad30133",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Filetto Di Sgombro Al Naturale",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 1.69",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.23129999999999998,
+     "height": 0.24169999999999997,
+     "x": 0.0489,
+     "y": 0.5641999999999999
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "1.69"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "7",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Filetti di sgombro",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.16455000000000003,
+     "y": 0.7333900000000001
+    }
+   },
+   "google_vision_text": "il gigante FILETTI DI Sgombro AL NATURALE 125g909 FILETTO DI SGOMBRO AL NATURALE 90 g al kg € 18,78 €169 il gigante PREZZO SEMPRE",
+   "shared_category_id": "14906",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea5-153c-4874-8fd9-00d50ad30133_20261109172621.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea5-153c-4874-8fd9-00d50ad30133_20261109172623.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea5-153c-4874-8fd9-00d50ad30133_20261109172622_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea5-153c-4874-8fd9-00d50ad30133_20261109172622_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea5-153c-4874-8fd9-00d50ad30133_big_20261109172622.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea5-153c-4874-8fd9-00d50ad30133_big_20261109172622.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea5-153c-4874-8fd9-00d50ad30133_big_20261109172621_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea5-153c-4874-8fd9-00d50ad30133_big_20261109172622_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea5-153c-4874-8fd9-00d50ad30133_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea5-153c-4874-8fd9-00d50ad30133_small_20261109172623.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea5-153c-4874-8fd9-00d50ad30133_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea5-153c-4874-8fd9-00d50ad30133_small_20261109172624_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea5-153c-4874-8fd9-00d50ad30133_mobile_20261109172622.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea5-153c-4874-8fd9-00d50ad30133_mobile_20261109172622.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea5-153c-4874-8fd9-00d50ad30133_mobile_20261109172623_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea5-153c-4874-8fd9-00d50ad30133_mobile_20261109172622_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea5-153c-4874-8fd9-00d50ad30133_20261109172623.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1cea5-2974-450d-9be0-00ce0ad300d2",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Succo Di Frutta",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 2.75",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2112,
+     "height": 0.2425,
+     "x": 0.2852,
+     "y": 0.0833
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "2.75"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "5",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Succhi di frutta",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.39080000000000004,
+     "y": 0.25304999999999994
+    }
+   },
+   "google_vision_text": "gigante Succo e Polpa di Pesca 1200 gigante Surco e Polpa di Pera SUCCO DI FRUTTA gusti assortiti il gigante 6x20 cl all €2,29 €275 ANCHE DU ALTRE 1000 PREZZO SEMPRE",
+   "shared_category_id": "15039",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea5-2974-450d-9be0-00ce0ad300d2_20261109172257.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea5-2974-450d-9be0-00ce0ad300d2_20261109172259.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea5-2974-450d-9be0-00ce0ad300d2_20261109172257_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea5-2974-450d-9be0-00ce0ad300d2_20261109172258_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea5-2974-450d-9be0-00ce0ad300d2_big_20261109172256.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea5-2974-450d-9be0-00ce0ad300d2_big_20261109172258.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea5-2974-450d-9be0-00ce0ad300d2_big_20261109172257_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea5-2974-450d-9be0-00ce0ad300d2_big_20261109172259_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea5-2974-450d-9be0-00ce0ad300d2_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea5-2974-450d-9be0-00ce0ad300d2_small_20261109172258.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea5-2974-450d-9be0-00ce0ad300d2_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea5-2974-450d-9be0-00ce0ad300d2_small_20261109172258_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea5-2974-450d-9be0-00ce0ad300d2_mobile_20261109172257.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea5-2974-450d-9be0-00ce0ad300d2_mobile_20261109172259.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea5-2974-450d-9be0-00ce0ad300d2_mobile_20261109172255_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea5-2974-450d-9be0-00ce0ad300d2_mobile_20261109172258_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea5-2974-450d-9be0-00ce0ad300d2_20261109172259.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1cea7-9f64-4353-8893-00c10ad30043",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Tè Verde",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 0.99",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2119,
+     "height": 0.22830000000000003,
+     "x": 0.5013999999999998,
+     "y": 0.33
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "0.99"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "5",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "The",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.60735,
+     "y": 0.48980999999999997
+    }
+   },
+   "google_vision_text": "il gigante Jè Verde 25 429 TÈ VERDE 25 filtri al kg € 23,57 €0.99 il gigante PREZZO SEMPRE",
+   "shared_category_id": "15032",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea7-9f64-4353-8893-00c10ad30043_20261109172301.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea7-9f64-4353-8893-00c10ad30043_20261109172300.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea7-9f64-4353-8893-00c10ad30043_20261109172259_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea7-9f64-4353-8893-00c10ad30043_20261109172301_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea7-9f64-4353-8893-00c10ad30043_big_20261109172300.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea7-9f64-4353-8893-00c10ad30043_big_20261109172301.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea7-9f64-4353-8893-00c10ad30043_big_20261109172259_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea7-9f64-4353-8893-00c10ad30043_big_20261109172301_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea7-9f64-4353-8893-00c10ad30043_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea7-9f64-4353-8893-00c10ad30043_small_20261109172301.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea7-9f64-4353-8893-00c10ad30043_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea7-9f64-4353-8893-00c10ad30043_small_20261109172301_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea7-9f64-4353-8893-00c10ad30043_mobile_20261109172301.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea7-9f64-4353-8893-00c10ad30043_mobile_20261109172301.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea7-9f64-4353-8893-00c10ad30043_mobile_20261109172301_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea7-9f64-4353-8893-00c10ad30043_mobile_20261109172301_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea7-9f64-4353-8893-00c10ad30043_20261109172300.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1cea7-e89c-47d1-8719-008d0ad302e2",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Yogurt Alla Frutta Intero/Magro",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 2.99",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.23489999999999994,
+     "height": 0.24169999999999997,
+     "x": 0.7091,
+     "y": 0.565
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "2.99"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "7",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Yogurt",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.8265499999999999,
+     "y": 0.7341899999999997
+    }
+   },
+   "google_vision_text": "FRUTTI DI BOSCO il gigante Yogurt Intero BANANA MIRTILLO 1000 1750 YOGURT ALLA FRUTTA intero o magro-assortito 8x125 g €2.99 gigante PREZZO SEMPRE FRAGOLA",
+   "shared_category_id": "14512",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea7-e89c-47d1-8719-008d0ad302e2_20261109172621.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea7-e89c-47d1-8719-008d0ad302e2_20261109172623.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea7-e89c-47d1-8719-008d0ad302e2_20261109172621_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea7-e89c-47d1-8719-008d0ad302e2_20261109172622_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea7-e89c-47d1-8719-008d0ad302e2_big_20261109172621.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea7-e89c-47d1-8719-008d0ad302e2_big_20261109172622.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea7-e89c-47d1-8719-008d0ad302e2_big_20261109172622_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea7-e89c-47d1-8719-008d0ad302e2_big_20261109172622_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea7-e89c-47d1-8719-008d0ad302e2_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea7-e89c-47d1-8719-008d0ad302e2_small_20261109172622.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea7-e89c-47d1-8719-008d0ad302e2_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea7-e89c-47d1-8719-008d0ad302e2_small_20261109172622_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea7-e89c-47d1-8719-008d0ad302e2_mobile_20261109172622.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea7-e89c-47d1-8719-008d0ad302e2_mobile_20261109172622.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea7-e89c-47d1-8719-008d0ad302e2_mobile_20261109172622_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea7-e89c-47d1-8719-008d0ad302e2_mobile_20261109172623_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea7-e89c-47d1-8719-008d0ad302e2_20261109172623.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1cea8-5ce4-4f9e-b6a6-00ad0ad3000b",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Fette Biscottate Classiche",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 0.99",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2306,
+     "height": 0.2475,
+     "x": 0.0489,
+     "y": 0.0783
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "0.99"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "5",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Fette biscottate",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.16419999999999996,
+     "y": 0.25154999999999994
+    }
+   },
+   "google_vision_text": "il gigante Tette Biscottate 36 FETTE BISCOTTATE CLASSICHE il gigante 320 g al kg € 3,09 €0.99 PREZZO SEMPRE",
+   "shared_category_id": "14792",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea8-5ce4-4f9e-b6a6-00ad0ad3000b_20261109172259.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea8-5ce4-4f9e-b6a6-00ad0ad3000b_20261109172259.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea8-5ce4-4f9e-b6a6-00ad0ad3000b_20261109172300_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea8-5ce4-4f9e-b6a6-00ad0ad3000b_20261109172300_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea8-5ce4-4f9e-b6a6-00ad0ad3000b_big_20261109172258.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea8-5ce4-4f9e-b6a6-00ad0ad3000b_big_20261109172258.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea8-5ce4-4f9e-b6a6-00ad0ad3000b_big_20261109172259_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea8-5ce4-4f9e-b6a6-00ad0ad3000b_big_20261109172300_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea8-5ce4-4f9e-b6a6-00ad0ad3000b_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea8-5ce4-4f9e-b6a6-00ad0ad3000b_small_20261109172259.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea8-5ce4-4f9e-b6a6-00ad0ad3000b_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea8-5ce4-4f9e-b6a6-00ad0ad3000b_small_20261109172302_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea8-5ce4-4f9e-b6a6-00ad0ad3000b_mobile_20261109172259.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea8-5ce4-4f9e-b6a6-00ad0ad3000b_mobile_20261109172300.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea8-5ce4-4f9e-b6a6-00ad0ad3000b_mobile_20261109172300_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea8-5ce4-4f9e-b6a6-00ad0ad3000b_mobile_20261109172301_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea8-5ce4-4f9e-b6a6-00ad0ad3000b_20261109172259.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1cea8-7b38-403d-bc6d-008d0ad300a9",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Cuori Di Filetti Di Nasello",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 4.49",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2033,
+     "height": 0.2383,
+     "x": 0.5022,
+     "y": 0.5641999999999999
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "4.49"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "7",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Nasello",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.6038499999999999,
+     "y": 0.7310099999999998
+    }
+   },
+   "google_vision_text": "gigante CUORI DI FILETTI di Nacelle Sudafricano CUORI DI FILETTO DI NASELLO 300 g al kg € 14,97 €4.49 il gigante ANCHE SU ALTRE 1000 PREZZO SEMPRE 300g PRODOTTO",
+   "shared_category_id": "15520",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea8-7b38-403d-bc6d-008d0ad300a9_20261109172621.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea8-7b38-403d-bc6d-008d0ad300a9_20261109172623.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea8-7b38-403d-bc6d-008d0ad300a9_20261109172621_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea8-7b38-403d-bc6d-008d0ad300a9_20261109172621_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea8-7b38-403d-bc6d-008d0ad300a9_big_20261109172620.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea8-7b38-403d-bc6d-008d0ad300a9_big_20261109172622.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea8-7b38-403d-bc6d-008d0ad300a9_big_20261109172621_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea8-7b38-403d-bc6d-008d0ad300a9_big_20261109172622_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea8-7b38-403d-bc6d-008d0ad300a9_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea8-7b38-403d-bc6d-008d0ad300a9_small_20261109172622.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea8-7b38-403d-bc6d-008d0ad300a9_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea8-7b38-403d-bc6d-008d0ad300a9_small_20261109172623_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea8-7b38-403d-bc6d-008d0ad300a9_mobile_20261109172621.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea8-7b38-403d-bc6d-008d0ad300a9_mobile_20261109172623.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1cea8-7b38-403d-bc6d-008d0ad300a9_mobile_20261109172621_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea8-7b38-403d-bc6d-008d0ad300a9_mobile_20261109172622_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1cea8-7b38-403d-bc6d-008d0ad300a9_20261109172623.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1ceaa-bec0-4cf8-9da5-007b0ad3027a",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Riso Arborio",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 2.29",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2112,
+     "height": 0.24,
+     "x": 0.5013999999999998,
+     "y": 0.5625
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "2.29"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "5",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Riso",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.607,
+     "y": 0.7304999999999999
+    }
+   },
+   "google_vision_text": "il gigante RISO Arborio RISO ARBORIO 1000 g €2.29 il gigante ANCHE SU ALT PREZZO SEMPRE",
+   "shared_category_id": "14887",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceaa-bec0-4cf8-9da5-007b0ad3027a_20261109172259.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaa-bec0-4cf8-9da5-007b0ad3027a_20261109172259.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceaa-bec0-4cf8-9da5-007b0ad3027a_20261109172259_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaa-bec0-4cf8-9da5-007b0ad3027a_20261109172258_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceaa-bec0-4cf8-9da5-007b0ad3027a_big_20261109172259.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaa-bec0-4cf8-9da5-007b0ad3027a_big_20261109172301.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceaa-bec0-4cf8-9da5-007b0ad3027a_big_20261109172258_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaa-bec0-4cf8-9da5-007b0ad3027a_big_20261109172301_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceaa-bec0-4cf8-9da5-007b0ad3027a_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaa-bec0-4cf8-9da5-007b0ad3027a_small_20261109172300.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceaa-bec0-4cf8-9da5-007b0ad3027a_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaa-bec0-4cf8-9da5-007b0ad3027a_small_20261109172300_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceaa-bec0-4cf8-9da5-007b0ad3027a_mobile_20261109172259.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaa-bec0-4cf8-9da5-007b0ad3027a_mobile_20261109172300.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceaa-bec0-4cf8-9da5-007b0ad3027a_mobile_20261109172259_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaa-bec0-4cf8-9da5-007b0ad3027a_mobile_20261109172255_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaa-bec0-4cf8-9da5-007b0ad3027a_20261109172259.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1ceaa-c850-4100-b2c5-00580ad3003e",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Cracker Salati",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 1.29",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.222,
+     "height": 0.22830000000000003,
+     "x": 0.7184,
+     "y": 0.33
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "1.29"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "7",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Crackers",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.8294000000000001,
+     "y": 0.48980999999999997
+    }
+   },
+   "google_vision_text": "CRACKER SALATI il gigante CRACKER Salati il gigante 560 g al kg €2,30 €1.29 PREZZO SEMPRE",
+   "shared_category_id": "14479",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceaa-c850-4100-b2c5-00580ad3003e_20261109172623.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaa-c850-4100-b2c5-00580ad3003e_20261109172625.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceaa-c850-4100-b2c5-00580ad3003e_20261109172625_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaa-c850-4100-b2c5-00580ad3003e_20261109172625_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceaa-c850-4100-b2c5-00580ad3003e_big_20261109172625.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaa-c850-4100-b2c5-00580ad3003e_big_20261109172625.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceaa-c850-4100-b2c5-00580ad3003e_big_20261109172624_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaa-c850-4100-b2c5-00580ad3003e_big_20261109172625_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceaa-c850-4100-b2c5-00580ad3003e_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaa-c850-4100-b2c5-00580ad3003e_small_20261109172625.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceaa-c850-4100-b2c5-00580ad3003e_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaa-c850-4100-b2c5-00580ad3003e_small_20261109172625_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceaa-c850-4100-b2c5-00580ad3003e_mobile_20261109172623.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaa-c850-4100-b2c5-00580ad3003e_mobile_20261109172624.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceaa-c850-4100-b2c5-00580ad3003e_mobile_20261109172625_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaa-c850-4100-b2c5-00580ad3003e_mobile_20261109172625_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaa-c850-4100-b2c5-00580ad3003e_20261109172625.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1ceab-d12c-4b88-871c-00c00ad302e2",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Patatine Classiche",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 1.19",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2112,
+     "height": 0.2292,
+     "x": 0.2852,
+     "y": 0.33
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "1.19"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "7",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Patatine fritte",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.39080000000000004,
+     "y": 0.49044000000000004
+    }
+   },
+   "google_vision_text": "PATATINE CLASSICHE gigante Patatine CLASSICHE il gigante 200 g al kg €5,95 €1.19 PREZZO SEMPRE",
+   "shared_category_id": "14487",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceab-d12c-4b88-871c-00c00ad302e2_20261109172300.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceab-d12c-4b88-871c-00c00ad302e2_20261109172302.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceab-d12c-4b88-871c-00c00ad302e2_20261109172303_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceab-d12c-4b88-871c-00c00ad302e2_20261109172303_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceab-d12c-4b88-871c-00c00ad302e2_big_20261109172303.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceab-d12c-4b88-871c-00c00ad302e2_big_20261109172303.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceab-d12c-4b88-871c-00c00ad302e2_big_20261109172300_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceab-d12c-4b88-871c-00c00ad302e2_big_20261109172306_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceab-d12c-4b88-871c-00c00ad302e2_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceab-d12c-4b88-871c-00c00ad302e2_small_20261109172303.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceab-d12c-4b88-871c-00c00ad302e2_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceab-d12c-4b88-871c-00c00ad302e2_small_20261109172305_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceab-d12c-4b88-871c-00c00ad302e2_mobile_20261109172301.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceab-d12c-4b88-871c-00c00ad302e2_mobile_20261109172303.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceab-d12c-4b88-871c-00c00ad302e2_mobile_20261109172303_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceab-d12c-4b88-871c-00c00ad302e2_mobile_20261109172303_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceab-d12c-4b88-871c-00c00ad302e2_20261109172302.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1ceac-0604-4696-b338-00160ad30015",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Succo Di Frutta",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 1.55",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2112,
+     "height": 0.2292,
+     "x": 0.5022,
+     "y": 0.33
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "1.55"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "7",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Succhi di frutta",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.6078000000000002,
+     "y": 0.49044000000000004
+    }
+   },
+   "google_vision_text": "SUCCO DI FRUTTA gusti assortiti 100 cl €155 gigant ACE il gigante PREZZO SEMPRE",
+   "shared_category_id": "15039",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceac-0604-4696-b338-00160ad30015_20261109172304.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceac-0604-4696-b338-00160ad30015_20261109172308.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceac-0604-4696-b338-00160ad30015_20261109172304_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceac-0604-4696-b338-00160ad30015_20261109172306_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceac-0604-4696-b338-00160ad30015_big_20261109172305.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceac-0604-4696-b338-00160ad30015_big_20261109172305.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceac-0604-4696-b338-00160ad30015_big_20261109172305_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceac-0604-4696-b338-00160ad30015_big_20261109172305_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceac-0604-4696-b338-00160ad30015_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceac-0604-4696-b338-00160ad30015_small_20261109172309.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceac-0604-4696-b338-00160ad30015_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceac-0604-4696-b338-00160ad30015_small_20261109172308_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceac-0604-4696-b338-00160ad30015_mobile_20261109172305.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceac-0604-4696-b338-00160ad30015_mobile_20261109172308.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceac-0604-4696-b338-00160ad30015_mobile_20261109172303_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceac-0604-4696-b338-00160ad30015_mobile_20261109172306_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceac-0604-4696-b338-00160ad30015_20261109172308.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1ceae-0aa4-497e-9533-00470ad302e2",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Pasta Di Semola Di Grano Duro",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 0.65",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2119,
+     "height": 0.2475,
+     "x": 0.5013999999999998,
+     "y": 0.0783
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "0.65"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "7",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Pasta di semola",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.60735,
+     "y": 0.25154999999999994
+    }
+   },
+   "google_vision_text": "PASTA DI SEMOLA DI GRANO DURO formati assortiti il gigante Penne Rigate 1132 il gigante 500 g al kg €1,30 €0.65 ODOTTA MAROO PREZZO SEMPRE",
+   "shared_category_id": "14883",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceae-0aa4-497e-9533-00470ad302e2_20261109172309.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceae-0aa4-497e-9533-00470ad302e2_20261109172311.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceae-0aa4-497e-9533-00470ad302e2_20261109172309_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceae-0aa4-497e-9533-00470ad302e2_20261109172312_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceae-0aa4-497e-9533-00470ad302e2_big_20261109172312.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceae-0aa4-497e-9533-00470ad302e2_big_20261109172313.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceae-0aa4-497e-9533-00470ad302e2_big_20261109172308_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceae-0aa4-497e-9533-00470ad302e2_big_20261109172310_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceae-0aa4-497e-9533-00470ad302e2_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceae-0aa4-497e-9533-00470ad302e2_small_20261109172310.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceae-0aa4-497e-9533-00470ad302e2_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceae-0aa4-497e-9533-00470ad302e2_small_20261109172311_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceae-0aa4-497e-9533-00470ad302e2_mobile_20261109172308.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceae-0aa4-497e-9533-00470ad302e2_mobile_20261109172310.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceae-0aa4-497e-9533-00470ad302e2_mobile_20261109172312_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceae-0aa4-497e-9533-00470ad302e2_mobile_20261109172314_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceae-0aa4-497e-9533-00470ad302e2_20261109172311.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ },
+ {
+  "id": "6af1ceaf-0c50-4e2d-a41e-00de0ad30015",
+  "flyer_id": "1741507",
+  "type": "crop",
+  "parent_id": null,
+  "title": "Il Gigante - Piatti Pronti Tonnarelli/Tagliolini",
+  "description": "",
+  "settings": {
+   "layout": {
+    "header_title": "",
+    "buttons": [],
+    "mobile_buttons": []
+   },
+   "asset_config": "default",
+   "custom_url": "",
+   "video_upload_url": "",
+   "moreInfo": "1",
+   "sale": "",
+   "price_prefix": "",
+   "price": "€ 3.59",
+   "price_suffix": "",
+   "crop": {
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.2141,
+     "height": 0.2433,
+     "x": 0.2838,
+     "y": 0.5617
+    }
+   },
+   "price_extended": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": "3.59"
+   },
+   "starting_price": {
+    "currency_symbol": "€",
+    "currency_code": "EUR",
+    "digits": ""
+   },
+   "flyer_page": "7",
+   "customer_product_id": null,
+   "variant_label": "",
+   "external_url": null,
+   "shared_category": "Cibi pronti",
+   "brand": "Il Gigante",
+   "pin": {
+    "size": "small",
+    "url": "it-it-media.shopfully.cloud/warez/pins/plus-white.png",
+    "shape": {
+     "rotation": 0,
+     "type": "rectangle",
+     "width": 0.0345812791245921,
+     "height": 0.0401142829161354,
+     "x": 0.39085000000000003,
+     "y": 0.7320099999999999
+    }
+   },
+   "google_vision_text": "gigante PENNETTE il gigante TONNARELLI 147 PIATTI PRONTI tonnarelli/tagliolini/ pennette/tortellini €3.59 il gigante PREZZO SEMPRE PRODOTTO",
+   "shared_category_id": "14641",
+   "shared_brand_id": "13744",
+   "gibCover": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceaf-0c50-4e2d-a41e-00de0ad30015_20261109172621.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaf-0c50-4e2d-a41e-00de0ad30015_20261109172625.png"
+    ],
+    "default_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceaf-0c50-4e2d-a41e-00de0ad30015_20261109172621_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaf-0c50-4e2d-a41e-00de0ad30015_20261109172622_webp.webp"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceaf-0c50-4e2d-a41e-00de0ad30015_big_20261109172621.jpg",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaf-0c50-4e2d-a41e-00de0ad30015_big_20261109172623.png"
+    ],
+    "big_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceaf-0c50-4e2d-a41e-00de0ad30015_big_20261109172622_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaf-0c50-4e2d-a41e-00de0ad30015_big_20261109172623_webp.webp"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceaf-0c50-4e2d-a41e-00de0ad30015_small.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaf-0c50-4e2d-a41e-00de0ad30015_small_20261109172622.png"
+    ],
+    "small_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceaf-0c50-4e2d-a41e-00de0ad30015_small_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaf-0c50-4e2d-a41e-00de0ad30015_small_20261109172622_webp.webp"
+    ],
+    "mobile": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceaf-0c50-4e2d-a41e-00de0ad30015_mobile_20261109172622.png",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaf-0c50-4e2d-a41e-00de0ad30015_mobile_20261109172623.png"
+    ],
+    "mobile_webp": [
+     "https://it-it-media.shopfully.cloud/images/flyergibs/crop_6af1ceaf-0c50-4e2d-a41e-00de0ad30015_mobile_20261109172622_webp.webp",
+     "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaf-0c50-4e2d-a41e-00de0ad30015_mobile_20261109172623_webp.webp"
+    ]
+   },
+   "retailer_logo_images": {
+    "default": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante.png"
+    ],
+    "big": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_big.png"
+    ],
+    "small": [
+     "https://it-it-media.shopfully.cloud/images/catene/logo_crop_il-gigante_small.png"
+    ]
+   },
+   "retailer": "61",
+   "image_url": "https://it-it-media.shopfully.cloud/images/flyergibs/gibCover_6af1ceaf-0c50-4e2d-a41e-00de0ad30015_20261109172625.png",
+   "extended": {
+    "final_price": null,
+    "initial_price": null,
+    "final_price_second_unit": null,
+    "measurement_unit": null,
+    "promo_type": "no_promo",
+    "discount_perc": null,
+    "buy": null,
+    "get": null,
+    "discount_buying_multiple": null,
+    "comment": null,
+    "pieces_available": null,
+    "number_of_installments": null,
+    "installment_amount": null,
+    "extra_field_1": null,
+    "extra_field_2": null,
+    "with_creativity": null,
+    "template_value": null
+   }
+  },
+  "children_count": "0"
+ }
+]

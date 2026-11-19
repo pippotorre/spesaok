@@ -1,0 +1,37 @@
+{
+ "punto": 47,
+ "volantini": [
+  {
+   "id": "1741507",
+   "titolo": "Prezzo basso sempre",
+   "dal": "2026-11-05",
+   "al": "2026-12-02",
+   "url": "https://ilgigante.net/volantini/dettaglio?flyer-id=1741507&punto=47",
+   "prodotti": 39
+  },
+  {
+   "id": "1751749",
+   "titolo": "Sconti giganteschi",
+   "dal": "2026-11-19",
+   "al": "2026-12-02",
+   "url": "https://ilgigante.net/volantini/dettaglio?flyer-id=1751749&punto=47",
+   "prodotti": 453
+  },
+  {
+   "id": "1751765",
+   "titolo": "Festa del vino",
+   "dal": "2026-11-19",
+   "al": "2026-12-13",
+   "url": "https://ilgigante.net/volantini/dettaglio?flyer-id=1751765&punto=47",
+   "prodotti": 115
+  },
+  {
+   "id": "1751767",
+   "titolo": "Sapori Sotto l'Albero",
+   "dal": "2026-11-19",
+   "al": "2026-12-31",
+   "url": "https://ilgigante.net/volantini/dettaglio?flyer-id=1751767&punto=47",
+   "prodotti": 119
+  }
+ ]
+}
